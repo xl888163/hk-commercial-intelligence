@@ -18,7 +18,7 @@ import webbrowser
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT)
 
-from intel import analyze, events, property as prop, render  # noqa: E402
+from intel import analyze, events, learn, property as prop, render, transactions  # noqa: E402
 from intel.taxonomy import AREA_NAMES, SECTOR_NAMES  # noqa: E402
 
 DATA = os.path.join(ROOT, "data")
@@ -59,9 +59,33 @@ def main():
     raw_ev, h1 = collect(events.SOURCES, "Events")
     print("Fetching property movements…")
     raw_pr, h2 = collect(prop.sources(args.days), "Property")
+    print("Fetching building transactions…")
+    raw_tx, h3 = collect(transactions.SOURCES, "Transactions")
 
     ev = analyze.build_events(raw_ev, today)
     pr = analyze.build_property(raw_pr, today, args.days)
+    tx = analyze.build_transactions(raw_tx, raw_pr, today)
+    analyze.add_features(ev + pr + tx)
+
+    # learn from the team's priority changes (needs the Sheet passcode, e.g. a GitHub secret)
+    learning = {"overrides": 0, "features": [], "status": "not configured"}
+    config = {}
+    try:
+        with open(os.path.join(ROOT, "config.json"), encoding="utf-8") as f:
+            config = json.load(f)
+    except (OSError, ValueError):
+        pass
+    passcode = os.environ.get("SHEET_PASSCODE", "")
+    if passcode and config.get("sheets_url"):
+        try:
+            rows = learn.fetch_overrides(config["sheets_url"], passcode)
+            stats = learn.fit(rows)
+            learn.apply(ev + pr + tx, stats)
+            learning = dict(learn.summary(stats, len(rows)), status="ok")
+            print(f"Learning: {len(rows)} priority changes, {len(stats)} features with enough examples")
+        except Exception as e:  # never block the refresh on learning
+            learning["status"] = f"unavailable ({e})"
+            print(f"Learning skipped: {e}")
 
     # keep a deal's id stable when new articles join its group (PIC records key on it)
     map_path = os.path.join(DATA, "id_map.json")
@@ -88,7 +112,7 @@ def main():
         history = {}
     first_run = not history
     stamp = now.isoformat(timespec="seconds")
-    for rec in ev + pr:
+    for rec in ev + pr + tx:
         rec["first_seen"] = history.setdefault(rec["id"], stamp)
         rec["is_new"] = (not first_run) and rec["first_seen"] == stamp
     with open(hist_path, "w", encoding="utf-8") as f:
@@ -98,7 +122,9 @@ def main():
         "generated": stamp, "property_days": args.days,
         "events": sorted(ev, key=lambda e: (e["start"], -e["score"])),
         "property": sorted(pr, key=lambda p: p["date"], reverse=True),
-        "health": h1 + h2, "sectors": SECTOR_NAMES, "areas": AREA_NAMES,
+        "transactions": sorted(tx, key=lambda t: (t["group"], t["date"]), reverse=True),
+        "learning": learning,
+        "health": h1 + h2 + h3, "sectors": SECTOR_NAMES, "areas": AREA_NAMES,
     }
     with open(os.path.join(DATA, "latest.json"), "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
@@ -108,15 +134,10 @@ def main():
 
     out = render.write(payload, os.path.join(ROOT, "dashboard.html"))
     if args.public:
-        try:
-            with open(os.path.join(ROOT, "config.json"), encoding="utf-8") as f:
-                config = json.load(f)
-        except (OSError, ValueError):
-            config = {}
         out = render.write(payload, os.path.join(ROOT, "docs", "index.html"), "public.html", config)
-    hi = sum(1 for r in ev + pr if r["level"] == "HIGH")
-    bad = [h["name"] for h in h1 + h2 if not h["ok"]]
-    print(f"\nDone in {time.time() - t0:.0f}s: {len(ev)} events, {len(pr)} property movements, {hi} HIGH opportunities.")
+    hi = sum(1 for r in ev + pr + tx if r["level"] == "HIGH")
+    bad = [h["name"] for h in h1 + h2 + h3 if not h["ok"]]
+    print(f"\nDone in {time.time() - t0:.0f}s: {len(ev)} events, {len(pr)} office move-ins, {len(tx)} transactions, {hi} HIGH.")
     if bad:
         print("Sources unavailable this run: " + "; ".join(bad))
     print("Dashboard: " + out)

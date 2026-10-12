@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* Layout: operations console. Sticky filter rail on top, summary strip, priority leads, then tabbed working tables. */
+/* Layout: operations console that fills the window. Filter rail, summary strip, priority leads, tabbed tables that turn into stacked cards on narrow screens. */
 :root{
   --bg:#f3f5f8; --surface:#ffffff; --surface-2:#eef1f6; --line:#dde2ea; --ink:#141a24; --muted:#5a6578;
   --accent:#1d4ed8; --accent-soft:#e6edfc;
@@ -18,6 +18,7 @@
   --font-display:"Barlow Semi Condensed","Arial Narrow",system-ui,sans-serif;
   --font-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI","PingFang HK","Microsoft JhengHei",sans-serif;
   --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --gutter:clamp(12px,2vw,28px);
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
@@ -35,19 +36,24 @@
   color-scheme:dark;
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 var(--font-body)}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 var(--font-body);overflow-x:hidden}
 a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
 button,select,input{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.wrap{max-width:1560px;margin:0 auto;padding-inline:20px}
-header.top{padding-block:20px 12px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:flex-end}
-h1{font:700 26px/1.1 var(--font-display);letter-spacing:.01em;margin:0;text-wrap:balance}
-.sub{color:var(--muted);margin-top:4px;max-width:70ch}
+.wrap{width:100%;padding-inline:var(--gutter)}
+header.top{padding-block:18px 10px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:flex-end}
+h1{font:700 clamp(21px,2.2vw,28px)/1.1 var(--font-display);letter-spacing:.01em;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin-top:4px;max-width:80ch}
 .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
 .pill{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font-size:12px;border:1px solid var(--line);background:var(--surface)}
 .pill.ok{background:var(--ok-soft);color:var(--ok);border-color:transparent}
 .pill.warn{background:var(--warn-soft);color:var(--warn);border-color:transparent}
 .notice{margin:0 0 10px;padding:8px 12px;border-radius:8px;background:var(--warn-soft);color:var(--warn);font-size:13px}
+.login{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:13px}
+.login input,.login select{height:34px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:0 10px;min-width:0}
+.login .ok{color:var(--ok);font-weight:600}
 
 /* filter rail */
 .filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--line)}
@@ -59,52 +65,54 @@ h1{font:700 26px/1.1 var(--font-display);letter-spacing:.01em;margin:0;text-wrap
 .ms-btn .val{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500}
 .ms-btn.on{border-color:var(--accent);background:var(--accent-soft)}
 .ms-btn .car{color:var(--muted);font-size:10px}
-.ms-pop{position:absolute;top:40px;left:0;z-index:30;min-width:240px;max-width:min(360px,calc(100vw - 32px));max-height:360px;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 30px rgba(10,20,40,.18);padding:6px}
+.ms-pop{position:absolute;top:40px;left:0;z-index:30;min-width:240px;max-width:min(360px,calc(100vw - 32px));max-height:min(380px,70vh);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 30px rgba(10,20,40,.18);padding:6px}
 .ms-pop label{display:flex;gap:8px;align-items:flex-start;padding:6px 8px;border-radius:6px;cursor:pointer;font-size:13px}
 .ms-pop label:hover{background:var(--surface-2)}
 .ms-pop input{margin-top:3px}
 .ms-head{display:flex;justify-content:space-between;align-items:center;padding:4px 8px 6px;border-bottom:1px solid var(--line);margin-bottom:4px;font-size:12px;color:var(--muted)}
 .ms-head button{border:none;background:none;color:var(--accent);cursor:pointer;padding:2px 4px}
-.search{height:36px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:0 10px;min-width:0;flex:1 1 200px;max-width:320px}
+.search{height:36px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:0 10px;min-width:0;flex:1 1 220px;max-width:360px}
 .btn{height:36px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:0 12px;cursor:pointer}
 .btn:hover{border-color:var(--accent);color:var(--accent)}
 
 /* summary */
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));gap:10px;margin-block:14px}
-.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
-.kpi .v{font:700 28px/1.1 var(--font-display);font-variant-numeric:tabular-nums}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr));gap:10px;margin-block:14px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:0}
+.kpi .v{font:700 clamp(22px,2vw,28px)/1.1 var(--font-display);font-variant-numeric:tabular-nums}
 .kpi .l{font-size:12px;color:var(--muted)}
 .kpi.hi .v{color:var(--high)} .kpi.ok .v{color:var(--ok)}
-h2{font:700 18px/1.2 var(--font-display);letter-spacing:.01em;margin:18px 0 10px;display:flex;gap:10px;align-items:baseline}
+h2{font:700 18px/1.2 var(--font-display);letter-spacing:.01em;margin:18px 0 10px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
 h2 small{font:400 12px var(--font-body);color:var(--muted)}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));gap:10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:10px}
 .card{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--high);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
-.card .t{font-weight:600}
+.card .t{font-weight:600;overflow-wrap:anywhere}
 .card .d{font-size:13px;color:var(--muted)}
 .card .a{font-size:13px}
 .card .f{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px}
+.more{margin-top:8px}
 .empty{padding:16px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);background:var(--surface)}
 
 /* tabs + tables */
-.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-top:24px;overflow-x:auto}
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-top:22px;overflow-x:auto;scrollbar-width:thin}
 .tab{border:none;background:none;height:40px;padding:0 14px;cursor:pointer;color:var(--muted);font-weight:600;border-bottom:2px solid transparent;white-space:nowrap}
 .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
-.panel[hidden]{display:none!important}
 .bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;margin-block:10px;font-size:13px;color:var(--muted)}
-.tw{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
-table{border-collapse:collapse;width:100%;min-width:1180px}
-th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
-th{position:sticky;top:0;background:var(--surface-2);font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);white-space:nowrap;cursor:pointer;user-select:none}
-th.ns{cursor:default}
-tbody tr:last-child td{border-bottom:none}
-tr.HIGH td:first-child{box-shadow:inset 4px 0 0 var(--high)}
-tr.HIGH{background:var(--high-soft)}
-tr.MEDIUM td:first-child{box-shadow:inset 4px 0 0 var(--med)}
+.tw{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+table.rt{border-collapse:collapse;width:100%;table-layout:auto}
+.rt th,.rt td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.rt th{position:sticky;top:0;background:var(--surface-2);font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);white-space:nowrap;cursor:pointer;user-select:none;overflow-wrap:normal}
+.rt th.ns{cursor:default}
+.rt tbody tr:last-child td{border-bottom:none}
+.rt td.main{min-width:240px;width:34%}
+.rt tr.HIGH td:first-child{box-shadow:inset 4px 0 0 var(--high)}
+.rt tr.HIGH{background:var(--high-soft)}
+.rt tr.MEDIUM td:first-child{box-shadow:inset 4px 0 0 var(--med)}
+.rt tr.grp td{background:var(--surface-2);font:700 15px var(--font-display);letter-spacing:.02em;padding-block:8px}
 .badge{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.03em;white-space:nowrap}
 .badge.HIGH{background:var(--high);color:var(--surface)} .badge.MEDIUM{background:var(--med-soft);color:var(--med)} .badge.LOW{background:var(--low-soft);color:var(--low)}
 .badge.new{background:var(--new-soft);color:var(--new)} .badge.inv{background:var(--accent-soft);color:var(--accent)}
 .score{font:500 12px var(--font-mono);color:var(--muted)}
-.tag{display:inline-block;padding:0 7px;margin:0 4px 4px 0;border-radius:6px;border:1px solid var(--line);background:var(--surface-2);font-size:12px;white-space:nowrap}
+.tag{display:inline-block;padding:0 7px;margin:0 4px 4px 0;border-radius:6px;border:1px solid var(--line);background:var(--surface-2);font-size:12px}
 .name{font-weight:600}
 .muted{color:var(--muted)} .sm{font-size:12px} .nw{white-space:nowrap}
 .ver{font-size:12px} .ver.ok{color:var(--ok)} .ver.warn{color:var(--warn)}
@@ -116,40 +124,59 @@ details.plan[open] summary{margin-bottom:6px}
 .plan .kv b{color:var(--muted);font-weight:600}
 .plan .links{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px;font-size:12px}
 .plan ul.why{margin:6px 0 0;padding-left:18px;font-size:12px;color:var(--muted)}
-.sel{height:32px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:0 6px;max-width:150px}
+.sel{height:32px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:0 6px;max-width:160px;width:100%}
 .sel.set{border-color:var(--accent);background:var(--accent-soft);font-weight:600}
+.sel.p-HIGH{border-color:var(--high);color:var(--high);font-weight:700}
+.sel.p-MEDIUM{border-color:var(--med);color:var(--med);font-weight:600}
+.sel.p-LOW{color:var(--low)}
 .pic-name{font-weight:600;font-size:13px;margin-bottom:4px}
 .stamp{font-size:11px;color:var(--muted);margin-top:4px}
 .method{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 20px}
 .method h3{font:700 16px var(--font-display);margin:14px 0 6px}
-.method li{color:var(--muted);margin-bottom:4px;max-width:110ch}
+.method li,.method p{color:var(--muted);margin:0 0 4px;max-width:110ch}
 .log{list-style:none;margin:0;padding:0}
 .log li{padding:8px 0;border-bottom:1px solid var(--line);font-size:13px;display:flex;gap:10px;flex-wrap:wrap}
 .log time{font:500 12px var(--font-mono);color:var(--muted);min-width:130px}
 .copy{border:none;background:none;color:var(--accent);cursor:pointer;font-size:12px;padding:0 4px}
 footer{padding-block:28px;color:var(--muted);font-size:12px}
-@media (max-width:900px){.filters{position:static}}
-@media (max-width:640px){.wrap{padding-inline:16px}h1{font-size:22px}.ms-btn{max-width:none}.ms{flex:1 1 45%}.ms-btn{width:100%}.search{max-width:none;flex-basis:100%}}
+
+/* fit to the window: rows become stacked cards when columns would be cramped */
+@media (max-width:1180px){
+  .filters{position:static}
+  table.rt,.rt tbody,.rt tr,.rt td{display:block;width:100%}
+  .rt thead{display:none}
+  .rt tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 14px;padding:12px 14px;border-bottom:1px solid var(--line)}
+  .rt tr.grp{display:block;padding:0}
+  .rt tr.grp td{display:block}
+  .rt td{border:none;padding:0;min-width:0}
+  .rt td.main{grid-column:1/-1;width:auto;min-width:0;order:-1}
+  .rt td.wide{grid-column:1/-1}
+  .rt td[data-label]::before{content:attr(data-label);display:block;font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;margin-bottom:2px}
+  .rt tr.HIGH td:first-child,.rt tr.MEDIUM td:first-child{box-shadow:none}
+  .rt tr.HIGH{box-shadow:inset 4px 0 0 var(--high)} .rt tr.MEDIUM{box-shadow:inset 4px 0 0 var(--med)}
+  .rt tbody tr:last-child{border-bottom:none}
+}
+@media (max-width:640px){
+  .rt tr{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ms{flex:1 1 45%} .ms-btn{width:100%;max-width:none}
+  .search{max-width:none;flex-basis:100%}
+}
+@media (max-width:380px){ .rt tr{grid-template-columns:minmax(0,1fr)} }
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
-[hidden]{display:none!important}
-.login{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:13px}
-.login input,.login select{height:34px;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:0 10px}
-.login .ok{color:var(--ok);font-weight:600}
 </style>
 </head>
 <body>
-
 <div class="wrap">
   <header class="top">
     <div>
       <h1>HK Commercial Intelligence</h1>
-      <div class="sub">Hong Kong industry events and Grade A office move-ins, with a sales action plan for each. Assign a PIC and update status; every change is saved for the whole team.</div>
+      <div class="sub">Hong Kong industry events, Grade A office move-ins and major building transactions, each with a sales action plan. Set priority, assign a PIC and update status; every change is saved for the whole team.</div>
     </div>
     <div class="meta" id="meta"></div>
   </header>
   <div id="dbNotice" class="notice" hidden></div>
   <form class="login" id="login" autocomplete="off">
-    <span id="loginState">Team members: enter the passcode to see and update PIC and status.</span>
+    <span id="loginState">Team members: enter the passcode to see and update priority, PIC and status.</span>
     <input id="passIn" type="password" placeholder="Team passcode" aria-label="Team passcode">
     <label for="meIn">I am</label>
     <select id="meIn"><option value="">Choose your name</option></select>
@@ -168,34 +195,44 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
 
   <h2>Priority leads <small id="hiCount"></small></h2>
   <div class="cards" id="cards"></div>
+  <div class="more"><button class="btn" type="button" id="moreCards" hidden></button></div>
 
   <div class="tabs" role="tablist">
-    <button class="tab" role="tab" id="tab-ev" data-tab="ev" aria-selected="true">Industry events <span id="evN" class="muted"></span></button>
-    <button class="tab" role="tab" id="tab-pr" data-tab="pr" aria-selected="false">Office move-ins <span id="prN" class="muted"></span></button>
-    <button class="tab" role="tab" id="tab-pl" data-tab="pl" aria-selected="false">Pipeline &amp; history <span id="plN" class="muted"></span></button>
-    <button class="tab" role="tab" id="tab-me" data-tab="me" aria-selected="false">Sources &amp; method</button>
+    <button class="tab" role="tab" data-tab="ev" aria-selected="true">Industry events <span id="evN" class="muted"></span></button>
+    <button class="tab" role="tab" data-tab="pr" aria-selected="false">Office move-ins <span id="prN" class="muted"></span></button>
+    <button class="tab" role="tab" data-tab="tx" aria-selected="false">Transactions <span id="txN" class="muted"></span></button>
+    <button class="tab" role="tab" data-tab="pl" aria-selected="false">Pipeline &amp; history <span id="plN" class="muted"></span></button>
+    <button class="tab" role="tab" data-tab="me" aria-selected="false">Sources &amp; method</button>
   </div>
 
   <section class="panel" id="p-ev">
-    <div class="bar"><span>Official listings (venues, InvestHK, chambers). Only events with a Securitas sales angle are shown. Open "Action plan" for the steps.</span><button class="btn csv" type="button" data-csv="ev" hidden>Export CSV</button></div>
-    <div class="tw"><table id="tEv"><thead><tr>
+    <div class="bar"><span>Official listings (venues, InvestHK, chambers). Only events with a Securitas sales angle are shown. Open "Action plan" for the steps.</span><button class="btn csv" type="button" data-csv="ev">Export CSV</button></div>
+    <div class="tw"><table class="rt" id="tEv"><thead><tr>
       <th data-k="score">Priority</th><th data-k="start">Date</th><th data-k="name">Event &amp; action plan</th><th data-k="area">Venue / area</th>
       <th data-k="sector">Sector</th><th data-k="access">Access</th><th class="ns">Why go</th><th class="ns">PIC</th><th class="ns">Status</th><th class="ns">Source</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
 
   <section class="panel" id="p-pr" hidden>
-    <div class="bar"><span id="prNote"></span><button class="btn csv" type="button" data-csv="pr" hidden>Export CSV</button></div>
-    <div class="tw"><table id="tPr"><thead><tr>
+    <div class="bar"><span id="prNote"></span><button class="btn csv" type="button" data-csv="pr">Export CSV</button></div>
+    <div class="tw"><table class="rt" id="tPr"><thead><tr>
       <th data-k="score">Priority</th><th data-k="date">Reported</th><th data-k="company">Company &amp; action plan</th><th data-k="type">Move</th>
       <th data-k="building">Building / area</th><th data-k="size">Size</th><th data-k="sector">Sector</th><th class="ns">PIC</th><th class="ns">Status</th><th data-k="verification">Sources</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
 
+  <section class="panel" id="p-tx" hidden>
+    <div class="bar"><span id="txNote"></span><button class="btn csv" type="button" data-csv="tx">Export CSV</button></div>
+    <div class="tw"><table class="rt" id="tTx"><thead><tr>
+      <th data-k="score">Priority</th><th data-k="date">Date</th><th data-k="line">Party, premises &amp; action plan</th><th data-k="price">Deal</th>
+      <th data-k="district">District</th><th data-k="usage">Usage</th><th class="ns">PIC</th><th class="ns">Status</th><th class="ns">Source</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
   <section class="panel" id="p-pl" hidden>
-    <div class="bar"><span>Every item someone has assigned or updated, including items that have aged out of the live feed. Uses the PIC and Status filters above.</span></div>
-    <div class="tw"><table id="tPl" style="min-width:900px"><thead><tr>
-      <th class="ns">PIC</th><th class="ns">Status</th><th class="ns">Item</th><th class="ns">Type</th><th class="ns">Last update</th><th class="ns">In current feed</th>
+    <div class="bar"><span>Every item someone has prioritised, assigned or updated, including items that have aged out of the live feed. Uses the PIC and Status filters above.</span></div>
+    <div class="tw"><table class="rt" id="tPl"><thead><tr>
+      <th class="ns">PIC</th><th class="ns">Status</th><th class="ns">Priority</th><th class="ns">Item</th><th class="ns">Type</th><th class="ns">Last update</th><th class="ns">In current feed</th>
     </tr></thead><tbody></tbody></table></div>
     <h2>Change history <small>latest 300 changes</small></h2>
     <div class="method"><ul class="log" id="log"></ul></div>
@@ -206,42 +243,48 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
       <h3>Verification</h3>
       <ul>
         <li><b>Events</b> come only from official listings: the HKCEC event calendar, AsiaWorld-Expo, InvestHK (HKSAR Government), HKGCC, AmCham and BritCham. Dates, venue, access type (Trade / Public / By registration / By invitation) and organiser phone/email are copied from the listing.</li>
-        <li><b>Office move-ins</b> come from news headlines in Google News Hong Kong editions (English and Chinese), searched across Hong Kong business outlets. These include SCMP, The Standard, The Real Deal, Mingtiandi, Hong Kong Business, Law.com, Bloomberg, Reuters, RTHK, HKFP, The Young Reporter, HKET, HKEJ, Sing Tao, HK01, on.cc and others. Headlines are shown as published, with links.</li>
-        <li>Only office moves into Hong Kong are kept: new HQs, relocations, leases, expansions and new offices. Shop leases, closures, move-outs, land sales, residential deals and market commentary are removed, as are items without a named company.</li>
-        <li>Company, building, size and floors appear only when stated in the source. Reports of the same move are grouped across outlets and languages and labelled "Corroborated by N outlets" or "Single outlet: open source to confirm".</li>
+        <li><b>Office move-ins</b> come from news headlines in Google News Hong Kong editions (English and Chinese) across Hong Kong business outlets, shown as published with links. Shop leases, closures, move-outs, land sales, residential deals, commentary and items without a named company are removed.</li>
+        <li><b>Transactions</b> come from Centaline Commercial's public transaction register. Each record gives the date, building, floor, unit, area and price or rent, and is marked as either a Land Registry record or a market-news record. The register does not name buyers or tenants. A name is shown only when a news report about the same building and deal names them; reports using words like "tipped" or "傳" are marked "reported, unconfirmed". Included: office sales from HK$20M, industrial sales from HK$30M, office leases from 5,000 sq ft or HK$150,000/month, industrial leases from 10,000 sq ft.</li>
+        <li>Company, building, size and floors appear only when stated in the source. Reports of the same item are grouped and labelled "Corroborated by N outlets", "Register record + news report" or "Single outlet: open source to confirm".</li>
         <li><b>Priority, why go, who to meet, pitch and action plan</b> are sales guidance built from rules and Securitas HK's service range: guarding, mobile patrol, electronic security, remote viewing, Pinkerton risk services and MySecuritas. They are not reported facts.</li>
       </ul>
+      <h3>Learning from your priority changes</h3>
+      <div id="learnBox"></div>
       <h3>Source status for this refresh</h3>
-      <div class="tw"><table id="tHealth" style="min-width:560px"><thead><tr><th class="ns">Group</th><th class="ns">Source</th><th class="ns">Status</th><th class="ns">Items</th></tr></thead><tbody></tbody></table></div>
+      <div class="tw"><table class="rt" id="tHealth"><thead><tr><th class="ns">Group</th><th class="ns">Source</th><th class="ns">Status</th><th class="ns">Items</th></tr></thead><tbody></tbody></table></div>
     </div>
   </section>
 
-  <footer>Data refreshes when the fetcher is re-run and the page is republished. PIC, status and history are stored in the team Google Sheet and carry over across refreshes.</footer>
+  <footer>Data refreshes every morning at 06:30 HKT. Priority, PIC, status and history are stored in the team Google Sheet and carry over across refreshes.</footer>
 </div>
 
 <script>
 const DATA = /*__DATA__*/null;
+const CONFIG = /*__CONFIG__*/{};
 const PICS = ["Magnum","Hin","Alan","Joyce","Ken","Peter","Jonathan"];
 const STATUSES = ["Not started","Researching","Contacted","Meeting set","Proposal sent","Won","Lost","Not pursuing"];
+const LEVELS = ["HIGH","MEDIUM","LOW"], LNAME = { HIGH:"High", MEDIUM:"Medium", LOW:"Low" };
 const $ = s => document.querySelector(s);
-const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-const fmtD = iso => { if(!iso) return ""; const [y,m,d] = iso.slice(0,10).split("-"); return `${+d} ${MON[+m-1]} ${y}`; };
+const fmtD = iso => { if(!iso) return ""; const [y,m,d] = String(iso).slice(0,10).split("-"); return `${+d} ${MON[+m-1]} ${y}`; };
 const fmtM = ym => { const [y,m] = ym.split("-"); return `${MON[+m-1]} ${y}`; };
 const fmtTs = iso => { try { return new Date(iso).toLocaleString("en-GB",{day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",timeZone:"Asia/Hong_Kong"}); } catch(e){ return iso; } };
 const range = e => e.start === e.end ? fmtD(e.start) : (e.start.slice(0,7) === e.end.slice(0,7) ? `${+e.start.slice(8)}–${fmtD(e.end)}` : `${fmtD(e.start)} – ${fmtD(e.end)}`);
 const store = { get(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }, set(k,v){ try{ localStorage.setItem(k,v); }catch(e){} } };
 
-const EV = DATA.events, PR = DATA.property;
-const ALL = [...EV, ...PR];
+const EV = DATA.events, PR = DATA.property, TX = DATA.transactions || [];
+const ALL = [...EV, ...PR, ...TX];
 const BYID = Object.fromEntries(ALL.map(r => [r.id, r]));
 EV.forEach(e => e.months = e.months || [e.month]);
 PR.forEach(p => p.months = [p.month]);
+TX.forEach(t => t.months = [t.month]);
+const itemTitle = r => r.kind === "event" ? r.name : r.kind === "property" ? `${r.company}: ${r.headline}` : r.line;
 
 // ---------- shared tracker state (Google Sheet via Apps Script) ----------
-const CONFIG = /*__CONFIG__*/{};
 let db = null, canWrite = false, tracker = {}, log = [];
 const trk = id => tracker[id] || {};
+const eff = r => trk(r.id).priority || r.level;
 const who = n => n || "A teammate";
 let teamPass = store.get("hkci.teamPass") || "", me = store.get("hkci.me") || "";
 
@@ -250,9 +293,7 @@ async function api(body){
   if (!r.ok) throw { code:"unavailable" };
   return r.json();
 }
-function apply(res){
-  tracker = res.tracker || {}; log = res.log || []; renderAll();
-}
+function apply(res){ tracker = res.tracker || {}; log = res.log || []; renderAll(); }
 async function load(){
   if (!CONFIG.sheets_url || !teamPass) return;
   try {
@@ -264,7 +305,7 @@ async function load(){
 function setPass(p){ teamPass = p; store.set("hkci.teamPass", p); if (!p){ db = null; canWrite = false; tracker = {}; log = []; renderAll(); } loginUi(); }
 function loginUi(){
   const on = !!(db && teamPass);
-  $("#loginState").innerHTML = on ? `<span class="ok">Unlocked</span>${me ? ` as <b>${esc(me)}</b>` : ""}. Changes are saved to the team sheet.` : "Team members: enter the passcode to see and update PIC and status.";
+  $("#loginState").innerHTML = on ? `<span class="ok">Unlocked</span>${me ? ` as <b>${esc(me)}</b>` : ""}. Changes are saved to the team sheet.` : "Team members: enter the passcode to see and update priority, PIC and status.";
   $("#passIn").hidden = on; $("#loginBtn").hidden = on; $("#logoutBtn").hidden = !on;
   $("#meIn").value = me;
 }
@@ -274,8 +315,7 @@ async function initDb(){
   $("#meIn").onchange = e => { me = e.target.value; store.set("hkci.me", me); loginUi(); };
   $("#login").onsubmit = e => { e.preventDefault(); const p = $("#passIn").value.trim(); if (p){ $("#passIn").value = ""; setPass(p); load(); } };
   $("#logoutBtn").onclick = () => setPass("");
-  document.querySelectorAll(".csv").forEach(b => b.hidden = false);
-  if (!CONFIG.sheets_url){ $("#login").hidden = true; dbNotice("PIC tracking is not connected yet: add the Google Sheet web-app URL to config.json."); return; }
+  if (!CONFIG.sheets_url){ $("#login").hidden = true; dbNotice("Team tracking is not connected yet: add the Google Sheet web-app URL to config.json."); return; }
   loginUi(); await load();
   setInterval(() => { if (teamPass && !document.hidden) load(); }, 60000);
   document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
@@ -293,11 +333,13 @@ async function setField(id, field, value){
   renderAll();
   try {
     const res = await api({ action:"set", id, field, value, by: me,
-      title: item ? (item.kind === "event" ? item.name : `${item.company}: ${item.headline}`) : (prev.title || ""),
+      title: item ? itemTitle(item) : (prev.title || ""),
       kind: item ? item.kind : (prev.kind || ""), url: item ? item.sources[0].url : (prev.url || ""),
-      itemDate: item ? (item.start || item.date) : (prev.itemDate || "") });
+      itemDate: item ? (item.start || item.date) : (prev.itemDate || ""),
+      systemLevel: item ? item.level : "", features: item && item.features ? item.features.join("|") : "" });
     if (res.ok) apply(res);
     else if (res.error === "bad_passcode"){ setPass(""); dbNotice("The passcode has changed. Enter the new one to keep editing."); }
+    else if (res.error === "bad_field" && field === "priority"){ dbNotice("Priority can't be saved yet: the team sheet's Apps Script needs the latest update (see setup notes)."); load(); }
     else { dbNotice("The change was not saved (" + res.error + ")."); load(); }
   } catch(e){ dbNotice("The change was not saved. Check your connection and try again."); load(); }
   finally { saving.delete(id); }
@@ -305,22 +347,17 @@ async function setField(id, field, value){
 
 // ---------- multi-select filters ----------
 const FILTERS = [
-  { key:"month",  label:"Month" },
-  { key:"sector", label:"Sector" },
-  { key:"area",   label:"Area" },
-  { key:"level",  label:"Priority" },
-  { key:"access", label:"Event access" },
-  { key:"pic",    label:"PIC" },
-  { key:"status", label:"Status" },
+  { key:"month", label:"Month" }, { key:"sector", label:"Sector" }, { key:"area", label:"Area" },
+  { key:"level", label:"Priority" }, { key:"access", label:"Event access" }, { key:"pic", label:"PIC" }, { key:"status", label:"Status" },
 ];
 const sel = {};
-FILTERS.forEach(f => { let v = []; try { v = JSON.parse(store.get("hkci2." + f.key) || "[]"); } catch(e){} sel[f.key] = new Set(v); });
+FILTERS.forEach(f => { let v = []; try { v = JSON.parse(store.get("hkci3." + f.key) || "[]"); } catch(e){} sel[f.key] = new Set(v); });
 function optionsFor(key){
   const nowYM = new Date().toISOString().slice(0,7);
   if (key === "month") return [...new Set(ALL.flatMap(r => r.months))].sort().map(m => [m, fmtM(m) + (m === nowYM ? " (this month)" : "")]);
   if (key === "sector"){ const u = new Set(ALL.flatMap(r => r.sectors)); return DATA.sectors.filter(s => u.has(s)).map(s => [s,s]); }
   if (key === "area"){ const u = new Set(ALL.map(r => r.area)); return DATA.areas.filter(a => u.has(a)).map(a => [a,a]); }
-  if (key === "level") return [["HIGH","High"],["MEDIUM","Medium"],["LOW","Low"]];
+  if (key === "level") return LEVELS.map(l => [l, LNAME[l]]);
   if (key === "access") return [...new Set(EV.map(e => e.access))].sort().map(a => [a,a]);
   if (key === "pic") return [["__none","Unassigned"], ...PICS.map(p => [p,p])];
   if (key === "status") return [["__none","No status yet"], ...STATUSES.map(s => [s,s])];
@@ -345,11 +382,10 @@ function buildFilters(){
   });
 }
 function syncFilter(key){
-  const s = sel[key], btn = $("#msb-" + key);
-  const opts = Object.fromEntries(optionsFor(key));
+  const s = sel[key], btn = $("#msb-" + key), opts = Object.fromEntries(optionsFor(key));
   btn.querySelector(".val").textContent = !s.size ? "All" : s.size === 1 ? opts[[...s][0]] : `${s.size} selected`;
   btn.classList.toggle("on", s.size > 0);
-  store.set("hkci2." + key, JSON.stringify([...s]));
+  store.set("hkci3." + key, JSON.stringify([...s]));
 }
 function closePops(){ document.querySelectorAll(".ms-pop").forEach(p => p.hidden = true); document.querySelectorAll(".ms-btn").forEach(b => b.setAttribute("aria-expanded","false")); }
 document.addEventListener("click", closePops);
@@ -361,35 +397,42 @@ function pass(r){
   if (!has("month", s => r.months.some(m => s.has(m)))) return false;
   if (!has("sector", s => r.sectors.some(x => s.has(x)))) return false;
   if (!has("area", s => s.has(r.area))) return false;
-  if (!has("level", s => s.has(r.level))) return false;
+  if (!has("level", s => s.has(eff(r)))) return false;
   if (r.kind === "event" && !has("access", s => s.has(r.access))) return false;
   if (!has("pic", s => s.has(t.pic || "__none"))) return false;
   if (!has("status", s => s.has(t.status || "__none"))) return false;
   const q = $("#fq").value.trim().toLowerCase();
   if (q){
-    const hay = [r.name, r.headline, r.company, r.building, r.venue, r.organiser, r.area, r.sectors.join(" "), t.pic, t.status, ...(r.sources||[]).map(s => s.title || s.name)].join(" ").toLowerCase();
+    const hay = [r.name, r.headline, r.company, r.building, r.building_zh, r.line, r.district, r.venue, r.organiser, r.area, r.sectors.join(" "), t.pic, t.status, ...(r.sources||[]).map(s => s.title || s.name)].join(" ").toLowerCase();
     if (!hay.includes(q)) return false;
   }
   return true;
 }
 
 // ---------- sorting ----------
-const sortState = { ev:{k:"start",dir:1}, pr:{k:"score",dir:-1} };
+const sortState = { ev:{k:"start",dir:1}, pr:{k:"score",dir:-1}, tx:{k:"score",dir:-1} };
+const LRANK = { HIGH:3, MEDIUM:2, LOW:1 };
 function sortRows(rows, st){
   return rows.slice().sort((a,b) => {
+    if (st.k === "score") return ((LRANK[eff(a)] - LRANK[eff(b)]) || (a.score - b.score)) * st.dir;
     const x = a[st.k], y = b[st.k];
     if (x == null || x === "") return 1; if (y == null || y === "") return -1;
     return (typeof x === "number" ? x - y : String(x).localeCompare(String(y))) * st.dir || (b.score - a.score);
   });
 }
 document.querySelectorAll("th[data-k]").forEach(th => th.onclick = () => {
-  const t = th.closest("table").id === "tEv" ? "ev" : "pr", st = sortState[t], k = th.dataset.k;
-  st.dir = st.k === k ? -st.dir : (["score","date","size"].includes(k) ? -1 : 1); st.k = k; renderTables();
+  const id = th.closest("table").id, t = id === "tEv" ? "ev" : id === "tPr" ? "pr" : "tx", st = sortState[t], k = th.dataset.k;
+  st.dir = st.k === k ? -st.dir : (["score","date","size","price"].includes(k) ? -1 : 1); st.k = k; renderTables();
 });
 
 // ---------- cells ----------
-const lvl = r => `<span class="badge ${r.level}">${r.level}</span> <span class="score">${r.score}</span>${r.is_new ? ` <span class="badge new">NEW</span>` : ""}`;
-const verCls = v => /Official|Corroborated/.test(v) ? "ok" : "warn";
+function prioCell(r){
+  const t = trk(r.id), e = eff(r), dis = (!db || !canWrite) ? "disabled" : "";
+  return `<select class="sel p-${e}" id="pr-${r.id}" data-id="${r.id}" data-f="priority" aria-label="Priority" ${dis}>
+      ${LEVELS.map(l => `<option value="${l}" ${e === l ? "selected" : ""}>${LNAME[l]}</option>`).join("")}
+      ${t.priority ? `<option value="__clear">Reset to system (${LNAME[r.level]})</option>` : ""}</select>
+    <div class="stamp"><span class="score">score ${r.score}</span>${r.is_new ? ` <span class="badge new">NEW</span>` : ""}${t.priority && t.priority !== r.level ? `<br>Team set · system: ${LNAME[r.level]}` : ""}</div>`;
+}
 function picCell(r){
   const t = trk(r.id), dis = (!db || !canWrite) ? "disabled" : "";
   return `${t.pic ? `<div class="pic-name">${esc(t.pic)}</div>` : ""}
@@ -409,47 +452,66 @@ function plan(r){
   const links = [...(r.links || []), ...(r.organiser_url ? [{label:"Organiser website", url:r.organiser_url}] : [])];
   return `<details class="plan" id="plan-${r.id}"><summary>Action plan</summary>
     <ol>${r.actions.map(a => `<li>${esc(a)}</li>`).join("")}</ol>
-    <div class="kv"><b>Who to meet:</b> ${esc(r.who)}</div>
+    ${r.who ? `<div class="kv"><b>Who to meet:</b> ${esc(r.who)}</div>` : ""}
     ${contacts}
     ${r.landlords && r.landlords.length ? `<div class="kv"><b>Landlord named in report:</b> ${esc(r.landlords.join(", "))}</div>` : ""}
     ${links.length ? `<div class="links">${links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join("")}</div>` : ""}
     <ul class="why">${r.reasons.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
   </details>`;
 }
+const srcCell = r => `${r.sources.slice(0,4).map(s => `<div><a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title || "")}">${esc(s.name)}</a></div>`).join("")}${r.sources.length > 4 ? `<div class="muted">+${r.sources.length - 4} more</div>` : ""}<div class="ver ${/Official|Corroborated|Register/.test(r.verification) ? "ok" : "warn"}">${esc(r.verification)}</div>`;
+
 function evRow(e){
   const inv = /Invitation/.test(e.access);
-  return `<tr class="${e.level}">
-    <td class="nw">${lvl(e)}</td>
-    <td class="nw">${esc(range(e))}</td>
-    <td style="min-width:300px"><div class="name">${esc(e.name)}</div>${e.organiser ? `<div class="sm muted">${esc(e.organiser)}</div>` : ""}${plan(e)}</td>
-    <td><div>${esc(e.venue || "Venue not stated in listing")}</div><div class="sm muted">${esc(e.area)}</div></td>
-    <td>${e.sectors.slice(0,3).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
-    <td>${inv ? `<span class="badge inv">${esc(e.access)}</span>` : esc(e.access)}</td>
-    <td class="sm" style="min-width:200px">${e.lead_types.map(l => `<span class="tag">${esc(l)}</span>`).join("")}<div style="margin-top:4px">${esc(e.pitch)}</div></td>
-    <td>${picCell(e)}</td><td>${statusCell(e)}</td>
-    <td class="sm">${e.sources.map(s => `<div><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></div>`).join("")}<div class="ver ok">${esc(e.verification)}</div></td>
+  return `<tr class="${eff(e)}">
+    <td data-label="Priority">${prioCell(e)}</td>
+    <td data-label="Date" class="nw">${esc(range(e))}</td>
+    <td class="main"><div class="name">${esc(e.name)}</div>${e.organiser ? `<div class="sm muted">${esc(e.organiser)}</div>` : ""}${plan(e)}</td>
+    <td data-label="Venue / area"><div>${esc(e.venue || "Venue not stated in listing")}</div><div class="sm muted">${esc(e.area)}</div></td>
+    <td data-label="Sector">${e.sectors.slice(0,3).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
+    <td data-label="Access">${inv ? `<span class="badge inv">${esc(e.access)}</span>` : esc(e.access)}</td>
+    <td data-label="Why go" class="sm wide">${e.lead_types.map(l => `<span class="tag">${esc(l)}</span>`).join("")}<div style="margin-top:4px">${esc(e.pitch)}</div></td>
+    <td data-label="PIC">${picCell(e)}</td><td data-label="Status">${statusCell(e)}</td>
+    <td data-label="Source" class="sm">${srcCell(e)}</td>
   </tr>`;
 }
 function prRow(p){
   const size = [p.size_txt, p.floors_txt].filter(Boolean).join(" · ");
-  return `<tr class="${p.level}">
-    <td class="nw">${lvl(p)}</td>
-    <td class="nw">${esc(fmtD(p.date))}${p.first_reported !== p.date ? `<div class="sm muted">first ${esc(fmtD(p.first_reported))}</div>` : ""}</td>
-    <td style="min-width:320px"><div class="name">${esc(p.company)}</div><div class="sm">${esc(p.headline)}</div>${plan(p)}</td>
-    <td>${p.types.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</td>
-    <td>${p.building ? `<div>${esc(p.building)}</div>` : ""}<div class="sm muted">${esc(p.area)}</div><div class="sm muted">${esc(p.grade)}</div></td>
-    <td class="sm">${size ? esc(size) : `<span class="muted">Not stated</span>`}</td>
-    <td>${p.sectors.slice(0,2).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
-    <td>${picCell(p)}</td><td>${statusCell(p)}</td>
-    <td class="sm">${p.sources.slice(0,4).map(s => `<div><a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}">${esc(s.name)}</a></div>`).join("")}${p.sources.length > 4 ? `<div class="muted">+${p.sources.length - 4} more</div>` : ""}<div class="ver ${verCls(p.verification)}">${esc(p.verification)}</div></td>
+  return `<tr class="${eff(p)}">
+    <td data-label="Priority">${prioCell(p)}</td>
+    <td data-label="Reported" class="nw">${esc(fmtD(p.date))}${p.first_reported !== p.date ? `<div class="sm muted">first ${esc(fmtD(p.first_reported))}</div>` : ""}</td>
+    <td class="main"><div class="name">${esc(p.company)}</div><div class="sm">${esc(p.headline)}</div>${plan(p)}</td>
+    <td data-label="Move">${p.types.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</td>
+    <td data-label="Building / area">${p.building ? `<div>${esc(p.building)}</div>` : ""}<div class="sm muted">${esc(p.area)}</div><div class="sm muted">${esc(p.grade)}</div></td>
+    <td data-label="Size" class="sm">${size ? esc(size) : `<span class="muted">Not stated</span>`}</td>
+    <td data-label="Sector">${p.sectors.slice(0,2).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
+    <td data-label="PIC">${picCell(p)}</td><td data-label="Status">${statusCell(p)}</td>
+    <td data-label="Sources" class="sm">${srcCell(p)}</td>
+  </tr>`;
+}
+function txRow(t){
+  const party = t.party ? `<span class="name">${esc(t.party)}</span>` : `<span class="muted">${t.deal === "Sale" ? "Buyer" : "Tenant"} not named</span>`;
+  return `<tr class="${eff(t)}">
+    <td data-label="Priority">${prioCell(t)}</td>
+    <td data-label="Date" class="nw">${esc(fmtD(t.date))}</td>
+    <td class="main">${party} - ${esc(t.premises)}${t.building_zh ? ` <span class="muted sm">${esc(t.building_zh)}</span>` : ""}${plan(t)}</td>
+    <td data-label="Deal"><div class="name">${t.deal === "Sale" ? "Bought" : "Leased"} ${esc(t.price_txt)}</div><div class="sm muted">${esc([t.area_txt, t.psf].filter(Boolean).join(" · "))}</div></td>
+    <td data-label="District">${esc(t.district || t.area)}</td>
+    <td data-label="Usage">${esc(t.usage)}</td>
+    <td data-label="PIC">${picCell(t)}</td><td data-label="Status">${statusCell(t)}</td>
+    <td data-label="Source" class="sm">${srcCell(t)}</td>
   </tr>`;
 }
 function card(r){
-  const isEv = r.kind === "event", t = trk(r.id);
-  const title = isEv ? r.name : (r.headline.toLowerCase().includes(r.company.split(" ")[0].toLowerCase()) ? r.headline : `${r.company}: ${r.headline}`);
-  const sub = isEv ? `${range(r)} · ${r.venue || r.area}` : `${fmtD(r.date)} · ${[r.building, r.area].filter(Boolean).join(", ")}`;
+  const t = trk(r.id);
+  const title = r.kind === "event" ? r.name : r.kind === "transaction" ? r.line
+    : (r.headline.toLowerCase().includes(r.company.split(" ")[0].toLowerCase()) ? r.headline : `${r.company}: ${r.headline}`);
+  const sub = r.kind === "event" ? `${range(r)} · ${r.venue || r.area}`
+    : r.kind === "transaction" ? `${fmtD(r.date)} · ${r.district || r.area} · ${r.usage}`
+    : `${fmtD(r.date)} · ${[r.building, r.area].filter(Boolean).join(", ")}`;
+  const kindLabel = r.kind === "event" ? "Event" : r.kind === "transaction" ? `Transaction · ${r.deal}` : r.types.join(" · ");
   return `<div class="card">
-    <div class="sm"><span class="badge HIGH">HIGH ${r.score}</span> ${r.is_new ? `<span class="badge new">NEW</span>` : ""} <span class="muted">${isEv ? "Event" : esc(r.types.join(" · "))} · ${esc(r.sector)}</span></div>
+    <div class="sm"><span class="badge HIGH">HIGH</span> ${t.priority ? `<span class="muted">team set</span>` : ""} ${r.is_new ? `<span class="badge new">NEW</span>` : ""} <span class="muted">${esc(kindLabel)} · ${esc(r.sector)}</span></div>
     <div class="t">${esc(title)}</div><div class="d">${esc(sub)}</div>
     <div class="a"><b>Next step:</b> ${esc(r.actions[0])}</div>
     <div class="f"><span>${t.pic ? `PIC: <b>${esc(t.pic)}</b>` : `<span class="muted">No PIC yet</span>`}${t.status ? ` · ${esc(t.status)}` : ""}</span>
@@ -458,40 +520,51 @@ function card(r){
 }
 
 // ---------- render ----------
-let current = { ev:[], pr:[] };
+let current = { ev:[], pr:[], tx:[] }, cardsAll = false;
 function renderTables(){
-  const ev = EV.filter(pass), pr = PR.filter(pass);
-  current = { ev: sortRows(ev, sortState.ev), pr: sortRows(pr, sortState.pr) };
+  const ev = EV.filter(pass), pr = PR.filter(pass), tx = TX.filter(pass);
+  current = { ev: sortRows(ev, sortState.ev), pr: sortRows(pr, sortState.pr), tx: sortRows(tx, sortState.tx) };
   const open = new Set([...document.querySelectorAll("details.plan[open]")].map(d => d.id));
   $("#tEv tbody").innerHTML = current.ev.map(evRow).join("") || `<tr><td colspan="10" class="muted">No events match these filters.</td></tr>`;
   $("#tPr tbody").innerHTML = current.pr.map(prRow).join("") || `<tr><td colspan="10" class="muted">No office move-ins match these filters.</td></tr>`;
+  const groups = ["HK Island", "Kowloon / N.T.", "Location to confirm"];
+  $("#tTx tbody").innerHTML = groups.map(g => {
+    const rows = current.tx.filter(t => t.group === g);
+    return rows.length ? `<tr class="grp"><td colspan="9">${esc(g)} <span class="muted sm">(${rows.length})</span></td></tr>` + rows.map(txRow).join("") : "";
+  }).join("") || `<tr><td colspan="9" class="muted">No transactions match these filters.</td></tr>`;
   open.forEach(id => { const d = document.getElementById(id); if (d) d.open = true; });
-  $("#evN").textContent = `(${ev.length})`; $("#prN").textContent = `(${pr.length})`;
-  const hi = [...ev, ...pr].filter(r => r.level === "HIGH").sort((a,b) => b.score - a.score);
+  $("#evN").textContent = `(${ev.length})`; $("#prN").textContent = `(${pr.length})`; $("#txN").textContent = `(${tx.length})`;
+  const hi = [...ev, ...pr, ...tx].filter(r => eff(r) === "HIGH").sort((a,b) => b.score - a.score);
+  const shown = cardsAll ? hi : hi.slice(0, 12);
   $("#hiCount").textContent = hi.length ? `${hi.length} high-priority in current view` : "";
-  $("#cards").innerHTML = hi.map(card).join("") || `<div class="empty">No high-priority leads match these filters.</div>`;
+  $("#cards").innerHTML = shown.map(card).join("") || `<div class="empty">No high-priority leads match these filters.</div>`;
+  const mb = $("#moreCards"); mb.hidden = hi.length <= 12; mb.textContent = cardsAll ? "Show fewer" : `Show all ${hi.length}`;
   const assigned = ALL.filter(r => trk(r.id).pic).length;
   const active = Object.values(tracker).filter(t => ["Contacted","Meeting set","Proposal sent"].includes(t.status)).length;
   const won = Object.values(tracker).filter(t => t.status === "Won").length;
   $("#kpis").innerHTML = [
-    [ev.length, "Events in view"], [pr.length, "Office move-ins in view"], [hi.length, "High-priority leads", "hi"],
-    [`${assigned}/${ALL.length}`, "Live items with a PIC"], [active, "In progress (contacted to proposal)"], [won, "Won", "ok"],
+    [ev.length, "Events in view"], [pr.length, "Office move-ins in view"], [tx.length, "Transactions in view"],
+    [hi.length, "High-priority leads", "hi"], [`${assigned}/${ALL.length}`, "Live items with a PIC"],
+    [active, "In progress (contacted to proposal)"], [won, "Won", "ok"],
   ].map(([v,l,c]) => `<div class="kpi ${c || ""}"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
 }
 function renderPipeline(){
   const rows = Object.entries(tracker).map(([id,t]) => Object.assign({id}, t))
-    .filter(t => (t.pic || t.status))
+    .filter(t => (t.pic || t.status || t.priority))
     .filter(t => (!sel.pic.size || sel.pic.has(t.pic || "__none")) && (!sel.status.size || sel.status.has(t.status || "__none")))
     .sort((a,b) => (a.pic || "~").localeCompare(b.pic || "~") || String(b.updatedAt).localeCompare(String(a.updatedAt)));
   $("#plN").textContent = `(${rows.length})`;
+  const kind = k => k === "event" ? "Event" : k === "transaction" ? "Transaction" : "Office move-in";
   $("#tPl tbody").innerHTML = rows.map(t => `<tr>
-      <td class="name">${esc(t.pic || "—")}</td><td>${esc(t.status || "—")}</td>
-      <td>${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>` : esc(t.title)}${t.itemDate ? `<div class="sm muted">${esc(fmtD(t.itemDate))}</div>` : ""}</td>
-      <td>${t.kind === "event" ? "Event" : "Office move-in"}</td>
-      <td class="sm">${esc(fmtTs(t.updatedAt))}<br><span class="muted">by ${esc(who(t.updatedBy))}</span></td>
-      <td class="sm">${BYID[t.id] ? "Yes" : `<span class="muted">Aged out</span>`}</td></tr>`).join("")
-    || `<tr><td colspan="6" class="muted">${db ? "Nothing assigned yet. Choose a PIC on any event or office move-in to start the pipeline." : "Enter the team passcode above to see the pipeline."}</td></tr>`;
-  $("#log").innerHTML = log.map(l => `<li><time>${esc(fmtTs(l.at))}</time><span><b>${esc(who(l.by))}</b> set ${l.field === "pic" ? "PIC" : "status"} to <b>${esc(l.to || "none")}</b>${l.from ? ` (was ${esc(l.from)})` : ""} on <span class="muted">${esc(l.title)}</span></span></li>`).join("")
+      <td data-label="PIC" class="name">${esc(t.pic || "—")}</td><td data-label="Status">${esc(t.status || "—")}</td>
+      <td data-label="Priority">${t.priority ? esc(LNAME[t.priority] || t.priority) : (BYID[t.id] ? `<span class="muted">${LNAME[BYID[t.id].level]} (system)</span>` : "—")}</td>
+      <td class="main">${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>` : esc(t.title)}${t.itemDate ? `<div class="sm muted">${esc(fmtD(t.itemDate))}</div>` : ""}</td>
+      <td data-label="Type">${kind(t.kind)}</td>
+      <td data-label="Last update" class="sm">${esc(fmtTs(t.updatedAt))}<br><span class="muted">by ${esc(who(t.updatedBy))}</span></td>
+      <td data-label="In current feed" class="sm">${BYID[t.id] ? "Yes" : `<span class="muted">Aged out</span>`}</td></tr>`).join("")
+    || `<tr><td colspan="7" class="muted">${db ? "Nothing assigned yet. Set a priority or PIC on any item to start the pipeline." : "Enter the team passcode above to see the pipeline."}</td></tr>`;
+  const fname = f => f === "pic" ? "PIC" : f === "priority" ? "priority" : "status";
+  $("#log").innerHTML = log.map(l => `<li><time>${esc(fmtTs(l.at))}</time><span><b>${esc(who(l.by))}</b> set ${fname(l.field)} to <b>${esc(LNAME[l.to] || l.to || "none")}</b>${l.from ? ` (was ${esc(LNAME[l.from] || l.from)})` : ""} on <span class="muted">${esc(l.title)}</span></span></li>`).join("")
     || `<li class="muted">No changes recorded yet.</li>`;
 }
 function renderAll(){ renderTables(); renderPipeline(); }
@@ -506,47 +579,50 @@ document.addEventListener("click", e => {
   const c = e.target.closest ? e.target.closest("[data-copy]") : null; if (!c) return;
   navigator.clipboard.writeText(c.dataset.copy).then(() => { c.textContent = "Copied"; }, () => { c.textContent = "Select and copy"; });
 });
+$("#moreCards").onclick = () => { cardsAll = !cardsAll; renderTables(); };
 $("#fq").addEventListener("input", renderAll);
 $("#reset").onclick = () => { FILTERS.forEach(f => { sel[f.key].clear(); document.querySelectorAll(`#ms-${f.key} input`).forEach(i => i.checked = false); syncFilter(f.key); }); $("#fq").value = ""; renderAll(); };
 
-// tabs
 function showTab(t){
   document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === t)));
   document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "p-" + t);
-  store.set("hkci2.tab", t);
+  store.set("hkci.tab", t);
 }
 document.querySelectorAll(".tab").forEach(b => b.onclick = () => showTab(b.dataset.tab));
 
-// header + health
 (function(){
   const bad = DATA.health.filter(h => !h.ok);
   $("#meta").innerHTML = `<span>Data refreshed ${esc(fmtTs(DATA.generated))} HKT</span>` +
     (bad.length ? `<span class="pill warn">${DATA.health.length - bad.length}/${DATA.health.length} sources OK</span>` : `<span class="pill ok">All ${DATA.health.length} sources OK</span>`);
   $("#prNote").textContent = `Office move-ins reported in the last ${DATA.property_days} days, grouped by company. Sorted by priority.`;
-  $("#tHealth tbody").innerHTML = DATA.health.map(h => `<tr><td>${esc(h.group)}</td><td>${esc(h.name)}</td><td>${h.ok ? `<span class="ver ok">OK</span>` : `<span class="ver warn" title="${esc(h.error)}">Unavailable this refresh</span>`}</td><td>${h.count}</td></tr>`).join("");
+  $("#txNote").textContent = "Major office and industrial sales and leases from the last 60 days, grouped by HK Island and Kowloon / N.T. Sorted by priority.";
+  $("#tHealth tbody").innerHTML = DATA.health.map(h => `<tr><td data-label="Group">${esc(h.group)}</td><td class="main">${esc(h.name)}</td><td data-label="Status">${h.ok ? `<span class="ver ok">OK</span>` : `<span class="ver warn" title="${esc(h.error)}">Unavailable this refresh</span>`}</td><td data-label="Items">${h.count}</td></tr>`).join("");
+  const L = DATA.learning || {};
+  $("#learnBox").innerHTML = `<p>When someone changes an item's priority, the sheet records the system's level, the level chosen and the item's characteristics (sector, move type, deal size, access and so on). Each refresh works out how the team re-rates items with each characteristic and nudges the default priority of similar items. Every adjusted item lists "Team feedback on similar items" under "Action plan". Your own choice on an item always wins.</p>` +
+    (L.status === "ok" ? `<p><b>${L.overrides}</b> priority changes used in this refresh.</p>` + (L.features && L.features.length ? `<div class="tw"><table class="rt"><thead><tr><th class="ns">Characteristic</th><th class="ns">Re-ratings</th><th class="ns">Average change</th></tr></thead><tbody>${L.features.map(f => `<tr><td class="main">${esc(f.feature)}</td><td data-label="Re-ratings">${f.n}</td><td data-label="Average change">${f.avg > 0 ? "+" : ""}${f.avg} level</td></tr>`).join("")}</tbody></table></div>` : `<p>Not enough re-ratings yet. Each characteristic needs at least 2.</p>`)
+      : `<p class="muted">Learning status: ${esc(L.status || "not configured")}.</p>`);
 })();
 
-// CSV (through the downloads capability)
-document.querySelectorAll(".csv").forEach(b => b.onclick = async () => {
+document.querySelectorAll(".csv").forEach(b => b.onclick = () => {
   const t = b.dataset.csv, T = r => trk(r.id);
-  const rows = t === "ev"
-    ? [["Priority","Score","Start","End","Event","Organiser","Organiser phone","Organiser email","Venue","Area","Sectors","Access","Why go","Who to meet","Pitch","Action plan","PIC","Status","Source"],
-       ...current.ev.map(e => [e.level,e.score,e.start,e.end,e.name,e.organiser,e.contact_phone,e.contact_email,e.venue,e.area,e.sectors.join("; "),e.access,e.lead_types.join("; "),e.who,e.pitch,e.actions.join(" | "),T(e).pic||"",T(e).status||"",e.sources[0].url])]
-    : [["Priority","Score","Reported","Company","Headline","Move","Building","Area","Grade","Size","Sectors","Landlord","Verification","Who to meet","Pitch","Action plan","PIC","Status","Source"],
-       ...current.pr.map(p => [p.level,p.score,p.date,p.company,p.headline,p.types.join("; "),p.building,p.area,p.grade,[p.size_txt,p.floors_txt].filter(Boolean).join(" "),p.sectors.join("; "),(p.landlords||[]).join("; "),p.verification,p.who,p.pitch,p.actions.join(" | "),T(p).pic||"",T(p).status||"",p.sources[0].url])];
+  let rows;
+  if (t === "ev") rows = [["Priority","Score","Start","End","Event","Organiser","Organiser phone","Organiser email","Venue","Area","Sectors","Access","Why go","Who to meet","Pitch","Action plan","PIC","Status","Source"],
+       ...current.ev.map(e => [eff(e),e.score,e.start,e.end,e.name,e.organiser,e.contact_phone,e.contact_email,e.venue,e.area,e.sectors.join("; "),e.access,e.lead_types.join("; "),e.who,e.pitch,e.actions.join(" | "),T(e).pic||"",T(e).status||"",e.sources[0].url])];
+  else if (t === "pr") rows = [["Priority","Score","Reported","Company","Headline","Move","Building","Area","Grade","Size","Sectors","Landlord","Verification","Who to meet","Pitch","Action plan","PIC","Status","Source"],
+       ...current.pr.map(p => [eff(p),p.score,p.date,p.company,p.headline,p.types.join("; "),p.building,p.area,p.grade,[p.size_txt,p.floors_txt].filter(Boolean).join(" "),p.sectors.join("; "),(p.landlords||[]).join("; "),p.verification,p.who,p.pitch,p.actions.join(" | "),T(p).pic||"",T(p).status||"",p.sources[0].url])];
+  else rows = [["Region","Priority","Score","Date","Party","Premises","Building (Chinese)","Deal","Price / rent","Area","@ per sq ft","District","Usage","Record type","Verification","Action plan","PIC","Status","Source"],
+       ...current.tx.map(x => [x.group,eff(x),x.score,x.date,x.party,x.premises,x.building_zh,x.deal,x.price_txt,x.area_txt,x.psf,x.district,x.usage,x.record_source,x.verification,x.actions.join(" | "),T(x).pic||"",T(x).status||"",x.sources[0].url])];
   const csv = "﻿" + rows.map(r => r.map(v => `"${String(v == null ? "" : v).replace(/"/g,'""')}"`).join(",")).join("\n");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([csv], { type:"text/csv" }));
-  a.download = `hk-${t === "ev" ? "events" : "office-move-ins"}-${DATA.generated.slice(0,10)}.csv`;
+  a.download = `hk-${({ev:"events",pr:"office-move-ins",tx:"transactions"})[t]}-${DATA.generated.slice(0,10)}.csv`;
   document.body.appendChild(a); a.click(); a.remove();
 });
 
-// init
 buildFilters();
-showTab(store.get("hkci2.tab") || "ev");
+showTab(store.get("hkci.tab") || "ev");
 renderAll();
 initDb();
 </script>
-
 </body>
 </html>

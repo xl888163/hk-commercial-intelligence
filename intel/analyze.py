@@ -191,7 +191,7 @@ def build_events(raw_events, today):
             "lead_types": leads or ["Prospect networking"], "who": who, "pitch": pitch, "actions": steps,
             "sources": r["sources"],
             "verification": "Official listing" + (f" · {len(r['sources'])} sources" if len(r["sources"]) > 1 else ""),
-            "score": score, "level": _level(score, 7, 5), "reasons": reasons,
+            "score": score, "level": _level(score, 7, 5), "thresholds": [7, 5], "reasons": reasons,
         })
     return out
 
@@ -498,6 +498,229 @@ def build_property(raw_items, today, days=90):
             "who": who, "pitch": pitch, "actions": actions, "links": _links(company),
             "sources": [{"name": g["publisher"], "url": g["url"], "title": g["title"], "date": g["date"].isoformat()}
                         for g in sorted(group, key=lambda g: g["date"])],
-            "verification": verification, "score": score, "level": _level(score, 8, 5), "reasons": reasons,
+            "verification": verification, "score": score, "level": _level(score, 8, 5), "thresholds": [8, 5], "reasons": reasons,
         })
     return out
+
+
+# ========================================================= TRANSACTIONS ====
+KOWLOON_NT = "Kowloon / N.T."
+DEAL_RX = re.compile(r"\bbuys?\b|\bbought\b|acquir|\bsells?\b|\bsold\b|purchase|offload|snaps up|\bleases?\b|\brents?\b|"
+                     r"購入|買入|\d億沽|沽出|沽|易手|收購|成交|接貨|承接|掃入|承租|租用|租下|預租", re.I)
+COMMERCIAL_DEAL_RX = re.compile(r"office|tower|building|centre|center|commercial|industrial|warehouse|floor|"
+                                r"寫字樓|甲廈|商廈|商業|工廈|工業|全層|樓層|中心|大廈|廣場", re.I)
+PARTY_ZH = [
+    re.compile(r"(?:^|[\s，,︱|｜:：】」！])([一-鿿A-Za-z&\.]{2,10}?)\s*(?:以|斥資?)?\s*[\d\.]+\s*(?:億|萬)\s*(?:元)?\s*(?:購入|買入|購|掃入|承接|收購)"),
+    re.compile(r"(?:由|獲)\s*([一-鿿A-Za-z&\.]{2,12}?)\s*(?:接貨|承接|購入|承租)"),
+    re.compile(r"([一-鿿A-Za-z&\.]{2,10}?)接貨"),
+]
+PARTY_GENERIC = re.compile(r"買家|賣家|業主|投資者|用家|老牌|家族|基金|財團|發展商|公司|集團|市場|全幢|商廈|寫字樓|工廈|"
+                           r"大廈|中心|香港|本港|億|萬|呼聲|料|傳", re.I)
+
+
+def _party(title, lang):
+    known = [c for c, _, landlord in companies_in(title) if not landlord]
+    if known:
+        return known[0]
+    if lang == "en":
+        return _company(title, "en", [])
+    for rx in PARTY_ZH:
+        m = rx.search(title)
+        if m:
+            c = re.split(r"[\s，,︱|｜:：。、「」]", m.group(1).strip())[-1]
+            if len(c) >= 2 and not PARTY_GENERIC.search(c) and not area_for(c):
+                return c
+    return ""
+
+
+def _big(rec):
+    p, a = rec["price"] or 0, rec["area"] or 0
+    if rec["deal"] == "Sale":
+        return p >= (20e6 if rec["usage"] == "Office" else 30e6)
+    return a >= (5000 if rec["usage"] == "Office" else 10000) or p >= 150_000
+
+
+def _money_txt(v):
+    return f"HK${v / 1e6:,.1f}M" if v >= 1e6 else f"HK${v:,.0f}"
+
+
+def build_transactions(register, news_raw, today, days=60):
+    cutoff = today - dt.timedelta(days=days)
+    recs, seen_rec = [], set()
+    for r in register:
+        key = (r["building_id"], r["date"], r["floor"], r["unit"], r["price_txt"], r["deal"])
+        if _big(r) and key not in seen_rec:
+            seen_rec.add(key)
+            recs.append(dict(r))
+    for r in recs:
+        r["parties"], r["news"] = [], []
+
+    # news that names a party in a commercial / industrial deal
+    seen, news = set(), []
+    for n in news_raw:
+        if not n.get("date") or n["date"] < cutoff or n["url"] in seen:
+            continue
+        seen.add(n["url"])
+        t = re.sub(r"\s*\(\d{1,2}:\d{2}\).*$|\s+-\s+\d{8}\s+-.*$", "", n["title"]).strip()
+        if not DEAL_RX.search(t) or not COMMERCIAL_DEAL_RX.search(t) or EXCLUDE_RX.search(t) or NOISE_RX.search(t):
+            continue
+        if SHOP_ONLY_RX.search(t) and not re.search(r"office|寫字樓|甲廈|商廈|工廈|industrial", t, re.I):
+            continue
+        if NON_HK.search(t) and not HK.search(t) and not area_for(t):
+            continue
+        party = _party(t, n["lang"])
+        if party and re.search(r"呼聲|傳|料|據悉|消息指|reportedly|sources|tipped|said to|in talks", t, re.I):
+            party += " (reported, unconfirmed)"
+        news.append(dict(n, title=t, party=party,
+                         lease=bool(re.search(r"\blease|\brent|承租|租用|租下|預租", t, re.I))))
+
+    standalone = []
+    for n in news:
+        match = None
+        for r in recs:
+            if abs((r["date"] - n["date"]).days) > 21:
+                continue
+            names = [x for x in (r["building_zh"], r["building"]) if x and len(x) >= 3]
+            if any(x.split(" (")[0] in n["title"] for x in names):
+                match = r
+                break
+        if match:
+            if n["party"] and n["party"] not in match["parties"]:
+                match["parties"].append(n["party"])
+            match["news"].append(n)
+        elif n["party"] and not n["lease"]:   # leases already appear under Office move-ins
+            for g in standalone:
+                if g[0]["party"] == n["party"] and abs((g[0]["date"] - n["date"]).days) <= 21:
+                    g.append(n)
+                    break
+            else:
+                standalone.append([n])
+
+    out = []
+    for r in recs:
+        party = r["parties"][0] if r["parties"] else ""
+        floor = f"{r['floor']} floor (exact floor not disclosed)" if r["floor"] in ("Low", "Mid", "High") else r["floor"]
+        premises = ", ".join(x for x in (
+            (floor + (f" Unit {r['unit']}" if r["unit"] else "")) if floor else "", r["building"]) if x)
+        verb = "Bought" if r["deal"] == "Sale" else "Leased"
+        price = _money_txt(r["price"]) + ("/month" if r["deal"] == "Lease" else "") if r["price"] else r["price_txt"]
+        area = area_for(f"{r['building']} {r['district']}") or AREA_UNSTATED
+        building_known, _ = building_for(r["building"])
+        group = "HK Island" if r["region"] == "HK Island" else KOWLOON_NT
+        sectors = ["Facility Management & Real Estate" if r["usage"] == "Office" else "Logistics & Supply Chain"]
+        sectors += [s for c, s, l in companies_in(party) if not l] if party else []
+
+        score, reasons = 0, []
+
+        def add(n, why):
+            nonlocal score
+            score += n
+            reasons.append(f"{why} (+{n})")
+
+        p, a = r["price"] or 0, r["area"] or 0
+        if r["deal"] == "Sale":
+            if p >= 100e6: add(4, f"Large purchase ({_money_txt(p)})")
+            elif p >= 50e6: add(3, f"Sizeable purchase ({_money_txt(p)})")
+            else: add(2, f"Purchase {_money_txt(p)}")
+        else:
+            if a >= 20000: add(4, f"Very large lease ({a:,} sq ft)")
+            elif a >= 10000: add(3, f"Large lease ({a:,} sq ft)")
+            else: add(2, f"Lease {a:,} sq ft")
+        if r["usage"] == "Office": add(1, "Office premises: fit-out and access control")
+        if building_known: add(2, f"Grade A / landmark building: {r['building']}")
+        if re.search(r"W/?F|W/B|WF|全層", f"{r['unit']} {r['floor']}") or re.search(r"\d+/F\s*-|G-\d", r["floor"]):
+            add(1, "Whole floor(s) or several floors")
+        if party: add(2, "Buyer / tenant named in a news report")
+        if r["record_source"] == "Land Search": add(1, "Land Registry record: exact unit known")
+
+        party_line = party or ("Buyer not named" if r["deal"] == "Sale" else "Tenant not named")
+        reg = f"{r['building']} {r['floor']} {r['unit']}".strip()
+        if party:
+            step1 = f"{'Buyer' if r['deal'] == 'Sale' else 'Tenant'} named in news: {party}. Find their facilities / admin lead (links below)."
+        elif r["record_source"] == "Land Search":
+            step1 = f"Get the {'buyer' if r['deal'] == 'Sale' else 'tenant'}'s name from a Land Registry search (IRIS Online, small fee) on {reg}."
+        else:
+            step1 = f"Ask {r['building']}'s building management office, or the agent, who the {'buyer' if r['deal'] == 'Sale' else 'tenant'} is."
+        pitch = ("Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing"
+                 if r["usage"] == "Office" else
+                 "Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol")
+        actions = [
+            step1,
+            ("Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies."
+             if r["deal"] == "Sale" else "New tenants fit out before moving in: reach them before the fit-out tender."),
+            f"Contact {r['building']}'s building management office for the fit-out / handover timeline and contractor.",
+            f"Pitch: {pitch}.",
+            "Update Status here after each contact.",
+        ]
+        links = [{"label": "Land Registry search (IRIS)", "url": "https://www.iris.gov.hk/"},
+                 {"label": "Centaline record", "url": r["url"]}]
+        if party:
+            links = _links(party) + links
+        sources = [{"name": f"Centaline register ({r['record_source']})", "url": r["url"], "title": "", "date": r["date"].isoformat()}]
+        sources += [{"name": n["publisher"], "url": n["url"], "title": n["title"], "date": n["date"].isoformat()} for n in r["news"]]
+        out.append({
+            "id": _id("tx", r["building_id"], r["date"], r["floor"], r["unit"], r["price_txt"]), "kind": "transaction",
+            "date": r["date"].isoformat(), "month": r["date"].strftime("%Y-%m"), "group": group,
+            "deal": r["deal"], "usage": r["usage"], "district": r["district"], "building": r["building"],
+            "building_zh": r["building_zh"], "floor": r["floor"], "unit": r["unit"], "area_sqft": r["area"],
+            "area_txt": r["area_txt"], "price": r["price"], "price_txt": price, "psf": r["psf"],
+            "record_source": r["record_source"], "party": party, "premises": premises,
+            "line": f"{party_line} - {premises} ({verb} for {price})",
+            "area": area, "sectors": sectors, "sector": sectors[0], "who": "", "pitch": pitch,
+            "actions": actions, "links": links, "sources": sources,
+            "verification": "Register record" + (" + news report" if r["news"] else ""),
+            "score": score, "level": _level(score, 7, 5), "thresholds": [7, 5], "reasons": reasons,
+        })
+
+    for grp in standalone:
+        n = grp[0]
+        m_price = re.search(r"([\d\.]+)\s*億", n["title"]) or re.search(r"HK\$\s?([\d\.,]+)\s*(?:billion|bn|million|mn|m)\b", n["title"], re.I)
+        building, b_area = building_for(n["title"])
+        area = b_area or area_for(n["title"]) or AREA_UNSTATED
+        group = ("HK Island" if any(a in area for a in ("Central", "Admiralty", "Wan Chai", "Causeway", "Island", "Southern"))
+                 else "Location to confirm" if area == AREA_UNSTATED else KOWLOON_NT)
+        lease = False
+        score, reasons = 2 + 2 + (2 if building else 0), [
+            "Deal reported in news (+2)", "Buyer / tenant named in a news report (+2)"] + ([f"Known building: {building} (+2)"] if building else [])
+        out.append({
+            "id": _id("txn", re.sub(r"\W", "", n["title"].lower())[:80], n["date"]), "kind": "transaction",
+            "date": n["date"].isoformat(), "month": n["date"].strftime("%Y-%m"), "group": group,
+            "deal": "Lease" if lease else "Sale", "usage": "Office" if re.search(r"office|寫字樓|甲廈|商廈", n["title"], re.I) else "Commercial / industrial",
+            "district": "", "building": building or "", "building_zh": "", "floor": "", "unit": "", "area_sqft": None,
+            "area_txt": "", "price": None, "price_txt": m_price.group(0) if m_price else "Not stated", "psf": "",
+            "record_source": "News", "party": n["party"], "premises": building or "See headline",
+            "line": f"{n['party']} - {n['title']}", "area": area,
+            "sectors": ["Facility Management & Real Estate"], "sector": "Facility Management & Real Estate",
+            "who": "", "pitch": "CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing",
+            "actions": [f"{'Tenant' if lease else 'Buyer'} named in news: {n['party']}. Find their facilities / admin lead (links below).",
+                        "Confirm the floor / unit from the article, then contact the building management office for the fit-out timeline.",
+                        "Pitch: CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing.",
+                        "Update Status here after each contact."],
+            "links": _links(n["party"]),
+            "sources": [{"name": g["publisher"], "url": g["url"], "title": g["title"], "date": g["date"].isoformat()} for g in grp],
+            "verification": (f"Corroborated by {len({g['publisher'] for g in grp})} outlets" if len({g['publisher'] for g in grp}) > 1
+                             else "Single outlet: open source to confirm"), "score": score, "level": _level(score, 7, 5),
+            "thresholds": [7, 5], "reasons": reasons,
+        })
+    return out
+
+
+# ============================================================ FEATURES ====
+def add_features(records):
+    """Stable descriptors used to learn from the team's priority changes."""
+    for r in records:
+        f = [f"kind:{r['kind']}", f"sector:{r['sector']}", f"area:{r['area']}"]
+        if r["kind"] == "event":
+            f += [f"access:{r['access']}"] + [f"lead:{x}" for x in r["lead_types"]]
+            f.append("venue:major" if ("HKCEC" in r["venue"] or "AsiaWorld" in r["venue"]) else "venue:other")
+            r.setdefault("thresholds", [7, 5])
+        elif r["kind"] == "property":
+            f += [f"move:{t}" for t in r["types"]] + [f"grade:{r['grade']}"]
+            r.setdefault("thresholds", [8, 5])
+        else:
+            a, p = r.get("area_sqft") or 0, r.get("price") or 0
+            size = ("size:xl" if (p >= 100e6 or a >= 20000) else "size:l" if (p >= 50e6 or a >= 10000) else "size:m")
+            f += [f"deal:{r['deal']}", f"usage:{r['usage']}", f"region:{r['group']}", size,
+                  "party:named" if r["party"] else "party:unnamed", f"record:{r['record_source']}"]
+        r["features"] = sorted(set(f))
+    return records

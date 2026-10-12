@@ -21,6 +21,8 @@ GN_QUERIES_EN = [
     '"Hong Kong" "regional headquarters" office opens OR relocates',
     '"Hong Kong" office "moves to" Central OR "Island East" OR "Kowloon East" OR "West Kowloon" OR Admiralty OR "Quarry Bay"',
     '"Nippon Express" "Hong Kong" office OR warehouse OR relocate OR opens',
+    '"Hong Kong" office floor sold OR buys OR acquires HK$',
+    '"Hong Kong" industrial building OR warehouse sold OR buys HK$',
 ]
 # Outlets covering Hong Kong business - each searched for office moves.
 OUTLETS_EN = ["therealdeal.com", "scmp.com", "thestandard.com.hk", "hongkongbusiness.hk", "realestateasia.com",
@@ -30,6 +32,10 @@ OUTLETS_EN = ["therealdeal.com", "scmp.com", "thestandard.com.hk", "hongkongbusi
               "edgeprop.sg", "asiaassetmanagement.com", "insideretail.asia", "datacenterdynamics.com", "w.media"]
 GN_QUERIES_EN += [f'site:{d} "Hong Kong" {MOVE_EN}' for d in OUTLETS_EN]
 GN_QUERIES_ZH = [
+    "購入 寫字樓 全層",
+    "寫字樓 億 購入 OR 沽 OR 接貨",
+    "工廈 億 購入 OR 沽 OR 接貨",
+    "商廈 樓層 成交 億",
     "香港 寫字樓 搬遷",
     "承租 寫字樓 樓面 總部",
     "租用 甲廈 平方呎",

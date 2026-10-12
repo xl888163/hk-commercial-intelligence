@@ -15,7 +15,9 @@ const PASSCODE = 'CHANGE-ME';   // <-- set your team passcode here
 
 const PICS = ['Magnum', 'Hin', 'Alan', 'Joyce', 'Ken', 'Peter', 'Jonathan'];
 const STATUSES = ['Not started', 'Researching', 'Contacted', 'Meeting set', 'Proposal sent', 'Won', 'Lost', 'Not pursuing'];
-const TRACKER_HEAD = ['id', 'pic', 'status', 'title', 'kind', 'url', 'itemDate', 'createdAt', 'updatedAt', 'updatedBy'];
+const LEVELS = ['HIGH', 'MEDIUM', 'LOW'];
+// New columns are only ever added at the end, so existing sheets keep working.
+const TRACKER_HEAD = ['id', 'pic', 'status', 'title', 'kind', 'url', 'itemDate', 'createdAt', 'updatedAt', 'updatedBy', 'priority', 'systemLevel', 'features'];
 const LOG_HEAD = ['at', 'itemId', 'title', 'kind', 'field', 'from', 'to', 'by'];
 
 function doGet() {
@@ -32,7 +34,8 @@ function doPost(e) {
   if (req.action === 'set') {
     const field = req.field, value = String(req.value || '');
     if (!/^[A-Za-z0-9_-]{6,40}$/.test(String(req.id || ''))) return out_({ ok: false, error: 'bad_id' });
-    if (field !== 'pic' && field !== 'status') return out_({ ok: false, error: 'bad_field' });
+    if (['pic', 'status', 'priority'].indexOf(field) < 0) return out_({ ok: false, error: 'bad_field' });
+    if (value && field === 'priority' && LEVELS.indexOf(value) < 0) return out_({ ok: false, error: 'bad_value' });
     if (value && field === 'pic' && PICS.indexOf(value) < 0) return out_({ ok: false, error: 'bad_value' });
     if (value && field === 'status' && STATUSES.indexOf(value) < 0) return out_({ ok: false, error: 'bad_value' });
 
@@ -47,7 +50,9 @@ function doPost(e) {
       const prev = row > 0 ? rowObj_(TRACKER_HEAD, data[row]) : {};
       const rec = {
         id: req.id,
-        pic: prev.pic || '', status: prev.status || '',
+        pic: prev.pic || '', status: prev.status || '', priority: prev.priority || '',
+        systemLevel: field === 'priority' ? clean_(req.systemLevel, 10) : (prev.systemLevel || ''),
+        features: field === 'priority' ? clean_(req.features, 2000) : (prev.features || ''),
         title: clean_(req.title || prev.title, 300), kind: clean_(req.kind || prev.kind, 20),
         url: clean_(req.url || prev.url, 1000), itemDate: clean_(req.itemDate || prev.itemDate, 20),
         createdAt: prev.createdAt || now, updatedAt: now, updatedBy: clean_(req.by, 60),
@@ -91,7 +96,10 @@ function sheet_(name, head) {
     sh = ss.insertSheet(name);
     sh.appendRow(head);
     sh.setFrozenRows(1);
+    return sh;
   }
+  const have = sh.getLastColumn();
+  if (have < head.length) sh.getRange(1, have + 1, 1, head.length - have).setValues([head.slice(have)]);
   return sh;
 }
 

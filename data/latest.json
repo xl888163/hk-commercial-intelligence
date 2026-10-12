@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T00:18:31+08:00",
+ "generated": "2026-10-13T00:22:53+08:00",
  "property_days": 90,
  "events": [
   {
@@ -5677,15 +5677,15 @@
      "date": "2026-08-19"
     },
     {
-     "name": "星島頭條",
-     "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
-     "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
-     "date": "2026-08-19"
-    },
-    {
      "name": "香港文匯報",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4V3lSblp1VGlUUkwwY1JRNjVLUkltRUJWTXdBVDY5ZmdfVENJNnVROUxaWnJ4ZHNjZmhGMWt3LTdWTVB0RmZRU0tMMGh6aHpHVHpJamFGWDREdjdhcHJoRWFmUnMxZnhkOE1wVDctVGFLLTJ6LTJn?oc=5",
      "title": "保誠與太古簽新租約擴充太古坊香港總部辦公空間- 地產",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "星島頭條",
+     "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
+     "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
      "date": "2026-08-19"
     },
     {
@@ -21794,7 +21794,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 33
+   "count": 31
   },
   {
    "group": "Property",
@@ -21818,7 +21818,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 19
+   "count": 18
   },
   {
    "group": "Property",
@@ -22016,7 +22016,7 @@
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 26
+   "count": 27
   },
   {
    "group": "Property",
@@ -22028,7 +22028,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 57
+   "count": 55
   },
   {
    "group": "Property",
@@ -22130,7 +22130,7 @@
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 44
+   "count": 45
   },
   {
    "group": "Property",
@@ -22142,7 +22142,7 @@
    "group": "Property",
    "name": "News search (中文): 預租 甲廈 總部",
    "ok": true,
-   "count": 12
+   "count": 11
   },
   {
    "group": "Property",
@@ -22166,7 +22166,7 @@
    "group": "Transactions",
    "name": "Centaline Commercial transaction register",
    "ok": true,
-   "count": 2213
+   "count": 2253
   }
  ],
  "sectors": [

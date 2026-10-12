@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T00:38:03+08:00",
+ "generated": "2026-10-13T00:45:19+08:00",
  "property_days": 90,
  "events": [
   {
@@ -5101,7 +5101,7 @@
     },
     {
      "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMirwNBVV95cUxOczFscTdnMWQ3R0lHalE2dER2b3hYeFJiLU5oTmFDczJhV2dyandkRFVuQXBPR2ZJVnhNWC1xZERMQlBaSGRhWDF0WTBLNlVHYTRpZGtFOUVZc2FRQTU4R2xXeWQ5S2hDUnFhLVlBeTFQd2VwcVh5UzN0MlpSWHljQnBWTkFsdXIzckFGTC01NmtlZHZSMmJaMXRQbGxCWlcyNEhhTU5HMEh4bTREanRlMlhacjQ0REVWOFhNNFphaU1IbGp4LURNaDEtZ0g0UmpOMmpOTmE3T3h4aGN0RjJsUDV2R29zSHhTQ0t1ZGpCZG5aWE8tcjJpR05Ua1lQd3M5TTRtTHQzVldkX2QxYnQ1cWJIU2NCVWlBcTlOYk9KWk1rcjlSTVE0NzJpSEV2dTVSanRTTGxtNVpiQ19YQ1dzYzVLUFI3MlRsaTdscXpFNTN3Zmt2cHlLY1owaU1JTFBWd1VLYTRiU2habDRuQmk1VjEyaTBfemJBN19HR1J5VjN5TWdQRi1MbE84Zk9PNnVreGpadl9QSzFKN21yMUtGQ0xadDg5cXhsYTZJRUppVQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQUG5sS1pYSUlOQXhWWjFFSGpucnp4NWhFT2lSbVhoQ1ZTSHZyZzE1b2NiTFJIaGxyYjlXZHhRNUpnU1pPbGJZdExoejhyZ2hsdGNURk5ocGtheWRWdDlBSUVVZF93WXFnV3dfekw5NHFoeTRBZDRJdS1tdlJBTVNsd01xbGJMWHgtT2V6M3RMdnBsX1IwZ19Ja1RmUUVVMEo4TkpwRmdVUmxZWVBpTU5pT2JOM2RFdGJNbmdMODFsTFp5bFBWVzRFVmtYZUpCR0JLRzRrdzZ4NTdWZXNFalRPT3lDTWwyZG9XMHgyUnpueGMtdzNtamt2eE1ySzdzS3lTNVJYNkx4UGw4Qk5FUDhoSnVQQk5oaWZ3ODdldXVTazc5UHZQMjRHLW9tcWZ6TE0?oc=5",
      "title": "眾安銀行承租利園8期4.5萬呎樓面作總部",
      "date": "2026-09-09"
     },
@@ -5235,8 +5235,8 @@
   {
    "id": "85a342f6e81c",
    "kind": "property",
-   "headline": "Jump Trading Expands Office Space in Hong Kong’s IFC Building",
-   "date": "2026-09-04",
+   "headline": "Jump Trading Expands 11,000 Sq Ft in Hong Kong IFC",
+   "date": "2026-09-05",
    "first_reported": "2026-09-04",
    "month": "2026-09",
    "company": "Jump Trading",
@@ -5253,8 +5253,8 @@
     "Facility Management & Real Estate"
    ],
    "sector": "Finance & Professional Services",
-   "size": null,
-   "size_txt": "",
+   "size": 11000,
+   "size_txt": "11,000 Sq Ft",
    "floors": null,
    "floors_txt": "",
    "lang": "en",
@@ -5283,11 +5283,17 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWkRnQ1NvVjdmTndwN196ZVVDdVp0bmtHamxRS1FQQnF6eHczQk1CczZNQW9ZZ3BxNURtWWh2c2M5TC1SZy02UktZMVJzVHpPTlIxeVpQLXNnMU9Kb0U1dHpjcDdEY1JWcDgtdkxDQnhHRVZvOEtDOUdYY0l2Qm05TFRJM01taUxwSWRyRzdpWjFfSkJDTlBsbmZDMXluSjRyTEZtRlpxSk9ZbmJkcnNqZUh3?oc=5",
      "title": "Jump Trading Expands Office Space in Hong Kong’s IFC Building",
      "date": "2026-09-04"
+    },
+    {
+     "name": "Briefs Finance",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEJjdE84VkNOaHlLcE0zblVGNVp4NjZGN1g2d2g1aHZqS0FLQ2tfVHZ1eGpfNlF2RW1OdjE1U3pWSWJaR0RBa3p2czZLbHdTS1p5Ri1SOHFVZVZPemdaUzVGR0Nkb0R0UXhGX2JHMVlYa09PTW8yQzVTYWRSREo5bFBkTG5EV1NzcjR1cGIyNU1IQQ?oc=5",
+     "title": "Jump Trading Expands 11,000 Sq Ft in Hong Kong IFC",
+     "date": "2026-09-05"
     }
    ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 6,
-   "level": "MEDIUM",
+   "verification": "Corroborated by 2 outlets",
+   "score": 8,
+   "level": "HIGH",
    "thresholds": [
     8,
     5
@@ -5295,7 +5301,9 @@
    "reasons": [
     "Expansion: extra floors to secure (+2)",
     "Grade A building: IFC (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "11,000 sq ft (+1)",
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Reported by 2 outlets (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -5627,7 +5635,7 @@
    ],
    "sources": [
     {
-     "name": "South China Morning Post",
+     "name": "SCMP",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVE82YWFqLUxnR2lEV19QV2ZIZXh0aHRFUlQzSGgtdFNEZGVsekRTLVBZS3dUajR6d18wU0lzcTMweE1sVnFtR0VFRWFhNjhKVzhKNi1kUWtZVHUwaXVrOGpjUU5hV3E1VVNSVzdQYXVRMUYtbUdSVWtBMWRvMUpWZG1rYlhIYVdaVG10ckdGYWQwMERYVVZkX1B2Snc5RnV0MkV3aTNKbW5iYmdNNjlLTmFWUFhqeTB2WGNJVEJ2QWt3VVBlMEcxNnh30gHKAUFVX3lxTE5lRGV3TzVpb3RBck9QWGJkRjROUGNUenJWSF9RWVUxR1B1WG14bXNoQUluVlRvNnZ2cGpNRFNtNERGbERDaF95blBBaWV0Y25JZjhwZXBTRjhWbjBHSGtDbjk4c254VERrdFlMekVnNGwtMnNRYUJzNjBwY1ctNzViU2hzYUJnZUFCd3hlNkMxY0RPWWszdGsyZ0ZKaEIwZDF6MVptOVFsd0RDZ2s5SWFaT20xRmhsc1pCZE9HTnhTbkRqeFl2M3Vsb0E?oc=5",
      "title": "Prudential Hong Kong expands headquarters across Swire Properties’ towers",
      "date": "2026-08-19"
@@ -5663,15 +5671,15 @@
      "date": "2026-08-19"
     },
     {
-     "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
-     "title": "保誠擴充太古坊香港總部辦公空間",
-     "date": "2026-08-19"
-    },
-    {
      "name": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
      "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "信報網站",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
+     "title": "保誠擴充太古坊香港總部辦公空間",
      "date": "2026-08-19"
     },
     {
@@ -21786,7 +21794,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 41
+   "count": 42
   },
   {
    "group": "Property",
@@ -21804,13 +21812,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 52
+   "count": 53
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 73
+   "count": 72
   },
   {
    "group": "Property",
@@ -21984,7 +21992,7 @@
    "group": "Property",
    "name": "News search (EN): w.media",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "group": "Property",
@@ -22014,7 +22022,7 @@
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 26
+   "count": 27
   },
   {
    "group": "Property",
@@ -22026,7 +22034,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 54
+   "count": 56
   },
   {
    "group": "Property",
@@ -22140,7 +22148,7 @@
    "group": "Property",
    "name": "News search (中文): 預租 甲廈 總部",
    "ok": true,
-   "count": 12
+   "count": 11
   },
   {
    "group": "Property",

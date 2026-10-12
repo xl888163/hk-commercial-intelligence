@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T01:19:41+08:00",
+ "generated": "2026-10-13T01:25:04+08:00",
  "property_days": 90,
  "events": [
   {
@@ -6247,15 +6247,15 @@
      "date": "2026-08-19"
     },
     {
-     "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
-     "title": "保誠擴充太古坊香港總部辦公空間",
-     "date": "2026-08-19"
-    },
-    {
      "name": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
      "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "信報網站",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
+     "title": "保誠擴充太古坊香港總部辦公空間",
      "date": "2026-08-19"
     },
     {
@@ -22382,7 +22382,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 31
+   "count": 30
   },
   {
    "group": "Property",
@@ -22394,13 +22394,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 51
+   "count": 52
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 73
+   "count": 74
   },
   {
    "group": "Property",
@@ -22574,7 +22574,7 @@
    "group": "Property",
    "name": "News search (EN): w.media",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   {
    "group": "Property",

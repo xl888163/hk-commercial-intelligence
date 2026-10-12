@@ -224,7 +224,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
 
   <section class="panel" id="p-ev">
     <div class="bar"><span>Official listings (venues, InvestHK, chambers). Only events with a Securitas sales angle are shown. Open "Action plan" for the steps.</span><button class="btn csv" type="button" data-csv="ev">Export CSV</button></div>
-    <div class="tw"><table class="rt fx" id="tEv"><colgroup><col style="width:8%"><col style="width:8%"><col style="width:24%"><col style="width:14%"><col style="width:22%"><col style="width:12%"><col style="width:12%"></colgroup><thead><tr>
+    <div class="tw"><table class="rt fx" id="tEv"><colgroup><col style="width:7%"><col style="width:7%"><col style="width:21%"><col style="width:13%"><col style="width:28%"><col style="width:13%"><col style="width:11%"></colgroup><thead><tr>
       <th data-k="score">Priority</th><th data-k="start">Date</th><th data-k="name">Event &amp; venue</th><th data-k="sector">Sector &amp; access</th>
       <th class="ns">Why go</th><th class="ns">Owner &amp; status</th><th class="ns">Source</th>
     </tr></thead><tbody></tbody></table></div>
@@ -232,7 +232,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
 
   <section class="panel" id="p-pr" hidden>
     <div class="bar"><span id="prNote"></span><button class="btn csv" type="button" data-csv="pr">Export CSV</button></div>
-    <div class="tw"><table class="rt fx" id="tPr"><colgroup><col style="width:8%"><col style="width:8%"><col style="width:25%"><col style="width:12%"><col style="width:14%"><col style="width:11%"><col style="width:11%"><col style="width:11%"></colgroup><thead><tr>
+    <div class="tw"><table class="rt fx" id="tPr"><colgroup><col style="width:7%"><col style="width:7%"><col style="width:27%"><col style="width:12%"><col style="width:14%"><col style="width:11%"><col style="width:12%"><col style="width:10%"></colgroup><thead><tr>
       <th data-k="score">Priority</th><th data-k="date">Reported</th><th data-k="company">Company &amp; headline</th><th data-k="type">Move &amp; size</th>
       <th data-k="building">Building / area</th><th data-k="sector">Sector</th><th class="ns">Owner &amp; status</th><th data-k="verification">Sources</th>
     </tr></thead><tbody></tbody></table></div>
@@ -240,7 +240,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
 
   <section class="panel" id="p-tx" hidden>
     <div class="bar"><span id="txNote"></span><button class="btn csv" type="button" data-csv="tx">Export CSV</button></div>
-    <div class="tw"><table class="rt fx" id="tTx"><colgroup><col style="width:8%"><col style="width:8%"><col style="width:30%"><col style="width:15%"><col style="width:13%"><col style="width:12%"><col style="width:14%"></colgroup><thead><tr>
+    <div class="tw"><table class="rt fx" id="tTx"><colgroup><col style="width:7%"><col style="width:7%"><col style="width:31%"><col style="width:15%"><col style="width:13%"><col style="width:13%"><col style="width:14%"></colgroup><thead><tr>
       <th data-k="score">Priority</th><th data-k="date">Date</th><th data-k="line">Party &amp; premises</th><th data-k="price">Deal</th>
       <th data-k="district">District &amp; usage</th><th class="ns">Owner &amp; status</th><th class="ns">Source</th>
     </tr></thead><tbody></tbody></table></div>
@@ -278,6 +278,13 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
 <script>
 const DATA = /*__DATA__*/null;
 const CONFIG = /*__CONFIG__*/{};
+const BUILD = "/*__BUILD__*/";
+(function checkForNewerVersion(){
+  fetch("version.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(v => {
+    if (v && v.build && v.build !== BUILD && !location.search.includes("v=" + v.build))
+      location.replace(location.pathname + "?v=" + v.build + location.hash);
+  }).catch(() => {});
+})();
 const PICS = ["Magnum","Hin","Alan","Joyce","Ken","Peter","Jonathan"];
 const STATUSES = ["Not started","Researching","Contacted","Meeting set","Proposal sent","Won","Lost","Not pursuing"];
 const LEVELS = ["HIGH","MEDIUM","LOW"], LNAME = { HIGH:"High", MEDIUM:"Medium", LOW:"Low" };

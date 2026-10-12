@@ -3,15 +3,15 @@
 A dashboard of Hong Kong industry events and commercial property movements, rated for
 security-system opportunities (CCTV, access control, alarms). Every run fetches fresh data from the internet.
 
-## Shared web page
-Live page: https://claude.ai/artifact/XfPuT7fwVqc4gCkv2o7k1S
-- PIC, Status and the change history are stored in the page's shared database. They carry over every time the data is refreshed and republished.
-- To refresh: run the fetcher (below), then ask Claude to "republish the dashboard". The same URL is kept.
-- To let colleagues edit: in the page's Share menu, give them Contributor access or above (view-only people can't assign PICs).
+## Public website (GitHub Pages + Google Sheet)
+- `docs/index.html` is the public page, served by GitHub Pages. Anyone with the link can browse events and office moves without an account.
+- PIC, Status and change history are stored in a Google Sheet through `apps-script/Code.gs`. Viewing or changing them needs the team passcode, which is set inside the Apps Script and never stored in this repository.
+- `.github/workflows/refresh.yml` re-fetches all sources every day at 06:30 HKT and republishes the page. To refresh right away, go to the repository's **Actions** tab, choose **Refresh dashboard**, then **Run workflow**.
+- `config.json` holds the Google Sheet web-app URL that the page talks to.
+- The claude.ai version (`templates/dashboard.html`) is kept for reference.
 
 ## Run it
-- Double-click **`Update Dashboard.command`**, or
-- in Terminal: `python3 run.py` (`--no-open` to skip opening the browser, `--days 60` to change the news window)
+- In Terminal: `python3 run.py` (`--no-open` to skip opening the browser, `--days 60` to change the news window)
 
 It takes about 40 seconds, then opens `dashboard.html`. Only the Python 3 standard library is used, so there is nothing to install.
 

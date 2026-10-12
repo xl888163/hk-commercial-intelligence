@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T23:19:38+08:00",
+ "generated": "2026-10-12T23:21:08+08:00",
  "property_days": 90,
  "events": [
   {
@@ -3822,69 +3822,6 @@
    "is_new": false
   },
   {
-   "id": "770e1152734c",
-   "kind": "property",
-   "headline": "呂慧儀現身騰訊總部覓商機 經營教育中心變身商界女強人 最強單親媽修畢牛津課程",
-   "date": "2026-09-25",
-   "first_reported": "2026-09-25",
-   "month": "2026-09",
-   "company": "Tencent",
-   "types": [
-    "New HQ"
-   ],
-   "type": "New HQ",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "AI & Technology",
-    "Education & Government"
-   ],
-   "sector": "AI & Technology",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "zh",
-   "who": "Workplace / office managers and COOs of tech firms, labs and scale-ups",
-   "pitch": "Access control & CCTV for new offices and labs, remote viewing, Risk Intelligence for IP and travel risk",
-   "actions": [
-    "Find Tencent's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Access control & CCTV for new offices and labs, remote viewing, Risk Intelligence for IP and travel risk.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=Tencent%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=Tencent%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "星島頭條",
-     "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxQTVQ3SFhKNnNzYl9DYWdzdDdZT0xTVDUyVnNjZjRQbzY5OFRlZFotOGJVS2MwcmdjVlpUb0dSd3dtX2x5Um5Pak12dGsyb3JtTzl3RVZnb0M0MThscHNIQjZDUDNMcWI3M1J3ZWotNndtTnR2WlpLendxMGVpWDlBdWttRUg4SUw4TXEyeGdBOEhpUW1wZUxrVDhKWk1fMHZxd25mTlpKQ3Z4S0R0Y2pFTG9jSnB2RnNoaUdyU0pQZUY2V3VDTjF3LWt4bzB5OWI3Ym1HX1BLYnF1WlRBbVkxWWYtdUk0a1pidVJNaXNRek4wWmF0cFpobHpNSXJST09LMmdVcnU1M2xLRXhCbF9JMS1VS29Ga2tBVlhYUkpkVDQ0cV9hb3Z5djNMUTk2dEw0Y1dscGVzdDJUal9WZmZGR3ZQdlp1UTlCckpiVlRGZHJqbkJSUmZaMUlyeS1ILWUzMjRvcjVvZDNJX3pYb09FeXJXbG9XZWVINDNKdXBISnJyb3M4cHBKalg3dnVoZWZPRHNvV1BXYmtHUUxlM3VJRWNaWkJPUjFBZnZQc2ZhQ2k2clNtbGtyR2tGVnhsQWtNbWI1bVI4d2ZDeFNPbmIzTXlQNWxMNGV6NG5iSlFESm9NRWJIWnJaV002Sk5EaEtFd1FOUVZjUXRSblpaOFA3VjRHYUctdkl1N1F1bA?oc=5",
-     "title": "呂慧儀現身騰訊總部覓商機 經營教育中心變身商界女強人 最強單親媽修畢牛津課程",
-     "date": "2026-09-25"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Tech / healthcare tenant: access control & IP protection (+1)"
-   ],
-   "first_seen": "2026-10-12T23:09:34+08:00",
-   "is_new": false
-  },
-  {
    "id": "727d574de37a",
    "kind": "property",
    "headline": "普匯中金租用瑞安中心約2,500 平方呎寫字樓作香港辦公室",
@@ -4094,15 +4031,15 @@
      "date": "2026-09-17"
     },
     {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxPNE14dHZSZ09faXA5TUVONzlyTnNLZVdHaEF0cHhSemJYdjMwOVFyUUMtMUpZamVOTzRXUVZhR05UaEhnWHc4WlBzZ3FiMEVuajRxTWZCUzRqaDM0NUl5Si14bzlEQXhHaVR2UE13M3B3TGFfZFVaQ3lwMzBza0VPNGtsSU5GV3B5Z2F1Wl9aYVctZERORkJwdWU1RmNNOTB0LU1yREJEaFdmSWtWaDlmQ0hIT2tuT1BpQ1dIamoxcExpUVluWHE4VXJ1ZS0yWTFqUl90M2N1VTBhYlZHVGxFaTBwVDhMRHNrbFdPYm5TR1VIeGNDYWNraDNBaTl4ZWJQOFRpejJsRXo0NTNMaW1uTFYyTG9PN0hfMUlTSlY3OHlLajBQYVZqSnQ0ZzgxWUNxQjVwLXdwUlhudUpraFlSUUFpYlBxM002Z29wTENMclh3OTAzalhBRWhWLXJpTmtMb25lY0VEWVpMMnRLUG5CQ3VrMFRqZ3JCeEItdjFBRWp4MF9XQmh1RDh5SmNjTjZaaTk0bEtHc3A2TnczS3I0SzFESWdELWZ4c2pXbUxRT1k1cmlwUGdSYjNsYTVyYnlab2owWjJOYnRWeDJQall0QWRKQVExRDhIa3dYMnE3SWRoRWJ6LU1BeFh2eU43YndjRUN5a0JOcHpIWUVldmE5Mi1fYWVzc3E4cXFZV0JfRThXVFQzV0dGejVHRlNyR01SVk9LY19pWkZMbmZYdHQ5TDVBbHNUWGltTWtwRWp6SGFMQ0hMdU14MEhPNGNwSUE4Unc?oc=5",
-     "title": "【1113】長江集團中心二期已接近全部租出和記地產：美量化交易公司Susquehanna已簽約租用3層寫字樓樓面",
-     "date": "2026-09-17"
-    },
-    {
      "name": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxPN2F3SVBVOWRuT0pLYUpwTHduWFZzcmdaVWM2S2xjdHNmY1hLVjIweGRnRWFtVlhoaVFYQVZIeEdrZW1GSlVhV1JaV3Q2VGk1ZzdGZXZOYTV2Zkx1cF9HSUpnY2twLVcyYmhyNk5rSV9od2VFWUNNenhzQTVCNldvWUhVYWV1S3hlLVRMLTV1RmNYY2MzTFZFUnpoMzByZmRVZ2ktOGpFZmZVR2lPa2dxbUwtT08zLW1IWkwxdGdjMGJnenhpOC1pM0RGZ005ZGdVTEZiNzEydVdxX3Uza1pWZ3ozVlN1d3A3dkxzYzBic002SzQtUUdWV05MSFlSWi1PN0JpYXk2SC01OXNCTFVIZXFHYjJlMXJ4V3lvNGNVenhlbFpxcG9hZUNCR09YamdQWTJBOGdUVnBld1Q3NDk4M3BfNzVoaGpBd0ExX0tyRmY0N3hoX3JZMjQtYmlJZzN4LXZiUE9uOUlwYVZZQzR1Q2FzckV0WEZiV2NWTmRETDg4b19CdFhKQlJhTVliRDJRanRaMjhfbThNNk5uR3V3d01CYThoblBEbmd1bGJtZ2RaVEtvZGxZX1Fwa3otcUtMaHJ3Ug?oc=5",
      "title": "長江中心二期近全部租出 長實證實美國量化交易巨頭SIG租用3層寫字樓",
+     "date": "2026-09-17"
+    },
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxPNE14dHZSZ09faXA5TUVONzlyTnNLZVdHaEF0cHhSemJYdjMwOVFyUUMtMUpZamVOTzRXUVZhR05UaEhnWHc4WlBzZ3FiMEVuajRxTWZCUzRqaDM0NUl5Si14bzlEQXhHaVR2UE13M3B3TGFfZFVaQ3lwMzBza0VPNGtsSU5GV3B5Z2F1Wl9aYVctZERORkJwdWU1RmNNOTB0LU1yREJEaFdmSWtWaDlmQ0hIT2tuT1BpQ1dIamoxcExpUVluWHE4VXJ1ZS0yWTFqUl90M2N1VTBhYlZHVGxFaTBwVDhMRHNrbFdPYm5TR1VIeGNDYWNraDNBaTl4ZWJQOFRpejJsRXo0NTNMaW1uTFYyTG9PN0hfMUlTSlY3OHlLajBQYVZqSnQ0ZzgxWUNxQjVwLXdwUlhudUpraFlSUUFpYlBxM002Z29wTENMclh3OTAzalhBRWhWLXJpTmtMb25lY0VEWVpMMnRLUG5CQ3VrMFRqZ3JCeEItdjFBRWp4MF9XQmh1RDh5SmNjTjZaaTk0bEtHc3A2TnczS3I0SzFESWdELWZ4c2pXbUxRT1k1cmlwUGdSYjNsYTVyYnlab2owWjJOYnRWeDJQall0QWRKQVExRDhIa3dYMnE3SWRoRWJ6LU1BeFh2eU43YndjRUN5a0JOcHpIWUVldmE5Mi1fYWVzc3E4cXFZV0JfRThXVFQzV0dGejVHRlNyR01SVk9LY19pWkZMbmZYdHQ5TDVBbHNUWGltTWtwRWp6SGFMQ0hMdU14MEhPNGNwSUE4Unc?oc=5",
+     "title": "【1113】長江集團中心二期已接近全部租出和記地產：美量化交易公司Susquehanna已簽約租用3層寫字樓樓面",
      "date": "2026-09-17"
     }
    ],
@@ -4269,15 +4206,15 @@
      "date": "2026-09-09"
     },
     {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnl0S1U1WFJ2VkVqX0l5ak5EZmphT3hqaGNzVlNfaEFtWnJydDNJelYtb0piOWxFUXBOSDJiRXZxXzllbHZKRGJRQzdNbmdValdGaURXY3ktNjI4T25rMDNyRk1DcFpZc2xtOElvTlJma29pVTRMSDJvRkFoVlBIbnJ2NjNIazE1akE?oc=5",
-     "title": "【數字銀行】ZA Bank總部2027遷利園八期 CEO：心情如睇兒子小學畢業",
-     "date": "2026-09-09"
-    },
-    {
      "name": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNQTZ1QnlUZEFtVGJKRzQyNXlySUwxU0FxZUxkSHpwNlVTTlBROGJaS2V1MVBxLW1EU2RUTEJ4blhYdThzNmEyMFZpMDcxUEpLMUxNM0xBeVl0YWI5U2M1VXpIbTNic2x3a054clBXS1d4QlNwQmtBTTM4X012aXBsOWc2UjAyaDR3cE9nVEdDMmNPWGlSejlxZjlmcGs2RWFCSFlYVlFKbWJ3ZkdhV3RaMnVYMl95T0NnUW1rQ3FyX3lLMW0wanJoQnFmUzVTOFpKYWhiV21STE1lZ0ZKVm82dm9GNTc3eG51WjVlSmVWZl9rcUQwVzU2eC1wN3JTeDRxVWNRYkxDVHJXMnV4RnFVcnhBQjMyb3R4SkRkUm9wcGNvRFc4cjEwbkdMWTlOUmRsWE94amM5TjdRUU5LSi1XNWVqOFB1anVvZHZ0M3p4dXZMWXN1bUlmOERoakFLRGE5OU1mbmsyUHJWZmhEc2JoTDNEWS1rUQ?oc=5",
      "title": "希慎稱利園八期預租率理想 獲ZA Bank承租4層寫字樓作總部",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnl0S1U1WFJ2VkVqX0l5ak5EZmphT3hqaGNzVlNfaEFtWnJydDNJelYtb0piOWxFUXBOSDJiRXZxXzllbHZKRGJRQzdNbmdValdGaURXY3ktNjI4T25rMDNyRk1DcFpZc2xtOElvTlJma29pVTRMSDJvRkFoVlBIbnJ2NjNIazE1akE?oc=5",
+     "title": "【數字銀行】ZA Bank總部2027遷利園八期 CEO：心情如睇兒子小學畢業",
      "date": "2026-09-09"
     }
    ],
@@ -4363,8 +4300,8 @@
   {
    "id": "85a342f6e81c",
    "kind": "property",
-   "headline": "Jump Trading Expands Office Space in Hong Kong’s IFC Building",
-   "date": "2026-09-04",
+   "headline": "Jump Trading Expands 11,000 Sq Ft in Hong Kong IFC",
+   "date": "2026-09-05",
    "first_reported": "2026-09-04",
    "month": "2026-09",
    "company": "Jump Trading",
@@ -4381,8 +4318,8 @@
     "Facility Management & Real Estate"
    ],
    "sector": "Finance & Professional Services",
-   "size": null,
-   "size_txt": "",
+   "size": 11000,
+   "size_txt": "11,000 Sq Ft",
    "floors": null,
    "floors_txt": "",
    "lang": "en",
@@ -4411,15 +4348,23 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWkRnQ1NvVjdmTndwN196ZVVDdVp0bmtHamxRS1FQQnF6eHczQk1CczZNQW9ZZ3BxNURtWWh2c2M5TC1SZy02UktZMVJzVHpPTlIxeVpQLXNnMU9Kb0U1dHpjcDdEY1JWcDgtdkxDQnhHRVZvOEtDOUdYY0l2Qm05TFRJM01taUxwSWRyRzdpWjFfSkJDTlBsbmZDMXluSjRyTEZtRlpxSk9ZbmJkcnNqZUh3?oc=5",
      "title": "Jump Trading Expands Office Space in Hong Kong’s IFC Building",
      "date": "2026-09-04"
+    },
+    {
+     "name": "Briefs Finance",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEJjdE84VkNOaHlLcE0zblVGNVp4NjZGN1g2d2g1aHZqS0FLQ2tfVHZ1eGpfNlF2RW1OdjE1U3pWSWJaR0RBa3p2czZLbHdTS1p5Ri1SOHFVZVZPemdaUzVGR0Nkb0R0UXhGX2JHMVlYa09PTW8yQzVTYWRSREo5bFBkTG5EV1NzcjR1cGIyNU1IQQ?oc=5",
+     "title": "Jump Trading Expands 11,000 Sq Ft in Hong Kong IFC",
+     "date": "2026-09-05"
     }
    ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 6,
-   "level": "MEDIUM",
+   "verification": "Corroborated by 2 outlets",
+   "score": 8,
+   "level": "HIGH",
    "reasons": [
     "Expansion: extra floors to secure (+2)",
     "Grade A building: IFC (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "11,000 sq ft (+1)",
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Reported by 2 outlets (+1)"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
@@ -4744,15 +4689,15 @@
      "date": "2026-08-19"
     },
     {
-     "name": "星島頭條",
-     "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
-     "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
-     "date": "2026-08-19"
-    },
-    {
      "name": "香港文匯報",
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4V3lSblp1VGlUUkwwY1JRNjVLUkltRUJWTXdBVDY5ZmdfVENJNnVROUxaWnJ4ZHNjZmhGMWt3LTdWTVB0RmZRU0tMMGh6aHpHVHpJamFGWDREdjdhcHJoRWFmUnMxZnhkOE1wVDctVGFLLTJ6LTJn?oc=5",
      "title": "保誠與太古簽新租約擴充太古坊香港總部辦公空間- 地產",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "星島頭條",
+     "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
+     "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
      "date": "2026-08-19"
     },
     {
@@ -5084,7 +5029,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 52
+   "count": 51
   },
   {
    "group": "Property",
@@ -5096,7 +5041,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 16
+   "count": 17
   },
   {
    "group": "Property",
@@ -5390,7 +5335,7 @@
    "group": "Property",
    "name": "News search (中文): 進駐 甲廈 樓面",
    "ok": true,
-   "count": 20
+   "count": 19
   },
   {
    "group": "Property",

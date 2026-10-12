@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T01:25:04+08:00",
+ "generated": "2026-10-13T01:30:18+08:00",
  "property_days": 90,
  "events": [
   {
@@ -5604,16 +5604,16 @@
   {
    "id": "7a07aa5d3c2b",
    "kind": "property",
-   "headline": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
+   "headline": "Hysan courts fintech as ZA Bank commits to new Causeway Bay headquarters",
    "date": "2026-09-09",
    "first_reported": "2026-09-09",
    "month": "2026-09",
    "company": "ZA Bank",
    "types": [
-    "Lease / pre-lease",
-    "New HQ"
+    "New HQ",
+    "Lease / pre-lease"
    ],
-   "type": "Lease / pre-lease",
+   "type": "New HQ",
    "building": "Lee Garden Eight",
    "landlords": [
     "Hysan"
@@ -5629,7 +5629,7 @@
    "size": 45000,
    "size_txt": "4.5萬呎",
    "floors": 4,
-   "floors_txt": "four floors",
+   "floors_txt": "四層",
    "lang": "en",
    "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
    "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
@@ -5651,12 +5651,6 @@
     }
    ],
    "sources": [
-    {
-     "name": "Hong Kong Business",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY19PWERTM1RlTW5mdnJJSFJlWEloRVJIcDljZXRnenYwSWs5NnZiNUpwWlJvVlU4QnJNajlZUXVZd0M5NnhMZ2taV0plR3o4dTdGZGtXZXN0bTR0QTdHRFNvZjFTcTE3dEMyMGUwanU5ay1kcEpwWUZSNHVNcTFCWVgzRC1MY1VnWkdjb0RKSUhkUGp1ZF84SkRoa1Y?oc=5",
-     "title": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
-     "date": "2026-09-09"
-    },
     {
      "name": "South China Morning Post",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3RMVFFYaVZRZ0ZlTTRzdThyZU8zcWxrcnE0WFZsVloxbUpMQmpMM0ltS2RCWHFKdlpqSnNZSzd0UXo5ZmNHNVVaclQ4Y254Uk51RDdXZHl2QVZZY2UxTk9qNzhaNzVPZ3BlVTRVa29BM1JiSDlFcGpUOVhMcklsZjh2UGNZU3ZWRUFSYVRXaTlWVXNieEpSX21yNHhKT3NfcUVERlhNNkdFOTc3MTJBZC16MTNfQldGV2xRb3BsTG5JeUhLZ1pxZzA3WS1yeTZ0di04VFBR0gHWAUFVX3lxTFB3TWlpSks2ZFRHX3VURVFxdlV2dFpJMHh5Mk1GMFJNei1pS2dPcTZZbGtxbkVWY2dhclpld3Q5UUNDRkwxV1RPTW44dE91YmpIeklsMnJxSldoMEZiQnFBZnZSYnpRTnJURnpFel9KRDVGRGpaenQxQTBEQVBRNGRqMUo5M1ZvMVgxV2tPVWtvdlhlQ3E2b1h3TGpkeDM0b3B5ZEd3Y283d0VBX0c5Q0F6dnRURDRzbG5LRjR0dTYtbVR0cUNUV0dJdzRDRnBKNVQ2d2N3Y1E?oc=5",
@@ -5706,7 +5700,7 @@
      "date": "2026-09-09"
     }
    ],
-   "verification": "Corroborated by 9 outlets",
+   "verification": "Corroborated by 8 outlets",
    "score": 13,
    "level": "HIGH",
    "thresholds": [
@@ -5720,7 +5714,7 @@
     "Mid-size space (45,000 sq ft) (+2)",
     "4 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 9 outlets (+1)"
+    "Reported by 8 outlets (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -6393,7 +6387,7 @@
    "kind": "property",
    "headline": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
    "date": "2026-08-04",
-   "first_reported": "2026-07-31",
+   "first_reported": "2026-07-30",
    "month": "2026-08",
    "company": "AECOM",
    "types": [
@@ -6437,15 +6431,15 @@
    ],
    "sources": [
     {
-     "name": "Macau Business",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVkUxVW5rS2JJX2VSYW12VVZkVVpxVnZBSVV3V21tdkRqX016ZjVDSVRhVGhIZ1VBUDdCbHAwT1hhVTFNUDlrcF9GSUxtV210dkM0VFVRelpzVnR4Yi1wZi1EVWR4WHhzQTYteVpYR3hKVXR6NzF5RjNINXRVci10ZFVZY3dTSWcwaHlLNjdPN0p5VmVITWxuNzVKeXNERDd4eXRwc01sRFh3emR0M09OY3pkMFpGMjFpRkZjRG1uay0tOGlSOTh2NGJkT0hndUhJSXc?oc=5",
-     "title": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
-     "date": "2026-07-31"
-    },
-    {
      "name": "Yahoo",
      "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxORWRzRXBPR1NkZHBGeHk5elBONmZjQTNoRzd3T2o3T0FIUlF0VGFia3ZESExPMUlfTXZKZmxkd0o5M21VOEpObkhLMTBtcnhpdVJWRW1tRkRTRUl1ZmZ0bk85V2EzbnZYT3dQNTByYS1kWlowRV9YRTBMQl91M0lFa2hPSTZabndpVTk3ZXdPWEE2a2xaODF1OUlvTHhaSXFTTHFfSkZuaXF0WWJDR05jU01yWnloVV8yZUdkZjYtcnJHcjNiUEpOTGVnSnM1czV5WURVZTFkbUlYVEdBY0o5UlQ2UWw1dXF4UnVTWFFNcmJ2OVpOZkd4TC16U0E2YlRycTNyeEx5YUVEWUJoYld2QkFMRGRwamQ3ekZlQ09acHZ5OGg3eVRya0h1X1dZMWpyalFRSmNUMTFWTGJ2eDRMTWkyQ19hcmRkM3VsSzN5bm0xVXZiYmZuRjhWVk9zVDRmQ052OU96Mnk5TE11TEhMbEFDNGVuMngzNVR1NGtJMER6S1BYMWxXVzJKNGtVUWhpMzBORGFxc01jd0lIY3I0UA?oc=5",
      "title": "AECOM開設全新香港辦事處暨亞洲區總部 匯聚人才、科技與可持續發展",
+     "date": "2026-07-30"
+    },
+    {
+     "name": "Macau Business",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVkUxVW5rS2JJX2VSYW12VVZkVVpxVnZBSVV3V21tdkRqX016ZjVDSVRhVGhIZ1VBUDdCbHAwT1hhVTFNUDlrcF9GSUxtV210dkM0VFVRelpzVnR4Yi1wZi1EVWR4WHhzQTYteVpYR3hKVXR6NzF5RjNINXRVci10ZFVZY3dTSWcwaHlLNjdPN0p5VmVITWxuNzVKeXNERDd4eXRwc01sRFh3emR0M09OY3pkMFpGMjFpRkZjRG1uay0tOGlSOTh2NGJkT0hndUhJSXc?oc=5",
+     "title": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
      "date": "2026-07-31"
     },
     {
@@ -14176,15 +14170,15 @@
      "date": "2026-09-17"
     },
     {
-     "name": "etnet 經濟通",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWWFBTDE0TnJwUFdRUjRpWEpBbElicXExV0ZPRUtNWVZodVZ6eWNBbnNNZ2pPdG1SY2lUU21GZGtndzVOMktfUC1VOE1NamJFVVVndVhNaWpBaTJ1REVCbjRvTWFibGVaU3dCMGVDaDJpRXFhc29Id25CV3puUzdjVENfbkl4VmRqMENkUzRfcEd2bDN5T3lHeW1KMmw5aElrT0wxMlBxemhwTVFwY0E?oc=5",
-     "title": "和記地產︰長江集團中心二期現階段可出租樓面已近全部租出，美國量化交易公司承租逾5萬呎| 即時新聞- 新聞",
-     "date": "2026-09-17"
-    },
-    {
      "name": "Now 財經",
      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFSTY2eEFaYnlqSXpuT0dLdkVIZEE5bDlVZHJWSlVXZHkxeW9YN05tUW1zbXRJVVM2bzVKVTZDa1dqTnpzVTdIaDV5b05aTm5TLVpPcmlIZ2kwaHM?oc=5",
      "title": "美國量化交易公司租用長江集團中心二期",
+     "date": "2026-09-17"
+    },
+    {
+     "name": "etnet 經濟通",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWWFBTDE0TnJwUFdRUjRpWEpBbElicXExV0ZPRUtNWVZodVZ6eWNBbnNNZ2pPdG1SY2lUU21GZGtndzVOMktfUC1VOE1NamJFVVVndVhNaWpBaTJ1REVCbjRvTWFibGVaU3dCMGVDaDJpRXFhc29Id25CV3puUzdjVENfbkl4VmRqMENkUzRfcEd2bDN5T3lHeW1KMmw5aElrT0wxMlBxemhwTVFwY0E?oc=5",
+     "title": "和記地產︰長江集團中心二期現階段可出租樓面已近全部租出，美國量化交易公司承租逾5萬呎| 即時新聞- 新聞",
      "date": "2026-09-17"
     }
    ],
@@ -22370,19 +22364,19 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" industrial building OR warehouse sold OR buys HK$",
    "ok": true,
-   "count": 0
+   "count": 1
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 42
+   "count": 43
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 30
+   "count": 33
   },
   {
    "group": "Property",
@@ -22406,7 +22400,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 17
+   "count": 18
   },
   {
    "group": "Property",
@@ -22574,7 +22568,7 @@
    "group": "Property",
    "name": "News search (EN): w.media",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "group": "Property",
@@ -22604,7 +22598,7 @@
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 25
+   "count": 27
   },
   {
    "group": "Property",
@@ -22616,7 +22610,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 56
+   "count": 54
   },
   {
    "group": "Property",
@@ -22646,7 +22640,7 @@
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 100
+   "count": 98
   },
   {
    "group": "Property",
@@ -22718,7 +22712,7 @@
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 44
+   "count": 45
   },
   {
    "group": "Property",

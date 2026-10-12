@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T00:31:47+08:00",
+ "generated": "2026-10-13T00:38:03+08:00",
  "property_days": 90,
  "events": [
   {
@@ -5235,8 +5235,8 @@
   {
    "id": "85a342f6e81c",
    "kind": "property",
-   "headline": "Jump Trading Expands 11,000 Sq Ft in Hong Kong IFC",
-   "date": "2026-09-05",
+   "headline": "Jump Trading Expands Office Space in Hong Kong’s IFC Building",
+   "date": "2026-09-04",
    "first_reported": "2026-09-04",
    "month": "2026-09",
    "company": "Jump Trading",
@@ -5253,8 +5253,8 @@
     "Facility Management & Real Estate"
    ],
    "sector": "Finance & Professional Services",
-   "size": 11000,
-   "size_txt": "11,000 Sq Ft",
+   "size": null,
+   "size_txt": "",
    "floors": null,
    "floors_txt": "",
    "lang": "en",
@@ -5283,17 +5283,11 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWkRnQ1NvVjdmTndwN196ZVVDdVp0bmtHamxRS1FQQnF6eHczQk1CczZNQW9ZZ3BxNURtWWh2c2M5TC1SZy02UktZMVJzVHpPTlIxeVpQLXNnMU9Kb0U1dHpjcDdEY1JWcDgtdkxDQnhHRVZvOEtDOUdYY0l2Qm05TFRJM01taUxwSWRyRzdpWjFfSkJDTlBsbmZDMXluSjRyTEZtRlpxSk9ZbmJkcnNqZUh3?oc=5",
      "title": "Jump Trading Expands Office Space in Hong Kong’s IFC Building",
      "date": "2026-09-04"
-    },
-    {
-     "name": "Briefs Finance",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEJjdE84VkNOaHlLcE0zblVGNVp4NjZGN1g2d2g1aHZqS0FLQ2tfVHZ1eGpfNlF2RW1OdjE1U3pWSWJaR0RBa3p2czZLbHdTS1p5Ri1SOHFVZVZPemdaUzVGR0Nkb0R0UXhGX2JHMVlYa09PTW8yQzVTYWRSREo5bFBkTG5EV1NzcjR1cGIyNU1IQQ?oc=5",
-     "title": "Jump Trading Expands 11,000 Sq Ft in Hong Kong IFC",
-     "date": "2026-09-05"
     }
    ],
-   "verification": "Corroborated by 2 outlets",
-   "score": 8,
-   "level": "HIGH",
+   "verification": "Single outlet: open source to confirm",
+   "score": 6,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
@@ -5301,9 +5295,7 @@
    "reasons": [
     "Expansion: extra floors to secure (+2)",
     "Grade A building: IFC (+2)",
-    "11,000 sq ft (+1)",
-    "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 2 outlets (+1)"
+    "High-security tenant (finance / legal / luxury / data) (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -5671,9 +5663,9 @@
      "date": "2026-08-19"
     },
     {
-     "name": "香港文匯報",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4V3lSblp1VGlUUkwwY1JRNjVLUkltRUJWTXdBVDY5ZmdfVENJNnVROUxaWnJ4ZHNjZmhGMWt3LTdWTVB0RmZRU0tMMGh6aHpHVHpJamFGWDREdjdhcHJoRWFmUnMxZnhkOE1wVDctVGFLLTJ6LTJn?oc=5",
-     "title": "保誠與太古簽新租約擴充太古坊香港總部辦公空間- 地產",
+     "name": "信報網站",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
+     "title": "保誠擴充太古坊香港總部辦公空間",
      "date": "2026-08-19"
     },
     {
@@ -5683,9 +5675,9 @@
      "date": "2026-08-19"
     },
     {
-     "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
-     "title": "保誠擴充太古坊香港總部辦公空間",
+     "name": "香港文匯報",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4V3lSblp1VGlUUkwwY1JRNjVLUkltRUJWTXdBVDY5ZmdfVENJNnVROUxaWnJ4ZHNjZmhGMWt3LTdWTVB0RmZRU0tMMGh6aHpHVHpJamFGWDREdjdhcHJoRWFmUnMxZnhkOE1wVDctVGFLLTJ6LTJn?oc=5",
+     "title": "保誠與太古簽新租約擴充太古坊香港總部辦公空間- 地產",
      "date": "2026-08-19"
     },
     {
@@ -6277,9 +6269,15 @@
      "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-kwun-tong-four-seas-group-centre/detail/2950400240/",
      "title": "",
      "date": "2026-10-06"
+    },
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMFJNMWRCRDhCRXVWbXlXd3dQZDRNVF9lUi1BYlhkekFNRGZfekoxZmt0Q2RERUFjaHZVdk5oNExjZzJFbk9lLTZjbVlJSE0xeTFXLVc4WFlzV2NHRTZ4SUFpZWxuTERXYkdLRHczM3N4UEdyTV9CWGJxSmQ4S2N0OVEzZHRKSDZCQnhwUEYzd2NJNHY3WXhUUV9WdXotZ2NuTWZCZGVoZ2pVVVZBRzQ3NFk0Vk5fWURFVF9KNkRSTmo1YnNGSU1xUjduM2kxUTJINUpBLWRTSlo4QzhuYlNTbnllYVhZLXVOLXFmNGtISTJUamVVMXJ3?oc=5",
+     "title": "四洲集團中心全層沽 呎價6600元",
+     "date": "2026-10-12"
     }
    ],
-   "verification": "Register record",
+   "verification": "Register record + news report",
    "score": 5,
    "level": "MEDIUM",
    "thresholds": [
@@ -21782,13 +21780,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" industrial building OR warehouse sold OR buys HK$",
    "ok": true,
-   "count": 0
+   "count": 1
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 42
+   "count": 41
   },
   {
    "group": "Property",
@@ -21812,7 +21810,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 72
+   "count": 73
   },
   {
    "group": "Property",
@@ -21986,7 +21984,7 @@
    "group": "Property",
    "name": "News search (EN): w.media",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   {
    "group": "Property",
@@ -22016,7 +22014,7 @@
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 27
+   "count": 26
   },
   {
    "group": "Property",
@@ -22028,7 +22026,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 55
+   "count": 54
   },
   {
    "group": "Property",
@@ -22124,13 +22122,13 @@
    "group": "Property",
    "name": "News search (中文): 租用 甲廈 平方呎",
    "ok": true,
-   "count": 24
+   "count": 25
   },
   {
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 45
+   "count": 44
   },
   {
    "group": "Property",

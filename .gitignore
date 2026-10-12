@@ -1,0 +1,4 @@
+__pycache__/
+data/snapshots/
+dashboard.html
+.DS_Store

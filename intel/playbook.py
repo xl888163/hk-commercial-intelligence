@@ -28,8 +28,8 @@ PLAYBOOK = {
         "Warehouse / 3PL operations & security managers, port and air-cargo operators",
         "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence"),
     "Luxury & HNW Goods": (
-        "Jewellery & watch retailers, auction houses, family offices, private banks",
-        "High-grade alarms, vault & showroom CCTV, VIP / executive protection, secure event and exhibition guarding"),
+        "Collectors and high-net-worth visitors, galleries, auction houses, art logistics & storage firms, jewellery & watch houses, family offices, private banks",
+        "Artwork & collection protection (high-grade alarms, CCTV, access control for galleries, vaults and private residences), VIP / executive protection, secure exhibition guarding, Pinkerton due diligence for family offices"),
     "Security & Safety": (
         "Security system integrators & vendors (partners), end-user security managers visiting; competitors (market intel)",
         "Partner with integrators on guarding + technology bundles; scout new CCTV / access tech; meet end-user security managers"),

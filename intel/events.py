@@ -5,6 +5,7 @@ import html
 import re
 
 from .net import fetch, fetch_json
+from .watchlist import official_pages
 
 MONTHS = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
@@ -88,7 +89,7 @@ def hkcec(max_pages=12):
     return out
 
 
-AWE_KEEP = {"exhibition", "conference", "meeting", "education", "private event"}
+AWE_KEEP = {"exhibition", "conference", "meeting", "education", "private event", "special event", "sports"}
 
 
 def asiaworld_expo():
@@ -209,4 +210,5 @@ SOURCES = [
     ("AmCham HK events", lambda: glueup_chamber("https://www.amcham.org.hk/events", "AmCham HK")),
     ("BritCham HK events", lambda: glueup_chamber("https://www.britcham.com/events", "BritCham HK")),
     ("HKGCC events", hkgcc),
+    ("Official event websites (data centre, art, HNW)", official_pages),
 ]

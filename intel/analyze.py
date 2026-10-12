@@ -49,7 +49,7 @@ LEISURE_RX = re.compile(r"ballet|halloween|spooktacular|wine tasting|yoga|\brun\
 EVENT_SECTOR_PTS = {
     "Data Centre": 5, "Facility Management & Real Estate": 4, "Security & Safety": 5,
     "Finance & Professional Services": 3, "Infrastructure & Construction": 3, "Logistics & Supply Chain": 3,
-    "Retail & Consumer": 3, "Luxury & HNW Goods": 3, "Healthcare & Life Sciences": 2,
+    "Retail & Consumer": 3, "Luxury & HNW Goods": 5, "Healthcare & Life Sciences": 2,
     "Education & Government": 2, "Hospitality, Food & Tourism": 2, "AI & Technology": 1,
     "Energy & Environment": 1, "Manufacturing & Consumer Goods": 1,
 }
@@ -79,7 +79,7 @@ def build_events(raw_events, today):
     for r in raw_events:
         if not r.get("start") or r["end"] < today or r["start"] > horizon:
             continue  # only events a salesperson can still attend
-        if re.search(r"\bconcert\b|\blive in\b|world tour|fan ?meeting", r["name"], re.I):
+        if re.search(r"\bconcert\b|\blive\b|\btour\b|fan ?meeting|halloween|comedy|symphony|\bcon\b", r["name"], re.I):
             continue
         if NON_HK.search(f"{r.get('venue', '')} {r['name']}") and not HK.search(r.get("venue", "")) \
                 and not area_for(r.get("venue", "")):
@@ -111,7 +111,7 @@ def build_events(raw_events, today):
         area = "Online / Virtual" if online else (area_for(venue) or area_for(r["name"]) or AREA_UNSTATED)
         big_venue = "HKCEC" in venue or "AsiaWorld-Expo" in venue
         days = (r["end"] - r["start"]).days + 1
-        is_fair = big_venue and bool(re.search(r"trade|exhibition|fair|expo|show", f"{access} {r.get('category', '')} {r['name']}", re.I))
+        is_fair = big_venue and bool(re.search(r"trade|exhibition|fair|expo|show|festival", f"{access} {r.get('category', '')} {r['name']}", re.I))
 
         score, reasons, leads = 0, [], []
 
@@ -127,6 +127,13 @@ def build_events(raw_events, today):
                 add(1, "Several target sectors present")
         if primary == "Security & Safety":
             leads.append("Partner & market intel")
+        if "Luxury & HNW Goods" in secs:
+            leads.append("HNW clients & artwork protection")
+        partner = is_fair or "exhibition" in r.get("category", "").lower() or "fair" in r["name"].lower()
+        if partner and primary in ("Data Centre", "Luxury & HNW Goods", "Security & Safety", "Infrastructure & Construction",
+                                   "Facility Management & Real Estate"):
+            add(1, "Exhibitors / organiser are potential partners")
+            leads.append("Exhibitor & organiser partnership")
         if SENIOR_RX.search(r["name"]) and not TRAINING_RX.search(r["name"]):
             add(2, "Senior decision-makers in the room")
             leads.append("Senior networking")
@@ -178,6 +185,9 @@ def build_events(raw_events, today):
             org = r.get("organiser") or "the organiser"
             steps.append(f"Event-security lead: contact {org}" + (f" ({contact}, as listed by HKCEC)" if contact else "")
                          + " about guarding, crowd management and badge control for this or the next edition.")
+        if "Exhibitor & organiser partnership" in leads:
+            steps.append(f"Partnership: ask {r.get('organiser') or 'the organiser'} about official security partner / sponsor packages, "
+                         "and offer exhibitors booth security, high-value item guarding and alarm/CCTV for the show period.")
         steps.append(f"Follow up within 3 working days after {_fmt(r['end'])} and log contacts here.")
 
         out.append({

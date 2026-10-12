@@ -13,7 +13,7 @@ SECTORS = [
     ("Infrastructure & Construction", r"infrastructure|construction|engineering|contractor|northern metropolis|railway|\bMTR\b|bridge|land sale|\btenders?\b|\bsites?\b|\bplots?\b|redevelop|property development|architect|基建|建造|工程|地皮|用地|招標|北部都會區|重建"),
     ("AI & Technology", r"(?-i:\bAI\b)|artificial intelligence|\btech\b|technolog|fintech|digital|\bcyber|electronic|software|semiconductor|robot|innovation|start-?up|\bICT\b|smart home|smart city|gaming|esports|人工智能|科技|機械人|機器人|金融科技|創科"),
     ("Logistics & Supply Chain", r"logistic|supply chain|warehous|\bcargo\b|freight|shipping|\bports?\b|container terminal|cold storage|courier|maritime|terminal expo|\bterminals?\b|物流|貨倉|倉庫|貨運|港口|供應鏈|冷庫"),
-    ("Luxury & HNW Goods", r"luxury|jewel(?:le)?ry|\bwatch(?:es)?\b|diamond|\bgems?\b|\bgold\b|\bwine\b|art basel|art fair|connoisseur|family office|private bank|\byachts?\b|antique|collectible|珠寶|鐘錶|名錶|奢侈|藝術品|家族辦公室|豪宅"),
+    ("Luxury & HNW Goods", r"art (?:fair|basel|central|week|auction)|affordable art|fine art|auction|sotheby|christie|phillips|bonhams|horse show|equestrian|longines|\bpolo\b|supercar|whisky|spirits|moutai|collectible|luxury|jewel(?:le)?ry|\bwatch(?:es)?\b|diamond|\bgems?\b|\bgold\b|\bwine\b|art basel|art fair|connoisseur|family office|private bank|\byachts?\b|antique|collectible|珠寶|鐘錶|名錶|奢侈|藝術品|家族辦公室|豪宅"),
     ("Retail & Consumer", r"retail|\bshops?\b|\bstores?\b|\bmalls?\b|shopping|consumer|fashion|lifestyle|cosmetic|beauty|supermarket|outlet|零售|商場|商舖|舖位|旗艦店|美妝|wedding|homex|houseware|mega showcase|creators"),
     ("Manufacturing & Consumer Goods", r"\btoys?\b|games fair|gifts?\b|premium|\bbaby\b|optical|stationery|printing|packaging|printpack|cosmo|mega show|electronics|lighting|玩具|禮品|印刷|包裝"),
     ("Finance & Professional Services", r"\bbanks?\b|banking|insur|\bfunds?\b|asset manag|securities|investment|financ|hedge|law firm|legal|arbitration|accounting|consult|\bIPO\b|brokerage|prudential|\bAIA\b|\bHSBC\b|standard chartered|citi(?:bank|group)?\b|jpmorgan|goldman|morgan stanley|\bUBS\b|blackrock|manulife|\bAXA\b|sun life|\bFWD\b|susquehanna|citadel|millennium management|\bZA Bank\b|銀行|保險|基金|證券|律師|投資|會計"),
@@ -21,7 +21,7 @@ SECTORS = [
     ("Energy & Environment", r"\benergy\b|environment|\bgreen\b|\beco\b|sustainab|\bESG\b|solar|hydrogen|carbon|lighting|能源|環保|綠色|減碳"),
     ("Hospitality, Food & Tourism", r"\bhotels?\b|hospitality|\bfood\b|\bF&B\b|restaurant|touris|travel|catering|酒店|餐飲|旅遊"),
     ("Education & Government", r"education|school|universit|government|public sector|consul|教育|大學|政府"),
-    ("Facility Management & Real Estate", r"facilit(?:y|ies) manag|property manag|real estate|\bproperty\b|properties|landlord|developer|\bREIT\b|office space|grade a|物業|地產|寫字樓|甲廈|設施管理"),
+    ("Facility Management & Real Estate", r"smart building|building services|facilit(?:y|ies) manag|property manag|real estate|\bproperty\b|properties|landlord|developer|\bREIT\b|office space|grade a|物業|地產|寫字樓|甲廈|設施管理"),
 ]
 SECTOR_NAMES = [s for s, _ in SECTORS] + ["Other"]
 _SECTOR_RX = [(name, re.compile(rx, re.I)) for name, rx in SECTORS]

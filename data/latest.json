@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T00:59:56+08:00",
+ "generated": "2026-10-13T01:02:33+08:00",
  "property_days": 90,
  "events": [
   {
@@ -5335,7 +5335,7 @@
   {
    "id": "9388bc824002",
    "kind": "property",
-   "headline": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
+   "headline": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
    "date": "2026-09-21",
    "first_reported": "2026-09-21",
    "month": "2026-09",
@@ -5379,15 +5379,15 @@
    ],
    "sources": [
     {
-     "name": "香港01",
-     "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOcmx1Yllnbi0wZ3NIU20tcUd5MldIRnBxbFZqMXNCNlRJbnU5eDdidU9odnVqYTlaYnlUdk1JTDVaRVM0eVk4UUVNSHdteS10RFJzb2h5cXpVOWlJdjZLWWJSUjdTTERkQXc1U0tkbXlZdldPekVidmRrUy1nN2dSMTRlaDd6bEJ5aWl3ckxIbWd6dGkxbjJETkpFWjR3bTl3WER0QmM1ZlhnN0Q2Y2ViWkMyUG1OajZ6XzZ3VHZDZW1XNFpRby16MDFOS0trRExZc3dmNmdVRWxNbU1DNkhCSGZCUmdhd3lDdWlqMktsVFVQZFh1NU16NGVMX1pMZWJjRkpwNU9KdGVjSFNMclRVbkNXenRZOFR4QWVjVDVMc2ZwbUdWcVktODU5X0hVMG1fSEJ5ZmJnczlReXRTaGt6Si1ZLVJadjNJbzlBTnhYc2F6SUhXUWNpcDl6ZFdtc0dQLXp3Y2paZDN3VDhpSXNNTW5GZmZuMnl5R25Ob2czU0JIX2wxOWpVMzI4aVZKRmNU?oc=5",
-     "title": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
-     "date": "2026-09-21"
-    },
-    {
      "name": "on.cc東網",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFNJOEl5cVpXRHJfV1hpY1c4NmxndTNRNFZuRERndGRjSS1OanBPaUpxS05GNm81TF80QTVELTd6dTF5d0s2UnJ3WjBEN2RPRjNJZFdVTGxucVVmLVJzdEwtS0h3SXpidjdSSDFFcWY3NjRVQzRzbzVDdkdVVGpEUllxZEN4RU9CdV82RkNaQQ?oc=5",
      "title": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
+     "date": "2026-09-21"
+    },
+    {
+     "name": "香港01",
+     "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOcmx1Yllnbi0wZ3NIU20tcUd5MldIRnBxbFZqMXNCNlRJbnU5eDdidU9odnVqYTlaYnlUdk1JTDVaRVM0eVk4UUVNSHdteS10RFJzb2h5cXpVOWlJdjZLWWJSUjdTTERkQXc1U0tkbXlZdldPekVidmRrUy1nN2dSMTRlaDd6bEJ5aWl3ckxIbWd6dGkxbjJETkpFWjR3bTl3WER0QmM1ZlhnN0Q2Y2ViWkMyUG1OajZ6XzZ3VHZDZW1XNFpRby16MDFOS0trRExZc3dmNmdVRWxNbU1DNkhCSGZCUmdhd3lDdWlqMktsVFVQZFh1NU16NGVMX1pMZWJjRkpwNU9KdGVjSFNMclRVbkNXenRZOFR4QWVjVDVMc2ZwbUdWcVktODU5X0hVMG1fSEJ5ZmJnczlReXRTaGt6Si1ZLVJadjNJbzlBTnhYc2F6SUhXUWNpcDl6ZFdtc0dQLXp3Y2paZDN3VDhpSXNNTW5GZmZuMnl5R25Ob2czU0JIX2wxOWpVMzI4aVZKRmNU?oc=5",
+     "title": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
      "date": "2026-09-21"
     },
     {
@@ -5604,16 +5604,16 @@
   {
    "id": "7a07aa5d3c2b",
    "kind": "property",
-   "headline": "Hysan courts fintech as ZA Bank commits to new Causeway Bay headquarters",
+   "headline": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
    "date": "2026-09-09",
    "first_reported": "2026-09-09",
    "month": "2026-09",
    "company": "ZA Bank",
    "types": [
-    "New HQ",
-    "Lease / pre-lease"
+    "Lease / pre-lease",
+    "New HQ"
    ],
-   "type": "New HQ",
+   "type": "Lease / pre-lease",
    "building": "Lee Garden Eight",
    "landlords": [
     "Hysan"
@@ -5629,7 +5629,7 @@
    "size": 45000,
    "size_txt": "4.5萬呎",
    "floors": 4,
-   "floors_txt": "四層",
+   "floors_txt": "four floors",
    "lang": "en",
    "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
    "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
@@ -5652,6 +5652,12 @@
    ],
    "sources": [
     {
+     "name": "Hong Kong Business",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY19PWERTM1RlTW5mdnJJSFJlWEloRVJIcDljZXRnenYwSWs5NnZiNUpwWlJvVlU4QnJNajlZUXVZd0M5NnhMZ2taV0plR3o4dTdGZGtXZXN0bTR0QTdHRFNvZjFTcTE3dEMyMGUwanU5ay1kcEpwWUZSNHVNcTFCWVgzRC1MY1VnWkdjb0RKSUhkUGp1ZF84SkRoa1Y?oc=5",
+     "title": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
+     "date": "2026-09-09"
+    },
+    {
      "name": "South China Morning Post",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3RMVFFYaVZRZ0ZlTTRzdThyZU8zcWxrcnE0WFZsVloxbUpMQmpMM0ltS2RCWHFKdlpqSnNZSzd0UXo5ZmNHNVVaclQ4Y254Uk51RDdXZHl2QVZZY2UxTk9qNzhaNzVPZ3BlVTRVa29BM1JiSDlFcGpUOVhMcklsZjh2UGNZU3ZWRUFSYVRXaTlWVXNieEpSX21yNHhKT3NfcUVERlhNNkdFOTc3MTJBZC16MTNfQldGV2xRb3BsTG5JeUhLZ1pxZzA3WS1yeTZ0di04VFBR0gHWAUFVX3lxTFB3TWlpSks2ZFRHX3VURVFxdlV2dFpJMHh5Mk1GMFJNei1pS2dPcTZZbGtxbkVWY2dhclpld3Q5UUNDRkwxV1RPTW44dE91YmpIeklsMnJxSldoMEZiQnFBZnZSYnpRTnJURnpFel9KRDVGRGpaenQxQTBEQVBRNGRqMUo5M1ZvMVgxV2tPVWtvdlhlQ3E2b1h3TGpkeDM0b3B5ZEd3Y283d0VBX0c5Q0F6dnRURDRzbG5LRjR0dTYtbVR0cUNUV0dJdzRDRnBKNVQ2d2N3Y1E?oc=5",
      "title": "Hysan courts fintech as ZA Bank commits to new Causeway Bay headquarters",
@@ -5671,7 +5677,7 @@
     },
     {
      "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQUG5sS1pYSUlOQXhWWjFFSGpucnp4NWhFT2lSbVhoQ1ZTSHZyZzE1b2NiTFJIaGxyYjlXZHhRNUpnU1pPbGJZdExoejhyZ2hsdGNURk5ocGtheWRWdDlBSUVVZF93WXFnV3dfekw5NHFoeTRBZDRJdS1tdlJBTVNsd01xbGJMWHgtT2V6M3RMdnBsX1IwZ19Ja1RmUUVVMEo4TkpwRmdVUmxZWVBpTU5pT2JOM2RFdGJNbmdMODFsTFp5bFBWVzRFVmtYZUpCR0JLRzRrdzZ4NTdWZXNFalRPT3lDTWwyZG9XMHgyUnpueGMtdzNtamt2eE1ySzdzS3lTNVJYNkx4UGw4Qk5FUDhoSnVQQk5oaWZ3ODdldXVTazc5UHZQMjRHLW9tcWZ6TE0?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMirwNBVV95cUxOczFscTdnMWQ3R0lHalE2dER2b3hYeFJiLU5oTmFDczJhV2dyandkRFVuQXBPR2ZJVnhNWC1xZERMQlBaSGRhWDF0WTBLNlVHYTRpZGtFOUVZc2FRQTU4R2xXeWQ5S2hDUnFhLVlBeTFQd2VwcVh5UzN0MlpSWHljQnBWTkFsdXIzckFGTC01NmtlZHZSMmJaMXRQbGxCWlcyNEhhTU5HMEh4bTREanRlMlhacjQ0REVWOFhNNFphaU1IbGp4LURNaDEtZ0g0UmpOMmpOTmE3T3h4aGN0RjJsUDV2R29zSHhTQ0t1ZGpCZG5aWE8tcjJpR05Ua1lQd3M5TTRtTHQzVldkX2QxYnQ1cWJIU2NCVWlBcTlOYk9KWk1rcjlSTVE0NzJpSEV2dTVSanRTTGxtNVpiQ19YQ1dzYzVLUFI3MlRsaTdscXpFNTN3Zmt2cHlLY1owaU1JTFBWd1VLYTRiU2habDRuQmk1VjEyaTBfemJBN19HR1J5VjN5TWdQRi1MbE84Zk9PNnVreGpadl9QSzFKN21yMUtGQ0xadDg5cXhsYTZJRUppVQ?oc=5",
      "title": "眾安銀行承租利園8期4.5萬呎樓面作總部",
      "date": "2026-09-09"
     },
@@ -5700,7 +5706,7 @@
      "date": "2026-09-09"
     }
    ],
-   "verification": "Corroborated by 8 outlets",
+   "verification": "Corroborated by 9 outlets",
    "score": 13,
    "level": "HIGH",
    "thresholds": [
@@ -5714,7 +5720,7 @@
     "Mid-size space (45,000 sq ft) (+2)",
     "4 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 8 outlets (+1)"
+    "Reported by 9 outlets (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -6065,157 +6071,6 @@
    "is_new": false
   },
   {
-   "id": "1d041430d08c",
-   "kind": "property",
-   "headline": "Prudential Hong Kong expands Taikoo Place footprint to 83,000 sq ft",
-   "date": "2026-08-20",
-   "first_reported": "2026-08-19",
-   "month": "2026-08",
-   "company": "Prudential",
-   "types": [
-    "Expansion",
-    "New HQ",
-    "Lease / pre-lease"
-   ],
-   "type": "Expansion",
-   "building": "Taikoo Place",
-   "landlords": [
-    "Swire Properties"
-   ],
-   "area": "Island East (North Point / Quarry Bay / Taikoo)",
-   "grade": "Grade A building (named)",
-   "sectors": [
-    "Finance & Professional Services",
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Finance & Professional Services",
-   "size": 83000,
-   "size_txt": "83,000 sq ft",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
-   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
-   "actions": [
-    "Find Prudential's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call Swire Properties leasing / building management at Taikoo Place for the fit-out timeline, contractor and consultant.",
-    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
-    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=Prudential%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=Prudential%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "SCMP",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVE82YWFqLUxnR2lEV19QV2ZIZXh0aHRFUlQzSGgtdFNEZGVsekRTLVBZS3dUajR6d18wU0lzcTMweE1sVnFtR0VFRWFhNjhKVzhKNi1kUWtZVHUwaXVrOGpjUU5hV3E1VVNSVzdQYXVRMUYtbUdSVWtBMWRvMUpWZG1rYlhIYVdaVG10ckdGYWQwMERYVVZkX1B2Snc5RnV0MkV3aTNKbW5iYmdNNjlLTmFWUFhqeTB2WGNJVEJ2QWt3VVBlMEcxNnh30gHKAUFVX3lxTE5lRGV3TzVpb3RBck9QWGJkRjROUGNUenJWSF9RWVUxR1B1WG14bXNoQUluVlRvNnZ2cGpNRFNtNERGbERDaF95blBBaWV0Y25JZjhwZXBTRjhWbjBHSGtDbjk4c254VERrdFlMekVnNGwtMnNRYUJzNjBwY1ctNzViU2hzYUJnZUFCd3hlNkMxY0RPWWszdGsyZ0ZKaEIwZDF6MVptOVFsd0RDZ2s5SWFaT20xRmhsc1pCZE9HTnhTbkRqeFl2M3Vsb0E?oc=5",
-     "title": "Prudential Hong Kong expands headquarters across Swire Properties’ towers",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "finews.asia",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ1ZMS24zUVRibmpzNnk0NHFZLXpZUmVWdkw1UXJiZVlBMzEtUFpZdExmOHlZUzcyTUhncEljWDBQRHJLVmRVYVhHN3lUMTNwV0xQZTE4RUhKOW1sMDlhdld4NFhVakx3T3ZoVG9aOEZYWGx5bGlyNVdkOHlNTEcyeWY0eVh0Zw?oc=5",
-     "title": "Prudential Expands Hong Kong Headquarters",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "Now 新聞",
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DMl84R3lTdUJNcEFMOW1uVG5mQURmVktxMXRzSDhyTm0yZUNncGVQTkxqc1FFekx6VUJISXlvRWVxMmd2N3FnaXF3cUJvWmc5UEVoeXFoMkV1Q21zZ3JGSUo5Nlo?oc=5",
-     "title": "【保誠】擴充太古坊香港總部樓面至8.3萬呎",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "香港01",
-     "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQUkJZektCSVRQYlRncUdtc2NjTzFKelBTZUNnXzh6VVlmcFZtWUI4a0hSRmlET1RpZ1NUZFBKT2dXaTNLQXVYN25NNlJoR0E2ZUJMLXlLSnhhQTdraEdWbHVxYTZVYVBia0ZNNEVHWmJlb08xTXB0OHdPQmFtVFBGX0RYeHdiUVF5Uy1nWnJ5MlZOWFhkQTI4WEM5R1Q0VUJsbmFZNWFMMmViUXZBM1ZEWnF2QksyY0VodDFJc0dnRXlDcFB0NVVTa1RzNUllU0Vyem9zcmlRbXF2NjJHT3lqMmJoRW43LVJNamxMMUpPcmE0ZnNuQzhrS0ZLLUxUaVl3d0FfQ0h1V0RGVF9weTgwc2VaQWhNWmU2TjlKTVkyMm45Q0VYZmZGMWRTQTg4TWpfdlRnc1NPeWItYlA4WkFSakhpamhiZXdNTkdZdUtBUWJuc2RXRGF6ZzZ6SDNnN0tRY0wzd1JZcmRJdXhURExmcGIya1FxemZ1dk9TYWQtU1NZeGdpbHhlZ2pRcU14eVk4bi1zVGgxN3lGdjdKS0hwcFFycmlMOVk?oc=5",
-     "title": "保誠保險與太古地產簽新租約 擴充太古坊辦公空間至8.3萬呎",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxNR1loMzdsYmEyd09JdnVvUzlRV2JrSjlFaEpoMDY2b2hBQWo4NnhULU00X2p2MFIyOEI3a2Z5Y1FFQkxiY21uYzM0MElPSk02TEs2ZDdyd1U0UmhwSUVwZmdadEhndXpZMmw3S1FMNmhSQS1WcUQ1ZnFIbXlqeVNyQWdZbmxGOXNlQWh4UTE1NTd4UGlVNmJXYlY1enNSN2JoWnhMVVBQT2pJOFhPRE9ZYWJEazhPNl9ncHJPTlpURnBJNlhxSWhUc3pQSzVEN1BSbmxxVUhmODdtUkZ2Ml93aUc4MWk0bF9qZlJNRi1uS0pxU2hSOTYzM2N2M1RfOG1UUFByYVNLMXVzX0JnbmVoaVVCQTZJZHBKWlljN3ZoclBpbUNuakNvd2VJWXV6VnZwUlpORFYzYlZVdVRCYnlkWUNvcm9Sa0xCVWg5U2xpN3lZQnFydTBTdUhXTmhGSkJrWlE5dzVFU25LRm5CNkdYLUNTWUNyVWNfcGoyMmtDanBnTzQ3WFFEVUZoM0NJWWE4Q1VZNnpzd2lVbFNEaUZjc0NmekY2aWRXVE5yLXlwNS1JMndrUXdWLU5YdVA3SVpiQnpvNEphTnVmeHZqcE1XbG1SVEdPSG1iRWIybU9rWlhZa1BYbGpEWHlqbVlBNUdrMmp1aTIwbjBHNG9fTUE?oc=5",
-     "title": "【1972】保誠擴充太古坊總部辦公樓面面積至約8.3萬呎 體現對香港長遠發展前景信心",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "地產站",
-     "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQQ19lUzJHaHJ4S1dVOFIwOXpMYWc4cW9fYkU5VF9Ka2lxckxHT05JMndpV2Vib0o1OW9IY0FpNlQzeXo0d1RVd0lReE90M000YTFXOS05N0k3bkdQRTRnNmtWVG93UUhIb3d0NmUtTENSRXJQa01obG0yRmU4M2VuY0l1ajR4OFU5U1I1NDI5U1M2Y3lFWTI2TTg5TGc2SXdJT1RjOWhkVHZQaFo2WHhOQU1qZVdZd21rRW1KczBGM2gzc2RnZS1iRVN4dDRkQ0hoaHNMS3JRUU5jSFVwYzFvaER1M1BqV0lYRk9uMWtXVHN6Sm1ZQXhMSkRqZlNvd3EySGFsUHdRdVFsMFl5N21rVTE4b19LRENJbTl4dHJVaVl2MmNaM0xJTmxxbU5HVld5SmF6M0t2dVM1LUNGdkdxanNXVUFUVmpWMzRVTFFXMGpOZkJ6MzJad0s2UWZMLXVkTG1lamwtYzVmNkZl?oc=5",
-     "title": "太古坊成保險業基地 保誠擴充太古坊香港總部至8.3萬呎|香港經濟日報",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "香港文匯報",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4V3lSblp1VGlUUkwwY1JRNjVLUkltRUJWTXdBVDY5ZmdfVENJNnVROUxaWnJ4ZHNjZmhGMWt3LTdWTVB0RmZRU0tMMGh6aHpHVHpJamFGWDREdjdhcHJoRWFmUnMxZnhkOE1wVDctVGFLLTJ6LTJn?oc=5",
-     "title": "保誠與太古簽新租約擴充太古坊香港總部辦公空間- 地產",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "星島頭條",
-     "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
-     "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
-     "title": "保誠擴充太古坊香港總部辦公空間",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "Hong Kong Business",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb25xX0lEdGlXSkNnaDdfNWpueFBxSUoxR21sQUpXYUVGM0JUNk1xa20zUklaZjVoNUQtVk9SYWRFaWlPdGhnMTRXSk9SZG1uSEZkRmhLSjJmU1owNkRtdXJrcEsyRE5ReEZoOUF3eFlnQlRSOG4xNloxX0RDQ240MnptY1BlYjhjeGwyNTFOOG92M1hsMnhYV3JRZi1zbV9NdlFHRXR1OWZCUQ?oc=5",
-     "title": "Prudential Hong Kong expands Taikoo Place footprint to 83,000 sq ft",
-     "date": "2026-08-20"
-    },
-    {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPSGpudHJuUHpEZXdEMmRwdTQwcUhhaXBUb0hJaUo1ZW5FTnFuZ2pFbmFFLVl5UnJsNVBFZXBVQlNnTE9maWx0UndfYTNLbXVETlY4ZFN3Vk96SmRtWWlicWRuUXZzMFl2a0lIdjdmM2ZpeVZ1M1RMam9tLU9zODdRUUVLbV9jQ3pZcmpVNmNraU8yUWVLRS1YX1pFVVF0SjVxOF9XSW5yVEdPdHRQUmtyRVp4RW1oR2RONzU3eDVQbTF1bGk0dm5OM0tkc1owQ2pjRHFWdDljLWN3NVMzZG9fdnBlUzI2Skt4N01DXzd5N2syT3djVUUtcFI2TVc2c2lnUDN1SVZpNVRDbHNC?oc=5",
-     "title": "保誠擴租太古坊 香港總部增至8.3萬呎",
-     "date": "2026-08-20"
-    },
-    {
-     "name": "香港文匯報",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UdGtQNVlXZ1VPMm0ycHpEYnpQYnRRbXRkelBJTHZnVThyQXJ0ZFF4czUwTGpsZGNnWUZqR0Q1cGYyMmtDX0tVUDdiRTZickx3aHowVHFCandUYnhfUWJWTkhwTFFfQzVGd3dKcC1zb2M2Sk9MNXg4?oc=5",
-     "title": "保誠擴充太古坊總部- 財經",
-     "date": "2026-08-20"
-    }
-   ],
-   "verification": "Corroborated by 10 outlets",
-   "score": 15,
-   "level": "HIGH",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)",
-    "Expansion: extra floors to secure (+2)",
-    "Grade A building: Taikoo Place (+2)",
-    "Large space (83,000 sq ft) (+3)",
-    "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 10 outlets (+1)"
-   ],
-   "features": [
-    "area:Island East (North Point / Quarry Bay / Taikoo)",
-    "grade:Grade A building (named)",
-    "kind:property",
-    "move:Expansion",
-    "move:Lease / pre-lease",
-    "move:New HQ",
-    "sector:Finance & Professional Services"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
    "id": "2c0b13063293",
    "kind": "property",
    "headline": "Qatar Airways Cargo relocates regional office to Hong Kong",
@@ -6306,6 +6161,157 @@
    "is_new": false
   },
   {
+   "id": "1d041430d08c",
+   "kind": "property",
+   "headline": "Prudential Hong Kong expands Taikoo Place footprint to 83,000 sq ft",
+   "date": "2026-08-20",
+   "first_reported": "2026-08-19",
+   "month": "2026-08",
+   "company": "Prudential",
+   "types": [
+    "Expansion",
+    "New HQ",
+    "Lease / pre-lease"
+   ],
+   "type": "Expansion",
+   "building": "Taikoo Place",
+   "landlords": [
+    "Swire Properties"
+   ],
+   "area": "Island East (North Point / Quarry Bay / Taikoo)",
+   "grade": "Grade A building (named)",
+   "sectors": [
+    "Finance & Professional Services",
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Finance & Professional Services",
+   "size": 83000,
+   "size_txt": "83,000 sq ft",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
+   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
+   "actions": [
+    "Find Prudential's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call Swire Properties leasing / building management at Taikoo Place for the fit-out timeline, contractor and consultant.",
+    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
+    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Prudential%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Prudential%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "South China Morning Post",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVE82YWFqLUxnR2lEV19QV2ZIZXh0aHRFUlQzSGgtdFNEZGVsekRTLVBZS3dUajR6d18wU0lzcTMweE1sVnFtR0VFRWFhNjhKVzhKNi1kUWtZVHUwaXVrOGpjUU5hV3E1VVNSVzdQYXVRMUYtbUdSVWtBMWRvMUpWZG1rYlhIYVdaVG10ckdGYWQwMERYVVZkX1B2Snc5RnV0MkV3aTNKbW5iYmdNNjlLTmFWUFhqeTB2WGNJVEJ2QWt3VVBlMEcxNnh30gHKAUFVX3lxTE5lRGV3TzVpb3RBck9QWGJkRjROUGNUenJWSF9RWVUxR1B1WG14bXNoQUluVlRvNnZ2cGpNRFNtNERGbERDaF95blBBaWV0Y25JZjhwZXBTRjhWbjBHSGtDbjk4c254VERrdFlMekVnNGwtMnNRYUJzNjBwY1ctNzViU2hzYUJnZUFCd3hlNkMxY0RPWWszdGsyZ0ZKaEIwZDF6MVptOVFsd0RDZ2s5SWFaT20xRmhsc1pCZE9HTnhTbkRqeFl2M3Vsb0E?oc=5",
+     "title": "Prudential Hong Kong expands headquarters across Swire Properties’ towers",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "finews.asia",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ1ZMS24zUVRibmpzNnk0NHFZLXpZUmVWdkw1UXJiZVlBMzEtUFpZdExmOHlZUzcyTUhncEljWDBQRHJLVmRVYVhHN3lUMTNwV0xQZTE4RUhKOW1sMDlhdld4NFhVakx3T3ZoVG9aOEZYWGx5bGlyNVdkOHlNTEcyeWY0eVh0Zw?oc=5",
+     "title": "Prudential Expands Hong Kong Headquarters",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "Now 新聞",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DMl84R3lTdUJNcEFMOW1uVG5mQURmVktxMXRzSDhyTm0yZUNncGVQTkxqc1FFekx6VUJISXlvRWVxMmd2N3FnaXF3cUJvWmc5UEVoeXFoMkV1Q21zZ3JGSUo5Nlo?oc=5",
+     "title": "【保誠】擴充太古坊香港總部樓面至8.3萬呎",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "香港01",
+     "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQUkJZektCSVRQYlRncUdtc2NjTzFKelBTZUNnXzh6VVlmcFZtWUI4a0hSRmlET1RpZ1NUZFBKT2dXaTNLQXVYN25NNlJoR0E2ZUJMLXlLSnhhQTdraEdWbHVxYTZVYVBia0ZNNEVHWmJlb08xTXB0OHdPQmFtVFBGX0RYeHdiUVF5Uy1nWnJ5MlZOWFhkQTI4WEM5R1Q0VUJsbmFZNWFMMmViUXZBM1ZEWnF2QksyY0VodDFJc0dnRXlDcFB0NVVTa1RzNUllU0Vyem9zcmlRbXF2NjJHT3lqMmJoRW43LVJNamxMMUpPcmE0ZnNuQzhrS0ZLLUxUaVl3d0FfQ0h1V0RGVF9weTgwc2VaQWhNWmU2TjlKTVkyMm45Q0VYZmZGMWRTQTg4TWpfdlRnc1NPeWItYlA4WkFSakhpamhiZXdNTkdZdUtBUWJuc2RXRGF6ZzZ6SDNnN0tRY0wzd1JZcmRJdXhURExmcGIya1FxemZ1dk9TYWQtU1NZeGdpbHhlZ2pRcU14eVk4bi1zVGgxN3lGdjdKS0hwcFFycmlMOVk?oc=5",
+     "title": "保誠保險與太古地產簽新租約 擴充太古坊辦公空間至8.3萬呎",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxNR1loMzdsYmEyd09JdnVvUzlRV2JrSjlFaEpoMDY2b2hBQWo4NnhULU00X2p2MFIyOEI3a2Z5Y1FFQkxiY21uYzM0MElPSk02TEs2ZDdyd1U0UmhwSUVwZmdadEhndXpZMmw3S1FMNmhSQS1WcUQ1ZnFIbXlqeVNyQWdZbmxGOXNlQWh4UTE1NTd4UGlVNmJXYlY1enNSN2JoWnhMVVBQT2pJOFhPRE9ZYWJEazhPNl9ncHJPTlpURnBJNlhxSWhUc3pQSzVEN1BSbmxxVUhmODdtUkZ2Ml93aUc4MWk0bF9qZlJNRi1uS0pxU2hSOTYzM2N2M1RfOG1UUFByYVNLMXVzX0JnbmVoaVVCQTZJZHBKWlljN3ZoclBpbUNuakNvd2VJWXV6VnZwUlpORFYzYlZVdVRCYnlkWUNvcm9Sa0xCVWg5U2xpN3lZQnFydTBTdUhXTmhGSkJrWlE5dzVFU25LRm5CNkdYLUNTWUNyVWNfcGoyMmtDanBnTzQ3WFFEVUZoM0NJWWE4Q1VZNnpzd2lVbFNEaUZjc0NmekY2aWRXVE5yLXlwNS1JMndrUXdWLU5YdVA3SVpiQnpvNEphTnVmeHZqcE1XbG1SVEdPSG1iRWIybU9rWlhZa1BYbGpEWHlqbVlBNUdrMmp1aTIwbjBHNG9fTUE?oc=5",
+     "title": "【1972】保誠擴充太古坊總部辦公樓面面積至約8.3萬呎 體現對香港長遠發展前景信心",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "地產站",
+     "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQQ19lUzJHaHJ4S1dVOFIwOXpMYWc4cW9fYkU5VF9Ka2lxckxHT05JMndpV2Vib0o1OW9IY0FpNlQzeXo0d1RVd0lReE90M000YTFXOS05N0k3bkdQRTRnNmtWVG93UUhIb3d0NmUtTENSRXJQa01obG0yRmU4M2VuY0l1ajR4OFU5U1I1NDI5U1M2Y3lFWTI2TTg5TGc2SXdJT1RjOWhkVHZQaFo2WHhOQU1qZVdZd21rRW1KczBGM2gzc2RnZS1iRVN4dDRkQ0hoaHNMS3JRUU5jSFVwYzFvaER1M1BqV0lYRk9uMWtXVHN6Sm1ZQXhMSkRqZlNvd3EySGFsUHdRdVFsMFl5N21rVTE4b19LRENJbTl4dHJVaVl2MmNaM0xJTmxxbU5HVld5SmF6M0t2dVM1LUNGdkdxanNXVUFUVmpWMzRVTFFXMGpOZkJ6MzJad0s2UWZMLXVkTG1lamwtYzVmNkZl?oc=5",
+     "title": "太古坊成保險業基地 保誠擴充太古坊香港總部至8.3萬呎|香港經濟日報",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "星島頭條",
+     "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
+     "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "信報網站",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
+     "title": "保誠擴充太古坊香港總部辦公空間",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "香港文匯報",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4V3lSblp1VGlUUkwwY1JRNjVLUkltRUJWTXdBVDY5ZmdfVENJNnVROUxaWnJ4ZHNjZmhGMWt3LTdWTVB0RmZRU0tMMGh6aHpHVHpJamFGWDREdjdhcHJoRWFmUnMxZnhkOE1wVDctVGFLLTJ6LTJn?oc=5",
+     "title": "保誠與太古簽新租約擴充太古坊香港總部辦公空間- 地產",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "Hong Kong Business",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb25xX0lEdGlXSkNnaDdfNWpueFBxSUoxR21sQUpXYUVGM0JUNk1xa20zUklaZjVoNUQtVk9SYWRFaWlPdGhnMTRXSk9SZG1uSEZkRmhLSjJmU1owNkRtdXJrcEsyRE5ReEZoOUF3eFlnQlRSOG4xNloxX0RDQ240MnptY1BlYjhjeGwyNTFOOG92M1hsMnhYV3JRZi1zbV9NdlFHRXR1OWZCUQ?oc=5",
+     "title": "Prudential Hong Kong expands Taikoo Place footprint to 83,000 sq ft",
+     "date": "2026-08-20"
+    },
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPSGpudHJuUHpEZXdEMmRwdTQwcUhhaXBUb0hJaUo1ZW5FTnFuZ2pFbmFFLVl5UnJsNVBFZXBVQlNnTE9maWx0UndfYTNLbXVETlY4ZFN3Vk96SmRtWWlicWRuUXZzMFl2a0lIdjdmM2ZpeVZ1M1RMam9tLU9zODdRUUVLbV9jQ3pZcmpVNmNraU8yUWVLRS1YX1pFVVF0SjVxOF9XSW5yVEdPdHRQUmtyRVp4RW1oR2RONzU3eDVQbTF1bGk0dm5OM0tkc1owQ2pjRHFWdDljLWN3NVMzZG9fdnBlUzI2Skt4N01DXzd5N2syT3djVUUtcFI2TVc2c2lnUDN1SVZpNVRDbHNC?oc=5",
+     "title": "保誠擴租太古坊 香港總部增至8.3萬呎",
+     "date": "2026-08-20"
+    },
+    {
+     "name": "香港文匯報",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UdGtQNVlXZ1VPMm0ycHpEYnpQYnRRbXRkelBJTHZnVThyQXJ0ZFF4czUwTGpsZGNnWUZqR0Q1cGYyMmtDX0tVUDdiRTZickx3aHowVHFCandUYnhfUWJWTkhwTFFfQzVGd3dKcC1zb2M2Sk9MNXg4?oc=5",
+     "title": "保誠擴充太古坊總部- 財經",
+     "date": "2026-08-20"
+    }
+   ],
+   "verification": "Corroborated by 10 outlets",
+   "score": 15,
+   "level": "HIGH",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "Move-in: new premises need security systems (+2)",
+    "Expansion: extra floors to secure (+2)",
+    "Grade A building: Taikoo Place (+2)",
+    "Large space (83,000 sq ft) (+3)",
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Reported by 10 outlets (+1)"
+   ],
+   "features": [
+    "area:Island East (North Point / Quarry Bay / Taikoo)",
+    "grade:Grade A building (named)",
+    "kind:property",
+    "move:Expansion",
+    "move:Lease / pre-lease",
+    "move:New HQ",
+    "sector:Finance & Professional Services"
+   ],
+   "first_seen": "2026-10-12T01:08:09+08:00",
+   "is_new": false
+  },
+  {
    "id": "8ce10e28427f",
    "kind": "property",
    "headline": "恒生首進駐港島甲廈 希慎廣場財富管理中心開幕 配備Sky Bar",
@@ -6387,7 +6393,7 @@
    "kind": "property",
    "headline": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
    "date": "2026-08-04",
-   "first_reported": "2026-07-30",
+   "first_reported": "2026-07-31",
    "month": "2026-08",
    "company": "AECOM",
    "types": [
@@ -6431,15 +6437,15 @@
    ],
    "sources": [
     {
-     "name": "Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxORWRzRXBPR1NkZHBGeHk5elBONmZjQTNoRzd3T2o3T0FIUlF0VGFia3ZESExPMUlfTXZKZmxkd0o5M21VOEpObkhLMTBtcnhpdVJWRW1tRkRTRUl1ZmZ0bk85V2EzbnZYT3dQNTByYS1kWlowRV9YRTBMQl91M0lFa2hPSTZabndpVTk3ZXdPWEE2a2xaODF1OUlvTHhaSXFTTHFfSkZuaXF0WWJDR05jU01yWnloVV8yZUdkZjYtcnJHcjNiUEpOTGVnSnM1czV5WURVZTFkbUlYVEdBY0o5UlQ2UWw1dXF4UnVTWFFNcmJ2OVpOZkd4TC16U0E2YlRycTNyeEx5YUVEWUJoYld2QkFMRGRwamQ3ekZlQ09acHZ5OGg3eVRya0h1X1dZMWpyalFRSmNUMTFWTGJ2eDRMTWkyQ19hcmRkM3VsSzN5bm0xVXZiYmZuRjhWVk9zVDRmQ052OU96Mnk5TE11TEhMbEFDNGVuMngzNVR1NGtJMER6S1BYMWxXVzJKNGtVUWhpMzBORGFxc01jd0lIY3I0UA?oc=5",
-     "title": "AECOM開設全新香港辦事處暨亞洲區總部 匯聚人才、科技與可持續發展",
-     "date": "2026-07-30"
-    },
-    {
      "name": "Macau Business",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVkUxVW5rS2JJX2VSYW12VVZkVVpxVnZBSVV3V21tdkRqX016ZjVDSVRhVGhIZ1VBUDdCbHAwT1hhVTFNUDlrcF9GSUxtV210dkM0VFVRelpzVnR4Yi1wZi1EVWR4WHhzQTYteVpYR3hKVXR6NzF5RjNINXRVci10ZFVZY3dTSWcwaHlLNjdPN0p5VmVITWxuNzVKeXNERDd4eXRwc01sRFh3emR0M09OY3pkMFpGMjFpRkZjRG1uay0tOGlSOTh2NGJkT0hndUhJSXc?oc=5",
      "title": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
+     "date": "2026-07-31"
+    },
+    {
+     "name": "Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxORWRzRXBPR1NkZHBGeHk5elBONmZjQTNoRzd3T2o3T0FIUlF0VGFia3ZESExPMUlfTXZKZmxkd0o5M21VOEpObkhLMTBtcnhpdVJWRW1tRkRTRUl1ZmZ0bk85V2EzbnZYT3dQNTByYS1kWlowRV9YRTBMQl91M0lFa2hPSTZabndpVTk3ZXdPWEE2a2xaODF1OUlvTHhaSXFTTHFfSkZuaXF0WWJDR05jU01yWnloVV8yZUdkZjYtcnJHcjNiUEpOTGVnSnM1czV5WURVZTFkbUlYVEdBY0o5UlQ2UWw1dXF4UnVTWFFNcmJ2OVpOZkd4TC16U0E2YlRycTNyeEx5YUVEWUJoYld2QkFMRGRwamQ3ekZlQ09acHZ5OGg3eVRya0h1X1dZMWpyalFRSmNUMTFWTGJ2eDRMTWkyQ19hcmRkM3VsSzN5bm0xVXZiYmZuRjhWVk9zVDRmQ052OU96Mnk5TE11TEhMbEFDNGVuMngzNVR1NGtJMER6S1BYMWxXVzJKNGtVUWhpMzBORGFxc01jd0lIY3I0UA?oc=5",
+     "title": "AECOM開設全新香港辦事處暨亞洲區總部 匯聚人才、科技與可持續發展",
      "date": "2026-07-31"
     },
     {
@@ -14170,15 +14176,15 @@
      "date": "2026-09-17"
     },
     {
-     "name": "Now 財經",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFSTY2eEFaYnlqSXpuT0dLdkVIZEE5bDlVZHJWSlVXZHkxeW9YN05tUW1zbXRJVVM2bzVKVTZDa1dqTnpzVTdIaDV5b05aTm5TLVpPcmlIZ2kwaHM?oc=5",
-     "title": "美國量化交易公司租用長江集團中心二期",
-     "date": "2026-09-17"
-    },
-    {
      "name": "etnet 經濟通",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWWFBTDE0TnJwUFdRUjRpWEpBbElicXExV0ZPRUtNWVZodVZ6eWNBbnNNZ2pPdG1SY2lUU21GZGtndzVOMktfUC1VOE1NamJFVVVndVhNaWpBaTJ1REVCbjRvTWFibGVaU3dCMGVDaDJpRXFhc29Id25CV3puUzdjVENfbkl4VmRqMENkUzRfcEd2bDN5T3lHeW1KMmw5aElrT0wxMlBxemhwTVFwY0E?oc=5",
      "title": "和記地產︰長江集團中心二期現階段可出租樓面已近全部租出，美國量化交易公司承租逾5萬呎| 即時新聞- 新聞",
+     "date": "2026-09-17"
+    },
+    {
+     "name": "Now 財經",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFSTY2eEFaYnlqSXpuT0dLdkVIZEE5bDlVZHJWSlVXZHkxeW9YN05tUW1zbXRJVVM2bzVKVTZDa1dqTnpzVTdIaDV5b05aTm5TLVpPcmlIZ2kwaHM?oc=5",
+     "title": "美國量化交易公司租用長江集團中心二期",
      "date": "2026-09-17"
     }
    ],
@@ -22291,7 +22297,7 @@
  "learning": {
   "overrides": 0,
   "features": [],
-  "status": "not configured"
+  "status": "ok"
  },
  "health": [
   {
@@ -22364,19 +22370,19 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" industrial building OR warehouse sold OR buys HK$",
    "ok": true,
-   "count": 1
+   "count": 0
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 40
+   "count": 42
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 32
+   "count": 31
   },
   {
    "group": "Property",
@@ -22388,19 +22394,19 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 53
+   "count": 51
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 72
+   "count": 73
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 19
+   "count": 17
   },
   {
    "group": "Property",
@@ -22448,7 +22454,7 @@
    "group": "Property",
    "name": "News search (EN): campaignasia.com",
    "ok": true,
-   "count": 40
+   "count": 39
   },
   {
    "group": "Property",
@@ -22610,7 +22616,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 57
+   "count": 56
   },
   {
    "group": "Property",
@@ -22712,7 +22718,7 @@
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 45
+   "count": 44
   },
   {
    "group": "Property",
@@ -22748,7 +22754,7 @@
    "group": "Transactions",
    "name": "Centaline Commercial transaction register",
    "ok": true,
-   "count": 2213
+   "count": 2253
   }
  ],
  "sectors": [

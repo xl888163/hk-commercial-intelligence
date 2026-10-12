@@ -1,3 +1,4 @@
+/** @OnlyCurrentDoc */
 /**
  * HK Commercial Intelligence - shared PIC / status store.
  *

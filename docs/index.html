@@ -99,20 +99,33 @@ h2 small{font:400 12px var(--font-body);color:var(--muted)}
 .bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;margin-block:10px;font-size:13px;color:var(--muted)}
 .tw{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
 table.rt{border-collapse:collapse;width:100%;table-layout:auto}
-.rt th,.rt td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.rt th,.rt td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:break-word;word-break:normal;hyphens:auto}
+table.fx{table-layout:fixed}
 .rt th{position:sticky;top:0;background:var(--surface-2);font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);white-space:nowrap;cursor:pointer;user-select:none;overflow-wrap:normal}
 .rt th.ns{cursor:default}
 .rt tbody tr:last-child td{border-bottom:none}
-.rt td.main{min-width:240px;width:34%}
+.rt td.main .name{font-size:14px}
+.rt td.main .sub2{font-size:13px;margin-top:2px}
+.planbtn{border:none;background:none;color:var(--accent);font-size:12px;font-weight:600;padding:0;margin-top:6px;cursor:pointer}
+.planbtn[aria-expanded="true"]::before{content:"▾ "} .planbtn[aria-expanded="false"]::before{content:"▸ "}
+.rt tr.planrow td{background:var(--surface-2);padding:12px 16px 14px}
+.plangrid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:10px 28px}
+.plangrid h4{margin:0 0 6px;font:600 11px var(--font-body);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.plangrid ol{margin:0;padding-left:18px;font-size:13px} .plangrid ol li{margin-bottom:4px;max-width:75ch}
+.plangrid .kv{font-size:13px;margin-bottom:6px} .plangrid .kv b{color:var(--muted);font-weight:600}
+.plangrid .links{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;margin-bottom:6px}
+.plangrid ul.why{margin:0;padding-left:18px;font-size:12px;color:var(--muted)}
+.owner .sel{margin-bottom:6px}
+.tag{max-width:100%;white-space:normal}
 .rt tr.HIGH td:first-child{box-shadow:inset 4px 0 0 var(--high)}
 .rt tr.HIGH{background:var(--high-soft)}
 .rt tr.MEDIUM td:first-child{box-shadow:inset 4px 0 0 var(--med)}
 .rt tr.grp td{background:var(--surface-2);font:700 15px var(--font-display);letter-spacing:.02em;padding-block:8px}
 .badge{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.03em;white-space:nowrap}
 .badge.HIGH{background:var(--high);color:var(--surface)} .badge.MEDIUM{background:var(--med-soft);color:var(--med)} .badge.LOW{background:var(--low-soft);color:var(--low)}
-.badge.new{background:var(--new-soft);color:var(--new)} .badge.inv{background:var(--accent-soft);color:var(--accent)}
+.badge.new{background:var(--new-soft);color:var(--new)} .badge.inv{background:var(--accent-soft);color:var(--accent);white-space:normal;border-radius:8px}
 .score{font:500 12px var(--font-mono);color:var(--muted)}
-.tag{display:inline-block;padding:0 7px;margin:0 4px 4px 0;border-radius:6px;border:1px solid var(--line);background:var(--surface-2);font-size:12px}
+.tag{display:inline-block;padding:0 7px;margin:0 4px 4px 0;border-radius:6px;border:1px solid var(--line);background:var(--surface-2);font-size:12px;line-height:1.6}
 .name{font-weight:600}
 .muted{color:var(--muted)} .sm{font-size:12px} .nw{white-space:nowrap}
 .ver{font-size:12px} .ver.ok{color:var(--ok)} .ver.warn{color:var(--warn)}
@@ -124,7 +137,7 @@ details.plan[open] summary{margin-bottom:6px}
 .plan .kv b{color:var(--muted);font-weight:600}
 .plan .links{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px;font-size:12px}
 .plan ul.why{margin:6px 0 0;padding-left:18px;font-size:12px;color:var(--muted)}
-.sel{height:32px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:0 6px;max-width:160px;width:100%}
+.sel{height:32px;border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:0 6px;width:100%}
 .sel.set{border-color:var(--accent);background:var(--accent-soft);font-weight:600}
 .sel.p-HIGH{border-color:var(--high);color:var(--high);font-weight:700}
 .sel.p-MEDIUM{border-color:var(--med);color:var(--med);font-weight:600}
@@ -141,7 +154,7 @@ details.plan[open] summary{margin-bottom:6px}
 footer{padding-block:28px;color:var(--muted);font-size:12px}
 
 /* fit to the window: rows become stacked cards when columns would be cramped */
-@media (max-width:1180px){
+@media (max-width:1100px){
   .filters{position:static}
   table.rt,.rt tbody,.rt tr,.rt td{display:block;width:100%}
   .rt thead{display:none}
@@ -150,6 +163,9 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
   .rt tr.grp td{display:block}
   .rt td{border:none;padding:0;min-width:0}
   .rt td.main{grid-column:1/-1;width:auto;min-width:0;order:-1}
+  .rt colgroup{display:none}
+  .rt tr.planrow td{grid-column:1/-1}
+  .plangrid{grid-template-columns:minmax(0,1fr)}
   .rt td.wide{grid-column:1/-1}
   .rt td[data-label]::before{content:attr(data-label);display:block;font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;margin-bottom:2px}
   .rt tr.HIGH td:first-child,.rt tr.MEDIUM td:first-child{box-shadow:none}
@@ -158,6 +174,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
 }
 @media (max-width:640px){
   .rt tr{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rt tr.planrow{display:block}
   .ms{flex:1 1 45%} .ms-btn{width:100%;max-width:none}
   .search{max-width:none;flex-basis:100%}
 }
@@ -207,25 +224,25 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
 
   <section class="panel" id="p-ev">
     <div class="bar"><span>Official listings (venues, InvestHK, chambers). Only events with a Securitas sales angle are shown. Open "Action plan" for the steps.</span><button class="btn csv" type="button" data-csv="ev">Export CSV</button></div>
-    <div class="tw"><table class="rt" id="tEv"><thead><tr>
-      <th data-k="score">Priority</th><th data-k="start">Date</th><th data-k="name">Event &amp; action plan</th><th data-k="area">Venue / area</th>
-      <th data-k="sector">Sector</th><th data-k="access">Access</th><th class="ns">Why go</th><th class="ns">PIC</th><th class="ns">Status</th><th class="ns">Source</th>
+    <div class="tw"><table class="rt fx" id="tEv"><colgroup><col style="width:8%"><col style="width:8%"><col style="width:24%"><col style="width:14%"><col style="width:22%"><col style="width:12%"><col style="width:12%"></colgroup><thead><tr>
+      <th data-k="score">Priority</th><th data-k="start">Date</th><th data-k="name">Event &amp; venue</th><th data-k="sector">Sector &amp; access</th>
+      <th class="ns">Why go</th><th class="ns">Owner &amp; status</th><th class="ns">Source</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
 
   <section class="panel" id="p-pr" hidden>
     <div class="bar"><span id="prNote"></span><button class="btn csv" type="button" data-csv="pr">Export CSV</button></div>
-    <div class="tw"><table class="rt" id="tPr"><thead><tr>
-      <th data-k="score">Priority</th><th data-k="date">Reported</th><th data-k="company">Company &amp; action plan</th><th data-k="type">Move</th>
-      <th data-k="building">Building / area</th><th data-k="size">Size</th><th data-k="sector">Sector</th><th class="ns">PIC</th><th class="ns">Status</th><th data-k="verification">Sources</th>
+    <div class="tw"><table class="rt fx" id="tPr"><colgroup><col style="width:8%"><col style="width:8%"><col style="width:25%"><col style="width:12%"><col style="width:14%"><col style="width:11%"><col style="width:11%"><col style="width:11%"></colgroup><thead><tr>
+      <th data-k="score">Priority</th><th data-k="date">Reported</th><th data-k="company">Company &amp; headline</th><th data-k="type">Move &amp; size</th>
+      <th data-k="building">Building / area</th><th data-k="sector">Sector</th><th class="ns">Owner &amp; status</th><th data-k="verification">Sources</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
 
   <section class="panel" id="p-tx" hidden>
     <div class="bar"><span id="txNote"></span><button class="btn csv" type="button" data-csv="tx">Export CSV</button></div>
-    <div class="tw"><table class="rt" id="tTx"><thead><tr>
-      <th data-k="score">Priority</th><th data-k="date">Date</th><th data-k="line">Party, premises &amp; action plan</th><th data-k="price">Deal</th>
-      <th data-k="district">District</th><th data-k="usage">Usage</th><th class="ns">PIC</th><th class="ns">Status</th><th class="ns">Source</th>
+    <div class="tw"><table class="rt fx" id="tTx"><colgroup><col style="width:8%"><col style="width:8%"><col style="width:30%"><col style="width:15%"><col style="width:13%"><col style="width:12%"><col style="width:14%"></colgroup><thead><tr>
+      <th data-k="score">Priority</th><th data-k="date">Date</th><th data-k="line">Party &amp; premises</th><th data-k="price">Deal</th>
+      <th data-k="district">District &amp; usage</th><th class="ns">Owner &amp; status</th><th class="ns">Source</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
 
@@ -446,61 +463,65 @@ function statusCell(r){
       ${t.status ? "" : `<option value="">Set status</option>`}${STATUSES.map(s => `<option value="${s}" ${t.status === s ? "selected" : ""}>${s}</option>`).join("")}</select>
     ${t.updatedAt ? `<div class="stamp">${esc(fmtTs(t.updatedAt))}<br>by ${esc(who(t.updatedBy))}</div>` : ""}`;
 }
-function plan(r){
+const openPlans = new Set();
+const planBtn = r => `<button type="button" class="planbtn" data-plan="${r.id}" aria-expanded="${openPlans.has(r.id)}">Action plan</button>`;
+function planRow(r, cols){
+  if (!openPlans.has(r.id)) return "";
   const contacts = r.kind === "event" && (r.contact_phone || r.contact_email)
     ? `<div class="kv"><b>Organiser contact (from HKCEC listing):</b> ${esc(r.organiser)}${r.contact_phone ? ` · <span>${esc(r.contact_phone)}</span>` : ""}${r.contact_email ? ` · <span>${esc(r.contact_email)}</span> <button class="copy" type="button" data-copy="${esc(r.contact_email)}">Copy</button>` : ""}</div>` : "";
   const links = [...(r.links || []), ...(r.organiser_url ? [{label:"Organiser website", url:r.organiser_url}] : [])];
-  return `<details class="plan" id="plan-${r.id}"><summary>Action plan</summary>
-    <ol>${r.actions.map(a => `<li>${esc(a)}</li>`).join("")}</ol>
-    ${r.who ? `<div class="kv"><b>Who to meet:</b> ${esc(r.who)}</div>` : ""}
-    ${contacts}
-    ${r.landlords && r.landlords.length ? `<div class="kv"><b>Landlord named in report:</b> ${esc(r.landlords.join(", "))}</div>` : ""}
-    ${links.length ? `<div class="links">${links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join("")}</div>` : ""}
-    <ul class="why">${r.reasons.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
-  </details>`;
+  return `<tr class="planrow"><td colspan="${cols}"><div class="plangrid">
+    <div><h4>Next steps</h4><ol>${r.actions.map(a => `<li>${esc(a)}</li>`).join("")}</ol></div>
+    <div>
+      ${r.who ? `<div class="kv"><b>Who to meet:</b> ${esc(r.who)}</div>` : ""}
+      ${contacts}
+      ${r.landlords && r.landlords.length ? `<div class="kv"><b>Landlord named in report:</b> ${esc(r.landlords.join(", "))}</div>` : ""}
+      ${links.length ? `<div class="links">${links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join("")}</div>` : ""}
+      <h4>Why this priority</h4><ul class="why">${r.reasons.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+    </div></div></td></tr>`;
 }
+const ownerCell = r => `<div class="owner">${picCell(r)}${statusCell(r)}</div>`;
 const srcCell = r => `${r.sources.slice(0,4).map(s => `<div><a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title || "")}">${esc(s.name)}</a></div>`).join("")}${r.sources.length > 4 ? `<div class="muted">+${r.sources.length - 4} more</div>` : ""}<div class="ver ${/Official|Corroborated|Register/.test(r.verification) ? "ok" : "warn"}">${esc(r.verification)}</div>`;
 
 function evRow(e){
   const inv = /Invitation/.test(e.access);
   return `<tr class="${eff(e)}">
     <td data-label="Priority">${prioCell(e)}</td>
-    <td data-label="Date" class="nw">${esc(range(e))}</td>
-    <td class="main"><div class="name">${esc(e.name)}</div>${e.organiser ? `<div class="sm muted">${esc(e.organiser)}</div>` : ""}${plan(e)}</td>
-    <td data-label="Venue / area"><div>${esc(e.venue || "Venue not stated in listing")}</div><div class="sm muted">${esc(e.area)}</div></td>
-    <td data-label="Sector">${e.sectors.slice(0,3).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
-    <td data-label="Access">${inv ? `<span class="badge inv">${esc(e.access)}</span>` : esc(e.access)}</td>
-    <td data-label="Why go" class="sm wide">${e.lead_types.map(l => `<span class="tag">${esc(l)}</span>`).join("")}<div style="margin-top:4px">${esc(e.pitch)}</div></td>
-    <td data-label="PIC">${picCell(e)}</td><td data-label="Status">${statusCell(e)}</td>
+    <td data-label="Date">${esc(range(e))}</td>
+    <td class="main"><div class="name">${esc(e.name)}</div>
+      <div class="sub2">${esc(e.venue || "Venue not stated in listing")}</div>
+      <div class="sm muted">${esc(e.area)}${e.organiser ? ` · ${esc(e.organiser)}` : ""}</div>${planBtn(e)}</td>
+    <td data-label="Sector & access" class="tags">${e.sectors.slice(0,2).map(s => `<span class="tag">${esc(s)}</span>`).join("")}
+      <div class="sm" style="margin-top:2px">${inv ? `<span class="badge inv">${esc(e.access)}</span>` : esc(e.access)}</div></td>
+    <td data-label="Why go" class="sm wide"><div class="tags">${e.lead_types.map(l => `<span class="tag">${esc(l)}</span>`).join("")}</div><div style="margin-top:2px">${esc(e.pitch)}</div></td>
+    <td data-label="Owner & status">${ownerCell(e)}</td>
     <td data-label="Source" class="sm">${srcCell(e)}</td>
-  </tr>`;
+  </tr>${planRow(e, 7)}`;
 }
 function prRow(p){
   const size = [p.size_txt, p.floors_txt].filter(Boolean).join(" · ");
   return `<tr class="${eff(p)}">
     <td data-label="Priority">${prioCell(p)}</td>
-    <td data-label="Reported" class="nw">${esc(fmtD(p.date))}${p.first_reported !== p.date ? `<div class="sm muted">first ${esc(fmtD(p.first_reported))}</div>` : ""}</td>
-    <td class="main"><div class="name">${esc(p.company)}</div><div class="sm">${esc(p.headline)}</div>${plan(p)}</td>
-    <td data-label="Move">${p.types.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</td>
+    <td data-label="Reported">${esc(fmtD(p.date))}${p.first_reported !== p.date ? `<div class="sm muted">first ${esc(fmtD(p.first_reported))}</div>` : ""}</td>
+    <td class="main"><div class="name">${esc(p.company)}</div><div class="sub2">${esc(p.headline)}</div>${planBtn(p)}</td>
+    <td data-label="Move & size" class="tags">${p.types.map(t => `<span class="tag">${esc(t)}</span>`).join("")}<div class="sm">${size ? esc(size) : `<span class="muted">Size not stated</span>`}</div></td>
     <td data-label="Building / area">${p.building ? `<div>${esc(p.building)}</div>` : ""}<div class="sm muted">${esc(p.area)}</div><div class="sm muted">${esc(p.grade)}</div></td>
-    <td data-label="Size" class="sm">${size ? esc(size) : `<span class="muted">Not stated</span>`}</td>
-    <td data-label="Sector">${p.sectors.slice(0,2).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
-    <td data-label="PIC">${picCell(p)}</td><td data-label="Status">${statusCell(p)}</td>
+    <td data-label="Sector" class="tags">${p.sectors.slice(0,2).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
+    <td data-label="Owner & status">${ownerCell(p)}</td>
     <td data-label="Sources" class="sm">${srcCell(p)}</td>
-  </tr>`;
+  </tr>${planRow(p, 8)}`;
 }
 function txRow(t){
   const party = t.party ? `<span class="name">${esc(t.party)}</span>` : `<span class="muted">${t.deal === "Sale" ? "Buyer" : "Tenant"} not named</span>`;
   return `<tr class="${eff(t)}">
     <td data-label="Priority">${prioCell(t)}</td>
-    <td data-label="Date" class="nw">${esc(fmtD(t.date))}</td>
-    <td class="main">${party} - ${esc(t.premises)}${t.building_zh ? ` <span class="muted sm">${esc(t.building_zh)}</span>` : ""}${plan(t)}</td>
+    <td data-label="Date">${esc(fmtD(t.date))}</td>
+    <td class="main">${party}<div class="sub2">${esc(t.premises)}${t.building_zh ? ` <span class="muted">${esc(t.building_zh)}</span>` : ""}</div>${planBtn(t)}</td>
     <td data-label="Deal"><div class="name">${t.deal === "Sale" ? "Bought" : "Leased"} ${esc(t.price_txt)}</div><div class="sm muted">${esc([t.area_txt, t.psf].filter(Boolean).join(" · "))}</div></td>
-    <td data-label="District">${esc(t.district || t.area)}</td>
-    <td data-label="Usage">${esc(t.usage)}</td>
-    <td data-label="PIC">${picCell(t)}</td><td data-label="Status">${statusCell(t)}</td>
+    <td data-label="District & usage">${esc(t.district || t.area)}<div class="sm muted">${esc(t.usage)}</div></td>
+    <td data-label="Owner & status">${ownerCell(t)}</td>
     <td data-label="Source" class="sm">${srcCell(t)}</td>
-  </tr>`;
+  </tr>${planRow(t, 7)}`;
 }
 function card(r){
   const t = trk(r.id);
@@ -524,15 +545,13 @@ let current = { ev:[], pr:[], tx:[] }, cardsAll = false;
 function renderTables(){
   const ev = EV.filter(pass), pr = PR.filter(pass), tx = TX.filter(pass);
   current = { ev: sortRows(ev, sortState.ev), pr: sortRows(pr, sortState.pr), tx: sortRows(tx, sortState.tx) };
-  const open = new Set([...document.querySelectorAll("details.plan[open]")].map(d => d.id));
-  $("#tEv tbody").innerHTML = current.ev.map(evRow).join("") || `<tr><td colspan="10" class="muted">No events match these filters.</td></tr>`;
-  $("#tPr tbody").innerHTML = current.pr.map(prRow).join("") || `<tr><td colspan="10" class="muted">No office move-ins match these filters.</td></tr>`;
+  $("#tEv tbody").innerHTML = current.ev.map(evRow).join("") || `<tr><td colspan="7" class="muted">No events match these filters.</td></tr>`;
+  $("#tPr tbody").innerHTML = current.pr.map(prRow).join("") || `<tr><td colspan="8" class="muted">No office move-ins match these filters.</td></tr>`;
   const groups = ["HK Island", "Kowloon / N.T.", "Location to confirm"];
   $("#tTx tbody").innerHTML = groups.map(g => {
     const rows = current.tx.filter(t => t.group === g);
-    return rows.length ? `<tr class="grp"><td colspan="9">${esc(g)} <span class="muted sm">(${rows.length})</span></td></tr>` + rows.map(txRow).join("") : "";
-  }).join("") || `<tr><td colspan="9" class="muted">No transactions match these filters.</td></tr>`;
-  open.forEach(id => { const d = document.getElementById(id); if (d) d.open = true; });
+    return rows.length ? `<tr class="grp"><td colspan="7">${esc(g)} <span class="muted sm">(${rows.length})</span></td></tr>` + rows.map(txRow).join("") : "";
+  }).join("") || `<tr><td colspan="7" class="muted">No transactions match these filters.</td></tr>`;
   $("#evN").textContent = `(${ev.length})`; $("#prN").textContent = `(${pr.length})`; $("#txN").textContent = `(${tx.length})`;
   const hi = [...ev, ...pr, ...tx].filter(r => eff(r) === "HIGH").sort((a,b) => b.score - a.score);
   const shown = cardsAll ? hi : hi.slice(0, 12);
@@ -576,6 +595,8 @@ document.addEventListener("change", e => {
   setField(s.dataset.id, s.dataset.f, v);
 });
 document.addEventListener("click", e => {
+  const pb = e.target.closest ? e.target.closest("[data-plan]") : null;
+  if (pb){ const id = pb.dataset.plan; openPlans.has(id) ? openPlans.delete(id) : openPlans.add(id); renderTables(); return; }
   const c = e.target.closest ? e.target.closest("[data-copy]") : null; if (!c) return;
   navigator.clipboard.writeText(c.dataset.copy).then(() => { c.textContent = "Copied"; }, () => { c.textContent = "Select and copy"; });
 });

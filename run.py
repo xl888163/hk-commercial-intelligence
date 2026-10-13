@@ -18,7 +18,7 @@ import webbrowser
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT)
 
-from intel import analyze, events, learn, property as prop, render, transactions  # noqa: E402
+from intel import analyze, events, hkex, learn, property as prop, render, transactions  # noqa: E402
 from intel.taxonomy import AREA_NAMES, SECTOR_NAMES  # noqa: E402
 
 DATA = os.path.join(ROOT, "data")
@@ -61,10 +61,12 @@ def main():
     raw_pr, h2 = collect(prop.sources(args.days), "Property")
     print("Fetching building transactions…")
     raw_tx, h3 = collect(transactions.SOURCES, "Transactions")
+    raw_fx, h4 = collect([("HKEXnews filings (named buyers / tenants)", hkex.filings)], "Transactions")
+    h3 = h3 + h4
 
     ev = analyze.build_events(raw_ev, today)
     pr = analyze.build_property(raw_pr, today, args.days)
-    tx = analyze.build_transactions(raw_tx, raw_pr, today)
+    tx = analyze.build_transactions(raw_tx, raw_pr, today, filings=raw_fx)
     analyze.add_features(ev + pr + tx)
 
     # learn from the team's priority changes (needs the Sheet passcode, e.g. a GitHub secret)

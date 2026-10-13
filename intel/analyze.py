@@ -520,9 +520,10 @@ DEAL_RX = re.compile(r"\bbuys?\b|\bbought\b|acquir|\bsells?\b|\bsold\b|purchase|
 COMMERCIAL_DEAL_RX = re.compile(r"office|tower|building|centre|center|commercial|industrial|warehouse|floor|"
                                 r"寫字樓|甲廈|商廈|商業|工廈|工業|全層|樓層|中心|大廈|廣場", re.I)
 PARTY_ZH = [
-    re.compile(r"(?:^|[\s，,︱|｜:：】」！])([一-鿿A-Za-z&\.]{2,10}?)\s*(?:以|斥資?)?\s*[\d\.]+\s*(?:億|萬)\s*(?:元)?\s*(?:購入|買入|購|掃入|承接|收購)"),
-    re.compile(r"(?:由|獲)\s*([一-鿿A-Za-z&\.]{2,12}?)\s*(?:接貨|承接|購入|承租)"),
-    re.compile(r"([一-鿿A-Za-z&\.]{2,10}?)接貨"),
+    (re.compile(r"(?:新?買家|新?租客)(?:為|是)\s*([\u4e00-\u9fffA-Za-z&\.\(\) ]{2,30}?(?:有限公司|公司|集團|銀行|行|局))"), True),
+    (re.compile(r"(?:^|[\s，,︱|｜:：】」！])([\u4e00-\u9fffA-Za-z&\.]{2,10}?)\s*(?:以|斥資?)?\s*[\d\.零一二三四五六七八九十百千兩]+\s*(?:億|萬)\s*(?:元)?\s*(?:購入|買入|再買|購|買|掃入|承接|收購|租)"), False),
+    (re.compile(r"(?:由|獲)\s*([\u4e00-\u9fffA-Za-z&\.]{2,12}?)\s*(?:接貨|承接|購入|承租)"), False),
+    (re.compile(r"([\u4e00-\u9fffA-Za-z&\.]{2,10}?)接貨"), False),
 ]
 PARTY_GENERIC = re.compile(r"買家|賣家|業主|投資者|用家|老牌|家族|基金|財團|發展商|公司|集團|市場|全幢|商廈|寫字樓|工廈|"
                            r"大廈|中心|香港|本港|億|萬|呼聲|料|傳", re.I)
@@ -534,11 +535,12 @@ def _party(title, lang):
         return known[0]
     if lang == "en":
         return _company(title, "en", [])
-    for rx in PARTY_ZH:
+    for rx, full_name in PARTY_ZH:
         m = rx.search(title)
         if m:
-            c = re.split(r"[\s，,︱|｜:：。、「」]", m.group(1).strip())[-1]
-            if len(c) >= 2 and not PARTY_GENERIC.search(c) and not area_for(c):
+            c = m.group(1).strip() if full_name else re.split(r"[\s，,︱|｜:：。、「」]", m.group(1).strip())[-1]
+            c = re.sub(r"^(?:香港代理|代理|新)", "", c) if not full_name else c
+            if len(c) >= 2 and (full_name or not PARTY_GENERIC.search(c)) and not area_for(c):
                 return c
     return ""
 
@@ -554,7 +556,16 @@ def _money_txt(v):
     return f"HK${v / 1e6:,.1f}M" if v >= 1e6 else f"HK${v:,.0f}"
 
 
-def build_transactions(register, news_raw, today, days=60):
+def _region(text):
+    a = area_for(text) or ""
+    if re.search(r"Kowloon|New Territories|N\.T\.|Tsuen Wan|Kwai|Tsing Yi|Sha Tin|Shatin|Tai Po|Tuen Mun|Yuen Long|Tung Chung|"
+                 r"Fanling|Sheung Shui|Tin Shui Wai|Tseung Kwan O|Sai Kung|九龍|新界", text) or any(
+            k in a for k in ("Kowloon", "Tsim", "Mong Kok", "Hung Hom", "Cheung Sha", "Kwai", "Sha Tin", "Tseung", "Lantau", "Northern")):
+        return KOWLOON_NT
+    return "HK Island"
+
+
+def build_transactions(register, news_raw, today, days=60, filings=()):
     cutoff = today - dt.timedelta(days=days)
     recs, seen_rec = [], set()
     for r in register:
@@ -563,7 +574,28 @@ def build_transactions(register, news_raw, today, days=60):
             seen_rec.add(key)
             recs.append(dict(r))
     for r in recs:
-        r["parties"], r["news"] = [], []
+        r["parties"], r["news"], r["filings"] = [], [], []
+
+    # HKEX filings: attach the named party to the matching register record, else list the filing itself
+    filing_only = []
+    for f in filings:
+        match = None
+        for r in recs:
+            main = re.split(r",|\(| - ", r["building"])[0].strip()
+            if len(main) < 5 or main.lower() not in f["premises"].lower() or r["deal"] != f["deal"]:
+                continue
+            if abs((r["date"] - f["date"]).days) > 150:
+                continue
+            if f["price"] and r["price"] and abs(f["price"] - r["price"]) > 0.05 * max(f["price"], r["price"]):
+                continue
+            match = r
+            break
+        if match:
+            match["filings"].append(f)
+            if f["party"] not in match["parties"]:
+                match["parties"].insert(0, f["party"])
+        elif f["date"] >= today - dt.timedelta(days=120):
+            filing_only.append(f)
 
     # news that names a party in a commercial / industrial deal
     seen, news = set(), []
@@ -590,8 +622,11 @@ def build_transactions(register, news_raw, today, days=60):
         for r in recs:
             if abs((r["date"] - n["date"]).days) > 21:
                 continue
-            names = [x for x in (r["building_zh"], r["building"]) if x and len(x) >= 3]
-            if any(x.split(" (")[0] in n["title"] for x in names):
+            names = [x.split(" (")[0] for x in (r["building_zh"], r["building"]) if x and len(x) >= 3]
+            hit = any(re.search(r"(?<![\u4e00-\u9fffA-Za-z])" + re.escape(x) + r"(?![A-Za-z])", n["title"]) for x in names)
+            t_area = area_for(n["title"])
+            r_area = area_for(f"{r['building']} {r['district']}")
+            if hit and not (t_area and r_area and t_area != r_area):
                 match = r
                 break
         if match:
@@ -609,6 +644,8 @@ def build_transactions(register, news_raw, today, days=60):
     out = []
     for r in recs:
         party = r["parties"][0] if r["parties"] else ""
+        party_source = ("per HKEX filing" if r["filings"] and party == r["filings"][0]["party"]
+                        else "per news report" if party else "")
         floor = f"{r['floor']} floor (exact floor not disclosed)" if r["floor"] in ("Low", "Mid", "High") else r["floor"]
         premises = ", ".join(x for x in (
             (floor + (f" Unit {r['unit']}" if r["unit"] else "")) if floor else "", r["building"]) if x)
@@ -667,6 +704,7 @@ def build_transactions(register, news_raw, today, days=60):
         if party:
             links = _links(party) + links
         sources = [{"name": f"Centaline register ({r['record_source']})", "url": r["url"], "title": "", "date": r["date"].isoformat()}]
+        sources += [{"name": f"HKEX filing ({f['listed_company'].title()})", "url": f["url"], "title": f["title"], "date": f["date"].isoformat()} for f in r["filings"]]
         sources += [{"name": n["publisher"], "url": n["url"], "title": n["title"], "date": n["date"].isoformat()} for n in r["news"]]
         out.append({
             "id": _id("tx", r["building_id"], r["date"], r["floor"], r["unit"], r["price_txt"]), "kind": "transaction",
@@ -674,11 +712,11 @@ def build_transactions(register, news_raw, today, days=60):
             "deal": r["deal"], "usage": r["usage"], "district": r["district"], "building": r["building"],
             "building_zh": r["building_zh"], "floor": r["floor"], "unit": r["unit"], "area_sqft": r["area"],
             "area_txt": r["area_txt"], "price": r["price"], "price_txt": price, "psf": r["psf"],
-            "record_source": r["record_source"], "party": party, "premises": premises,
+            "record_source": r["record_source"], "party": party, "party_source": party_source, "premises": premises,
             "line": f"{party_line} - {premises} ({verb} for {price})",
             "area": area, "sectors": sectors, "sector": sectors[0], "who": "", "pitch": pitch,
             "actions": actions, "links": links, "sources": sources,
-            "verification": "Register record" + (" + news report" if r["news"] else ""),
+            "verification": "Register record" + (" + HKEX filing" if r["filings"] else "") + (" + news report" if r["news"] else ""),
             "score": score, "level": _level(score, 7, 5), "thresholds": [7, 5], "reasons": reasons,
         })
 
@@ -698,7 +736,7 @@ def build_transactions(register, news_raw, today, days=60):
             "deal": "Lease" if lease else "Sale", "usage": "Office" if re.search(r"office|寫字樓|甲廈|商廈", n["title"], re.I) else "Commercial / industrial",
             "district": "", "building": building or "", "building_zh": "", "floor": "", "unit": "", "area_sqft": None,
             "area_txt": "", "price": None, "price_txt": m_price.group(0) if m_price else "Not stated", "psf": "",
-            "record_source": "News", "party": n["party"], "premises": building or "See headline",
+            "record_source": "News", "party": n["party"], "party_source": "per news report", "premises": building or "See headline",
             "line": f"{n['party']} - {n['title']}", "area": area,
             "sectors": ["Facility Management & Real Estate"], "sector": "Facility Management & Real Estate",
             "who": "", "pitch": "CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing",
@@ -710,6 +748,56 @@ def build_transactions(register, news_raw, today, days=60):
             "sources": [{"name": g["publisher"], "url": g["url"], "title": g["title"], "date": g["date"].isoformat()} for g in grp],
             "verification": (f"Corroborated by {len({g['publisher'] for g in grp})} outlets" if len({g['publisher'] for g in grp}) > 1
                              else "Single outlet: open source to confirm"), "score": score, "level": _level(score, 7, 5),
+            "thresholds": [7, 5], "reasons": reasons,
+        })
+
+    for f in filing_only:
+        role = f["party_role"].lower()
+        price = (_money_txt(f["price"]) + ("/month" if f["per_month"] else (" (total stated in filing)" if f["deal"] == "Lease" else ""))
+                 if f["price"] else "Not stated")
+        building, _ = building_for(f["premises"])
+        p = f["price"] or 0
+        score, reasons = 0, []
+        if f["deal"] == "Sale":
+            pts = 4 if p >= 100e6 else 3 if p >= 50e6 else 2 if p >= 20e6 else 1
+            reasons.append(f"Purchase {price} (+{pts})")
+        else:
+            pts = 2
+            reasons.append(f"New / renewed lease (+{pts})")
+        score += pts
+        score += 3; reasons.append("Buyer / tenant named in an official HKEX filing (+3)")
+        if f["usage"] != "Retail":
+            score += 1; reasons.append(f"{f['usage']} premises (+1)")
+        if building:
+            score += 2; reasons.append(f"Known building: {building} (+2)")
+        if re.search(r"renewal", f["title"], re.I):
+            score -= 2; reasons.append("Renewal of an existing lease: no move (-2)")
+        pitch = ("Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol" if f["usage"] == "Industrial"
+                 else "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response" if f["usage"] == "Retail"
+                 else "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing")
+        out.append({
+            "id": _id("hkex", f["url"]), "kind": "transaction",
+            "date": f["date"].isoformat(), "month": f["date"].strftime("%Y-%m"), "group": _region(f["premises"]),
+            "deal": f["deal"], "usage": f["usage"], "district": area_for(f["premises"]) or "", "building": building or "",
+            "building_zh": "", "floor": "", "unit": "", "area_sqft": f.get("area"),
+            "area_txt": f"{f['area']:,} sq ft" if f.get("area") else "", "price": f["price"], "price_txt": price, "psf": "",
+            "record_source": "HKEX filing", "party": f["party"], "party_source": f"{f['party_role'].lower()}, per HKEX filing",
+            "premises": f["premises"], "line": f"{f['party']} - {f['premises']}",
+            "area": area_for(f["premises"]) or AREA_UNSTATED,
+            "sectors": ["Facility Management & Real Estate"] if f["usage"] != "Retail" else ["Retail & Consumer"],
+            "sector": "Facility Management & Real Estate" if f["usage"] != "Retail" else "Retail & Consumer",
+            "who": "", "pitch": pitch,
+            "actions": [
+                f"{f['party_role']} named in the filing: {f['party']} ({'subsidiary of / ' if 'listed' not in f['party'] else ''}listed company {f['listed_company'].title()}). "
+                f"{'Counterparty: ' + f['counterparty'] + ' (' + f['counterparty_role'].lower() + '). ' if f['counterparty'] else ''}Find their admin / facilities lead (links below).",
+                "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+                "Contact the building management office for the fit-out timeline and contractor.",
+                f"Pitch: {pitch}.",
+                "Update Status here after each contact.",
+            ],
+            "links": _links(f["party"].replace(" (listed company)", "")) + [{"label": "Open the HKEX filing", "url": f["url"]}],
+            "sources": [{"name": f"HKEX filing ({f['listed_company'].title()})", "url": f["url"], "title": f["title"], "date": f["date"].isoformat()}],
+            "verification": "Official filing (HKEXnews)", "score": score, "level": _level(score, 7, 5),
             "thresholds": [7, 5], "reasons": reasons,
         })
     return out

@@ -32,6 +32,10 @@ OUTLETS_EN = ["therealdeal.com", "scmp.com", "thestandard.com.hk", "hongkongbusi
               "edgeprop.sg", "asiaassetmanagement.com", "insideretail.asia", "datacenterdynamics.com", "w.media"]
 GN_QUERIES_EN += [f'site:{d} "Hong Kong" {MOVE_EN}' for d in OUTLETS_EN]
 GN_QUERIES_ZH = [
+    "萬購 全層 自用",
+    "億購 商廈 OR 寫字樓 OR 工廈",
+    "註冊處資料顯示 買家 有限公司",
+    "租客為 寫字樓 OR 商廈",
     "購入 寫字樓 全層",
     "寫字樓 億 購入 OR 沽 OR 接貨",
     "工廈 億 購入 OR 沽 OR 接貨",

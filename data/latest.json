@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T06:40:31+08:00",
+ "generated": "2026-10-13T23:42:30+08:00",
  "property_days": 90,
  "events": [
   {
@@ -125,71 +125,6 @@
     "kind:event",
     "lead:Prospect networking",
     "sector:Retail & Consumer",
-    "venue:other"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "2d547dedd2e1",
-   "kind": "event",
-   "name": "Exclusive Luncheon with Jeny Yeung, MTR CEO",
-   "start": "2026-10-13",
-   "end": "2026-10-13",
-   "month": "2026-10",
-   "months": [
-    "2026-10"
-   ],
-   "time": "13 Oct 2026 | 12:00 PM - 02:00 PM",
-   "venue": "Harcourt Suite, Hong Kong Club",
-   "area": "Central / Sheung Wan",
-   "sectors": [
-    "Infrastructure & Construction"
-   ],
-   "sector": "Infrastructure & Construction",
-   "access": "Chamber registration (member / guest)",
-   "audience": "Chamber members & guests",
-   "category": "Distinguished Speakers Series, Chatham House Rules",
-   "organiser": "AmCham HK",
-   "organiser_url": "",
-   "contact_phone": "",
-   "contact_email": "",
-   "lead_types": [
-    "Prospect networking",
-    "Senior networking"
-   ],
-   "who": "Developers, main contractors, project managers, ELV / M&E consultants",
-   "pitch": "Construction-site guarding & mobile patrol, temporary CCTV with remote viewing; get Securitas specified in the building's ELV security package",
-   "actions": [
-    "Book through the chamber now (event is close) (member rate if Securitas is a member).",
-    "Target in the room: Developers, main contractors, project managers, ELV / M&E consultants.",
-    "Pitch: Construction-site guarding & mobile patrol, temporary CCTV with remote viewing; get Securitas specified in the building's ELV security package.",
-    "Follow up within 3 working days after 13 Oct 2026 and log contacts here."
-   ],
-   "sources": [
-    {
-     "name": "AmCham HK events",
-     "url": "https://amchamhk.glueup.com/event/194905"
-    }
-   ],
-   "verification": "Official listing",
-   "score": 5,
-   "level": "MEDIUM",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Buyers in a Securitas sector: Infrastructure & Construction (+3)",
-    "Senior decision-makers in the room (+2)"
-   ],
-   "features": [
-    "access:Chamber registration (member / guest)",
-    "area:Central / Sheung Wan",
-    "kind:event",
-    "lead:Prospect networking",
-    "lead:Senior networking",
-    "sector:Infrastructure & Construction",
     "venue:other"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
@@ -3710,6 +3645,75 @@
    "is_new": false
   },
   {
+   "id": "8c48f88a9c4c",
+   "kind": "event",
+   "name": "Asian Financial Forum",
+   "start": "2027-01-26",
+   "end": "2027-01-27",
+   "month": "2027-01",
+   "months": [
+    "2027-01"
+   ],
+   "time": "",
+   "venue": "Hong Kong Convention and Exhibition Centre (HKCEC), Wan Chai",
+   "area": "Wan Chai",
+   "sectors": [
+    "Finance & Professional Services",
+    "Education & Government"
+   ],
+   "sector": "Finance & Professional Services",
+   "access": "By registration",
+   "audience": "By Registration",
+   "category": "Exhibition / conference",
+   "organiser": "The Government of the Hong Kong Special Administrative Region of the People's Republic of China / Hong Kong Trade Development Council",
+   "organiser_url": "http://www.hktdc.org",
+   "contact_phone": "(852) 1830 668",
+   "contact_email": "aff@hktdc.org",
+   "lead_types": [
+    "Prospect networking",
+    "Senior networking"
+   ],
+   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
+   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
+   "actions": [
+    "Register / plan attendance by 19 Jan 2027.",
+    "Before the fair, shortlist exhibitors and visitors from: Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms. Book 3-5 meetings.",
+    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
+    "Follow up within 3 working days after 27 Jan 2027 and log contacts here."
+   ],
+   "sources": [
+    {
+     "name": "HKCEC event calendar",
+     "url": "http://www.asianfinancialforum.com"
+    }
+   ],
+   "verification": "Official listing",
+   "score": 8,
+   "level": "HIGH",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Buyers in a Securitas sector: Finance & Professional Services (+3)",
+    "Several target sectors present (+1)",
+    "Senior decision-makers in the room (+2)",
+    "Large trade exhibition: many exhibitors to prospect (+1)",
+    "HKTDC flagship fair (+1)"
+   ],
+   "features": [
+    "access:By registration",
+    "area:Wan Chai",
+    "kind:event",
+    "lead:Prospect networking",
+    "lead:Senior networking",
+    "sector:Finance & Professional Services",
+    "venue:major"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "d5f4c09b8033",
    "kind": "event",
    "name": "The Longines Hong Kong International Horse Show 2027",
@@ -4652,6 +4656,298 @@
  ],
  "property": [
   {
+   "id": "313452818aef",
+   "kind": "property",
+   "headline": "AIsphere Officially Opens Hong Kong Office at Cyberport, Building an AI Hub for the City",
+   "date": "2026-10-13",
+   "first_reported": "2026-10-13",
+   "month": "2026-10",
+   "company": "AIsphere Officially",
+   "types": [
+    "New office"
+   ],
+   "type": "New office",
+   "building": "",
+   "landlords": [],
+   "area": "Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
+   "grade": "Not stated",
+   "sectors": [
+    "AI & Technology"
+   ],
+   "sector": "AI & Technology",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Workplace / office managers and COOs of tech firms, labs and scale-ups",
+   "pitch": "Access control & CCTV for new offices and labs, remote viewing, Risk Intelligence for IP and travel risk",
+   "actions": [
+    "Find AIsphere Officially's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at Southern (Wong Chuk Hang / Aberdeen / Cyberport) for the fit-out timeline and contractor.",
+    "New office: offer the SME bundle (access control + intruder alarm + SOC remote viewing).",
+    "Pitch: Access control & CCTV for new offices and labs, remote viewing, Risk Intelligence for IP and travel risk.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=AIsphere%20Officially%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=AIsphere%20Officially%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "巴士的報",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNkdlRU1zdUdiVkotdzVtcTRHQjQtNWNFUTd1Y1Z0NGhnOFFMTXd5VUFZTTNSdVkwYi1ja3prYi1rVzdMM2E0OHAySTZFMW95cG1SMkhic3l0NW9qUWFjczhWemg4THNpTDdwQlgzbDFwV3ZQRWdramlYSVFoSW9rSGROV1Q4SEdzU19jOGpydmVJUXlZd2pFN1dfQ1RHYjl4TFVFWHhJcC1QXzRaWmtWdF90ZDNTaVljZzhQOW9ENXZnWm1ZQ0YtV0FEc2h0Nk44ZXlQd0l3?oc=5",
+     "title": "AIsphere Officially Opens Hong Kong Office at Cyberport, Building an AI Hub for the City",
+     "date": "2026-10-13"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 2,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New office opening (+1)",
+    "Tech / healthcare tenant: access control & IP protection (+1)"
+   ],
+   "features": [
+    "area:Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
+    "grade:Not stated",
+    "kind:property",
+    "move:New office",
+    "sector:AI & Technology"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "03112ed8dbd3",
+   "kind": "property",
+   "headline": "Synertone Relocates Hong Kong Principal Office With Operations Unchanged",
+   "date": "2026-10-13",
+   "first_reported": "2026-10-13",
+   "month": "2026-10",
+   "company": "Synertone",
+   "types": [
+    "Relocation"
+   ],
+   "type": "Relocation",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Landlords' asset & property managers, building management offices, FM companies",
+   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
+   "actions": [
+    "Find Synertone's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Synertone%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Synertone%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN0ZsMzR1VkRoVTdhZ0RwbDFpaXo1VjJjTS1HalFQaVZwQk5SNkdqbFg5VlBYeV9wZ2pZakg0QmZsUWZWZGY4cFVsQk4xckV4Zmw5Nzhld0tkUU9kX09XZFA4eFZUY2Y2QnpSeWxSSENZaGJDZ21JTmdWcWx6dGZNenlKSGd0ckkwbEM0UlFlcFFVME82YVVtSDVDZ0ZDV1lfeGxBSExmWUV5OTFXX1VJdXhpTG9ySE9ZM0ViM182RksyQQ?oc=5",
+     "title": "Synertone Relocates Hong Kong Principal Office With Operations Unchanged",
+     "date": "2026-10-13"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 2,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Move-in: new premises need security systems (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:Relocation",
+    "sector:Facility Management & Real Estate"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "a9b70da354ff",
+   "kind": "property",
+   "headline": "Law Society opens dispute-resolution center at former Central office",
+   "date": "2026-10-13",
+   "first_reported": "2026-10-13",
+   "month": "2026-10",
+   "company": "Law Society",
+   "types": [
+    "New office"
+   ],
+   "type": "New office",
+   "building": "",
+   "landlords": [],
+   "area": "Central / Sheung Wan",
+   "grade": "Prime office district",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Landlords' asset & property managers, building management offices, FM companies",
+   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
+   "actions": [
+    "Find Law Society's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at Central / Sheung Wan for the fit-out timeline and contractor.",
+    "New office: offer the SME bundle (access control + intruder alarm + SOC remote viewing).",
+    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Law%20Society%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Law%20Society%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Standard (HK)",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMUZqdmJsc1dUcFFQX1NKLVFhSk9xRGI5TEFGak9QX0RkV2xRay14UU1FblhHOHZQc1FPbFp2WmlhbjY1Z3RtUzBVdlpGM1V3aTRaZ190YkdmNk5qdVAzZ1Fnd2FfcFVlZEpkaUxSeHRneEdpN01MMnpxQ3RRalBlTTRTM05uT1FPR2RGR1J6N3NtZWwtclpuZ3ZiNkJYajRGZ3dob0M1cFI5ZzRDSjJUb0pmbmt1YWdzd3Rv?oc=5",
+     "title": "Law Society opens dispute-resolution center at former Central office",
+     "date": "2026-10-13"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 2,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New office opening (+1)",
+    "Prime office district: Central / Sheung Wan (+1)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "grade:Prime office district",
+    "kind:property",
+    "move:New office",
+    "sector:Facility Management & Real Estate"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "c2a64af7503a",
+   "kind": "property",
+   "headline": "港版山姆？倉儲式超市Omart進駐MegaBox 11.22開幕佔地2萬平方呎",
+   "date": "2026-10-13",
+   "first_reported": "2026-10-13",
+   "month": "2026-10",
+   "company": "Omart",
+   "types": [
+    "Relocation"
+   ],
+   "type": "Relocation",
+   "building": "",
+   "landlords": [],
+   "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
+   "grade": "Prime office district",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "size": 20000,
+   "size_txt": "2萬平方呎",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "zh",
+   "who": "Landlords' asset & property managers, building management offices, FM companies",
+   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
+   "actions": [
+    "Find Omart's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak) for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Omart%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Omart%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "am730",
+     "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxPcmo0bFdhS2VqMXJCWVdlTWNpRUE1SFVsdl85RXkwaGh2aVd6UHIwMkEweHl4Q1dHTDVmdC1VeEVVYmI5UlBvelFuVGNUa1F5YzVkbXd4ekNsaGdMTFRPcDZEb21rRGlHdmtwVzYwNFNNYndBWkx6SEVzcF9MYmF6MFU3ZE5QN2trbXNXZFd5emZvZzVrUlBURzdmR0tXdXNCSkIxZW5oVXBYUUxleGxaUlNXWTdoN3dCNlpma01iMHlhNHhWUl9TRXFQWTlaOC15SFE0M3JUR2Z3Y3ZhazFqQm40blktcUt2Q1NwWUp6ZU5laGdhdnhOandZdUtLTkFENE9QcnZKVmdyd2QtdWhGcTBURy14eVdUOTE2M3ZRYTIzNUlHZ2V6Nk9RTVhxZmpXeVVzMmotVXdOUTRQbjdPUk9VVl93MGJLWlJZR0FtZnBFbWEteUd1QVVsQ24tUGt3?oc=5",
+     "title": "港版山姆？倉儲式超市Omart進駐MegaBox 11.22開幕佔地2萬平方呎",
+     "date": "2026-10-13"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Move-in: new premises need security systems (+2)",
+    "Prime office district: Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak) (+1)",
+    "Mid-size space (20,000 sq ft) (+2)"
+   ],
+   "features": [
+    "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
+    "grade:Prime office district",
+    "kind:property",
+    "move:Relocation",
+    "sector:Facility Management & Real Estate"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "48f1fa670372",
    "kind": "property",
    "headline": "ManpowerGroup Greater China Relocates Hong Kong Principal Office to Wan Chai",
@@ -4888,79 +5184,6 @@
    "is_new": false
   },
   {
-   "id": "4ca66397a80f",
-   "kind": "property",
-   "headline": "IDT International Moves Hong Kong Principal Office to Central",
-   "date": "2026-10-09",
-   "first_reported": "2026-10-09",
-   "month": "2026-10",
-   "company": "IDT International",
-   "types": [
-    "Relocation"
-   ],
-   "type": "Relocation",
-   "building": "",
-   "landlords": [],
-   "area": "Central / Sheung Wan",
-   "grade": "Prime office district",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Landlords' asset & property managers, building management offices, FM companies",
-   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
-   "actions": [
-    "Find IDT International's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at Central / Sheung Wan for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=IDT%20International%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=IDT%20International%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRHBWeV9SREo5TW5aeUN5eFMxdDBKSlZhbmpMUzJ3aFNEVF9rOFlGUkNSd0JNV3hfVlp6NGdoclpUdUh1c3lWa2piOG9wMXJYRE1ZODU5c1lqWEY1WTFTanA3MEJ4WXU4Y3hOOHEwZWtFUFRsRlJoUktWX1laTmZULVVBY0Qtc0lKX3ZHZ29ZT3VFNjhXemt2V3FyczJFSE5JRmNDTmVWaGlTZlhMS3YzYzByQQ?oc=5",
-     "title": "IDT International Moves Hong Kong Principal Office to Central",
-     "date": "2026-10-09"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 3,
-   "level": "LOW",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "Move-in: new premises need security systems (+2)",
-    "Prime office district: Central / Sheung Wan (+1)"
-   ],
-   "features": [
-    "area:Central / Sheung Wan",
-    "grade:Prime office district",
-    "kind:property",
-    "move:Relocation",
-    "sector:Facility Management & Real Estate"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
    "id": "cf499918aff0",
    "kind": "property",
    "headline": "港大10.6萬租美銀中心極高層",
@@ -5031,81 +5254,6 @@
     "kind:property",
     "move:Lease / pre-lease",
     "sector:Education & Government"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "4c782f102675",
-   "kind": "property",
-   "headline": "渣打第7間財富管理中心進駐One Causeway Bay 佔地2.1萬呎全港最大",
-   "date": "2026-10-06",
-   "first_reported": "2026-10-06",
-   "month": "2026-10",
-   "company": "Standard Chartered",
-   "types": [
-    "Relocation"
-   ],
-   "type": "Relocation",
-   "building": "One Causeway Bay",
-   "landlords": [],
-   "area": "Causeway Bay",
-   "grade": "Grade A building (named)",
-   "sectors": [
-    "Finance & Professional Services"
-   ],
-   "sector": "Finance & Professional Services",
-   "size": 21000,
-   "size_txt": "2.1萬呎",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "zh",
-   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
-   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
-   "actions": [
-    "Find Standard Chartered's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at One Causeway Bay for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=Standard%20Chartered%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=Standard%20Chartered%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "明報財經網",
-     "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxObmJuTWhGY1VpQlpaZlhvaGNQS1E5UkVtQUo4T3pIYXE4ZUdJQ09zdW9Ham1wUW1WUGVsdldaZ1Y4LV9KY3dEZ2RJeE5EREJTQ080dGNIeEVLUG5SdHlaLVU4a1FncGEwZllWZF9oZlYzQzBnNFVCdWx2cmZGNG4wYUNoVU1IVjZoUk9GbnVTczNRWFhQUzRCMW4tM0JRTS1sclZTQlpjMTJKVGttVjBYSnlyRTZseHdtTlUwdkRLeENENmRGck5LUUtPVkRnYTFHd0JMdXl3WUR3Nk4yWlBuTUlPTUZ4bldhNFVIVy16cUpGeFVsc1RNOUxQRVhhRmZ2VXJ5Qm1fWnlIci1PYjdmanFYMlVzak9ENGozckJ0NUVrVTdJMWxMSXJXVDFocDBFS0dkUmRDUjloSHVIM3RhVnVoZ2R5TjVENHdENzQwaV9NdzBFTC1pcG9WYVNmTmZwS0pQTXBYNUFjekNLckp1Y0RJTVloS0tfZEwyYzN3?oc=5",
-     "title": "渣打第7間財富管理中心進駐One Causeway Bay 佔地2.1萬呎全港最大",
-     "date": "2026-10-06"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 8,
-   "level": "HIGH",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "Move-in: new premises need security systems (+2)",
-    "Grade A building: One Causeway Bay (+2)",
-    "Mid-size space (21,000 sq ft) (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
-   ],
-   "features": [
-    "area:Causeway Bay",
-    "grade:Grade A building (named)",
-    "kind:property",
-    "move:Relocation",
-    "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
@@ -5425,7 +5573,7 @@
   {
    "id": "35311802845e",
    "kind": "property",
-   "headline": "US Quant Trading Giant SIG Leases Three Floors at Cheung Kong Center II, Bringing Occupancy to Near Full",
+   "headline": "Susquehanna International Group Leases 51,762 sq ft at Cheung Kong Center II in Hong Kong",
    "date": "2026-09-17",
    "first_reported": "2026-09-02",
    "month": "2026-09",
@@ -5446,8 +5594,8 @@
     "Facility Management & Real Estate"
    ],
    "sector": "Finance & Professional Services",
-   "size": null,
-   "size_txt": "",
+   "size": 51762,
+   "size_txt": "51,762 sq ft",
    "floors": 3,
    "floors_txt": "Three Floors",
    "lang": "en",
@@ -5478,6 +5626,12 @@
      "date": "2026-09-02"
     },
     {
+     "name": "IndexBox",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM1ZWRTRWNjZXMEJEWUlUMFh3WFRybjFBSXdnZUhSMEZxSTBfLXdNM3FPQ3Q0eU5XUHd1RlFzYVI1NzFzZkx3dTNjREkxZWp3SEJ0SUE0NDQ0RGVRbHN5SDY5N1NUbWt5TmI2aVlSV2VpUFRhS1N5bmhpSjdkdWRJRy1WNHNrZFZjTUFKNDZzR2ZzblFYajVJdGdFemp4eS15NkprRG5fV2pTYzRMWl8tLXZMTHNIdkhLYnc?oc=5",
+     "title": "Susquehanna International Group Leases 51,762 sq ft at Cheung Kong Center II in Hong Kong",
+     "date": "2026-09-09"
+    },
+    {
      "name": "BigGo Finance",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iQXRmR2ZmN096VkNDaUFVNlBHYlJfZi1ZeDA0TDBVNnoyUnJ4YTUwRGM1ZWV4M3cwMlJsNnRuUld6eWxHcWRtTmdDR0FXaXhPOTdROUxud2xoWHprSFM5Z21yREFrOU5xaFhoZjdjZW5FUmZIU3c?oc=5",
      "title": "US Quant Trading Giant SIG Leases Three Floors at Cheung Kong Center II, Bringing Occupancy to Near Full",
@@ -5502,8 +5656,8 @@
      "date": "2026-09-17"
     }
    ],
-   "verification": "Corroborated by 4 outlets",
-   "score": 10,
+   "verification": "Corroborated by 5 outlets",
+   "score": 13,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -5513,9 +5667,10 @@
     "Move-in: new premises need security systems (+2)",
     "Expansion: extra floors to secure (+2)",
     "Grade A building: Cheung Kong Center II (+2)",
+    "Large space (51,762 sq ft) (+3)",
     "3 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 4 outlets (+1)"
+    "Reported by 5 outlets (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -5807,7 +5962,7 @@
    "kind": "property",
    "headline": "Jump Trading Expands 11,000 Sq Ft in Hong Kong IFC",
    "date": "2026-09-05",
-   "first_reported": "2026-09-04",
+   "first_reported": "2026-09-05",
    "month": "2026-09",
    "company": "Jump Trading",
    "types": [
@@ -5819,8 +5974,7 @@
    "area": "Central / Sheung Wan",
    "grade": "Grade A building (named)",
    "sectors": [
-    "Finance & Professional Services",
-    "Facility Management & Real Estate"
+    "Finance & Professional Services"
    ],
    "sector": "Finance & Professional Services",
    "size": 11000,
@@ -5849,21 +6003,15 @@
    ],
    "sources": [
     {
-     "name": "Bloomberg.com",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWkRnQ1NvVjdmTndwN196ZVVDdVp0bmtHamxRS1FQQnF6eHczQk1CczZNQW9ZZ3BxNURtWWh2c2M5TC1SZy02UktZMVJzVHpPTlIxeVpQLXNnMU9Kb0U1dHpjcDdEY1JWcDgtdkxDQnhHRVZvOEtDOUdYY0l2Qm05TFRJM01taUxwSWRyRzdpWjFfSkJDTlBsbmZDMXluSjRyTEZtRlpxSk9ZbmJkcnNqZUh3?oc=5",
-     "title": "Jump Trading Expands Office Space in Hong Kong’s IFC Building",
-     "date": "2026-09-04"
-    },
-    {
      "name": "Briefs Finance",
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMEJjdE84VkNOaHlLcE0zblVGNVp4NjZGN1g2d2g1aHZqS0FLQ2tfVHZ1eGpfNlF2RW1OdjE1U3pWSWJaR0RBa3p2czZLbHdTS1p5Ri1SOHFVZVZPemdaUzVGR0Nkb0R0UXhGX2JHMVlYa09PTW8yQzVTYWRSREo5bFBkTG5EV1NzcjR1cGIyNU1IQQ?oc=5",
      "title": "Jump Trading Expands 11,000 Sq Ft in Hong Kong IFC",
      "date": "2026-09-05"
     }
    ],
-   "verification": "Corroborated by 2 outlets",
-   "score": 8,
-   "level": "HIGH",
+   "verification": "Single outlet: open source to confirm",
+   "score": 7,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
@@ -5872,8 +6020,7 @@
     "Expansion: extra floors to secure (+2)",
     "Grade A building: IFC (+2)",
     "11,000 sq ft (+1)",
-    "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 2 outlets (+1)"
+    "High-security tenant (finance / legal / luxury / data) (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -5888,7 +6035,7 @@
   {
    "id": "8a4fd968bce0",
    "kind": "property",
-   "headline": "SHKP leases two and a half floors of IGC to AXA under agreement",
+   "headline": "AXA安盛承租新地高鐵站上蓋商廈IGC兩層半 租期10年",
    "date": "2026-08-25",
    "first_reported": "2026-08-24",
    "month": "2026-08",
@@ -5910,8 +6057,8 @@
    "size": 100000,
    "size_txt": "10萬呎",
    "floors": 2,
-   "floors_txt": "two and a half floors",
-   "lang": "en",
+   "floors_txt": "兩層",
+   "lang": "zh",
    "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
    "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
    "actions": [
@@ -5932,12 +6079,6 @@
     }
    ],
    "sources": [
-    {
-     "name": "The Standard (HK)",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTXF2N2F5UFZ6NTVqVjFETXI0VlBOaURieGpDa2p3dU9ELS12SUhXbUFiTDVKTjAwaGhQbGlSMHVuQVFfOFhyRjl6bmVFTG55WkdxTFV0LXgtTXZNQjc1SWQ3Z0Y3ZFJBd3hlZy1OUF9paUt0NGd5T2NhbDdUUWtxbDlXc19WbFJFQkdXazY2U2ZLRWJjdTlPSGFtQU9CNlpsY01LZlA3bEEtR1ZraDRPUUpfQUd4ZFRoQ3c?oc=5",
-     "title": "SHKP leases two and a half floors of IGC to AXA under agreement",
-     "date": "2026-08-24"
-    },
     {
      "name": "on.cc東網",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNHdWd0VHaUQwMmtQajJHVXZiUjhXT2psUU5DMGZPSEQxZ2EyaDJyNDJnVDRtR2JCVGdDYl8wS3pIeGQ0NGNsWk5MYUVBVG5nMFBweXdIZ3NJYUJWb3JEd1hBQjl4Y2Z6b2FxUHViclQyZXlVcE5yVFlzU00tRzBfWV9SZFF6cXBPeEwtRG5RWQ?oc=5",
@@ -5963,7 +6104,7 @@
      "date": "2026-08-25"
     }
    ],
-   "verification": "Corroborated by 4 outlets",
+   "verification": "Corroborated by 3 outlets",
    "score": 11,
    "level": "HIGH",
    "thresholds": [
@@ -5976,7 +6117,7 @@
     "Large space (100,000 sq ft) (+3)",
     "2 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 4 outlets (+1)"
+    "Reported by 3 outlets (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -6060,96 +6201,6 @@
     "move:Lease / pre-lease",
     "move:Relocation",
     "sector:AI & Technology"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "2c0b13063293",
-   "kind": "property",
-   "headline": "Qatar Airways Cargo relocates regional office to Hong Kong",
-   "date": "2026-08-20",
-   "first_reported": "2026-08-19",
-   "month": "2026-08",
-   "company": "Qatar Airways Cargo",
-   "types": [
-    "Relocation",
-    "New HQ",
-    "New office"
-   ],
-   "type": "Relocation",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Logistics & Supply Chain"
-   ],
-   "sector": "Logistics & Supply Chain",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
-   "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
-   "actions": [
-    "Find Qatar Airways Cargo's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=Qatar%20Airways%20Cargo%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=Qatar%20Airways%20Cargo%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "The Standard (HK)",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRy1pbFQ1MVRUcGRLOWZtanI3Z2hvLVF6TWNudlJiVzRuR0JVMnZGT2haVkxNa3pDRHZpX2pzeGRlQ0xDZHQ0d21lclRUb0UwTzA2YUpsREwySm93RWp5enI4Y1VJYl9pMF95bGxnZ2NJNC1YM1AzS1hhVVJhOXp6UEFvZ0swRU1uT2kycTRWMDZ4cld4WVJOQ0lMcFJrSk1vVUt4RFhlYjBjMUFEVmc?oc=5",
-     "title": "Qatar Airways Cargo relocates regional office to Hong Kong",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdUY2cFJHem5MMjVXeVZWWkNtdldhQWN6MmxTbE5fVUV6MW04eWlmaXNtSmhyYTFiclZKNlBFMDJNcVFZUGhKTDI1ZUdIRkw5R0JITFlubUVlUXNnYnVJY3VwVFd3bHhlcDlUVEJiTzFFdTNhQlgzNFNVT0NtcDhtUEtqdld5UUhUNnUtaGpFWDEwRlZWM1M1N005UFh5UExRam5CNEkzQU9sNXRMMU5hLUdzb1dZVEJwejhOc2I4eGtUaUVxNmNMc18wT2NybDUxMjhYeTJSN29UVDY1N1NIUDV2WFlGd9IB5gFBVV95cUxNWFZkOWo5SXoxNWNhN1RVdXk1Z1I1VDByZGpHVmZuSDVoWmNMRS1Qdjd5c3pCM2NzUjljeEtRVkpzZWg1UlhJaUFTb3pKLS1CMHV1N2FPdU1QZURhQ0JfMngxbEdpZWphS19ZNkl2UUttb0NqZDh5LWRrME9qU3pkZVRhcGVweXRvX1M4T2VUYTRHTldVRDlBU0Z6VmlCNmhhVzYwOW56dlVBdGI0bmhQeFFZSTBZYU1GNkxMMkFoYnVGbm4wYXh5Ym5fLWNUWW0zM181bEdLWHFtNDJLeV9KNmFSY0NJUQ?oc=5",
-     "title": "Mable Chan uses Qatar Airways office opening to drop Central Asia route reveal",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "Marketing-Interactive",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWpGRXlWTldHRWstcEFmYlQtcDU2bG1nVXEtRVdaTS1Mb0VNMEp0bDhSaS1kd1RQQlN5dWZhLTRmcXppdDZFYXF1ZFdNS3hKakhGcU5vcnlXUU9DZ2Iyc1RxNG9hR01TcFFCUzZERDdwemFObGlNWUVXSEt0dTBIa2lzUXBDT3YtSkdFNk5TM1BjTFkyUUdz?oc=5",
-     "title": "Qatar Airways Cargo relocates regional HQ to Hong Kong",
-     "date": "2026-08-20"
-    }
-   ],
-   "verification": "Corroborated by 3 outlets",
-   "score": 6,
-   "level": "MEDIUM",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)",
-    "Reported by 3 outlets (+1)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:New HQ",
-    "move:New office",
-    "move:Relocation",
-    "sector:Logistics & Supply Chain"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
@@ -6306,6 +6357,88 @@
    "is_new": false
   },
   {
+   "id": "2c0b13063293",
+   "kind": "property",
+   "headline": "Qatar Airways Cargo relocates regional office to Hong Kong",
+   "date": "2026-08-20",
+   "first_reported": "2026-08-19",
+   "month": "2026-08",
+   "company": "Qatar Airways Cargo",
+   "types": [
+    "Relocation",
+    "New HQ"
+   ],
+   "type": "Relocation",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Logistics & Supply Chain"
+   ],
+   "sector": "Logistics & Supply Chain",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
+   "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
+   "actions": [
+    "Find Qatar Airways Cargo's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Qatar%20Airways%20Cargo%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Qatar%20Airways%20Cargo%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Standard (HK)",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRy1pbFQ1MVRUcGRLOWZtanI3Z2hvLVF6TWNudlJiVzRuR0JVMnZGT2haVkxNa3pDRHZpX2pzeGRlQ0xDZHQ0d21lclRUb0UwTzA2YUpsREwySm93RWp5enI4Y1VJYl9pMF95bGxnZ2NJNC1YM1AzS1hhVVJhOXp6UEFvZ0swRU1uT2kycTRWMDZ4cld4WVJOQ0lMcFJrSk1vVUt4RFhlYjBjMUFEVmc?oc=5",
+     "title": "Qatar Airways Cargo relocates regional office to Hong Kong",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "Marketing-Interactive",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWpGRXlWTldHRWstcEFmYlQtcDU2bG1nVXEtRVdaTS1Mb0VNMEp0bDhSaS1kd1RQQlN5dWZhLTRmcXppdDZFYXF1ZFdNS3hKakhGcU5vcnlXUU9DZ2Iyc1RxNG9hR01TcFFCUzZERDdwemFObGlNWUVXSEt0dTBIa2lzUXBDT3YtSkdFNk5TM1BjTFkyUUdz?oc=5",
+     "title": "Qatar Airways Cargo relocates regional HQ to Hong Kong",
+     "date": "2026-08-20"
+    }
+   ],
+   "verification": "Corroborated by 2 outlets",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "Move-in: new premises need security systems (+2)",
+    "Reported by 2 outlets (+1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:New HQ",
+    "move:Relocation",
+    "sector:Logistics & Supply Chain"
+   ],
+   "first_seen": "2026-10-12T01:08:09+08:00",
+   "is_new": false
+  },
+  {
    "id": "8ce10e28427f",
    "kind": "property",
    "headline": "恒生首進駐港島甲廈 希慎廣場財富管理中心開幕 配備Sky Bar",
@@ -6380,6 +6513,81 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
+   "is_new": false
+  },
+  {
+   "id": "27ab6a18cb00",
+   "kind": "property",
+   "headline": "教育行業擴充 國際校紛租大樓面",
+   "date": "2026-08-18",
+   "first_reported": "2026-08-18",
+   "month": "2026-08",
+   "company": "教育行業",
+   "types": [
+    "Lease / pre-lease",
+    "Expansion"
+   ],
+   "type": "Lease / pre-lease",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Education & Government"
+   ],
+   "sector": "Education & Government",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "zh",
+   "who": "Campus estates & security offices, school administrators, public-facility managers",
+   "pitch": "Campus guarding, visitor management, CCTV; track upcoming tenders",
+   "actions": [
+    "Find 教育行業's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
+    "Pitch: Campus guarding, visitor management, CCTV; track upcoming tenders.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=%E6%95%99%E8%82%B2%E8%A1%8C%E6%A5%AD%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=%E6%95%99%E8%82%B2%E8%A1%8C%E6%A5%AD%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQjhPMFNHdXhRMG41bTFhNlR3dElHbkJ2b2RoVmhxY2I2MkZodDlWNENYU0duQ0FTaDlVci16cW5SdTd3ZDQ5UHNPVU5Nd21nanAxMmtEVm85c1BRRHJ3anV0YkM3TDRJc1FMam9pdmVMcm9NYlYtNEJHWVNjcDh2Y0k4b0ltZWE5T0NqSmlTbl9EYUhmZ3VGTWZIQ0VLeHZ3THVubEtDX2VYcDhnSG5mSjM4VDlJSXlUTl9HaVFlMUY3dU9uZ0lkRDFFTDYzX2ZCRGFlelowQzliX1ZHV1ZWaEZNdFJzX1hTUmQ0bUxuQ0hkSnAwQ2NqR2pWTTM?oc=5",
+     "title": "教育行業擴充 國際校紛租大樓面",
+     "date": "2026-08-18"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Move-in: new premises need security systems (+2)",
+    "Expansion: extra floors to secure (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:Expansion",
+    "move:Lease / pre-lease",
+    "sector:Education & Government"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
    "is_new": false
   },
   {
@@ -6554,9 +6762,9 @@
  ],
  "transactions": [
   {
-   "id": "431a9a2a0c0f",
+   "id": "bd00e552174d",
    "kind": "transaction",
-   "date": "2026-09-28",
+   "date": "2026-09-25",
    "month": "2026-09",
    "group": "Location to confirm",
    "deal": "Sale",
@@ -6573,8 +6781,9 @@
    "psf": "",
    "record_source": "News",
    "party": "Centurion",
+   "party_source": "per news report",
    "premises": "See headline",
-   "line": "Centurion - Centurion buys Hong Kong mixed-use development Yan Woo Building for HK$364 mil",
+   "line": "Centurion - Centurion to acquire Yan Woo building in Hong Kong for US$46.4 million",
    "area": "Hong Kong (district not stated)",
    "sectors": [
     "Facility Management & Real Estate"
@@ -6600,19 +6809,13 @@
    ],
    "sources": [
     {
-     "name": "EdgeProp.sg",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2dYTzRzMzFzRWNtbVppUjltUTdvaU9KX2t5T0dBeThYWHpGRHBMZm5wS216aGQ5NUF3Vzc1dG9lSTZFYktWMEZGTlBmYTlieDI2dTF2UGtCcTc4LVBKbklYWkhpc3hxdjM5NFFsemU0LXFtd1FVQmJ5WFNJWERMcWtSdjZrNVRxVlJMTzNhRHVfck1kZUlqYnhRUlRKMXZ3dm1BQWd5b3dhTVMzS3cybw?oc=5",
-     "title": "Centurion buys Hong Kong mixed-use development Yan Woo Building for HK$364 mil",
-     "date": "2026-09-28"
-    },
-    {
      "name": "The Business Times",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOHpjRWR2XzJXd1ltMWlvSm4yLWtoaWJMcjRHamxNdDhIWWVRemhFcFlWTEs1cWg4QlVtTVJMNGtNd1A1M2VHbFAyZW0zNG5jcWE1SWEta3ZJS2U5azh4TFA0YV9mNDB0Rjl6ZUR4SmMweExJUkc3MjZuU2Q1UGgza1dOZXRwczZ1TUlseHJjTkpGTVdPeG54WHpBRlB2U2lFaFh3UE9zTzNSNGJDelFz?oc=5",
      "title": "Centurion to acquire Yan Woo building in Hong Kong for US$46.4 million",
      "date": "2026-09-25"
     }
    ],
-   "verification": "Corroborated by 2 outlets",
+   "verification": "Single outlet: open source to confirm",
    "score": 4,
    "level": "LOW",
    "thresholds": [
@@ -6657,6 +6860,7 @@
    "psf": "@14",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Trium Hub",
    "line": "Tenant not named - High floor (exact floor not disclosed), Trium Hub (Leased for HK$77,896/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -6713,8 +6917,92 @@
     "size:m",
     "usage:Office"
    ],
-   "first_seen": "2026-10-13T06:40:31+08:00",
-   "is_new": true
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "077cad70825c",
+   "kind": "transaction",
+   "date": "2026-10-12",
+   "month": "2026-10",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 140000.0,
+   "price_txt": "HK$140,000/month",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Honour Star Enterprises Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shops 100-116 on 1/F of Chong Hing Square, 601 Nathan Road, Kowloon, Hong Kong",
+   "line": "Honour Star Enterprises Limited - Shops 100-116 on 1/F of Chong Hing Square, 601 Nathan Road, Kowloon, Hong Kong",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: Honour Star Enterprises Limited (subsidiary of / listed company Cbk Holdings). Counterparty: Honour Star Enterprises Limited (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Honour%20Star%20Enterprises%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Honour%20Star%20Enterprises%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/1012/2026101200917.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Cbk Holdings)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/1012/2026101200917.pdf",
+     "title": "DISCLOSEABLE TRANSACTION\nIN RELATION TO THE LEASE OF MONG KOK SITE",
+     "date": "2026-10-12"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
   },
   {
    "id": "14ec7ec9281b",
@@ -6736,6 +7024,7 @@
    "psf": "@14.1",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Ajisen Group Tower",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Ajisen Group Tower (Leased for HK$160,000/month)",
    "area": "Hong Kong (district not stated)",
@@ -6791,8 +7080,8 @@
     "size:l",
     "usage:Industrial"
    ],
-   "first_seen": "2026-10-13T06:40:31+08:00",
-   "is_new": true
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
   },
   {
    "id": "190882cb6fe9",
@@ -6814,6 +7103,7 @@
    "psf": "@25",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), 83 King Lam Street Tower A",
    "line": "Tenant not named - High floor (exact floor not disclosed), 83 King Lam Street Tower A (Leased for HK$240,750/month)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -6893,6 +7183,7 @@
    "psf": "@25",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), 83 King Lam Street Tower B",
    "line": "Tenant not named - High floor (exact floor not disclosed), 83 King Lam Street Tower B (Leased for HK$458,300/month)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -6972,6 +7263,7 @@
    "psf": "@6,600",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Four Seas Group Centre",
    "line": "Buyer not named - Mid floor (exact floor not disclosed), Four Seas Group Centre (Bought for HK$105.9M)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -7057,6 +7349,7 @@
    "psf": "@19",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), One Kowloon",
    "line": "Tenant not named - Low floor (exact floor not disclosed), One Kowloon (Leased for HK$250,135/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -7117,6 +7410,91 @@
    "is_new": false
   },
   {
+   "id": "7468ad3c04b6",
+   "kind": "transaction",
+   "date": "2026-10-05",
+   "month": "2026-10",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Industrial",
+   "district": "Cheung Sha Wan / Lai Chi Kok",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 20498400.0,
+   "price_txt": "HK$20.5M (total stated in filing)",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Pacific Legend (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Workshop 02, 6/F, One Two One, 121 King Lam Street, Cheung Sha Wan, Kowloon, Hong Kong",
+   "line": "Pacific Legend (listed company) - Workshop 02, 6/F, One Two One, 121 King Lam Street, Cheung Sha Wan, Kowloon, Hong Kong",
+   "area": "Cheung Sha Wan / Lai Chi Kok",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol",
+   "actions": [
+    "Tenant named in the filing: Pacific Legend (listed company) (listed company Pacific Legend). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Pacific%20Legend%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Pacific%20Legend%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/1005/2026100502165.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Pacific Legend)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/1005/2026100502165.pdf",
+     "title": "DISCLOSEABLE TRANSACTION\nIN RELATION TO THE WAREHOUSE SERVICE",
+     "date": "2026-10-05"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Industrial premises (+1)"
+   ],
+   "features": [
+    "area:Cheung Sha Wan / Lai Chi Kok",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Industrial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "e839e49259f3",
    "kind": "transaction",
    "date": "2026-10-02",
@@ -7136,6 +7514,7 @@
    "psf": "@50",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Mira Place Tower A",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Mira Place Tower A (Leased for HK$252,350/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -7215,6 +7594,7 @@
    "psf": "@23",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Bcc Building",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Bcc Building (Leased for HK$116,081/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -7294,6 +7674,7 @@
    "psf": "@36",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), The Gateway Tower 1",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), The Gateway Tower 1 (Leased for HK$156,960/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -7374,6 +7755,7 @@
    "psf": "@39",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), The Gateway Tower 3 - Prudential Tower",
    "line": "Tenant not named - Low floor (exact floor not disclosed), The Gateway Tower 3 - Prudential Tower (Leased for HK$182,169/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -7454,6 +7836,7 @@
    "psf": "@40",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), The Gateway Tower 6",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), The Gateway Tower 6 (Leased for HK$180,760/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -7534,6 +7917,7 @@
    "psf": "@4,396",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Harbourfront Landmark",
    "line": "Buyer not named - High floor (exact floor not disclosed), Harbourfront Landmark (Bought for HK$323.0M)",
    "area": "Hung Hom / Kowloon City",
@@ -7566,15 +7950,9 @@
      "url": "https://oir.centanet.com/en/transaction/all/office/harbourfront-landmark/detail/3001211/",
      "title": "",
      "date": "2026-09-30"
-    },
-    {
-     "name": "地產站",
-     "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxNTHU0VWVYYW1uSndVQXI4RTdmc1M5WlVqNlJEUm5kdjBfUGd4bXRuOUFEMGtXT1lLZU5RQXNzcFdJckRzSk9Tak9RRXdZWGlVU0lvc0VUeTBpN2FnQU5tSGxVamczMDZYNDZfbEZEWXB5RDl4RS1sQzRSaHJqWWh5NGZueEFsaUthN3plS213SGlMRkYxaENIM3VlaUl5SUhlSHRkYWhmLWNmLW1iNC16M2VIRnVhcnJITXdxY3pfN1hhM1kzSF90b2hXUkJqUV9LSFFtVlpaQXpEMHJvOGVkTzVuSXVFQUNnbmxocDA0d2RyVU0wQ0NFZ2QzTkRwZzk5ZnhpZ2JQaFZsZG55dHYxY3A4WnhwT3l4aGV5ektUX0dHZncxOF9pZVJlaUw0ZjFHejlESERLM1QyRjdPam9fVW1vTmlIN2NPT01hM0NCLTV6QXl1SFhCTnVneGI0eUtRV2hOX2VCNjdIWGpSVmdSRkFvcUNpcGlORXVTYWRDM2Ruc3RQbi0yamVVcU1mNEcxZjJZcHpEY1c0RVhoRGczTk13?oc=5",
-     "title": "紅磡海名軒3層商廈銀主盤 3.23億沽 外資基金高峰期入市 8年貶值7成|香港經濟日報",
-     "date": "2026-09-30"
     }
    ],
-   "verification": "Register record + news report",
+   "verification": "Register record",
    "score": 7,
    "level": "HIGH",
    "thresholds": [
@@ -7620,6 +7998,7 @@
    "psf": "@75",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), International Commerce Centre",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), International Commerce Centre (Leased for HK$307,800/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -7700,6 +8079,7 @@
    "psf": "@18.8",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), The Grid",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), The Grid (Leased for HK$158,000/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -7779,6 +8159,7 @@
    "psf": "@30",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Grand Central Plaza, Tower I",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Grand Central Plaza, Tower I (Leased for HK$349,770/month)",
    "area": "Wan Chai",
@@ -7859,6 +8240,7 @@
    "psf": "@20",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), EGL Tower",
    "line": "Tenant not named - High floor (exact floor not disclosed), EGL Tower (Leased for HK$231,500/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -7938,6 +8320,7 @@
    "psf": "@60",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Central Crossing",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Central Crossing (Leased for HK$636,300/month)",
    "area": "Central / Sheung Wan",
@@ -8017,6 +8400,7 @@
    "psf": "@14",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Ever Gain Centre (No.4)",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Ever Gain Centre (No.4) (Leased for HK$321,314/month)",
    "area": "Hong Kong (district not stated)",
@@ -8076,6 +8460,177 @@
    "is_new": false
   },
   {
+   "id": "1b1d729b0e75",
+   "kind": "transaction",
+   "date": "2026-09-28",
+   "month": "2026-09",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Office / commercial",
+   "district": "Tsim Sha Tsui / West Kowloon",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 500000.0,
+   "price_txt": "HK$500,000 (total stated in filing)",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Gonpachi Restaurant Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "28th Floor, One Peking, No. 1 Peking Road, Tsim Sha Tsui, Kowloon",
+   "line": "Gonpachi Restaurant Limited - 28th Floor, One Peking, No. 1 Peking Road, Tsim Sha Tsui, Kowloon",
+   "area": "Tsim Sha Tsui / West Kowloon",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Tenant named in the filing: Gonpachi Restaurant Limited (subsidiary of / listed company 1957 & Co.). Counterparty: Glory Star Investments Limited (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Gonpachi%20Restaurant%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Gonpachi%20Restaurant%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0928/2026092801709.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (1957 & Co.)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0928/2026092801709.pdf",
+     "title": "DISCLOSEABLE TRANSACTION\nIN RELATION TO RENEWAL OF TENANCY AGREEMENT\nFOR AN EXISTING JAPANESE CUISINE RESTAURANT\nIN ONE PEKING",
+     "date": "2026-09-28"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)",
+    "Renewal of an existing lease: no move (-2)"
+   ],
+   "features": [
+    "area:Tsim Sha Tsui / West Kowloon",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "6a752ad51549",
+   "kind": "transaction",
+   "date": "2026-09-25",
+   "month": "2026-09",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "Northern Metropolis / NT North-West",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 720000.0,
+   "price_txt": "HK$720,000/month",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Wang On Majorluck Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shop 2 on the Ground Floor of Tin Yan Shopping Centre, Tin Yan Estate, Tin Shui Wai, New Territories, Hong Kong",
+   "line": "Wang On Majorluck Limited - Shop 2 on the Ground Floor of Tin Yan Shopping Centre, Tin Yan Estate, Tin Shui Wai, New Territories, Hong Kong",
+   "area": "Northern Metropolis / NT North-West",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: Wang On Majorluck Limited (subsidiary of / listed company Wang On Group). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Wang%20On%20Majorluck%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Wang%20On%20Majorluck%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0925/2026092500363.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Wang On Group)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0925/2026092500363.pdf",
+     "title": "DISCLOSEABLE TRANSACTION IN RELATION TO RENEWAL OF TENANCY AGREEMENT",
+     "date": "2026-09-25"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Renewal of an existing lease: no move (-2)"
+   ],
+   "features": [
+    "area:Northern Metropolis / NT North-West",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "a900068a39d4",
    "kind": "transaction",
    "date": "2026-09-24",
@@ -8095,6 +8650,7 @@
    "psf": "@24",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Manulife Financial Centre - Tower B",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Manulife Financial Centre - Tower B (Leased for HK$575,160/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -8175,6 +8731,7 @@
    "psf": "@3,355",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "05/F Unit W/F, Shatin Industrial Centre Block A",
    "line": "Buyer not named - 05/F Unit W/F, Shatin Industrial Centre Block A (Bought for HK$98.0M)",
    "area": "Sha Tin / Tai Po (incl. Science Park)",
@@ -8236,6 +8793,91 @@
    "is_new": false
   },
   {
+   "id": "7577425147ed",
+   "kind": "transaction",
+   "date": "2026-09-23",
+   "month": "2026-09",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "Kwai Tsing / Tsuen Wan",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": null,
+   "price_txt": "Not stated",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "E Lighting (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shop No. 312 of 3rd Floor, CDW Building, 388 Castle Peak Road, Tsuen Wan, Hong Kong",
+   "line": "E Lighting (listed company) - Shop No. 312 of 3rd Floor, CDW Building, 388 Castle Peak Road, Tsuen Wan, Hong Kong",
+   "area": "Kwai Tsing / Tsuen Wan",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: E Lighting (listed company) (listed company E Lighting). Counterparty: CDW Buildings Limited (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=E%20Lighting%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=E%20Lighting%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0923/2026092300292.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (E Lighting)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0923/2026092300292.pdf",
+     "title": "DISCLOSEABLE TRANSACTION IN RELATION TO RENEWAL OF TENANCY AGREEMENT",
+     "date": "2026-09-23"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Renewal of an existing lease: no move (-2)"
+   ],
+   "features": [
+    "area:Kwai Tsing / Tsuen Wan",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "4c8ecc7a72d8",
    "kind": "transaction",
    "date": "2026-09-22",
@@ -8255,6 +8897,7 @@
    "psf": "@12.5",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Long Life Industrial Building",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Long Life Industrial Building (Leased for HK$160,000/month)",
    "area": "Hong Kong (district not stated)",
@@ -8333,6 +8976,7 @@
    "psf": "@13",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Litu Tower",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Litu Tower (Leased for HK$600,000/month)",
    "area": "Northern Metropolis / NT North-West",
@@ -8411,6 +9055,7 @@
    "psf": "@13",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Pioneer Place",
    "line": "Tenant not named - High floor (exact floor not disclosed), Pioneer Place (Leased for HK$111,098/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -8490,6 +9135,7 @@
    "psf": "@6.8",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Tsing Yi Industrial Centre Ph. 1, Blk. B",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Tsing Yi Industrial Centre Ph. 1, Blk. B (Leased for HK$70,000/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -8568,6 +9214,7 @@
    "psf": "@10",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), L.M.K. Development Estate",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), L.M.K. Development Estate (Leased for HK$107,930/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -8646,6 +9293,7 @@
    "psf": "@20",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Billion Centre - Tower A",
    "line": "Tenant not named - High floor (exact floor not disclosed), Billion Centre - Tower A (Leased for HK$140,000/month)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -8726,6 +9374,7 @@
    "psf": "@15",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), China Resources Int'l Logistics Centre",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), China Resources Int'l Logistics Centre (Leased for HK$1.6M/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -8804,6 +9453,7 @@
    "psf": "@28",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), The Harbourfront Tower I",
    "line": "Tenant not named - Low floor (exact floor not disclosed), The Harbourfront Tower I (Leased for HK$246,120/month)",
    "area": "Hung Hom / Kowloon City",
@@ -8884,6 +9534,7 @@
    "psf": "@21",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "19/F Unit 01-02, Landmark East - AXA Tower(Twr1)",
    "line": "Tenant not named - 19/F Unit 01-02, Landmark East - AXA Tower(Twr1) (Leased for HK$136,143/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -8965,6 +9616,7 @@
    "psf": "@10.2",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Tai Ping Industrial Centre Block 1",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Tai Ping Industrial Centre Block 1 (Leased for HK$110,000/month)",
    "area": "Sha Tin / Tai Po (incl. Science Park)",
@@ -9043,6 +9695,7 @@
    "psf": "@10",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Kong Nam Industrial Building A",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Kong Nam Industrial Building A (Leased for HK$264,100/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -9121,6 +9774,7 @@
    "psf": "@18",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Sunshine Kowloon Bay Cargo Centre",
    "line": "Tenant not named - High floor (exact floor not disclosed), Sunshine Kowloon Bay Cargo Centre (Leased for HK$380,178/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -9199,6 +9853,7 @@
    "psf": "@18",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Sunshine Kowloon Bay Cargo Centre",
    "line": "Tenant not named - High floor (exact floor not disclosed), Sunshine Kowloon Bay Cargo Centre (Leased for HK$410,256/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -9277,6 +9932,7 @@
    "psf": "@15",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Hope Sea Industrial Centre",
    "line": "Tenant not named - High floor (exact floor not disclosed), Hope Sea Industrial Centre (Leased for HK$223,185/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -9355,6 +10011,7 @@
    "psf": "@12.6",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "01/F Unit 03, Hutchison Logistics Centre",
    "line": "Tenant not named - 01/F Unit 03, Hutchison Logistics Centre (Leased for HK$957,013/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -9434,6 +10091,7 @@
    "psf": "@50",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Langham Place",
    "line": "Tenant not named - High floor (exact floor not disclosed), Langham Place (Leased for HK$869,900/month)",
    "area": "Mong Kok / Yau Ma Tei",
@@ -9514,6 +10172,7 @@
    "psf": "@18",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), D2 Place Two",
    "line": "Tenant not named - High floor (exact floor not disclosed), D2 Place Two (Leased for HK$114,210/month)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -9594,6 +10253,7 @@
    "psf": "@20",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), D2 Place Two",
    "line": "Tenant not named - High floor (exact floor not disclosed), D2 Place Two (Leased for HK$123,400/month)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -9674,6 +10334,7 @@
    "psf": "@17",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), D2 Place Two",
    "line": "Tenant not named - High floor (exact floor not disclosed), D2 Place Two (Leased for HK$92,344/month)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -9754,6 +10415,7 @@
    "psf": "@26",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "06/F Unit 01-10&23A, Landmark North",
    "line": "Tenant not named - 06/F Unit 01-10&23A, Landmark North (Leased for HK$277,992/month)",
    "area": "Northern Metropolis / NT North-West",
@@ -9834,6 +10496,7 @@
    "psf": "@8",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Chung Kiu Godown Building",
    "line": "Tenant not named - High floor (exact floor not disclosed), Chung Kiu Godown Building (Leased for HK$101,208/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -9893,6 +10556,91 @@
    "is_new": false
   },
   {
+   "id": "37d43a11e562",
+   "kind": "transaction",
+   "date": "2026-09-13",
+   "month": "2026-09",
+   "group": "Kowloon / N.T.",
+   "deal": "Sale",
+   "usage": "Industrial",
+   "district": "Sha Tin / Tai Po (incl. Science Park)",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 98000000.0,
+   "price_txt": "HK$98.0M",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Tian Cheng Enterprises Holdings Limited",
+   "party_source": "buyer, per HKEX filing",
+   "premises": "Workshops 3 and 4, and Car Parking Space No. L45 on the second floor of Block A, at Nos. 5–7 Yuen Shun Circuit, Shatin, New Territories, Hong Kong",
+   "line": "Tian Cheng Enterprises Holdings Limited - Workshops 3 and 4, and Car Parking Space No. L45 on the second floor of Block A, at Nos. 5–7 Yuen Shun Circuit, Shatin, New Territories, Hong Kong",
+   "area": "Sha Tin / Tai Po (incl. Science Park)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol",
+   "actions": [
+    "Buyer named in the filing: Tian Cheng Enterprises Holdings Limited (subsidiary of / listed company Hinsang Group). Counterparty: Beautymate Hong Kong Limited (seller). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Tian%20Cheng%20Enterprises%20Holdings%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Tian%20Cheng%20Enterprises%20Holdings%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0913/2026091300113.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Hinsang Group)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0913/2026091300113.pdf",
+     "title": "Major Transaction - Disposal of Property",
+     "date": "2026-09-13"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 7,
+   "level": "HIGH",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$98.0M (+3)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Industrial premises (+1)"
+   ],
+   "features": [
+    "area:Sha Tin / Tai Po (incl. Science Park)",
+    "deal:Sale",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Facility Management & Real Estate",
+    "size:l",
+    "usage:Industrial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "86f18b575dd6",
    "kind": "transaction",
    "date": "2026-09-11",
@@ -9912,6 +10660,7 @@
    "psf": "@28",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Kowloon Commerce Centre Tower A",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Kowloon Commerce Centre Tower A (Leased for HK$629,776/month)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -9992,6 +10741,7 @@
    "psf": "@11.1",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Tai Ping Industrial Centre Block 1",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Tai Ping Industrial Centre Block 1 (Leased for HK$120,000/month)",
    "area": "Sha Tin / Tai Po (incl. Science Park)",
@@ -10070,6 +10820,7 @@
    "psf": "",
    "record_source": "News",
    "party": "HKUST (reported, unconfirmed)",
+   "party_source": "per news report",
    "premises": "See headline",
    "line": "HKUST (reported, unconfirmed) - 舖王再滴血！鄧成波家族西貢工廈1.4億、蝕6成沽 科大接貨呼聲高",
    "area": "Tseung Kwan O / Sai Kung",
@@ -10148,6 +10899,7 @@
    "psf": "@29",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Grand Central Plaza, Tower II",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Grand Central Plaza, Tower II (Leased for HK$2.7M/month)",
    "area": "Wan Chai",
@@ -10228,6 +10980,7 @@
    "psf": "@14",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), China Resources Logistics Sheung Shui Warehouse",
    "line": "Tenant not named - High floor (exact floor not disclosed), China Resources Logistics Sheung Shui Warehouse (Leased for HK$218,694/month)",
    "area": "Northern Metropolis / NT North-West",
@@ -10306,6 +11059,7 @@
    "psf": "@3,568",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "01/F Unit 01-07,29-36,37A, Sino Industrial Plaza",
    "line": "Buyer not named - 01/F Unit 01-07,29-36,37A, Sino Industrial Plaza (Bought for HK$55.4M)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -10385,6 +11139,7 @@
    "psf": "@2.6",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Ying Cheong Industrial Building",
    "line": "Tenant not named - High floor (exact floor not disclosed), Ying Cheong Industrial Building (Leased for HK$65,000/month)",
    "area": "Northern Metropolis / NT North-West",
@@ -10463,6 +11218,7 @@
    "psf": "@15",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), The Octagon",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), The Octagon (Leased for HK$228,975/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -10542,6 +11298,7 @@
    "psf": "@6,329",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "07/F Unit WF, Sunbeam Commercial Building",
    "line": "Buyer not named - 07/F Unit WF, Sunbeam Commercial Building (Bought for HK$31.6M)",
    "area": "Mong Kok / Yau Ma Tei",
@@ -10623,6 +11380,7 @@
    "psf": "@35",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Grand Century Place I",
    "line": "Tenant not named - High floor (exact floor not disclosed), Grand Century Place I (Leased for HK$447,300/month)",
    "area": "Mong Kok / Yau Ma Tei",
@@ -10703,6 +11461,7 @@
    "psf": "@13",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Enterprise Square Tower 3",
    "line": "Tenant not named - High floor (exact floor not disclosed), Enterprise Square Tower 3 (Leased for HK$67,808/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -10783,6 +11542,7 @@
    "psf": "@17",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Port 33",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Port 33 (Leased for HK$115,022/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -10862,6 +11622,7 @@
    "psf": "@17",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Port 33",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Port 33 (Leased for HK$225,114/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -10941,6 +11702,7 @@
    "psf": "@13",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "12/F Unit A-D, Goodman Kwai Chung Logistics Centre",
    "line": "Tenant not named - 12/F Unit A-D, Goodman Kwai Chung Logistics Centre (Leased for HK$169,325/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -11020,6 +11782,7 @@
    "psf": "@10.5",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "04/F Unit A,B, Chuan Kei Factory Building",
    "line": "Tenant not named - 04/F Unit A,B, Chuan Kei Factory Building (Leased for HK$172,221/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -11099,6 +11862,7 @@
    "psf": "@10.3",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "06/F Unit A,B, Chuan Kei Factory Building",
    "line": "Tenant not named - 06/F Unit A,B, Chuan Kei Factory Building (Leased for HK$167,300/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -11178,6 +11942,7 @@
    "psf": "@73",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), International Commerce Centre",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), International Commerce Centre (Leased for HK$1.1M/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -11258,6 +12023,7 @@
    "psf": "@24",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Millennium City 1 Tower 1",
    "line": "Tenant not named - High floor (exact floor not disclosed), Millennium City 1 Tower 1 (Leased for HK$395,400/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -11338,6 +12104,7 @@
    "psf": "@24",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Millennium City 1 Tower 1",
    "line": "Tenant not named - High floor (exact floor not disclosed), Millennium City 1 Tower 1 (Leased for HK$480,600/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -11418,6 +12185,7 @@
    "psf": "@24",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Millennium City 1 Tower 1",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Millennium City 1 Tower 1 (Leased for HK$494,016/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -11498,6 +12266,7 @@
    "psf": "@31",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Grand Central Plaza, Tower II",
    "line": "Tenant not named - High floor (exact floor not disclosed), Grand Central Plaza, Tower II (Leased for HK$573,748/month)",
    "area": "Wan Chai",
@@ -11578,6 +12347,7 @@
    "psf": "@6.1",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Hou Feng Industrial Building",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Hou Feng Industrial Building (Leased for HK$85,000/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -11637,6 +12407,90 @@
    "is_new": false
   },
   {
+   "id": "6be93e957d7c",
+   "kind": "transaction",
+   "date": "2026-09-01",
+   "month": "2026-09",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 85000.0,
+   "price_txt": "HK$85,000/month",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "King Wings Holding Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shop A on Basement, Kimberly House, No. 35 Kimberley Road, Kowloon, Hong Kong",
+   "line": "King Wings Holding Limited - Shop A on Basement, Kimberly House, No. 35 Kimberley Road, Kowloon, Hong Kong",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: King Wings Holding Limited (subsidiary of / listed company Cbk Holdings). Counterparty: King Wings Holding Limited (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=King%20Wings%20Holding%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=King%20Wings%20Holding%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0901/2026090103521.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Cbk Holdings)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0901/2026090103521.pdf",
+     "title": "DISCLOSEABLE TRANSACTION\nIN RELATION TO THE LEASE OF TSIM SHA TSUI SITE",
+     "date": "2026-09-01"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "ee1d66acb34d",
    "kind": "transaction",
    "date": "2026-08-31",
@@ -11656,6 +12510,7 @@
    "psf": "@26",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "23/F Unit 02-07A, Millennium City 5 - BEA Tower",
    "line": "Tenant not named - 23/F Unit 02-07A, Millennium City 5 - BEA Tower (Leased for HK$233,584/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -11737,6 +12592,7 @@
    "psf": "@20",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "19/F Unit 03-04, AIA Financial Centre",
    "line": "Tenant not named - 19/F Unit 03-04, AIA Financial Centre (Leased for HK$118,000/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -11817,6 +12673,7 @@
    "psf": "@2,188",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "08/F Unit W/F, New East Sun Industrial Building",
    "line": "Buyer not named - 08/F Unit W/F, New East Sun Industrial Building (Bought for HK$35.0M)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -11897,6 +12754,7 @@
    "psf": "@4,500",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "25/F Unit WF&TOWERB-E, Billion Centre - Tower A",
    "line": "Buyer not named - 25/F Unit WF&TOWERB-E, Billion Centre - Tower A (Bought for HK$76.8M)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -11979,6 +12837,7 @@
    "psf": "@24.2",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Harbour Crystal Centre",
    "line": "Tenant not named - High floor (exact floor not disclosed), Harbour Crystal Centre (Leased for HK$183,900/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -12058,6 +12917,7 @@
    "psf": "@5,700",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "01/F Unit 02, Dr. Kong Centre",
    "line": "Buyer not named - 01/F Unit 02, Dr. Kong Centre (Bought for HK$33.0M)",
    "area": "Cheung Sha Wan / Lai Chi Kok",
@@ -12137,6 +12997,7 @@
    "psf": "@15",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), 1 Hung To Road",
    "line": "Tenant not named - Low floor (exact floor not disclosed), 1 Hung To Road (Leased for HK$279,645/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -12196,6 +13057,90 @@
    "is_new": false
   },
   {
+   "id": "362fa6f440e8",
+   "kind": "transaction",
+   "date": "2026-08-28",
+   "month": "2026-08",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "Sha Tin / Tai Po (incl. Science Park)",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 169000.0,
+   "price_txt": "HK$169,000 (total stated in filing)",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Giant Harvest Advertising & Communications Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shop Nos. 321 –328 on Level 1 of Zone E of Tai Po Mega Mall (also known as Shopping Mall Tai Po Centre), Tai Po Town Lot No. 15, Hong Kong",
+   "line": "Giant Harvest Advertising & Communications Limited - Shop Nos. 321 –328 on Level 1 of Zone E of Tai Po Mega Mall (also known as Shopping Mall Tai Po Centre), Tai Po Town Lot No. 15, Hong Kong",
+   "area": "Sha Tin / Tai Po (incl. Science Park)",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: Giant Harvest Advertising & Communications Limited (subsidiary of / listed company Modernhealthtec). Counterparty: Tainam Holdings Limited (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Giant%20Harvest%20Advertising%20%26%20Communications%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Giant%20Harvest%20Advertising%20%26%20Communications%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082804236.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Modernhealthtec)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082804236.pdf",
+     "title": "DISCLOSEABLE TRANSACTIONS IN RELATION TO THE LEASE AGREEMENTS",
+     "date": "2026-08-28"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)"
+   ],
+   "features": [
+    "area:Sha Tin / Tai Po (incl. Science Park)",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "d23bbb301d90",
    "kind": "transaction",
    "date": "2026-08-27",
@@ -12215,6 +13160,7 @@
    "psf": "@21",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Energy Plaza",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Energy Plaza (Leased for HK$130,158/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -12294,6 +13240,7 @@
    "psf": "@41",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), The Gateway Tower 1",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), The Gateway Tower 1 (Leased for HK$339,152/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -12374,6 +13321,7 @@
    "psf": "@46",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), The Gateway Tower 2",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), The Gateway Tower 2 (Leased for HK$713,736/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -12454,6 +13402,7 @@
    "psf": "@38",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), The Gateway Tower 2",
    "line": "Tenant not named - Low floor (exact floor not disclosed), The Gateway Tower 2 (Leased for HK$221,198/month)",
    "area": "Tsim Sha Tsui / West Kowloon",
@@ -12534,6 +13483,7 @@
    "psf": "@1,832",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "G-02/F Unit W/B, 6 Hong Ting Road",
    "line": "Buyer not named - G-02/F Unit W/B, 6 Hong Ting Road (Bought for HK$141.0M)",
    "area": "Tseung Kwan O / Sai Kung",
@@ -12614,6 +13564,7 @@
    "psf": "@8.5",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Ming Wah Industrial Building",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Ming Wah Industrial Building (Leased for HK$243,857/month)",
    "area": "Hong Kong (district not stated)",
@@ -12692,6 +13643,7 @@
    "psf": "@10",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Kwai Shun Industrial Centre",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Kwai Shun Industrial Centre (Leased for HK$109,160/month)",
    "area": "Hong Kong (district not stated)",
@@ -12770,6 +13722,7 @@
    "psf": "@12",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), D.J. Securities Building",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), D.J. Securities Building (Leased for HK$135,648/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -12848,6 +13801,7 @@
    "psf": "@16.5",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "01/F Unit E24-E26, ATL Logistics Centre A",
    "line": "Tenant not named - 01/F Unit E24-E26, ATL Logistics Centre A (Leased for HK$254,100/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -12928,6 +13882,7 @@
    "psf": "@16.5",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "05/F Unit W10-W15, ATL Logistics Centre A",
    "line": "Tenant not named - 05/F Unit W10-W15, ATL Logistics Centre A (Leased for HK$541,530/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -13008,6 +13963,7 @@
    "psf": "@3,152",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "19&03P/F Unit WF&CPD28, Enterprise Square Tower 1",
    "line": "Buyer not named - 19&03P/F Unit WF&CPD28, Enterprise Square Tower 1 (Bought for HK$38.8M)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -13090,6 +14046,7 @@
    "psf": "@14.6",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "20/F Unit B, Goodman Dynamic Centre",
    "line": "Tenant not named - 20/F Unit B, Goodman Dynamic Centre (Leased for HK$240,477/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -13169,6 +14126,7 @@
    "psf": "@17.8",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "08/F Unit 02,03, Goodman Global Gateway",
    "line": "Tenant not named - 08/F Unit 02,03, Goodman Global Gateway (Leased for HK$743,885/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -13248,6 +14206,7 @@
    "psf": "@18.2",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "08/F Unit 01, Goodman Global Gateway",
    "line": "Tenant not named - 08/F Unit 01, Goodman Global Gateway (Leased for HK$303,212/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -13327,6 +14286,7 @@
    "psf": "@7",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Tsing Yi Industrial Centre Ph. 2, Blk. D",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Tsing Yi Industrial Centre Ph. 2, Blk. D (Leased for HK$98,000/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -13405,6 +14365,7 @@
    "psf": "@2,660",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "G-05/F Unit W/B, 33 On Lok Mun Street",
    "line": "Buyer not named - G-05/F Unit W/B, 33 On Lok Mun Street (Bought for HK$77.0M)",
    "area": "Northern Metropolis / NT North-West",
@@ -13485,6 +14446,7 @@
    "psf": "@12",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Hong Leong Industrial Complex",
    "line": "Tenant not named - High floor (exact floor not disclosed), Hong Leong Industrial Complex (Leased for HK$189,384/month)",
    "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -13563,6 +14525,7 @@
    "psf": "@17.8",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "12/F Unit 02, Goodman Global Gateway",
    "line": "Tenant not named - 12/F Unit 02, Goodman Global Gateway (Leased for HK$371,112/month)",
    "area": "Kwai Tsing / Tsuen Wan",
@@ -13623,6 +14586,343 @@
    "is_new": false
   },
   {
+   "id": "caed23bc036c",
+   "kind": "transaction",
+   "date": "2026-08-14",
+   "month": "2026-08",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "Northern Metropolis / NT North-West",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 100000.0,
+   "price_txt": "HK$100,000/month",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Jasmine Cuisine (TM) Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shop No. G09, Block 2, No. 12 Yan Po Road, Tuen Mun, Hong Kong",
+   "line": "Jasmine Cuisine (TM) Limited - Shop No. G09, Block 2, No. 12 Yan Po Road, Tuen Mun, Hong Kong",
+   "area": "Northern Metropolis / NT North-West",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: Jasmine Cuisine (TM) Limited (subsidiary of / listed company Thac Group). Counterparty: Easy Living Consultant Limited (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Jasmine%20Cuisine%20%28TM%29%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Jasmine%20Cuisine%20%28TM%29%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0814/2026081400804.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Thac Group)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0814/2026081400804.pdf",
+     "title": "DISCLOSABLE TRANSACTION IN RELATION TO\nTHE TENANCY AGREEMENT",
+     "date": "2026-08-14"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)"
+   ],
+   "features": [
+    "area:Northern Metropolis / NT North-West",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "07ce73f094df",
+   "kind": "transaction",
+   "date": "2026-08-11",
+   "month": "2026-08",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "Lantau / Airport",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 400000.0,
+   "price_txt": "HK$400,000/month",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Classified Group Management Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shop No. 8, Cheung Tung@Chill Walk, Cheung Tung Estate, Tung Chung, New Territories, Hong Kong",
+   "line": "Classified Group Management Limited - Shop No. 8, Cheung Tung@Chill Walk, Cheung Tung Estate, Tung Chung, New Territories, Hong Kong",
+   "area": "Lantau / Airport",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: Classified Group Management Limited (subsidiary of / listed company Thac Group). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Classified%20Group%20Management%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Classified%20Group%20Management%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0811/2026081100285.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Thac Group)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0811/2026081100285.pdf",
+     "title": "DISCLOSABLE TRANSACTION IN RELATION TO\nTHE TENANCY AGREEMENT",
+     "date": "2026-08-11"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)"
+   ],
+   "features": [
+    "area:Lantau / Airport",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "baf782fdc391",
+   "kind": "transaction",
+   "date": "2026-08-05",
+   "month": "2026-08",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 1760000.0,
+   "price_txt": "HK$1.8M (total stated in filing)",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Jimu Group (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shop 1D (Store Room) on the G/F of Cheong Fu Mansion, Nos. 2, 2A–2C, 4, 4A, 6 Fife Street and the Whole of 1/F of Cheong Fu Mansion, Nos. 2–6 Fife Street, Kowloon, Hong Kong",
+   "line": "Jimu Group (listed company) - Shop 1D (Store Room) on the G/F of Cheong Fu Mansion, Nos. 2, 2A–2C, 4, 4A, 6 Fife Street and the Whole of 1/F of Cheong Fu Mansion, Nos. 2–6 Fife Street, Kowloon, Hong Kong",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: Jimu Group (listed company) (listed company Jimu Group). Counterparty: Fully King Trading Limited (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Jimu%20Group%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Jimu%20Group%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0805/2026080501875.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Jimu Group)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0805/2026080501875.pdf",
+     "title": "DISCLOSEABLE TRANSACTION\nIN RELATION TO THE TENANCY AGREEMENT",
+     "date": "2026-08-05"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "01ac3cbb3651",
+   "kind": "transaction",
+   "date": "2026-06-30",
+   "month": "2026-06",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Office / commercial",
+   "district": "Cheung Sha Wan / Lai Chi Kok",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": null,
+   "price_txt": "Not stated",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Cr Asia (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "9/F LiFung Tower, No. 868 Cheung Sha Wan Road, Kowloon, Hong Kong",
+   "line": "Cr Asia (listed company) - 9/F LiFung Tower, No. 868 Cheung Sha Wan Road, Kowloon, Hong Kong",
+   "area": "Cheung Sha Wan / Lai Chi Kok",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Tenant named in the filing: Cr Asia (listed company) (listed company Cr Asia). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Cr%20Asia%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Cr%20Asia%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0630/2026063001768.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Cr Asia)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0630/2026063001768.pdf",
+     "title": "Connected Transaction - Tenancy Agreements",
+     "date": "2026-06-30"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Cheung Sha Wan / Lai Chi Kok",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:Kowloon / N.T.",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "d2c0848085de",
    "kind": "transaction",
    "date": "2026-10-08",
@@ -13642,6 +14942,7 @@
    "psf": "@89",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Champion Tower",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Champion Tower (Leased for HK$166,608/month)",
    "area": "Central / Sheung Wan",
@@ -13722,6 +15023,7 @@
    "psf": "@61.9",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), New World Tower I",
    "line": "Tenant not named - Low floor (exact floor not disclosed), New World Tower I (Leased for HK$290,000/month)",
    "area": "Central / Sheung Wan",
@@ -13801,6 +15103,7 @@
    "psf": "@52",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Baskerville House",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Baskerville House (Leased for HK$200,000/month)",
    "area": "Central / Sheung Wan",
@@ -13880,6 +15183,7 @@
    "psf": "@46",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Times Square, Tower 2",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Times Square, Tower 2 (Leased for HK$461,288/month)",
    "area": "Causeway Bay",
@@ -13960,6 +15264,7 @@
    "psf": "@50",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), HDH Centre",
    "line": "Tenant not named - High floor (exact floor not disclosed), HDH Centre (Leased for HK$322,500/month)",
    "area": "Causeway Bay",
@@ -14039,6 +15344,7 @@
    "psf": "@95",
    "record_source": "Market News",
    "party": "Susquehanna (SIG)",
+   "party_source": "per news report",
    "premises": "Low floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Susquehanna (SIG) - Low floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$500,460/month)",
    "area": "Central / Sheung Wan",
@@ -14092,12 +15398,6 @@
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWWFBTDE0TnJwUFdRUjRpWEpBbElicXExV0ZPRUtNWVZodVZ6eWNBbnNNZ2pPdG1SY2lUU21GZGtndzVOMktfUC1VOE1NamJFVVVndVhNaWpBaTJ1REVCbjRvTWFibGVaU3dCMGVDaDJpRXFhc29Id25CV3puUzdjVENfbkl4VmRqMENkUzRfcEd2bDN5T3lHeW1KMmw5aElrT0wxMlBxemhwTVFwY0E?oc=5",
      "title": "和記地產︰長江集團中心二期現階段可出租樓面已近全部租出，美國量化交易公司承租逾5萬呎| 即時新聞- 新聞",
      "date": "2026-09-17"
-    },
-    {
-     "name": "Now 財經",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFSTY2eEFaYnlqSXpuT0dLdkVIZEE5bDlVZHJWSlVXZHkxeW9YN05tUW1zbXRJVVM2bzVKVTZDa1dqTnpzVTdIaDV5b05aTm5TLVpPcmlIZ2kwaHM?oc=5",
-     "title": "美國量化交易公司租用長江集團中心二期",
-     "date": "2026-09-17"
     }
    ],
    "verification": "Register record + news report",
@@ -14147,6 +15447,7 @@
    "psf": "@11.5",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), China Resources Chaiwan Warehouse",
    "line": "Tenant not named - High floor (exact floor not disclosed), China Resources Chaiwan Warehouse (Leased for HK$244,364/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -14225,6 +15526,7 @@
    "psf": "@11.5",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), China Resources Chaiwan Warehouse",
    "line": "Tenant not named - High floor (exact floor not disclosed), China Resources Chaiwan Warehouse (Leased for HK$217,396/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -14303,6 +15605,7 @@
    "psf": "@11.5",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), China Resources Chaiwan Warehouse",
    "line": "Tenant not named - High floor (exact floor not disclosed), China Resources Chaiwan Warehouse (Leased for HK$142,186/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -14381,6 +15684,7 @@
    "psf": "@60",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), The Center",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), The Center (Leased for HK$894,480/month)",
    "area": "Central / Sheung Wan",
@@ -14461,6 +15765,7 @@
    "psf": "@35",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), On Hing Building",
    "line": "Tenant not named - Low floor (exact floor not disclosed), On Hing Building (Leased for HK$160,300/month)",
    "area": "Central / Sheung Wan",
@@ -14540,6 +15845,7 @@
    "psf": "@33",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), On Hing Building",
    "line": "Tenant not named - High floor (exact floor not disclosed), On Hing Building (Leased for HK$151,140/month)",
    "area": "Central / Sheung Wan",
@@ -14619,6 +15925,7 @@
    "psf": "@25",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), On Hing Building",
    "line": "Tenant not named - Low floor (exact floor not disclosed), On Hing Building (Leased for HK$191,825/month)",
    "area": "Central / Sheung Wan",
@@ -14698,6 +16005,7 @@
    "psf": "@50",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Li Po Chun Chambers",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Li Po Chun Chambers (Leased for HK$294,750/month)",
    "area": "Central / Sheung Wan",
@@ -14758,6 +16066,91 @@
    "is_new": false
   },
   {
+   "id": "34a613ec49ea",
+   "kind": "transaction",
+   "date": "2026-10-06",
+   "month": "2026-10",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office / commercial",
+   "district": "Central / Sheung Wan",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 295200.0,
+   "price_txt": "HK$295,200/month",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Medicskin Laboratories Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "21st Floor, New World Tower Two, 18 Queen 's Road Central, Hong Kong",
+   "line": "Medicskin Laboratories Limited - 21st Floor, New World Tower Two, 18 Queen 's Road Central, Hong Kong",
+   "area": "Central / Sheung Wan",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Tenant named in the filing: Medicskin Laboratories Limited (subsidiary of / listed company Medicskin). Counterparty: New World Tower Company (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Medicskin%20Laboratories%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Medicskin%20Laboratories%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/1006/2026100600760.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Medicskin)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/1006/2026100600760.pdf",
+     "title": "DISCLOSEABLE TRANSACTION IN RELATION TO THE TENANCY AGREEMENT",
+     "date": "2026-10-06"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "0c006ddec2b4",
    "kind": "transaction",
    "date": "2026-10-05",
@@ -14777,6 +16170,7 @@
    "psf": "@45",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Harcourt House",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Harcourt House (Leased for HK$402,570/month)",
    "area": "Wan Chai",
@@ -14856,6 +16250,7 @@
    "psf": "@50",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Times Square, Tower 1",
    "line": "Tenant not named - High floor (exact floor not disclosed), Times Square, Tower 1 (Leased for HK$538,450/month)",
    "area": "Causeway Bay",
@@ -14936,6 +16331,7 @@
    "psf": "@52",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Central Plaza",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Central Plaza (Leased for HK$213,512/month)",
    "area": "Wan Chai",
@@ -15016,6 +16412,7 @@
    "psf": "@62",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Central Plaza",
    "line": "Tenant not named - High floor (exact floor not disclosed), Central Plaza (Leased for HK$191,704/month)",
    "area": "Wan Chai",
@@ -15096,6 +16493,7 @@
    "psf": "@120",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Gloucester Tower",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Gloucester Tower (Leased for HK$1.5M/month)",
    "area": "Central / Sheung Wan",
@@ -15176,6 +16574,7 @@
    "psf": "@42",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Shun Tak Centre, China Merchants Tower",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Shun Tak Centre, China Merchants Tower (Leased for HK$269,010/month)",
    "area": "Central / Sheung Wan",
@@ -15256,6 +16655,7 @@
    "psf": "@25",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Luk Kwok Centre",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Luk Kwok Centre (Leased for HK$172,375/month)",
    "area": "Wan Chai",
@@ -15335,6 +16735,7 @@
    "psf": "@40",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Oxford House",
    "line": "Tenant not named - High floor (exact floor not disclosed), Oxford House (Leased for HK$188,360/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -15415,6 +16816,7 @@
    "psf": "@23",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Kerry Centre",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Kerry Centre (Leased for HK$172,799/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -15494,6 +16896,7 @@
    "psf": "@55",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), One Taikoo Place",
    "line": "Tenant not named - High floor (exact floor not disclosed), One Taikoo Place (Leased for HK$927,630/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -15574,6 +16977,7 @@
    "psf": "@36",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), 163 QRE",
    "line": "Tenant not named - High floor (exact floor not disclosed), 163 QRE (Leased for HK$150,660/month)",
    "area": "Wan Chai",
@@ -15653,6 +17057,7 @@
    "psf": "@36",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), 308 Central Des Voeux",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), 308 Central Des Voeux (Leased for HK$186,336/month)",
    "area": "Central / Sheung Wan",
@@ -15732,6 +17137,7 @@
    "psf": "@44",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Wing On Centre",
    "line": "Tenant not named - High floor (exact floor not disclosed), Wing On Centre (Leased for HK$192,280/month)",
    "area": "Central / Sheung Wan",
@@ -15811,6 +17217,7 @@
    "psf": "@100",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), One Pacific Place",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), One Pacific Place (Leased for HK$760,000/month)",
    "area": "Admiralty",
@@ -15891,6 +17298,7 @@
    "psf": "@100",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), One Pacific Place",
    "line": "Tenant not named - High floor (exact floor not disclosed), One Pacific Place (Leased for HK$2.3M/month)",
    "area": "Admiralty",
@@ -15971,6 +17379,7 @@
    "psf": "@100",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Two Pacific Place",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Two Pacific Place (Leased for HK$243,600/month)",
    "area": "Admiralty",
@@ -16051,6 +17460,7 @@
    "psf": "@100",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Two Pacific Place",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Two Pacific Place (Leased for HK$163,200/month)",
    "area": "Admiralty",
@@ -16131,6 +17541,7 @@
    "psf": "@11",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Genesis",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Genesis (Leased for HK$112,794/month)",
    "area": "Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
@@ -16210,6 +17621,7 @@
    "psf": "@60",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Five Pacific Place",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Five Pacific Place (Leased for HK$296,100/month)",
    "area": "Admiralty",
@@ -16289,9 +17701,10 @@
    "price_txt": "HK$46.6M",
    "psf": "@15,800",
    "record_source": "Market News",
-   "party": "",
+   "party": "Grand Dahlia Limited",
+   "party_source": "per HKEX filing",
    "premises": "Mid floor (exact floor not disclosed), Lippo Centre, Tower 2",
-   "line": "Buyer not named - Mid floor (exact floor not disclosed), Lippo Centre, Tower 2 (Bought for HK$46.6M)",
+   "line": "Grand Dahlia Limited - Mid floor (exact floor not disclosed), Lippo Centre, Tower 2 (Bought for HK$46.6M)",
    "area": "Admiralty",
    "sectors": [
     "Facility Management & Real Estate"
@@ -16300,13 +17713,21 @@
    "who": "",
    "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
    "actions": [
-    "Ask Lippo Centre, Tower 2's building management office, or the agent, who the buyer is.",
+    "Buyer named in news: Grand Dahlia Limited. Find their facilities / admin lead (links below).",
     "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
     "Contact Lippo Centre, Tower 2's building management office for the fit-out / handover timeline and contractor.",
     "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
     "Update Status here after each contact."
    ],
    "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Grand%20Dahlia%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Grand%20Dahlia%20Limited%20Hong%20Kong%20office%20address"
+    },
     {
      "label": "Land Registry search (IRIS)",
      "url": "https://www.iris.gov.hk/"
@@ -16322,11 +17743,17 @@
      "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-admiralty-lippo-centre-tower-2/detail/1240400030/",
      "title": "",
      "date": "2026-09-26"
+    },
+    {
+     "name": "HKEX filing (Renze Harvest)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0925/2026092500660.pdf",
+     "title": "DISCLOSEABLE TRANSACTION DISPOSAL OF PROPERTY",
+     "date": "2026-09-25"
     }
    ],
-   "verification": "Register record",
-   "score": 5,
-   "level": "MEDIUM",
+   "verification": "Register record + HKEX filing",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -16334,13 +17761,14 @@
    "reasons": [
     "Purchase HK$46.6M (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Lippo Centre, Tower 2 (+2)"
+    "Grade A / landmark building: Lippo Centre, Tower 2 (+2)",
+    "Buyer / tenant named in a news report (+2)"
    ],
    "features": [
     "area:Admiralty",
     "deal:Sale",
     "kind:transaction",
-    "party:unnamed",
+    "party:named",
     "record:Market News",
     "region:HK Island",
     "sector:Facility Management & Real Estate",
@@ -16348,6 +17776,91 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-13T00:12:05+08:00",
+   "is_new": false
+  },
+  {
+   "id": "5ff829283c59",
+   "kind": "transaction",
+   "date": "2026-09-24",
+   "month": "2026-09",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Office / commercial",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 10000000.0,
+   "price_txt": "HK$10.0M",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Finet Finance Limited",
+   "party_source": "buyer, per HKEX filing",
+   "premises": "Flat A, 11th Floor, Island Building, 439–445 Hennessy Road, Hong Kong",
+   "line": "Finet Finance Limited - Flat A, 11th Floor, Island Building, 439–445 Hennessy Road, Hong Kong",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Buyer named in the filing: Finet Finance Limited (subsidiary of / listed company Finet Group). Counterparty: Modern Tower Investments Limited (seller). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Finet%20Finance%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Finet%20Finance%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0924/2026092402227.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Finet Group)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0924/2026092402227.pdf",
+     "title": "DISCLOSEABLE AND CONNECTED TRANSACTION\nACQUISITION OF PROPERTY",
+     "date": "2026-09-24"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$10.0M (+1)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Sale",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
    "is_new": false
   },
   {
@@ -16370,6 +17883,7 @@
    "psf": "@105",
    "record_source": "Market News",
    "party": "Susquehanna (SIG)",
+   "party_source": "per news report",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Susquehanna (SIG) - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$553,140/month)",
    "area": "Central / Sheung Wan",
@@ -16411,6 +17925,12 @@
      "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-cheung-kong-center-ii/detail/1240400810/",
      "title": "",
      "date": "2026-09-23"
+    },
+    {
+     "name": "IndexBox",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM1ZWRTRWNjZXMEJEWUlUMFh3WFRybjFBSXdnZUhSMEZxSTBfLXdNM3FPQ3Q0eU5XUHd1RlFzYVI1NzFzZkx3dTNjREkxZWp3SEJ0SUE0NDQ0RGVRbHN5SDY5N1NUbWt5TmI2aVlSV2VpUFRhS1N5bmhpSjdkdWRJRy1WNHNrZFZjTUFKNDZzR2ZzblFYajVJdGdFemp4eS15NkprRG5fV2pTYzRMWl8tLXZMTHNIdkhLYnc?oc=5",
+     "title": "Susquehanna International Group Leases 51,762 sq ft at Cheung Kong Center II in Hong Kong",
+     "date": "2026-09-09"
     },
     {
      "name": "BigGo Finance",
@@ -16466,6 +17986,7 @@
    "psf": "@105",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$352,695/month)",
    "area": "Central / Sheung Wan",
@@ -16546,6 +18067,7 @@
    "psf": "@100",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$1.7M/month)",
    "area": "Central / Sheung Wan",
@@ -16626,6 +18148,7 @@
    "psf": "@95",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$819,565/month)",
    "area": "Central / Sheung Wan",
@@ -16706,6 +18229,7 @@
    "psf": "@108",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - High floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$931,716/month)",
    "area": "Central / Sheung Wan",
@@ -16786,6 +18310,7 @@
    "psf": "@38",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), The Centrium",
    "line": "Tenant not named - Low floor (exact floor not disclosed), The Centrium (Leased for HK$176,358/month)",
    "area": "Central / Sheung Wan",
@@ -16846,6 +18371,92 @@
    "is_new": false
   },
   {
+   "id": "ebd43a25f390",
+   "kind": "transaction",
+   "date": "2026-09-22",
+   "month": "2026-09",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office / commercial",
+   "district": "Wan Chai",
+   "building": "Shui On Centre",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 90000.0,
+   "price_txt": "HK$90,000 (total stated in filing)",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Chinlink Intl (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Suites 3216-3218 on the Thirty Second Floor, Shui On Centre, 6-8 Harbour Road, Wanchai, Hong Kong",
+   "line": "Chinlink Intl (listed company) - Suites 3216-3218 on the Thirty Second Floor, Shui On Centre, 6-8 Harbour Road, Wanchai, Hong Kong",
+   "area": "Wan Chai",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Tenant named in the filing: Chinlink Intl (listed company) (listed company Chinlink Intl). Counterparty: Shui On Centre Company (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Chinlink%20Intl%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Chinlink%20Intl%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200476.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Chinlink Intl)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200476.pdf",
+     "title": "DISCLOSEABLE TRANSACTION IN RELATION TO TENANCY AGREEMENT",
+     "date": "2026-09-22"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 8,
+   "level": "HIGH",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)",
+    "Known building: Shui On Centre (+2)"
+   ],
+   "features": [
+    "area:Wan Chai",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "865ceddc8318",
    "kind": "transaction",
    "date": "2026-09-21",
@@ -16865,6 +18476,7 @@
    "psf": "@98",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$516,264/month)",
    "area": "Central / Sheung Wan",
@@ -16945,6 +18557,7 @@
    "psf": "@45",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Cofco Tower",
    "line": "Tenant not named - High floor (exact floor not disclosed), Cofco Tower (Leased for HK$285,840/month)",
    "area": "Causeway Bay",
@@ -17024,6 +18637,7 @@
    "psf": "@33",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Foyer",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Foyer (Leased for HK$253,077/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -17103,6 +18717,7 @@
    "psf": "@46",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), 1111 King's Road",
    "line": "Tenant not named - High floor (exact floor not disclosed), 1111 King's Road (Leased for HK$293,204/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -17182,6 +18797,7 @@
    "psf": "@38",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Shun Tak Centre, West Tower",
    "line": "Tenant not named - High floor (exact floor not disclosed), Shun Tak Centre, West Tower (Leased for HK$186,770/month)",
    "area": "Central / Sheung Wan",
@@ -17262,6 +18878,7 @@
    "psf": "@65",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Two Chinachem Central",
    "line": "Tenant not named - High floor (exact floor not disclosed), Two Chinachem Central (Leased for HK$176,605/month)",
    "area": "Central / Sheung Wan",
@@ -17322,6 +18939,91 @@
    "is_new": false
   },
   {
+   "id": "29f70b9d3161",
+   "kind": "transaction",
+   "date": "2026-09-17",
+   "month": "2026-09",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office / commercial",
+   "district": "Wan Chai",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 100000.0,
+   "price_txt": "HK$100,000 (total stated in filing)",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Party Alc Limited",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "22nd Floor of the building known as QRE PLAZA at No. 202 Queen's Road East, Wan Chai, Hong Kong",
+   "line": "Party Alc Limited - 22nd Floor of the building known as QRE PLAZA at No. 202 Queen's Road East, Wan Chai, Hong Kong",
+   "area": "Wan Chai",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Tenant named in the filing: Party Alc Limited (subsidiary of / listed company New Amante). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Party%20Alc%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Party%20Alc%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0917/2026091701131.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (New Amante)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0917/2026091701131.pdf",
+     "title": "DISCLOSEABLE TRANSACTION IN RELATION TO THE TENANCY AGREEMENTS",
+     "date": "2026-09-17"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Wan Chai",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "3e48711d9e22",
    "kind": "transaction",
    "date": "2026-09-16",
@@ -17341,6 +19043,7 @@
    "psf": "@12,963",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "13/F Unit WF, Silver Fortune Plaza",
    "line": "Buyer not named - 13/F Unit WF, Silver Fortune Plaza (Bought for HK$57.0M)",
    "area": "Central / Sheung Wan",
@@ -17422,6 +19125,7 @@
    "psf": "@53",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Shun Tak Centre, West Tower",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Shun Tak Centre, West Tower (Leased for HK$220,000/month)",
    "area": "Central / Sheung Wan",
@@ -17502,6 +19206,7 @@
    "psf": "@10.2",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Federal Centre",
    "line": "Tenant not named - High floor (exact floor not disclosed), Federal Centre (Leased for HK$55,000/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -17581,6 +19286,7 @@
    "psf": "@35",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), 181 Queen's Road Central",
    "line": "Tenant not named - High floor (exact floor not disclosed), 181 Queen's Road Central (Leased for HK$540,785/month)",
    "area": "Central / Sheung Wan",
@@ -17660,6 +19366,7 @@
    "psf": "@16",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Cnt Tower",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Cnt Tower (Leased for HK$108,368/month)",
    "area": "Wan Chai",
@@ -17739,6 +19446,7 @@
    "psf": "@60.5",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Central Plaza",
    "line": "Tenant not named - High floor (exact floor not disclosed), Central Plaza (Leased for HK$200,000/month)",
    "area": "Wan Chai",
@@ -17819,6 +19527,7 @@
    "psf": "@26",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), C C Wu Building",
    "line": "Tenant not named - High floor (exact floor not disclosed), C C Wu Building (Leased for HK$134,056/month)",
    "area": "Wan Chai",
@@ -17898,6 +19607,7 @@
    "psf": "@72",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Nexxus Building",
    "line": "Tenant not named - High floor (exact floor not disclosed), Nexxus Building (Leased for HK$415,440/month)",
    "area": "Central / Sheung Wan",
@@ -17977,6 +19687,7 @@
    "psf": "@40",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "16/F Unit WF, Great Eagle Centre",
    "line": "Tenant not named - 16/F Unit WF, Great Eagle Centre (Leased for HK$529,240/month)",
    "area": "Wan Chai",
@@ -18059,6 +19770,7 @@
    "psf": "@100",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$5.2M/month)",
    "area": "Central / Sheung Wan",
@@ -18139,6 +19851,7 @@
    "psf": "@135",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "15/F Unit 01-04, One Exchange Square",
    "line": "Tenant not named - 15/F Unit 01-04, One Exchange Square (Leased for HK$898,830/month)",
    "area": "Central / Sheung Wan",
@@ -18220,6 +19933,7 @@
    "psf": "@80",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), 8 Queen's Road Central",
    "line": "Tenant not named - High floor (exact floor not disclosed), 8 Queen's Road Central (Leased for HK$240,960/month)",
    "area": "Central / Sheung Wan",
@@ -18299,6 +20013,7 @@
    "psf": "@63.8",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "28/F Unit WF, Nine Queen's Road Central",
    "line": "Tenant not named - 28/F Unit WF, Nine Queen's Road Central (Leased for HK$878,462/month)",
    "area": "Central / Sheung Wan",
@@ -18381,6 +20096,7 @@
    "psf": "@26",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Chinachem Exchange Square",
    "line": "Tenant not named - High floor (exact floor not disclosed), Chinachem Exchange Square (Leased for HK$216,736/month)",
    "area": "Central / Sheung Wan",
@@ -18461,6 +20177,7 @@
    "psf": "@28",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Chinachem Exchange Square",
    "line": "Tenant not named - High floor (exact floor not disclosed), Chinachem Exchange Square (Leased for HK$223,608/month)",
    "area": "Central / Sheung Wan",
@@ -18541,6 +20258,7 @@
    "psf": "@35",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "26/F Unit WF, GF Tower",
    "line": "Tenant not named - 26/F Unit WF, GF Tower (Leased for HK$183,610/month)",
    "area": "Wan Chai",
@@ -18622,6 +20340,7 @@
    "psf": "@50",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), China Resources Building",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), China Resources Building (Leased for HK$206,750/month)",
    "area": "Wan Chai",
@@ -18702,6 +20421,7 @@
    "psf": "@24",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Capital Centre",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Capital Centre (Leased for HK$163,824/month)",
    "area": "Wan Chai",
@@ -18781,6 +20501,7 @@
    "psf": "@95",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$319,105/month)",
    "area": "Central / Sheung Wan",
@@ -18861,6 +20582,7 @@
    "psf": "@98",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$516,264/month)",
    "area": "Central / Sheung Wan",
@@ -18941,6 +20663,7 @@
    "psf": "@98",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$1.7M/month)",
    "area": "Central / Sheung Wan",
@@ -19021,6 +20744,7 @@
    "psf": "@95",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$1.4M/month)",
    "area": "Central / Sheung Wan",
@@ -19101,6 +20825,7 @@
    "psf": "@100",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$1.7M/month)",
    "area": "Central / Sheung Wan",
@@ -19181,6 +20906,7 @@
    "psf": "@102",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$1.8M/month)",
    "area": "Central / Sheung Wan",
@@ -19261,6 +20987,7 @@
    "psf": "@90",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Cheung Kong Center II",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$849,240/month)",
    "area": "Central / Sheung Wan",
@@ -19341,6 +21068,7 @@
    "psf": "@10,590",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "07/F Unit 08, Harcourt House",
    "line": "Buyer not named - 07/F Unit 08, Harcourt House (Bought for HK$25.1M)",
    "area": "Wan Chai",
@@ -19421,6 +21149,7 @@
    "psf": "@45",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "17/F Unit 05-09, Wing On Centre",
    "line": "Tenant not named - 17/F Unit 05-09, Wing On Centre (Leased for HK$394,650/month)",
    "area": "Central / Sheung Wan",
@@ -19501,6 +21230,7 @@
    "psf": "@45",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), The Center",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), The Center (Leased for HK$169,785/month)",
    "area": "Central / Sheung Wan",
@@ -19581,6 +21311,7 @@
    "psf": "@25",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), 9 Des Voeux Road West",
    "line": "Tenant not named - Low floor (exact floor not disclosed), 9 Des Voeux Road West (Leased for HK$172,100/month)",
    "area": "Central / Sheung Wan",
@@ -19660,6 +21391,7 @@
    "psf": "@55",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "19/F Unit WF, Prosperity Tower",
    "line": "Tenant not named - 19/F Unit WF, Prosperity Tower (Leased for HK$299,310/month)",
    "area": "Central / Sheung Wan",
@@ -19741,6 +21473,7 @@
    "psf": "@55",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "18/F Unit WF, Prosperity Tower",
    "line": "Tenant not named - 18/F Unit WF, Prosperity Tower (Leased for HK$299,310/month)",
    "area": "Central / Sheung Wan",
@@ -19822,6 +21555,7 @@
    "psf": "@5.5",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Unison Industrial Building",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Unison Industrial Building (Leased for HK$61,600/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -19881,6 +21615,90 @@
    "is_new": false
   },
   {
+   "id": "bb2bcc59d866",
+   "kind": "transaction",
+   "date": "2026-09-02",
+   "month": "2026-09",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Retail",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 9020000.0,
+   "price_txt": "HK$9.0M (total stated in filing)",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Aeon Stores (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Shop 101 on the 1st Floor of 101 King 's Road, Hong Kong",
+   "line": "Aeon Stores (listed company) - Shop 101 on the 1st Floor of 101 King 's Road, Hong Kong",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Tenant named in the filing: Aeon Stores (listed company) (listed company Aeon Stores). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Aeon%20Stores%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Aeon%20Stores%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0902/2026090200956.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Aeon Stores)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0902/2026090200956.pdf",
+     "title": "DISCLOSEABLE TRANSACTION IN RELATION TO\nTHE TENANCY OF THE PREMISES FOR A NEW STORE",
+     "date": "2026-09-02"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "32be8e0be2e2",
    "kind": "transaction",
    "date": "2026-09-01",
@@ -19900,6 +21718,7 @@
    "psf": "@66",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "20/F Unit WF, Citic Tower",
    "line": "Tenant not named - 20/F Unit WF, Citic Tower (Leased for HK$1.1M/month)",
    "area": "Admiralty",
@@ -19982,6 +21801,7 @@
    "psf": "@44.7",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "26/F Unit 01-04, Wing On Centre",
    "line": "Tenant not named - 26/F Unit 01-04, Wing On Centre (Leased for HK$256,740/month)",
    "area": "Central / Sheung Wan",
@@ -20062,6 +21882,7 @@
    "psf": "@50",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Far East Finance Centre",
    "line": "Tenant not named - High floor (exact floor not disclosed), Far East Finance Centre (Leased for HK$270,000/month)",
    "area": "Admiralty",
@@ -20142,6 +21963,7 @@
    "psf": "@70",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Nexxus Building",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Nexxus Building (Leased for HK$162,400/month)",
    "area": "Central / Sheung Wan",
@@ -20221,6 +22043,7 @@
    "psf": "@70",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), Nexxus Building",
    "line": "Tenant not named - High floor (exact floor not disclosed), Nexxus Building (Leased for HK$711,690/month)",
    "area": "Central / Sheung Wan",
@@ -20300,6 +22123,7 @@
    "psf": "@68",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Nexxus Building",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Nexxus Building (Leased for HK$678,028/month)",
    "area": "Central / Sheung Wan",
@@ -20379,6 +22203,7 @@
    "psf": "@120",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "22/F Unit 01&10-17, Two International Finance Centre",
    "line": "Tenant not named - 22/F Unit 01&10-17, Two International Finance Centre (Leased for HK$1.5M/month)",
    "area": "Central / Sheung Wan",
@@ -20460,6 +22285,7 @@
    "psf": "@120",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "22/F Unit 02-09, Two International Finance Centre",
    "line": "Tenant not named - 22/F Unit 02-09, Two International Finance Centre (Leased for HK$1.4M/month)",
    "area": "Central / Sheung Wan",
@@ -20541,6 +22367,7 @@
    "psf": "@39",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Office Tower - Convention Plaza",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Office Tower - Convention Plaza (Leased for HK$174,837/month)",
    "area": "Wan Chai",
@@ -20620,6 +22447,7 @@
    "psf": "@130",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), One International Finance Centre",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), One International Finance Centre (Leased for HK$2.8M/month)",
    "area": "Central / Sheung Wan",
@@ -20700,6 +22528,7 @@
    "psf": "@160",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), The Henderson",
    "line": "Tenant not named - High floor (exact floor not disclosed), The Henderson (Leased for HK$915,200/month)",
    "area": "Central / Sheung Wan",
@@ -20780,6 +22609,7 @@
    "psf": "@11,670",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "24/F Unit 05-08, Wing On House",
    "line": "Buyer not named - 24/F Unit 05-08, Wing On House (Bought for HK$58.0M)",
    "area": "Central / Sheung Wan",
@@ -20860,6 +22690,7 @@
    "psf": "@27.4",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Far East Consortium Building (Central)",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Far East Consortium Building (Central) (Leased for HK$200,000/month)",
    "area": "Central / Sheung Wan",
@@ -20939,6 +22770,7 @@
    "psf": "@118",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Three Exchange Square",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Three Exchange Square (Leased for HK$2.5M/month)",
    "area": "Central / Sheung Wan",
@@ -21019,6 +22851,7 @@
    "psf": "@60",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "High floor (exact floor not disclosed), New World Tower I",
    "line": "Tenant not named - High floor (exact floor not disclosed), New World Tower I (Leased for HK$599,460/month)",
    "area": "Central / Sheung Wan",
@@ -21098,6 +22931,7 @@
    "psf": "@40",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Oxford House",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Oxford House (Leased for HK$436,640/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -21178,6 +23012,7 @@
    "psf": "@47",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), One Island East",
    "line": "Tenant not named - Low floor (exact floor not disclosed), One Island East (Leased for HK$952,643/month)",
    "area": "Island East (North Point / Quarry Bay / Taikoo)",
@@ -21239,6 +23074,90 @@
    "is_new": false
   },
   {
+   "id": "00548e1fc9c5",
+   "kind": "transaction",
+   "date": "2026-08-27",
+   "month": "2026-08",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Retail",
+   "district": "Wan Chai",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 12510000.0,
+   "price_txt": "HK$12.5M",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Gold In Properties Limited",
+   "party_source": "buyer, per HKEX filing",
+   "premises": "Shop D on G/F Kam Chung Building, Nos. 52 –58 Jaffee Road, Nos. 17 –21 Fenwick Street, Wan Chai, Hong Kong",
+   "line": "Gold In Properties Limited - Shop D on G/F Kam Chung Building, Nos. 52 –58 Jaffee Road, Nos. 17 –21 Fenwick Street, Wan Chai, Hong Kong",
+   "area": "Wan Chai",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "who": "",
+   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "actions": [
+    "Buyer named in the filing: Gold In Properties Limited (subsidiary of / listed company Litu Holdings). Counterparty: Po Global Limited (seller). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Gold%20In%20Properties%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Gold%20In%20Properties%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0827/2026082701521.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Litu Holdings)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0827/2026082701521.pdf",
+     "title": "CONNECTED TRANSACTION\nIN RELATION TO ACQUISITION OF PROPERTY",
+     "date": "2026-08-27"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$12.5M (+1)",
+    "Buyer / tenant named in an official HKEX filing (+3)"
+   ],
+   "features": [
+    "area:Wan Chai",
+    "deal:Sale",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Retail & Consumer",
+    "size:m",
+    "usage:Retail"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "ee020554fd1b",
    "kind": "transaction",
    "date": "2026-08-25",
@@ -21258,6 +23177,7 @@
    "psf": "@19,801",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "23/F Unit 16,18-19, Bank of America Tower",
    "line": "Buyer not named - 23/F Unit 16,18-19, Bank of America Tower (Bought for HK$40.8M)",
    "area": "Admiralty",
@@ -21339,6 +23259,7 @@
    "psf": "@95",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), One Pacific Place",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), One Pacific Place (Leased for HK$354,730/month)",
    "area": "Admiralty",
@@ -21419,6 +23340,7 @@
    "psf": "@96",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Mid floor (exact floor not disclosed), Two Pacific Place",
    "line": "Tenant not named - Mid floor (exact floor not disclosed), Two Pacific Place (Leased for HK$234,240/month)",
    "area": "Admiralty",
@@ -21499,6 +23421,7 @@
    "psf": "@94.8",
    "record_source": "Market News",
    "party": "",
+   "party_source": "",
    "premises": "Low floor (exact floor not disclosed), Two Pacific Place",
    "line": "Tenant not named - Low floor (exact floor not disclosed), Two Pacific Place (Leased for HK$353,000/month)",
    "area": "Admiralty",
@@ -21579,6 +23502,7 @@
    "psf": "@90",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "18,22,23,25-27/F Unit 1801&01B,2201-02,2301-06,25-27WF, Cheung Kong Center",
    "line": "Tenant not named - 18,22,23,25-27/F Unit 1801&01B,2201-02,2301-06,25-27WF, Cheung Kong Center (Leased for HK$7.9M/month)",
    "area": "Central / Sheung Wan",
@@ -21642,6 +23566,176 @@
    "is_new": false
   },
   {
+   "id": "2c2a073200f2",
+   "kind": "transaction",
+   "date": "2026-08-25",
+   "month": "2026-08",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office / commercial",
+   "district": "Island East (North Point / Quarry Bay / Taikoo)",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 50000.0,
+   "price_txt": "HK$50,000/month",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Eco-Tek Hldgs (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Room 902, Westlands Centre, 20 Westlands Road, Quarry Bay, Hong Kong",
+   "line": "Eco-Tek Hldgs (listed company) - Room 902, Westlands Centre, 20 Westlands Road, Quarry Bay, Hong Kong",
+   "area": "Island East (North Point / Quarry Bay / Taikoo)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Tenant named in the filing: Eco-Tek Hldgs (listed company) (listed company Eco-Tek Hldgs). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Eco-Tek%20Hldgs%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Eco-Tek%20Hldgs%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0825/2026082500580.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Eco-Tek Hldgs)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0825/2026082500580.pdf",
+     "title": "CONNECTED AND DISCLOSEABLE TRANSACTION LEASE AGREEMENT",
+     "date": "2026-08-25"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Island East (North Point / Quarry Bay / Taikoo)",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "1ee6174f9295",
+   "kind": "transaction",
+   "date": "2026-08-21",
+   "month": "2026-08",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Office / commercial",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": 2860,
+   "area_txt": "2,860 sq ft",
+   "price": 10380000.0,
+   "price_txt": "HK$10.4M",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Multiplex Glory Limited",
+   "party_source": "buyer, per HKEX filing",
+   "premises": "8th Floor, Block B, Hong Kong",
+   "line": "Multiplex Glory Limited - 8th Floor, Block B, Hong Kong",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Buyer named in the filing: Multiplex Glory Limited (subsidiary of / listed company Hkc Int'L Hold). Counterparty: Generalvestor (HK) Limited (seller). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Multiplex%20Glory%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Multiplex%20Glory%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100901.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Hkc Int'L Hold)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0821/2026082100901.pdf",
+     "title": "Discloseable Transaction - Disposal of Property",
+     "date": "2026-08-21"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$10.4M (+1)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Sale",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "8f258d5f7fbc",
    "kind": "transaction",
    "date": "2026-08-20",
@@ -21661,6 +23755,7 @@
    "psf": "@9,532",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "21/F Unit WF, Overseas Trust Bank Building WC",
    "line": "Buyer not named - 21/F Unit WF, Overseas Trust Bank Building WC (Bought for HK$70.0M)",
    "area": "Wan Chai",
@@ -21742,6 +23837,7 @@
    "psf": "@20,200",
    "record_source": "Land Search",
    "party": "",
+   "party_source": "",
    "premises": "23/F Unit 15, Bank of America Tower",
    "line": "Buyer not named - 23/F Unit 15, Bank of America Tower (Bought for HK$22.8M)",
    "area": "Admiralty",
@@ -21802,12 +23898,439 @@
    ],
    "first_seen": "2026-10-13T00:12:05+08:00",
    "is_new": false
+  },
+  {
+   "id": "0002e936493c",
+   "kind": "transaction",
+   "date": "2026-08-18",
+   "month": "2026-08",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office / commercial",
+   "district": "Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": null,
+   "price_txt": "Not stated",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "E Lighting (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Flat B, C & D, 14/F, Gee Chang Hong Centre, No. 65 Wong Chuk Hang Road, Hong Kong",
+   "line": "E Lighting (listed company) - Flat B, C & D, 14/F, Gee Chang Hong Centre, No. 65 Wong Chuk Hang Road, Hong Kong",
+   "area": "Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Tenant named in the filing: E Lighting (listed company) (listed company E Lighting). Counterparty: Associated Development Company (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=E%20Lighting%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=E%20Lighting%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0818/2026081800766.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (E Lighting)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0818/2026081800766.pdf",
+     "title": "DISCLOSEABLE TRANSACTION IN RELATION TO RENEWAL OF TENANCY AGREEMENT",
+     "date": "2026-08-18"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)",
+    "Renewal of an existing lease: no move (-2)"
+   ],
+   "features": [
+    "area:Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "c1c8aa9b178c",
+   "kind": "transaction",
+   "date": "2026-08-14",
+   "month": "2026-08",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office / commercial",
+   "district": "Central / Sheung Wan",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 104880.0,
+   "price_txt": "HK$104,880/month",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Noiz Group (listed company)",
+   "party_source": "tenant, per HKEX filing",
+   "premises": "Rooms 1108-1110, 11th Floor, Wing On Centre, 111 Connaught Road Central, Hong Kong",
+   "line": "Noiz Group (listed company) - Rooms 1108-1110, 11th Floor, Wing On Centre, 111 Connaught Road Central, Hong Kong",
+   "area": "Central / Sheung Wan",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Tenant named in the filing: Noiz Group (listed company) (listed company Noiz Group). Counterparty: Wing On Company (landlord). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Noiz%20Group%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Noiz%20Group%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0814/2026081401591.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Noiz Group)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0814/2026081401591.pdf",
+     "title": "DISCLOSEABLE TRANSACTION\nIN RELATION TO AN ACCEPTANCE OF OFFER FOR THE\nRENEWAL OF LEASING OF OFFICE PREMISES",
+     "date": "2026-08-14"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "New / renewed lease (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)",
+    "Renewal of an existing lease: no move (-2)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "deal:Lease",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "3b9984a21ca9",
+   "kind": "transaction",
+   "date": "2026-07-27",
+   "month": "2026-07",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Office / commercial",
+   "district": "Central / Sheung Wan",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 32877900.0,
+   "price_txt": "HK$32.9M",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Mong Kok Properties Limited",
+   "party_source": "buyer, per HKEX filing",
+   "premises": "3/F., World Trust Tower, #50 Stanl ey Street, Central, Hong Kong",
+   "line": "Mong Kok Properties Limited - 3/F., World Trust Tower, #50 Stanl ey Street, Central, Hong Kong",
+   "area": "Central / Sheung Wan",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Buyer named in the filing: Mong Kok Properties Limited (subsidiary of / listed company Star Group Asia). Counterparty: Manhattan Corporation (seller). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Mong%20Kok%20Properties%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Mong%20Kok%20Properties%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0727/2026072401440.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Star Group Asia)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0727/2026072401440.pdf",
+     "title": "MAJOR TRANSACTION IN RELATION TO DISPOSAL OF PROPERTY",
+     "date": "2026-07-27"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$32.9M (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "deal:Sale",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "3834fcd6e3b1",
+   "kind": "transaction",
+   "date": "2026-07-17",
+   "month": "2026-07",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Office / commercial",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": 195000000.0,
+   "price_txt": "HK$195.0M",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Sukie Limited",
+   "party_source": "buyer, per HKEX filing",
+   "premises": "Portion of Section D of Inland Lot No. 863 together with the messuages, erections and buildings thereon now known as Nos. 94, 96 and 98 Bonham Strand, Hong Kong",
+   "line": "Sukie Limited - Portion of Section D of Inland Lot No. 863 together with the messuages, erections and buildings thereon now known as Nos. 94, 96 and 98 Bonham Strand, Hong Kong",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Buyer named in the filing: Sukie Limited (subsidiary of / listed company National Elec H). Counterparty: Cerana Limited (seller). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Sukie%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Sukie%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0717/2026071701599.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (National Elec H)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0717/2026071701599.pdf",
+     "title": "MAJOR TRANSACTION\nIN RELATION TO\nACQUISITION OF PROPERTY",
+     "date": "2026-07-17"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 8,
+   "level": "HIGH",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$195.0M (+4)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Sale",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:xl",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
+  },
+  {
+   "id": "cd2eea7aeefb",
+   "kind": "transaction",
+   "date": "2026-07-15",
+   "month": "2026-07",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Office / commercial",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": 4123,
+   "area_txt": "4,123 sq ft",
+   "price": 31500000.0,
+   "price_txt": "HK$31.5M",
+   "psf": "",
+   "record_source": "HKEX filing",
+   "party": "Evermore Triumph Group Limited",
+   "party_source": "buyer, per HKEX filing",
+   "premises": "Office 1 to 3 on 30th Floor, Universal Trade Centre, No. 3 Arbuthnot Road, Hong Kong",
+   "line": "Evermore Triumph Group Limited - Office 1 to 3 on 30th Floor, Universal Trade Centre, No. 3 Arbuthnot Road, Hong Kong",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Buyer named in the filing: Evermore Triumph Group Limited (subsidiary of / listed company Winfull Gp). Find their admin / facilities lead (links below).",
+    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
+    "Contact the building management office for the fit-out timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Evermore%20Triumph%20Group%20Limited%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Evermore%20Triumph%20Group%20Limited%20Hong%20Kong%20office%20address"
+    },
+    {
+     "label": "Open the HKEX filing",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0715/2026071501237.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "HKEX filing (Winfull Gp)",
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0715/2026071501237.pdf",
+     "title": "MAJOR TRANSACTION DISPOSAL OF PROPERTIES",
+     "date": "2026-07-15"
+    }
+   ],
+   "verification": "Official filing (HKEXnews)",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$31.5M (+2)",
+    "Buyer / tenant named in an official HKEX filing (+3)",
+    "Office / commercial premises (+1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Sale",
+    "kind:transaction",
+    "party:named",
+    "record:HKEX filing",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office / commercial"
+   ],
+   "first_seen": "2026-10-13T23:38:54+08:00",
+   "is_new": false
   }
  ],
  "learning": {
   "overrides": 1,
   "features": [],
-  "status": "ok"
+  "status": "not configured"
  },
  "health": [
   {
@@ -21826,25 +24349,25 @@
    "group": "Events",
    "name": "BritCham HK events",
    "ok": true,
-   "count": 59
+   "count": 57
   },
   {
    "group": "Events",
    "name": "HKCEC event calendar",
    "ok": true,
-   "count": 44
+   "count": 45
   },
   {
    "group": "Events",
    "name": "HKGCC events",
    "ok": true,
-   "count": 16
+   "count": 15
   },
   {
    "group": "Events",
    "name": "InvestHK events (HKSAR Gov)",
    "ok": true,
-   "count": 10
+   "count": 11
   },
   {
    "group": "Events",
@@ -21868,7 +24391,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"Grade A\" office tenant",
    "ok": true,
-   "count": 19
+   "count": 20
   },
   {
    "group": "Property",
@@ -21892,7 +24415,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 33
+   "count": 39
   },
   {
    "group": "Property",
@@ -21904,7 +24427,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 55
+   "count": 60
   },
   {
    "group": "Property",
@@ -21928,13 +24451,13 @@
    "group": "Property",
    "name": "News search (EN): \"new Hong Kong office\"",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   {
    "group": "Property",
    "name": "News search (EN): \"opens Hong Kong office\"",
    "ok": true,
-   "count": 2
+   "count": 3
   },
   {
    "group": "Property",
@@ -21946,7 +24469,7 @@
    "group": "Property",
    "name": "News search (EN): asianinvestor.net",
    "ok": true,
-   "count": 98
+   "count": 91
   },
   {
    "group": "Property",
@@ -21964,7 +24487,7 @@
    "group": "Property",
    "name": "News search (EN): campaignasia.com",
    "ok": true,
-   "count": 39
+   "count": 38
   },
   {
    "group": "Property",
@@ -22114,7 +24637,7 @@
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 26
+   "count": 23
   },
   {
    "group": "Property",
@@ -22126,7 +24649,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 55
+   "count": 61
   },
   {
    "group": "Property",
@@ -22156,7 +24679,7 @@
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 97
+   "count": 100
   },
   {
    "group": "Property",
@@ -22196,21 +24719,27 @@
   },
   {
    "group": "Property",
+   "name": "News search (中文): 億購 商廈 OR 寫字樓 OR 工廈",
+   "ok": true,
+   "count": 74
+  },
+  {
+   "group": "Property",
    "name": "News search (中文): 商廈 樓層 成交 億",
    "ok": true,
-   "count": 57
+   "count": 56
   },
   {
    "group": "Property",
    "name": "News search (中文): 寫字樓 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 71
+   "count": 69
   },
   {
    "group": "Property",
    "name": "News search (中文): 工廈 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 54
+   "count": 55
   },
   {
    "group": "Property",
@@ -22220,9 +24749,27 @@
   },
   {
    "group": "Property",
+   "name": "News search (中文): 租客為 寫字樓 OR 商廈",
+   "ok": true,
+   "count": 60
+  },
+  {
+   "group": "Property",
    "name": "News search (中文): 租用 甲廈 平方呎",
    "ok": true,
-   "count": 26
+   "count": 28
+  },
+  {
+   "group": "Property",
+   "name": "News search (中文): 萬購 全層 自用",
+   "ok": true,
+   "count": 61
+  },
+  {
+   "group": "Property",
+   "name": "News search (中文): 註冊處資料顯示 買家 有限公司",
+   "ok": true,
+   "count": 16
   },
   {
    "group": "Property",
@@ -22234,7 +24781,7 @@
    "group": "Property",
    "name": "News search (中文): 進駐 甲廈 樓面",
    "ok": true,
-   "count": 21
+   "count": 23
   },
   {
    "group": "Property",
@@ -22246,7 +24793,7 @@
    "group": "Property",
    "name": "News search (中文): 香港 寫字樓 搬遷",
    "ok": true,
-   "count": 12
+   "count": 13
   },
   {
    "group": "Property",
@@ -22264,7 +24811,13 @@
    "group": "Transactions",
    "name": "Centaline Commercial transaction register",
    "ok": true,
-   "count": 2289
+   "count": 2249
+  },
+  {
+   "group": "Transactions",
+   "name": "HKEXnews filings (named buyers / tenants)",
+   "ok": true,
+   "count": 26
   }
  ],
  "sectors": [

@@ -261,7 +261,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
       <ul>
         <li><b>Events</b> come only from official listings: the HKCEC event calendar, AsiaWorld-Expo, InvestHK (HKSAR Government), HKGCC, AmCham and BritCham. Dates, venue, access type (Trade / Public / By registration / By invitation) and organiser phone/email are copied from the listing.</li>
         <li><b>Office move-ins</b> come from news headlines in Google News Hong Kong editions (English and Chinese) across Hong Kong business outlets, shown as published with links. Shop leases, closures, move-outs, land sales, residential deals, commentary and items without a named company are removed.</li>
-        <li><b>Transactions</b> come from Centaline Commercial's public transaction register. Each record gives the date, building, floor, unit, area and price or rent, and is marked as either a Land Registry record or a market-news record. The register does not name buyers or tenants. A name is shown only when a news report about the same building and deal names them; reports using words like "tipped" or "傳" are marked "reported, unconfirmed". Included: office sales from HK$20M, industrial sales from HK$30M, office leases from 5,000 sq ft or HK$150,000/month, industrial leases from 10,000 sq ft.</li>
+        <li><b>Transactions</b> come from Centaline Commercial's public transaction register and from <b>HKEXnews filings</b>: listed companies must announce property purchases, sales and leases, naming the buyer or tenant and the exact address. A name from a filing is attached to the matching register record (same building, deal type and price within 5%) or listed on its own. Each record gives the date, building, floor, unit, area and price or rent, and is marked as either a Land Registry record or a market-news record. The register does not name buyers or tenants. A name is shown only when a news report about the same building and deal names them; reports using words like "tipped" or "傳" are marked "reported, unconfirmed". Included: office sales from HK$20M, industrial sales from HK$30M, office leases from 5,000 sq ft or HK$150,000/month, industrial leases from 10,000 sq ft.</li>
         <li>Company, building, size and floors appear only when stated in the source. Reports of the same item are grouped and labelled "Corroborated by N outlets", "Register record + news report" or "Single outlet: open source to confirm".</li>
         <li><b>Priority, why go, who to meet, pitch and action plan</b> are sales guidance built from rules and Securitas HK's service range: guarding, mobile patrol, electronic security, remote viewing, Pinkerton risk services and MySecuritas. They are not reported facts.</li>
       </ul>
@@ -519,7 +519,7 @@ function prRow(p){
   </tr>${planRow(p, 8)}`;
 }
 function txRow(t){
-  const party = t.party ? `<span class="name">${esc(t.party)}</span>` : `<span class="muted">${t.deal === "Sale" ? "Buyer" : "Tenant"} not named</span>`;
+  const party = t.party ? `<span class="name">${esc(t.party)}</span>${t.party_source ? ` <span class="sm muted">(${esc(t.party_source)})</span>` : ""}` : `<span class="muted">${t.deal === "Sale" ? "Buyer" : "Tenant"} not named in public records</span>`;
   return `<tr class="${eff(t)}">
     <td data-label="Priority">${prioCell(t)}</td>
     <td data-label="Date">${esc(fmtD(t.date))}</td>

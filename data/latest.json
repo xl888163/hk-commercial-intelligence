@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T23:42:30+08:00",
+ "generated": "2026-10-13T23:48:12+08:00",
  "property_days": 90,
  "events": [
   {
@@ -4701,8 +4701,8 @@
    ],
    "sources": [
     {
-     "name": "巴士的報",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNkdlRU1zdUdiVkotdzVtcTRHQjQtNWNFUTd1Y1Z0NGhnOFFMTXd5VUFZTTNSdVkwYi1ja3prYi1rVzdMM2E0OHAySTZFMW95cG1SMkhic3l0NW9qUWFjczhWemg4THNpTDdwQlgzbDFwV3ZQRWdramlYSVFoSW9rSGROV1Q4SEdzU19jOGpydmVJUXlZd2pFN1dfQ1RHYjl4TFVFWHhJcC1QXzRaWmtWdF90ZDNTaVljZzhQOW9ENXZnWm1ZQ0YtV0FEc2h0Nk44ZXlQd0l3?oc=5",
+     "name": "PR Newswire",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd1RfcHVWSkkxTzRNYUFTMnJSUGptQmFFX3A0V3Vzdjk5dWhtZGF1MUNZMkNSR1lzQl9EUE5PaVlvZVdqYnlDV0JNLWJrRGZIS3dlTVQ1clZKMVl0ZHNDcGh6ZnA5MGNZV3lQcVV3NGF3c19JYjdTOVNQYUEwblNGU0Fhb2pOZ05WRUdxN1JfeWdkSnp3WGZlTU1BeGp6U3EzZzN5TlJnTVdNT01MV3Z3NTBXZ1JzNVlfODVIWDY1Z1RBX3JNVzVJWDlJMUM3UDZMZUNLSk9SNVhQaXBoUzRPc0Rn?oc=5",
      "title": "AIsphere Officially Opens Hong Kong Office at Cyberport, Building an AI Hub for the City",
      "date": "2026-10-13"
     }
@@ -5759,16 +5759,16 @@
   {
    "id": "7a07aa5d3c2b",
    "kind": "property",
-   "headline": "Hysan courts fintech as ZA Bank commits to new Causeway Bay headquarters",
+   "headline": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
    "date": "2026-09-09",
    "first_reported": "2026-09-09",
    "month": "2026-09",
    "company": "ZA Bank",
    "types": [
-    "New HQ",
-    "Lease / pre-lease"
+    "Lease / pre-lease",
+    "New HQ"
    ],
-   "type": "New HQ",
+   "type": "Lease / pre-lease",
    "building": "Lee Garden Eight",
    "landlords": [
     "Hysan"
@@ -5784,7 +5784,7 @@
    "size": 45000,
    "size_txt": "4.5萬呎",
    "floors": 4,
-   "floors_txt": "四層",
+   "floors_txt": "four floors",
    "lang": "en",
    "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
    "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
@@ -5806,6 +5806,12 @@
     }
    ],
    "sources": [
+    {
+     "name": "Hong Kong Business",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY19PWERTM1RlTW5mdnJJSFJlWEloRVJIcDljZXRnenYwSWs5NnZiNUpwWlJvVlU4QnJNajlZUXVZd0M5NnhMZ2taV0plR3o4dTdGZGtXZXN0bTR0QTdHRFNvZjFTcTE3dEMyMGUwanU5ay1kcEpwWUZSNHVNcTFCWVgzRC1MY1VnWkdjb0RKSUhkUGp1ZF84SkRoa1Y?oc=5",
+     "title": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
+     "date": "2026-09-09"
+    },
     {
      "name": "South China Morning Post",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3RMVFFYaVZRZ0ZlTTRzdThyZU8zcWxrcnE0WFZsVloxbUpMQmpMM0ltS2RCWHFKdlpqSnNZSzd0UXo5ZmNHNVVaclQ4Y254Uk51RDdXZHl2QVZZY2UxTk9qNzhaNzVPZ3BlVTRVa29BM1JiSDlFcGpUOVhMcklsZjh2UGNZU3ZWRUFSYVRXaTlWVXNieEpSX21yNHhKT3NfcUVERlhNNkdFOTc3MTJBZC16MTNfQldGV2xRb3BsTG5JeUhLZ1pxZzA3WS1yeTZ0di04VFBR0gHWAUFVX3lxTFB3TWlpSks2ZFRHX3VURVFxdlV2dFpJMHh5Mk1GMFJNei1pS2dPcTZZbGtxbkVWY2dhclpld3Q5UUNDRkwxV1RPTW44dE91YmpIeklsMnJxSldoMEZiQnFBZnZSYnpRTnJURnpFel9KRDVGRGpaenQxQTBEQVBRNGRqMUo5M1ZvMVgxV2tPVWtvdlhlQ3E2b1h3TGpkeDM0b3B5ZEd3Y283d0VBX0c5Q0F6dnRURDRzbG5LRjR0dTYtbVR0cUNUV0dJdzRDRnBKNVQ2d2N3Y1E?oc=5",
@@ -5855,7 +5861,7 @@
      "date": "2026-09-09"
     }
    ],
-   "verification": "Corroborated by 8 outlets",
+   "verification": "Corroborated by 9 outlets",
    "score": 13,
    "level": "HIGH",
    "thresholds": [
@@ -5869,7 +5875,7 @@
     "Mid-size space (45,000 sq ft) (+2)",
     "4 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 8 outlets (+1)"
+    "Reported by 9 outlets (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -6206,6 +6212,88 @@
    "is_new": false
   },
   {
+   "id": "2c0b13063293",
+   "kind": "property",
+   "headline": "Qatar Airways Cargo relocates regional office to Hong Kong",
+   "date": "2026-08-20",
+   "first_reported": "2026-08-19",
+   "month": "2026-08",
+   "company": "Qatar Airways Cargo",
+   "types": [
+    "Relocation",
+    "New HQ"
+   ],
+   "type": "Relocation",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Logistics & Supply Chain"
+   ],
+   "sector": "Logistics & Supply Chain",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
+   "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
+   "actions": [
+    "Find Qatar Airways Cargo's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Qatar%20Airways%20Cargo%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Qatar%20Airways%20Cargo%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Standard (HK)",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRy1pbFQ1MVRUcGRLOWZtanI3Z2hvLVF6TWNudlJiVzRuR0JVMnZGT2haVkxNa3pDRHZpX2pzeGRlQ0xDZHQ0d21lclRUb0UwTzA2YUpsREwySm93RWp5enI4Y1VJYl9pMF95bGxnZ2NJNC1YM1AzS1hhVVJhOXp6UEFvZ0swRU1uT2kycTRWMDZ4cld4WVJOQ0lMcFJrSk1vVUt4RFhlYjBjMUFEVmc?oc=5",
+     "title": "Qatar Airways Cargo relocates regional office to Hong Kong",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "Marketing-Interactive",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWpGRXlWTldHRWstcEFmYlQtcDU2bG1nVXEtRVdaTS1Mb0VNMEp0bDhSaS1kd1RQQlN5dWZhLTRmcXppdDZFYXF1ZFdNS3hKakhGcU5vcnlXUU9DZ2Iyc1RxNG9hR01TcFFCUzZERDdwemFObGlNWUVXSEt0dTBIa2lzUXBDT3YtSkdFNk5TM1BjTFkyUUdz?oc=5",
+     "title": "Qatar Airways Cargo relocates regional HQ to Hong Kong",
+     "date": "2026-08-20"
+    }
+   ],
+   "verification": "Corroborated by 2 outlets",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "Move-in: new premises need security systems (+2)",
+    "Reported by 2 outlets (+1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:New HQ",
+    "move:Relocation",
+    "sector:Logistics & Supply Chain"
+   ],
+   "first_seen": "2026-10-12T01:08:09+08:00",
+   "is_new": false
+  },
+  {
    "id": "1d041430d08c",
    "kind": "property",
    "headline": "Prudential Hong Kong expands Taikoo Place footprint to 83,000 sq ft",
@@ -6352,88 +6440,6 @@
     "move:Lease / pre-lease",
     "move:New HQ",
     "sector:Finance & Professional Services"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "2c0b13063293",
-   "kind": "property",
-   "headline": "Qatar Airways Cargo relocates regional office to Hong Kong",
-   "date": "2026-08-20",
-   "first_reported": "2026-08-19",
-   "month": "2026-08",
-   "company": "Qatar Airways Cargo",
-   "types": [
-    "Relocation",
-    "New HQ"
-   ],
-   "type": "Relocation",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Logistics & Supply Chain"
-   ],
-   "sector": "Logistics & Supply Chain",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
-   "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
-   "actions": [
-    "Find Qatar Airways Cargo's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=Qatar%20Airways%20Cargo%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=Qatar%20Airways%20Cargo%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "The Standard (HK)",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRy1pbFQ1MVRUcGRLOWZtanI3Z2hvLVF6TWNudlJiVzRuR0JVMnZGT2haVkxNa3pDRHZpX2pzeGRlQ0xDZHQ0d21lclRUb0UwTzA2YUpsREwySm93RWp5enI4Y1VJYl9pMF95bGxnZ2NJNC1YM1AzS1hhVVJhOXp6UEFvZ0swRU1uT2kycTRWMDZ4cld4WVJOQ0lMcFJrSk1vVUt4RFhlYjBjMUFEVmc?oc=5",
-     "title": "Qatar Airways Cargo relocates regional office to Hong Kong",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "Marketing-Interactive",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWpGRXlWTldHRWstcEFmYlQtcDU2bG1nVXEtRVdaTS1Mb0VNMEp0bDhSaS1kd1RQQlN5dWZhLTRmcXppdDZFYXF1ZFdNS3hKakhGcU5vcnlXUU9DZ2Iyc1RxNG9hR01TcFFCUzZERDdwemFObGlNWUVXSEt0dTBIa2lzUXBDT3YtSkdFNk5TM1BjTFkyUUdz?oc=5",
-     "title": "Qatar Airways Cargo relocates regional HQ to Hong Kong",
-     "date": "2026-08-20"
-    }
-   ],
-   "verification": "Corroborated by 2 outlets",
-   "score": 6,
-   "level": "MEDIUM",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)",
-    "Reported by 2 outlets (+1)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:New HQ",
-    "move:Relocation",
-    "sector:Logistics & Supply Chain"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
@@ -6595,7 +6601,7 @@
    "kind": "property",
    "headline": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
    "date": "2026-08-04",
-   "first_reported": "2026-07-30",
+   "first_reported": "2026-07-31",
    "month": "2026-08",
    "company": "AECOM",
    "types": [
@@ -6639,15 +6645,15 @@
    ],
    "sources": [
     {
-     "name": "Yahoo",
-     "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxORWRzRXBPR1NkZHBGeHk5elBONmZjQTNoRzd3T2o3T0FIUlF0VGFia3ZESExPMUlfTXZKZmxkd0o5M21VOEpObkhLMTBtcnhpdVJWRW1tRkRTRUl1ZmZ0bk85V2EzbnZYT3dQNTByYS1kWlowRV9YRTBMQl91M0lFa2hPSTZabndpVTk3ZXdPWEE2a2xaODF1OUlvTHhaSXFTTHFfSkZuaXF0WWJDR05jU01yWnloVV8yZUdkZjYtcnJHcjNiUEpOTGVnSnM1czV5WURVZTFkbUlYVEdBY0o5UlQ2UWw1dXF4UnVTWFFNcmJ2OVpOZkd4TC16U0E2YlRycTNyeEx5YUVEWUJoYld2QkFMRGRwamQ3ekZlQ09acHZ5OGg3eVRya0h1X1dZMWpyalFRSmNUMTFWTGJ2eDRMTWkyQ19hcmRkM3VsSzN5bm0xVXZiYmZuRjhWVk9zVDRmQ052OU96Mnk5TE11TEhMbEFDNGVuMngzNVR1NGtJMER6S1BYMWxXVzJKNGtVUWhpMzBORGFxc01jd0lIY3I0UA?oc=5",
-     "title": "AECOM開設全新香港辦事處暨亞洲區總部 匯聚人才、科技與可持續發展",
-     "date": "2026-07-30"
-    },
-    {
      "name": "Macau Business",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVkUxVW5rS2JJX2VSYW12VVZkVVpxVnZBSVV3V21tdkRqX016ZjVDSVRhVGhIZ1VBUDdCbHAwT1hhVTFNUDlrcF9GSUxtV210dkM0VFVRelpzVnR4Yi1wZi1EVWR4WHhzQTYteVpYR3hKVXR6NzF5RjNINXRVci10ZFVZY3dTSWcwaHlLNjdPN0p5VmVITWxuNzVKeXNERDd4eXRwc01sRFh3emR0M09OY3pkMFpGMjFpRkZjRG1uay0tOGlSOTh2NGJkT0hndUhJSXc?oc=5",
      "title": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
+     "date": "2026-07-31"
+    },
+    {
+     "name": "Yahoo",
+     "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxORWRzRXBPR1NkZHBGeHk5elBONmZjQTNoRzd3T2o3T0FIUlF0VGFia3ZESExPMUlfTXZKZmxkd0o5M21VOEpObkhLMTBtcnhpdVJWRW1tRkRTRUl1ZmZ0bk85V2EzbnZYT3dQNTByYS1kWlowRV9YRTBMQl91M0lFa2hPSTZabndpVTk3ZXdPWEE2a2xaODF1OUlvTHhaSXFTTHFfSkZuaXF0WWJDR05jU01yWnloVV8yZUdkZjYtcnJHcjNiUEpOTGVnSnM1czV5WURVZTFkbUlYVEdBY0o5UlQ2UWw1dXF4UnVTWFFNcmJ2OVpOZkd4TC16U0E2YlRycTNyeEx5YUVEWUJoYld2QkFMRGRwamQ3ekZlQ09acHZ5OGg3eVRya0h1X1dZMWpyalFRSmNUMTFWTGJ2eDRMTWkyQ19hcmRkM3VsSzN5bm0xVXZiYmZuRjhWVk9zVDRmQ052OU96Mnk5TE11TEhMbEFDNGVuMngzNVR1NGtJMER6S1BYMWxXVzJKNGtVUWhpMzBORGFxc01jd0lIY3I0UA?oc=5",
+     "title": "AECOM開設全新香港辦事處暨亞洲區總部 匯聚人才、科技與可持續發展",
      "date": "2026-07-31"
     },
     {
@@ -17927,16 +17933,16 @@
      "date": "2026-09-23"
     },
     {
-     "name": "IndexBox",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM1ZWRTRWNjZXMEJEWUlUMFh3WFRybjFBSXdnZUhSMEZxSTBfLXdNM3FPQ3Q0eU5XUHd1RlFzYVI1NzFzZkx3dTNjREkxZWp3SEJ0SUE0NDQ0RGVRbHN5SDY5N1NUbWt5TmI2aVlSV2VpUFRhS1N5bmhpSjdkdWRJRy1WNHNrZFZjTUFKNDZzR2ZzblFYajVJdGdFemp4eS15NkprRG5fV2pTYzRMWl8tLXZMTHNIdkhLYnc?oc=5",
-     "title": "Susquehanna International Group Leases 51,762 sq ft at Cheung Kong Center II in Hong Kong",
-     "date": "2026-09-09"
-    },
-    {
      "name": "BigGo Finance",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iQXRmR2ZmN096VkNDaUFVNlBHYlJfZi1ZeDA0TDBVNnoyUnJ4YTUwRGM1ZWV4M3cwMlJsNnRuUld6eWxHcWRtTmdDR0FXaXhPOTdROUxud2xoWHprSFM5Z21yREFrOU5xaFhoZjdjZW5FUmZIU3c?oc=5",
      "title": "US Quant Trading Giant SIG Leases Three Floors at Cheung Kong Center II, Bringing Occupancy to Near Full",
      "date": "2026-09-16"
+    },
+    {
+     "name": "IndexBox",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM1ZWRTRWNjZXMEJEWUlUMFh3WFRybjFBSXdnZUhSMEZxSTBfLXdNM3FPQ3Q0eU5XUHd1RlFzYVI1NzFzZkx3dTNjREkxZWp3SEJ0SUE0NDQ0RGVRbHN5SDY5N1NUbWt5TmI2aVlSV2VpUFRhS1N5bmhpSjdkdWRJRy1WNHNrZFZjTUFKNDZzR2ZzblFYajVJdGdFemp4eS15NkprRG5fV2pTYzRMWl8tLXZMTHNIdkhLYnc?oc=5",
+     "title": "Susquehanna International Group Leases 51,762 sq ft at Cheung Kong Center II in Hong Kong",
+     "date": "2026-09-09"
     }
    ],
    "verification": "Register record + news report",
@@ -24330,7 +24336,7 @@
  "learning": {
   "overrides": 1,
   "features": [],
-  "status": "not configured"
+  "status": "ok"
  },
  "health": [
   {
@@ -24403,7 +24409,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" industrial building OR warehouse sold OR buys HK$",
    "ok": true,
-   "count": 1
+   "count": 0
   },
   {
    "group": "Property",
@@ -24415,7 +24421,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 39
+   "count": 40
   },
   {
    "group": "Property",
@@ -24427,13 +24433,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 60
+   "count": 59
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 74
+   "count": 73
   },
   {
    "group": "Property",
@@ -24469,7 +24475,7 @@
    "group": "Property",
    "name": "News search (EN): asianinvestor.net",
    "ok": true,
-   "count": 91
+   "count": 92
   },
   {
    "group": "Property",
@@ -24487,7 +24493,7 @@
    "group": "Property",
    "name": "News search (EN): campaignasia.com",
    "ok": true,
-   "count": 38
+   "count": 39
   },
   {
    "group": "Property",
@@ -24637,7 +24643,7 @@
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 23
+   "count": 22
   },
   {
    "group": "Property",
@@ -24649,7 +24655,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 61
+   "count": 62
   },
   {
    "group": "Property",
@@ -24673,13 +24679,13 @@
    "group": "Property",
    "name": "News search (中文): mingpao.com",
    "ok": true,
-   "count": 100
+   "count": 0
   },
   {
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 100
+   "count": 99
   },
   {
    "group": "Property",
@@ -24727,7 +24733,7 @@
    "group": "Property",
    "name": "News search (中文): 商廈 樓層 成交 億",
    "ok": true,
-   "count": 56
+   "count": 55
   },
   {
    "group": "Property",
@@ -24763,7 +24769,7 @@
    "group": "Property",
    "name": "News search (中文): 萬購 全層 自用",
    "ok": true,
-   "count": 61
+   "count": 62
   },
   {
    "group": "Property",
@@ -24775,7 +24781,7 @@
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 42
+   "count": 43
   },
   {
    "group": "Property",

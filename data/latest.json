@@ -1,136 +1,7 @@
 {
- "generated": "2026-10-14T06:51:54+08:00",
+ "generated": "2026-10-15T06:51:41+08:00",
  "property_days": 90,
  "events": [
-  {
-   "id": "091ebaa67759",
-   "kind": "event",
-   "name": "Global Sources Consumer Electronics",
-   "start": "2026-10-11",
-   "end": "2026-10-14",
-   "month": "2026-10",
-   "months": [
-    "2026-10"
-   ],
-   "time": "",
-   "venue": "AsiaWorld-Expo, Chek Lap Kok (Hall 1, 5, 7, 8, 9, 10 & 11)",
-   "area": "Lantau / Airport",
-   "sectors": [
-    "AI & Technology",
-    "Retail & Consumer",
-    "Manufacturing & Consumer Goods"
-   ],
-   "sector": "Retail & Consumer",
-   "access": "Not stated in listing",
-   "audience": "Exhibition",
-   "category": "Exhibition",
-   "organiser": "",
-   "organiser_url": "",
-   "contact_phone": "",
-   "contact_email": "",
-   "lead_types": [
-    "Prospect networking"
-   ],
-   "who": "Retail operations & loss-prevention heads, mall operators",
-   "pitch": "Loss-prevention officers, CCTV analytics, intruder alarms with SOC response, mobile patrol",
-   "actions": [
-    "Register / plan attendance now (event is close).",
-    "Before the fair, shortlist exhibitors and visitors from: Retail operations & loss-prevention heads, mall operators. Book 3-5 meetings.",
-    "Pitch: Loss-prevention officers, CCTV analytics, intruder alarms with SOC response, mobile patrol.",
-    "Follow up within 3 working days after 14 Oct 2026 and log contacts here."
-   ],
-   "sources": [
-    {
-     "name": "AsiaWorld-Expo upcoming events",
-     "url": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/october-2026-global-sources-electronics?event_type=Exhibition&ebmsid=21337"
-    }
-   ],
-   "verification": "Official listing",
-   "score": 5,
-   "level": "MEDIUM",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Buyers in a Securitas sector: Retail & Consumer (+3)",
-    "Several target sectors present (+1)",
-    "Large trade exhibition: many exhibitors to prospect (+1)"
-   ],
-   "features": [
-    "access:Not stated in listing",
-    "area:Lantau / Airport",
-    "kind:event",
-    "lead:Prospect networking",
-    "sector:Retail & Consumer",
-    "venue:major"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "fdcc011c9e54",
-   "kind": "event",
-   "name": "World Retail Lab Asia",
-   "start": "2026-10-12",
-   "end": "2026-10-14",
-   "month": "2026-10",
-   "months": [
-    "2026-10"
-   ],
-   "time": "",
-   "venue": "Conrad Hotel, Hong Kong",
-   "area": "Admiralty",
-   "sectors": [
-    "Retail & Consumer"
-   ],
-   "sector": "Retail & Consumer",
-   "access": "Not stated in listing",
-   "audience": "Business / investors (InvestHK listing)",
-   "category": "Business event",
-   "organiser": "",
-   "organiser_url": "",
-   "contact_phone": "",
-   "contact_email": "",
-   "lead_types": [
-    "Prospect networking"
-   ],
-   "who": "Retail operations & loss-prevention heads, mall operators",
-   "pitch": "Loss-prevention officers, CCTV analytics, intruder alarms with SOC response, mobile patrol",
-   "actions": [
-    "Register / plan attendance now (event is close).",
-    "Target in the room: Retail operations & loss-prevention heads, mall operators.",
-    "Pitch: Loss-prevention officers, CCTV analytics, intruder alarms with SOC response, mobile patrol.",
-    "Follow up within 3 working days after 14 Oct 2026 and log contacts here."
-   ],
-   "sources": [
-    {
-     "name": "InvestHK events (HKSAR Gov)",
-     "url": "https://www.investhk.gov.hk/en/events/world-retail-lab-asia/"
-    }
-   ],
-   "verification": "Official listing",
-   "score": 2,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Buyers in a Securitas sector: Retail & Consumer (+3)",
-    "Team feedback on similar items: -0.3 level on average across 15 re-ratings (-1)"
-   ],
-   "features": [
-    "access:Not stated in listing",
-    "area:Admiralty",
-    "kind:event",
-    "lead:Prospect networking",
-    "sector:Retail & Consumer",
-    "venue:other"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
   {
    "id": "441811c7f8d2",
    "kind": "event",
@@ -174,8 +45,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -185,8 +56,7 @@
     "Several target sectors present (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -241,7 +111,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -251,8 +121,7 @@
     "Buyers in a Securitas sector: AI & Technology (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -261,134 +130,6 @@
     "lead:Prospect networking",
     "sector:AI & Technology",
     "venue:major"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "36b16e61b405",
-   "kind": "event",
-   "name": "LSCM Logistics Summit 2026",
-   "start": "2026-10-14",
-   "end": "2026-10-14",
-   "month": "2026-10",
-   "months": [
-    "2026-10"
-   ],
-   "time": "",
-   "venue": "Grand Hall and Function Hall, Hong Kong Science Park",
-   "area": "Sha Tin / Tai Po (incl. Science Park)",
-   "sectors": [
-    "Logistics & Supply Chain"
-   ],
-   "sector": "Logistics & Supply Chain",
-   "access": "Not stated in listing",
-   "audience": "Business / investors (InvestHK listing)",
-   "category": "Business event",
-   "organiser": "",
-   "organiser_url": "",
-   "contact_phone": "",
-   "contact_email": "",
-   "lead_types": [
-    "Prospect networking",
-    "Senior networking"
-   ],
-   "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
-   "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
-   "actions": [
-    "Register / plan attendance now (event is close).",
-    "Target in the room: Warehouse / 3PL operations & security managers, port and air-cargo operators.",
-    "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
-    "Follow up within 3 working days after 14 Oct 2026 and log contacts here."
-   ],
-   "sources": [
-    {
-     "name": "InvestHK events (HKSAR Gov)",
-     "url": "https://www.investhk.gov.hk/en/events/lscm-logistics-summit-2026/"
-    }
-   ],
-   "verification": "Official listing",
-   "score": 5,
-   "level": "MEDIUM",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Buyers in a Securitas sector: Logistics & Supply Chain (+3)",
-    "Senior decision-makers in the room (+2)"
-   ],
-   "features": [
-    "access:Not stated in listing",
-    "area:Sha Tin / Tai Po (incl. Science Park)",
-    "kind:event",
-    "lead:Prospect networking",
-    "lead:Senior networking",
-    "sector:Logistics & Supply Chain",
-    "venue:other"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "2e1361cfe848",
-   "kind": "event",
-   "name": "BritCham Construction Committee and Women-in-Construction Group (WIC) Drinks",
-   "start": "2026-10-14",
-   "end": "2026-10-14",
-   "month": "2026-10",
-   "months": [
-    "2026-10"
-   ],
-   "time": "14 Oct 2026 | 06:00 PM - 09:00 PM",
-   "venue": "Santa Monica Cantina",
-   "area": "Hong Kong (district not stated)",
-   "sectors": [
-    "Infrastructure & Construction"
-   ],
-   "sector": "Infrastructure & Construction",
-   "access": "Chamber registration (member / guest)",
-   "audience": "Chamber members & guests",
-   "category": "Chamber event",
-   "organiser": "BritCham HK",
-   "organiser_url": "",
-   "contact_phone": "",
-   "contact_email": "",
-   "lead_types": [
-    "Prospect networking"
-   ],
-   "who": "Developers, main contractors, project managers, ELV / M&E consultants",
-   "pitch": "Construction-site guarding & mobile patrol, temporary CCTV with remote viewing; get Securitas specified in the building's ELV security package",
-   "actions": [
-    "Book through the chamber now (event is close) (member rate if Securitas is a member).",
-    "Target in the room: Developers, main contractors, project managers, ELV / M&E consultants.",
-    "Pitch: Construction-site guarding & mobile patrol, temporary CCTV with remote viewing; get Securitas specified in the building's ELV security package.",
-    "Follow up within 3 working days after 14 Oct 2026 and log contacts here."
-   ],
-   "sources": [
-    {
-     "name": "BritCham HK events",
-     "url": "https://britchamhk.glueup.com/event/193838"
-    }
-   ],
-   "verification": "Official listing",
-   "score": 2,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Buyers in a Securitas sector: Infrastructure & Construction (+3)",
-    "Team feedback on similar items: -0.3 level on average across 11 re-ratings (-1)"
-   ],
-   "features": [
-    "access:Chamber registration (member / guest)",
-    "area:Hong Kong (district not stated)",
-    "kind:event",
-    "lead:Prospect networking",
-    "sector:Infrastructure & Construction",
-    "venue:other"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
@@ -699,7 +440,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -708,8 +449,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -828,7 +568,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -837,8 +577,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Healthcare & Life Sciences (+2)",
     "Several target sectors present (+1)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:By registration",
@@ -1023,8 +762,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -1034,8 +773,7 @@
     "Several target sectors present (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -1090,15 +828,14 @@
     }
    ],
    "verification": "Official listing",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
-    "Buyers in a Securitas sector: Finance & Professional Services (+3)",
-    "Team feedback on similar items: -0.3 level on average across 11 re-ratings (-1)"
+    "Buyers in a Securitas sector: Finance & Professional Services (+3)"
    ],
    "features": [
     "access:Chamber registration (member / guest)",
@@ -1153,7 +890,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -1162,8 +899,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -1220,7 +956,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -1229,8 +965,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Infrastructure & Construction (+3)",
     "Several target sectors present (+1)",
-    "Senior decision-makers in the room (+2)",
-    "Team feedback on similar items: -0.3 level on average across 11 re-ratings (-1)"
+    "Senior decision-makers in the room (+2)"
    ],
    "features": [
     "access:Chamber registration (member / guest)",
@@ -1288,8 +1023,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -1297,8 +1032,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Healthcare & Life Sciences (+2)",
     "Senior decision-makers in the room (+2)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:By registration",
@@ -1425,7 +1159,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -1434,8 +1168,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Finance & Professional Services (+3)",
     "Several target sectors present (+1)",
-    "Senior decision-makers in the room (+2)",
-    "Team feedback on similar items: -0.3 level on average across 11 re-ratings (-1)"
+    "Senior decision-makers in the room (+2)"
    ],
    "features": [
     "access:Chamber registration (member / guest)",
@@ -1624,8 +1357,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -1633,8 +1366,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Healthcare & Life Sciences (+2)",
     "Senior decision-makers in the room (+2)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:By registration",
@@ -1690,7 +1422,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -1700,8 +1432,7 @@
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -1757,7 +1488,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -1765,8 +1496,7 @@
    ],
    "reasons": [
     "Buyers in a Securitas sector: Education & Government (+2)",
-    "Senior decision-makers in the room (+2)",
-    "Team feedback on similar items: -0.3 level on average across 11 re-ratings (-1)"
+    "Senior decision-makers in the room (+2)"
    ],
    "features": [
     "access:Chamber registration (member / guest)",
@@ -1827,7 +1557,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 9,
+   "score": 10,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -1838,8 +1568,7 @@
     "Exhibitors / organiser are potential partners (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
     "HKTDC flagship fair (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 22 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Trade & public",
@@ -1899,7 +1628,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -1908,8 +1637,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Retail & Consumer (+3)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 26 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -1967,7 +1695,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -1976,8 +1704,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Retail & Consumer (+3)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 26 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -2034,7 +1761,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -2044,8 +1771,7 @@
     "Buyers in a Securitas sector: Retail & Consumer (+3)",
     "Several target sectors present (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 22 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -2101,7 +1827,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -2111,8 +1837,7 @@
     "Buyers in a Securitas sector: Retail & Consumer (+3)",
     "Several target sectors present (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 22 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -2232,7 +1957,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -2241,8 +1966,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Logistics & Supply Chain (+3)",
     "Senior decision-makers in the room (+2)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:By registration",
@@ -2299,16 +2023,15 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Buyers in a Securitas sector: Logistics & Supply Chain (+3)",
-    "Senior decision-makers in the room (+2)",
-    "Team feedback on similar items: -0.3 level on average across 11 re-ratings (-1)"
+    "Senior decision-makers in the room (+2)"
    ],
    "features": [
     "access:Chamber registration (member / guest)",
@@ -2367,8 +2090,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -2378,8 +2101,7 @@
     "Several target sectors present (+1)",
     "Exhibitors / organiser are potential partners (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -2438,8 +2160,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -2448,8 +2170,7 @@
     "Buyers in a Securitas sector: Healthcare & Life Sciences (+2)",
     "Senior decision-makers in the room (+2)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 24 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -2511,7 +2232,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 10,
+   "score": 11,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -2522,8 +2243,7 @@
     "Exhibitors / organiser are potential partners (+1)",
     "Senior decision-makers in the room (+2)",
     "Invitation-only: exclusive access to decision-makers (+2)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:Invitation only",
@@ -2586,7 +2306,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 8,
+   "score": 9,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -2596,8 +2316,7 @@
     "Buyers in a Securitas sector: Luxury & HNW Goods (+5)",
     "Exhibitors / organiser are potential partners (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 22 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Trade & public",
@@ -2655,8 +2374,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -2664,8 +2383,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Education & Government (+2)",
     "Invitation-only: exclusive access to decision-makers (+2)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "Large trade exhibition: many exhibitors to prospect (+1)"
    ],
    "features": [
     "access:Invitation only",
@@ -2722,7 +2440,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -2731,8 +2449,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Retail & Consumer (+3)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 26 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -2790,8 +2507,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -2799,8 +2516,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Hospitality, Food & Tourism (+2)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 24 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -2858,7 +2574,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -2867,8 +2583,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 24 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -2991,7 +2706,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -3002,8 +2717,7 @@
     "Several target sectors present (+1)",
     "Senior decision-makers in the room (+2)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 24 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -3063,8 +2777,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -3073,8 +2787,7 @@
     "Buyers in a Securitas sector: Retail & Consumer (+3)",
     "Several target sectors present (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 26 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -3132,7 +2845,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -3141,8 +2854,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Retail & Consumer (+3)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 26 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -3200,8 +2912,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -3209,8 +2921,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Hospitality, Food & Tourism (+2)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 24 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -3267,7 +2978,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -3275,8 +2986,7 @@
    ],
    "reasons": [
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 19 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -3457,7 +3167,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -3468,8 +3178,7 @@
     "Several target sectors present (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -3524,7 +3233,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -3534,8 +3243,7 @@
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -3590,7 +3298,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -3600,8 +3308,7 @@
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -3615,9 +3322,9 @@
    "is_new": false
   },
   {
-   "id": "922ede87b001",
+   "id": "a3d73a0f0552",
    "kind": "event",
-   "name": "HKTDC Education & Careers Expo (香港貿發局教育及職業博覽)",
+   "name": "Education & Careers Expo",
    "start": "2027-01-21",
    "end": "2027-01-24",
    "month": "2027-01",
@@ -3625,63 +3332,61 @@
     "2027-01"
    ],
    "time": "",
-   "venue": "Hong Kong Convention and Exhibition Centre (HKCEC), Wan Chai",
+   "venue": "Hong Kong Convention and Exhibition Centre",
    "area": "Wan Chai",
    "sectors": [
     "Education & Government"
    ],
    "sector": "Education & Government",
-   "access": "Public",
-   "audience": "Public",
-   "category": "Exhibition / conference",
+   "access": "Not stated in listing",
+   "audience": "Business / investors (InvestHK listing)",
+   "category": "Business event",
    "organiser": "Hong Kong Trade Development Council",
    "organiser_url": "www.hktdc.com",
    "contact_phone": "(852) 1830 668",
    "contact_email": "exhibitions@hktdc.org",
    "lead_types": [
-    "Prospect networking",
-    "Event-security lead"
+    "Prospect networking"
    ],
    "who": "Campus estates & security offices, school administrators, public-facility managers",
    "pitch": "Campus guarding, visitor management, CCTV; track upcoming tenders",
    "actions": [
     "Register / plan attendance by 14 Jan 2027.",
-    "Before the fair, shortlist exhibitors and visitors from: Campus estates & security offices, school administrators, public-facility managers. Book 3-5 meetings.",
+    "Target in the room: Campus estates & security offices, school administrators, public-facility managers.",
     "Pitch: Campus guarding, visitor management, CCTV; track upcoming tenders.",
-    "Event-security lead: contact Hong Kong Trade Development Council ((852) 1830 668 / exhibitions@hktdc.org, as listed by HKCEC) about guarding, crowd management and badge control for this or the next edition.",
     "Follow up within 3 working days after 24 Jan 2027 and log contacts here."
    ],
    "sources": [
+    {
+     "name": "InvestHK events (HKSAR Gov)",
+     "url": "https://www.investhk.gov.hk/en/events/education-careers-expo-2027/"
+    },
     {
      "name": "HKCEC event calendar",
      "url": "https://www.hktdc.com/event/hkeducationexpo/en"
     }
    ],
-   "verification": "Official listing",
-   "score": 5,
-   "level": "MEDIUM",
+   "verification": "Official listing · 2 sources",
+   "score": 3,
+   "level": "LOW",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Buyers in a Securitas sector: Education & Government (+2)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 24 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
-    "access:Public",
+    "access:Not stated in listing",
     "area:Wan Chai",
     "kind:event",
-    "lead:Event-security lead",
     "lead:Prospect networking",
     "sector:Education & Government",
-    "venue:major"
+    "venue:other"
    ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
+   "first_seen": "2026-10-15T06:51:41+08:00",
+   "is_new": true
   },
   {
    "id": "8c48f88a9c4c",
@@ -3727,7 +3432,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -3738,8 +3443,7 @@
     "Several target sectors present (+1)",
     "Senior decision-makers in the room (+2)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:By registration",
@@ -3868,7 +3572,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 8,
+   "score": 9,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -3879,8 +3583,7 @@
     "Exhibitors / organiser are potential partners (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -3937,7 +3640,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -3946,8 +3649,7 @@
    "reasons": [
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -4074,8 +3776,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -4085,8 +3787,7 @@
     "Several target sectors present (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -4141,7 +3842,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -4151,8 +3852,7 @@
     "Buyers in a Securitas sector: AI & Technology (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -4207,7 +3907,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -4217,8 +3917,7 @@
     "Buyers in a Securitas sector: Retail & Consumer (+3)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 22 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -4273,7 +3972,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -4283,8 +3982,7 @@
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -4339,7 +4037,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -4349,8 +4047,7 @@
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -4405,7 +4102,7 @@
     }
    ],
    "verification": "Official listing",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -4415,8 +4112,7 @@
     "Buyers in a Securitas sector: Manufacturing & Consumer Goods (+1)",
     "Trade-only: B2B buyers, not consumers (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "HKTDC flagship fair (+1)",
-    "Team feedback on similar items: -0.3 level on average across 20 re-ratings (-1)"
+    "HKTDC flagship fair (+1)"
    ],
    "features": [
     "access:Trade only",
@@ -4542,8 +4238,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -4551,8 +4247,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Hospitality, Food & Tourism (+2)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 22 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Trade & public",
@@ -4610,8 +4305,8 @@
     }
    ],
    "verification": "Official listing",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -4619,8 +4314,7 @@
    "reasons": [
     "Buyers in a Securitas sector: Education & Government (+2)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Public event at a major venue: event-security lead for the organiser (+2)",
-    "Team feedback on similar items: -0.3 level on average across 24 re-ratings (-1)"
+    "Public event at a major venue: event-security lead for the organiser (+2)"
    ],
    "features": [
     "access:Public",
@@ -4632,7 +4326,7 @@
     "venue:major"
    ],
    "first_seen": "2026-10-14T06:51:54+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "eb4a9a5f800e",
@@ -5065,7 +4759,7 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-10-14T06:51:54+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c2a64af7503a",
@@ -5378,79 +5072,6 @@
    "is_new": false
   },
   {
-   "id": "4ca66397a80f",
-   "kind": "property",
-   "headline": "IDT International Moves Hong Kong Principal Office to Central",
-   "date": "2026-10-09",
-   "first_reported": "2026-10-09",
-   "month": "2026-10",
-   "company": "IDT International",
-   "types": [
-    "Relocation"
-   ],
-   "type": "Relocation",
-   "building": "",
-   "landlords": [],
-   "area": "Central / Sheung Wan",
-   "grade": "Prime office district",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Landlords' asset & property managers, building management offices, FM companies",
-   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
-   "actions": [
-    "Find IDT International's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at Central / Sheung Wan for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=IDT%20International%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=IDT%20International%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRHBWeV9SREo5TW5aeUN5eFMxdDBKSlZhbmpMUzJ3aFNEVF9rOFlGUkNSd0JNV3hfVlp6NGdoclpUdUh1c3lWa2piOG9wMXJYRE1ZODU5c1lqWEY1WTFTanA3MEJ4WXU4Y3hOOHEwZWtFUFRsRlJoUktWX1laTmZULVVBY0Qtc0lKX3ZHZ29ZT3VFNjhXemt2V3FyczJFSE5JRmNDTmVWaGlTZlhMS3YzYzByQQ?oc=5",
-     "title": "IDT International Moves Hong Kong Principal Office to Central",
-     "date": "2026-10-09"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 3,
-   "level": "LOW",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "Move-in: new premises need security systems (+2)",
-    "Prime office district: Central / Sheung Wan (+1)"
-   ],
-   "features": [
-    "area:Central / Sheung Wan",
-    "grade:Prime office district",
-    "kind:property",
-    "move:Relocation",
-    "sector:Facility Management & Real Estate"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
    "id": "cf499918aff0",
    "kind": "property",
    "headline": "港大10.6萬租美銀中心極高層",
@@ -5673,81 +5294,6 @@
    "is_new": false
   },
   {
-   "id": "727d574de37a",
-   "kind": "property",
-   "headline": "普匯中金租用瑞安中心約2,500 平方呎寫字樓作香港辦公室",
-   "date": "2026-09-22",
-   "first_reported": "2026-09-22",
-   "month": "2026-09",
-   "company": "CICC",
-   "types": [
-    "Lease / pre-lease"
-   ],
-   "type": "Lease / pre-lease",
-   "building": "Shui On Centre",
-   "landlords": [],
-   "area": "Wan Chai",
-   "grade": "Grade A building (named)",
-   "sectors": [
-    "Finance & Professional Services",
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Finance & Professional Services",
-   "size": 2500,
-   "size_txt": "2,500 平方呎",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "zh",
-   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
-   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
-   "actions": [
-    "Find CICC's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at Shui On Centre for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=CICC%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=CICC%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "巴士的報",
-     "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxQUkZkN2dTdEFXOVpENWlVcjN2bTJPVDRzUWg4Wm9nUFA2SDhjcmNXa0RmejNQUkdRY3dMUkJxck5uRllMY0pWOGVLTGk2c19kQ2dHQUJVazNpVTluOGs2Q2czNTVSVTBEZnl6TnFRRFV6Sy1ta2tTcm9NbXVnODRNampKU19kZHBvMUctN3FmcHVGZnFZbURmWjlsM3Nwc1FCV3RsdXQ2NHl2dE9uazR5bUZTQ3NiTXZ6eEZ3dFM3Qnd2MGpCWVBxMnJYNXJtdzlmTXNUU2VHUUFHa2pLb2NTS3BFRmlld2hDWWxJRnRWUnRwS0NzN2lKWFZpWEJTMzAwT0ZxTVN6Sjl6SEZPSXEzUkhLVUkxcXY5VVNJcHhvRTBueHl3NW1KdmpqZmM0WGtwYy1QQ2ZIdFFNU2I0cGJLTTl3RlZ1ci16d2hoOGFrNjBWQXhPck5HRi1BM1hmUDN6V2M3N3ltVQ?oc=5",
-     "title": "普匯中金租用瑞安中心約2,500 平方呎寫字樓作香港辦公室",
-     "date": "2026-09-22"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 6,
-   "level": "MEDIUM",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "Move-in: new premises need security systems (+2)",
-    "Grade A building: Shui On Centre (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
-   ],
-   "features": [
-    "area:Wan Chai",
-    "grade:Grade A building (named)",
-    "kind:property",
-    "move:Lease / pre-lease",
-    "sector:Finance & Professional Services"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
    "id": "9388bc824002",
    "kind": "property",
    "headline": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
@@ -5864,7 +5410,7 @@
    "size": 51762,
    "size_txt": "51,762 sq ft",
    "floors": 3,
-   "floors_txt": "Three Floors",
+   "floors_txt": "three floors",
    "lang": "en",
    "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
    "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
@@ -5905,9 +5451,21 @@
      "date": "2026-09-16"
     },
     {
-     "name": "The Standard (HK)",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcy1PTFZCYmFEYWZBbHVEVUNPc2NsTmlDYWdNbXhsZE1rQ3NrVUI5RjNZRTgwbmV5a3dtaTlZTUdWalRpVVE5dE1JY3F0Z25zX1JScFdCVC1TWnNJYVdJQWtrTUp6YnIxeEdZQThpZnF3enhjb0VCdnZFQ3BJRWQwdXE2NFdYX18yV0haS2tIbzdWNFFUVmc4VFNoQnJTSEJxS2dHZllEOFFEbXRlMEF5dmozVklwVnprLTF4YzVfTmpER3M?oc=5",
+     "name": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWGV0bXcyS3RvV2szZEEtM0dpZGZFclp5ck56enpHcmp6QXJqSGRxR2EyM3lBMnFWbEhsVHcyWHUxaENfZ2xaUF9sbkVCMC1MVVJ1bVlEbTh3VVlWU0dzVXNUcHJwUkEybHl4UkYtSFZ2LWt3dFZiRjVSeEg0TThOUjQyWElhazRDRFlPMUNzOExjVnNVMUx1ZTQzZE0wQ1JPaExHaXp5WlBrUW53ci1fUGFIUjNMWVRBWUdWaVkwSFJGMkhRTEZOMGJua3YwTmRTLW83U0lOMFQ?oc=5",
      "title": "Hong Kong's CK Asset says Susquehanna leases floors in its office tower",
+     "date": "2026-09-16"
+    },
+    {
+     "name": "Dimsum Daily",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYklCRVhnbFE1U3BnRTVTdXo2VWExYXVBbWY0UzN0Y3VtLUtkZTQyNE1UeXhrTTdWa2p1VmxVdG5OY29GQjR6TVhlcDFGR2JNeWlzYVlWM25HUl9CLXVoeWllMjFqMnpabzVORkM2S1djVG9CWTl4NEdXM01XTkVRWjluYVBVdDh4dDEycEp4UFpUN0YyZGtXRS1TclRHUWhTTVFuY20tczduc2Jfcnp0RkZwR1JwSlhj?oc=5",
+     "title": "Susquehanna leases three floors at Cheung Kong Center II as CK Asset nears full occupancy",
+     "date": "2026-09-17"
+    },
+    {
+     "name": "星島頭條",
+     "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxPN2F3SVBVOWRuT0pLYUpwTHduWFZzcmdaVWM2S2xjdHNmY1hLVjIweGRnRWFtVlhoaVFYQVZIeEdrZW1GSlVhV1JaV3Q2VGk1ZzdGZXZOYTV2Zkx1cF9HSUpnY2twLVcyYmhyNk5rSV9od2VFWUNNenhzQTVCNldvWUhVYWV1S3hlLVRMLTV1RmNYY2MzTFZFUnpoMzByZmRVZ2ktOGpFZmZVR2lPa2dxbUwtT08zLW1IWkwxdGdjMGJnenhpOC1pM0RGZ005ZGdVTEZiNzEydVdxX3Uza1pWZ3ozVlN1d3A3dkxzYzBic002SzQtUUdWV05MSFlSWi1PN0JpYXk2SC01OXNCTFVIZXFHYjJlMXJ4V3lvNGNVenhlbFpxcG9hZUNCR09YamdQWTJBOGdUVnBld1Q3NDk4M3BfNzVoaGpBd0ExX0tyRmY0N3hoX3JZMjQtYmlJZzN4LXZiUE9uOUlwYVZZQzR1Q2FzckV0WEZiV2NWTmRETDg4b19CdFhKQlJhTVliRDJRanRaMjhfbThNNk5uR3V3d01CYThoblBEbmd1bGJtZ2RaVEtvZGxZX1Fwa3otcUtMaHJ3Ug?oc=5",
+     "title": "長江中心二期近全部租出 長實證實美國量化交易巨頭SIG租用3層寫字樓",
      "date": "2026-09-17"
     },
     {
@@ -5917,13 +5475,13 @@
      "date": "2026-09-17"
     },
     {
-     "name": "星島頭條",
-     "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxPN2F3SVBVOWRuT0pLYUpwTHduWFZzcmdaVWM2S2xjdHNmY1hLVjIweGRnRWFtVlhoaVFYQVZIeEdrZW1GSlVhV1JaV3Q2VGk1ZzdGZXZOYTV2Zkx1cF9HSUpnY2twLVcyYmhyNk5rSV9od2VFWUNNenhzQTVCNldvWUhVYWV1S3hlLVRMLTV1RmNYY2MzTFZFUnpoMzByZmRVZ2ktOGpFZmZVR2lPa2dxbUwtT08zLW1IWkwxdGdjMGJnenhpOC1pM0RGZ005ZGdVTEZiNzEydVdxX3Uza1pWZ3ozVlN1d3A3dkxzYzBic002SzQtUUdWV05MSFlSWi1PN0JpYXk2SC01OXNCTFVIZXFHYjJlMXJ4V3lvNGNVenhlbFpxcG9hZUNCR09YamdQWTJBOGdUVnBld1Q3NDk4M3BfNzVoaGpBd0ExX0tyRmY0N3hoX3JZMjQtYmlJZzN4LXZiUE9uOUlwYVZZQzR1Q2FzckV0WEZiV2NWTmRETDg4b19CdFhKQlJhTVliRDJRanRaMjhfbThNNk5uR3V3d01CYThoblBEbmd1bGJtZ2RaVEtvZGxZX1Fwa3otcUtMaHJ3Ug?oc=5",
-     "title": "長江中心二期近全部租出 長實證實美國量化交易巨頭SIG租用3層寫字樓",
+     "name": "香港商报",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpbVd4X2FiWlkxbUJyMEpXV3g0T1RuQjlYWERtUkF6N2hYenZaMEE3RzBMQnJfcURlM2dwYU1QaUhLbXBCV2dSQ2xYTnU4OWVNUkg1VjV2blQzSDhuUUE?oc=5",
+     "title": "長實證實：美國量化交易巨頭SIG已簽約租用長江集團中心二期3層寫字樓",
      "date": "2026-09-17"
     }
    ],
-   "verification": "Corroborated by 5 outlets",
+   "verification": "Corroborated by 7 outlets",
    "score": 13,
    "level": "HIGH",
    "thresholds": [
@@ -5937,7 +5495,7 @@
     "Large space (51,762 sq ft) (+3)",
     "3 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 5 outlets (+1)"
+    "Reported by 7 outlets (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -6022,6 +5580,79 @@
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
+  },
+  {
+   "id": "8d68e5af1243",
+   "kind": "property",
+   "headline": "iPhone Duo | 傳內地大廠派開發人員赴蘋果總部 提前適配新機",
+   "date": "2026-09-15",
+   "first_reported": "2026-09-15",
+   "month": "2026-09",
+   "company": "Apple",
+   "types": [
+    "New HQ"
+   ],
+   "type": "New HQ",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Retail & Consumer"
+   ],
+   "sector": "Retail & Consumer",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "zh",
+   "who": "Retail operations & loss-prevention heads, mall operators",
+   "pitch": "Loss-prevention officers, CCTV analytics, intruder alarms with SOC response, mobile patrol",
+   "actions": [
+    "Find Apple's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Loss-prevention officers, CCTV analytics, intruder alarms with SOC response, mobile patrol.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Apple%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Apple%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPRlZIQUNHWmRHVS1DeGh0SWZGNlZiZkZTclFMaG9CMXczOWNwRW9OdUczRUV1OGJLc2tOTndaM2pYNFhBcnRXWW9lczZXRVpfWnZ3ZHhDS2pGdnhEZEN3bmRpWTZXZzZBVmRoLXBhN00tMGZOZ2RFQXFHLVhROW5Ddk4yVUdkMGhiSjJVQUg3bzMxTG1mNFBLcFUzbzJUMXRIR2dHMEVhZk81U0cwajBmdnVKcnRNZUExenpkaUxYdHBGcjhIak1tcXdHdTVsMGc0eU1PMGtMOGJDdEU2Q2MtWmFraVc4VC1kSDlTdlBqZktQUXJyOURvOHR0eVJ3VktxTExrRnl6cU14b0IwYk9oVTY0WWdpT0RCQXVQYWFlSjBqbVZDU0hKaTJ2UWgtM3VyZzRzS2hidVRVV29rQlo3YUVDQWEzZXBHRDhNb0tiNmxrdHJRcmwyMjJVaG9LYmVURVhleENLVW9SZw?oc=5",
+     "title": "iPhone Duo | 傳內地大廠派開發人員赴蘋果總部 提前適配新機",
+     "date": "2026-09-15"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 2,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "Team feedback on similar items: -0.4 level on average across 2 re-ratings (-1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:New HQ",
+    "sector:Retail & Consumer"
+   ],
+   "first_seen": "2026-10-15T06:51:41+08:00",
+   "is_new": true
   },
   {
    "id": "7a07aa5d3c2b",
@@ -6116,15 +5747,15 @@
      "date": "2026-09-09"
     },
     {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnl0S1U1WFJ2VkVqX0l5ak5EZmphT3hqaGNzVlNfaEFtWnJydDNJelYtb0piOWxFUXBOSDJiRXZxXzllbHZKRGJRQzdNbmdValdGaURXY3ktNjI4T25rMDNyRk1DcFpZc2xtOElvTlJma29pVTRMSDJvRkFoVlBIbnJ2NjNIazE1akE?oc=5",
-     "title": "【數字銀行】ZA Bank總部2027遷利園八期 CEO：心情如睇兒子小學畢業",
-     "date": "2026-09-09"
-    },
-    {
      "name": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNQTZ1QnlUZEFtVGJKRzQyNXlySUwxU0FxZUxkSHpwNlVTTlBROGJaS2V1MVBxLW1EU2RUTEJ4blhYdThzNmEyMFZpMDcxUEpLMUxNM0xBeVl0YWI5U2M1VXpIbTNic2x3a054clBXS1d4QlNwQmtBTTM4X012aXBsOWc2UjAyaDR3cE9nVEdDMmNPWGlSejlxZjlmcGs2RWFCSFlYVlFKbWJ3ZkdhV3RaMnVYMl95T0NnUW1rQ3FyX3lLMW0wanJoQnFmUzVTOFpKYWhiV21STE1lZ0ZKVm82dm9GNTc3eG51WjVlSmVWZl9rcUQwVzU2eC1wN3JTeDRxVWNRYkxDVHJXMnV4RnFVcnhBQjMyb3R4SkRkUm9wcGNvRFc4cjEwbkdMWTlOUmRsWE94amM5TjdRUU5LSi1XNWVqOFB1anVvZHZ0M3p4dXZMWXN1bUlmOERoakFLRGE5OU1mbmsyUHJWZmhEc2JoTDNEWS1rUQ?oc=5",
      "title": "希慎稱利園八期預租率理想 獲ZA Bank承租4層寫字樓作總部",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnl0S1U1WFJ2VkVqX0l5ak5EZmphT3hqaGNzVlNfaEFtWnJydDNJelYtb0piOWxFUXBOSDJiRXZxXzllbHZKRGJRQzdNbmdValdGaURXY3ktNjI4T25rMDNyRk1DcFpZc2xtOElvTlJma29pVTRMSDJvRkFoVlBIbnJ2NjNIazE1akE?oc=5",
+     "title": "【數字銀行】ZA Bank總部2027遷利園八期 CEO：心情如睇兒子小學畢業",
      "date": "2026-09-09"
     }
    ],
@@ -6496,7 +6127,8 @@
    "company": "Qatar Airways Cargo",
    "types": [
     "Relocation",
-    "New HQ"
+    "New HQ",
+    "New office"
    ],
    "type": "Relocation",
    "building": "",
@@ -6539,13 +6171,19 @@
      "date": "2026-08-19"
     },
     {
+     "name": "South China Morning Post",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdUY2cFJHem5MMjVXeVZWWkNtdldhQWN6MmxTbE5fVUV6MW04eWlmaXNtSmhyYTFiclZKNlBFMDJNcVFZUGhKTDI1ZUdIRkw5R0JITFlubUVlUXNnYnVJY3VwVFd3bHhlcDlUVEJiTzFFdTNhQlgzNFNVT0NtcDhtUEtqdld5UUhUNnUtaGpFWDEwRlZWM1M1N005UFh5UExRam5CNEkzQU9sNXRMMU5hLUdzb1dZVEJwejhOc2I4eGtUaUVxNmNMc18wT2NybDUxMjhYeTJSN29UVDY1N1NIUDV2WFlGd9IB5gFBVV95cUxNWFZkOWo5SXoxNWNhN1RVdXk1Z1I1VDByZGpHVmZuSDVoWmNMRS1Qdjd5c3pCM2NzUjljeEtRVkpzZWg1UlhJaUFTb3pKLS1CMHV1N2FPdU1QZURhQ0JfMngxbEdpZWphS19ZNkl2UUttb0NqZDh5LWRrME9qU3pkZVRhcGVweXRvX1M4T2VUYTRHTldVRDlBU0Z6VmlCNmhhVzYwOW56dlVBdGI0bmhQeFFZSTBZYU1GNkxMMkFoYnVGbm4wYXh5Ym5fLWNUWW0zM181bEdLWHFtNDJLeV9KNmFSY0NJUQ?oc=5",
+     "title": "Mable Chan uses Qatar Airways office opening to drop Central Asia route reveal",
+     "date": "2026-08-19"
+    },
+    {
      "name": "Marketing-Interactive",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWpGRXlWTldHRWstcEFmYlQtcDU2bG1nVXEtRVdaTS1Mb0VNMEp0bDhSaS1kd1RQQlN5dWZhLTRmcXppdDZFYXF1ZFdNS3hKakhGcU5vcnlXUU9DZ2Iyc1RxNG9hR01TcFFCUzZERDdwemFObGlNWUVXSEt0dTBIa2lzUXBDT3YtSkdFNk5TM1BjTFkyUUdz?oc=5",
      "title": "Qatar Airways Cargo relocates regional HQ to Hong Kong",
      "date": "2026-08-20"
     }
    ],
-   "verification": "Corroborated by 2 outlets",
+   "verification": "Corroborated by 3 outlets",
    "score": 6,
    "level": "MEDIUM",
    "thresholds": [
@@ -6555,13 +6193,14 @@
    "reasons": [
     "New headquarters fit-out (+3)",
     "Move-in: new premises need security systems (+2)",
-    "Reported by 2 outlets (+1)"
+    "Reported by 3 outlets (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
     "grade:Not stated",
     "kind:property",
     "move:New HQ",
+    "move:New office",
     "move:Relocation",
     "sector:Logistics & Supply Chain"
    ],
@@ -6876,7 +6515,7 @@
    "kind": "property",
    "headline": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
    "date": "2026-08-04",
-   "first_reported": "2026-07-31",
+   "first_reported": "2026-07-30",
    "month": "2026-08",
    "company": "AECOM",
    "types": [
@@ -6920,15 +6559,15 @@
    ],
    "sources": [
     {
-     "name": "Macau Business",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVkUxVW5rS2JJX2VSYW12VVZkVVpxVnZBSVV3V21tdkRqX016ZjVDSVRhVGhIZ1VBUDdCbHAwT1hhVTFNUDlrcF9GSUxtV210dkM0VFVRelpzVnR4Yi1wZi1EVWR4WHhzQTYteVpYR3hKVXR6NzF5RjNINXRVci10ZFVZY3dTSWcwaHlLNjdPN0p5VmVITWxuNzVKeXNERDd4eXRwc01sRFh3emR0M09OY3pkMFpGMjFpRkZjRG1uay0tOGlSOTh2NGJkT0hndUhJSXc?oc=5",
-     "title": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
-     "date": "2026-07-31"
-    },
-    {
      "name": "Yahoo",
      "url": "https://news.google.com/rss/articles/CBMioANBVV95cUxORWRzRXBPR1NkZHBGeHk5elBONmZjQTNoRzd3T2o3T0FIUlF0VGFia3ZESExPMUlfTXZKZmxkd0o5M21VOEpObkhLMTBtcnhpdVJWRW1tRkRTRUl1ZmZ0bk85V2EzbnZYT3dQNTByYS1kWlowRV9YRTBMQl91M0lFa2hPSTZabndpVTk3ZXdPWEE2a2xaODF1OUlvTHhaSXFTTHFfSkZuaXF0WWJDR05jU01yWnloVV8yZUdkZjYtcnJHcjNiUEpOTGVnSnM1czV5WURVZTFkbUlYVEdBY0o5UlQ2UWw1dXF4UnVTWFFNcmJ2OVpOZkd4TC16U0E2YlRycTNyeEx5YUVEWUJoYld2QkFMRGRwamQ3ekZlQ09acHZ5OGg3eVRya0h1X1dZMWpyalFRSmNUMTFWTGJ2eDRMTWkyQ19hcmRkM3VsSzN5bm0xVXZiYmZuRjhWVk9zVDRmQ052OU96Mnk5TE11TEhMbEFDNGVuMngzNVR1NGtJMER6S1BYMWxXVzJKNGtVUWhpMzBORGFxc01jd0lIY3I0UA?oc=5",
      "title": "AECOM開設全新香港辦事處暨亞洲區總部 匯聚人才、科技與可持續發展",
+     "date": "2026-07-30"
+    },
+    {
+     "name": "Macau Business",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVkUxVW5rS2JJX2VSYW12VVZkVVpxVnZBSVV3V21tdkRqX016ZjVDSVRhVGhIZ1VBUDdCbHAwT1hhVTFNUDlrcF9GSUxtV210dkM0VFVRelpzVnR4Yi1wZi1EVWR4WHhzQTYteVpYR3hKVXR6NzF5RjNINXRVci10ZFVZY3dTSWcwaHlLNjdPN0p5VmVITWxuNzVKeXNERDd4eXRwc01sRFh3emR0M09OY3pkMFpGMjFpRkZjRG1uay0tOGlSOTh2NGJkT0hndUhJSXc?oc=5",
+     "title": "AECOM opens new Hong Kong office and Asia headquarters, bringing together people, technology and sustainability",
      "date": "2026-07-31"
     },
     {
@@ -7199,7 +6838,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-14T06:51:54+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ad5ee6d37d8e",
@@ -7358,7 +6997,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-10-14T06:51:54+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0fcc9104bdaa",
@@ -7437,7 +7076,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-10-14T06:51:54+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c8411515c308",
@@ -7516,7 +7155,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-10-14T06:51:54+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "077cad70825c",
@@ -9709,6 +9348,86 @@
    ],
    "first_seen": "2026-10-13T00:12:05+08:00",
    "is_new": false
+  },
+  {
+   "id": "dc7da62e692c",
+   "kind": "transaction",
+   "date": "2026-09-18",
+   "month": "2026-09",
+   "group": "Kowloon / N.T.",
+   "deal": "Sale",
+   "usage": "Industrial",
+   "district": "Hung Hom",
+   "building": "Hilder Centre",
+   "building_zh": "富德中心",
+   "floor": "05/F",
+   "unit": "03,04",
+   "area_sqft": 6516,
+   "area_txt": "6,516 ft² approx",
+   "price": 34600000.0,
+   "price_txt": "HK$34.6M",
+   "psf": "@5,310",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "05/F Unit 03,04, Hilder Centre",
+   "line": "Buyer not named - 05/F Unit 03,04, Hilder Centre (Bought for HK$34.6M)",
+   "area": "Hung Hom / Kowloon City",
+   "sectors": [
+    "Logistics & Supply Chain"
+   ],
+   "sector": "Logistics & Supply Chain",
+   "who": "",
+   "pitch": "Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol",
+   "actions": [
+    "Get the buyer's name from a Land Registry search (IRIS Online, small fee) on Hilder Centre 05/F 03,04.",
+    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
+    "Contact Hilder Centre's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/industrial/kowloon-hung-hom-hilder-centre/detail/2440400150/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/industrial/kowloon-hung-hom-hilder-centre/detail/2440400150/",
+     "title": "",
+     "date": "2026-09-18"
+    }
+   ],
+   "verification": "Register record",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$34.6M (+2)",
+    "Land Registry record: exact unit known (+1)"
+   ],
+   "features": [
+    "area:Hung Hom / Kowloon City",
+    "deal:Sale",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:Kowloon / N.T.",
+    "sector:Logistics & Supply Chain",
+    "size:m",
+    "usage:Industrial"
+   ],
+   "first_seen": "2026-10-15T06:51:41+08:00",
+   "is_new": true
   },
   {
    "id": "00524e737ef8",
@@ -15522,6 +15241,166 @@
    "is_new": false
   },
   {
+   "id": "0caa1bdf715e",
+   "kind": "transaction",
+   "date": "2026-10-14",
+   "month": "2026-10",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Sheung Wan",
+   "building": "Golden Centre",
+   "building_zh": "金龍中心",
+   "floor": "Mid",
+   "unit": "",
+   "area_sqft": 5385,
+   "area_txt": "5,385 ft² approx",
+   "price": 226170.0,
+   "price_txt": "HK$226,170/month",
+   "psf": "@42",
+   "record_source": "Market News",
+   "party": "",
+   "party_source": "",
+   "premises": "Mid floor (exact floor not disclosed), Golden Centre",
+   "line": "Tenant not named - Mid floor (exact floor not disclosed), Golden Centre (Leased for HK$226,170/month)",
+   "area": "Central / Sheung Wan",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Ask Golden Centre's building management office, or the agent, who the tenant is.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact Golden Centre's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-sheung-wan-golden-centre/detail/1140400540/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Market News)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-sheung-wan-golden-centre/detail/1140400540/",
+     "title": "",
+     "date": "2026-10-14"
+    }
+   ],
+   "verification": "Register record",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Lease 5,385 sq ft (+2)",
+    "Office premises: fit-out and access control (+1)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Market News",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-10-15T06:51:41+08:00",
+   "is_new": true
+  },
+  {
+   "id": "601fb2b70f91",
+   "kind": "transaction",
+   "date": "2026-10-14",
+   "month": "2026-10",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Wan Chai",
+   "building": "YF Life Tower",
+   "building_zh": "萬通保險大廈",
+   "floor": "High",
+   "unit": "",
+   "area_sqft": 8683,
+   "area_txt": "8,683 ft² approx",
+   "price": 292000.0,
+   "price_txt": "HK$292,000/month",
+   "psf": "@33.6",
+   "record_source": "Market News",
+   "party": "",
+   "party_source": "",
+   "premises": "High floor (exact floor not disclosed), YF Life Tower",
+   "line": "Tenant not named - High floor (exact floor not disclosed), YF Life Tower (Leased for HK$292,000/month)",
+   "area": "Wan Chai",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Ask YF Life Tower's building management office, or the agent, who the tenant is.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact YF Life Tower's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wan-chai-yf-life-tower/detail/1310400280/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Market News)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wan-chai-yf-life-tower/detail/1310400280/",
+     "title": "",
+     "date": "2026-10-14"
+    }
+   ],
+   "verification": "Register record",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Lease 8,683 sq ft (+2)",
+    "Office premises: fit-out and access control (+1)"
+   ],
+   "features": [
+    "area:Wan Chai",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Market News",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-10-15T06:51:41+08:00",
+   "is_new": true
+  },
+  {
    "id": "cfb7b3a5a7a7",
    "kind": "transaction",
    "date": "2026-10-13",
@@ -15599,7 +15478,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-14T06:51:54+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d2c0848085de",
@@ -16065,6 +15944,12 @@
      "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-cheung-kong-center-ii/detail/1240400810/",
      "title": "",
      "date": "2026-10-08"
+    },
+    {
+     "name": "Dimsum Daily",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYklCRVhnbFE1U3BnRTVTdXo2VWExYXVBbWY0UzN0Y3VtLUtkZTQyNE1UeXhrTTdWa2p1VmxVdG5OY29GQjR6TVhlcDFGR2JNeWlzYVlWM25HUl9CLXVoeWllMjFqMnpabzVORkM2S1djVG9CWTl4NEdXM01XTkVRWjluYVBVdDh4dDEycEp4UFpUN0YyZGtXRS1TclRHUWhTTVFuY20tczduc2Jfcnp0RkZwR1JwSlhj?oc=5",
+     "title": "Susquehanna leases three floors at Cheung Kong Center II as CK Asset nears full occupancy",
+     "date": "2026-09-17"
     },
     {
      "name": "香港經濟日報HKET",
@@ -19946,6 +19831,87 @@
    "is_new": false
   },
   {
+   "id": "e01b83cca5dd",
+   "kind": "transaction",
+   "date": "2026-09-14",
+   "month": "2026-09",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Sheung Wan",
+   "building": "Wing On Centre",
+   "building_zh": "永安中心",
+   "floor": "11/F",
+   "unit": "03-05",
+   "area_sqft": 4750,
+   "area_txt": "4,750 ft² approx",
+   "price": 190000.0,
+   "price_txt": "HK$190,000/month",
+   "psf": "@40",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "11/F Unit 03-05, Wing On Centre",
+   "line": "Tenant not named - 11/F Unit 03-05, Wing On Centre (Leased for HK$190,000/month)",
+   "area": "Central / Sheung Wan",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the tenant's name from a Land Registry search (IRIS Online, small fee) on Wing On Centre 11/F 03-05.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact Wing On Centre's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-sheung-wan-wing-on-centre/detail/1140400650/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-sheung-wan-wing-on-centre/detail/1140400650/",
+     "title": "",
+     "date": "2026-09-14"
+    }
+   ],
+   "verification": "Register record",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Lease 4,750 sq ft (+2)",
+    "Office premises: fit-out and access control (+1)",
+    "Land Registry record: exact unit known (+1)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-10-15T06:51:41+08:00",
+   "is_new": true
+  },
+  {
    "id": "b71e136652f1",
    "kind": "transaction",
    "date": "2026-09-14",
@@ -20671,6 +20637,89 @@
    ],
    "first_seen": "2026-10-13T00:12:05+08:00",
    "is_new": false
+  },
+  {
+   "id": "a05cebbad7b9",
+   "kind": "transaction",
+   "date": "2026-09-08",
+   "month": "2026-09",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Central",
+   "building": "Cheung Kong Center",
+   "building_zh": "長江集團中心",
+   "floor": "56/F",
+   "unit": "WF",
+   "area_sqft": 22006,
+   "area_txt": "22,006 ft² approx",
+   "price": 2156588.0,
+   "price_txt": "HK$2.2M/month",
+   "psf": "@98",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "56/F Unit WF, Cheung Kong Center",
+   "line": "Tenant not named - 56/F Unit WF, Cheung Kong Center (Leased for HK$2.2M/month)",
+   "area": "Central / Sheung Wan",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the tenant's name from a Land Registry search (IRIS Online, small fee) on Cheung Kong Center 56/F WF.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact Cheung Kong Center's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-cheung-kong-center/detail/1240401340/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-cheung-kong-center/detail/1240401340/",
+     "title": "",
+     "date": "2026-09-08"
+    }
+   ],
+   "verification": "Register record",
+   "score": 9,
+   "level": "HIGH",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Very large lease (22,006 sq ft) (+4)",
+    "Office premises: fit-out and access control (+1)",
+    "Grade A / landmark building: Cheung Kong Center (+2)",
+    "Whole floor(s) or several floors (+1)",
+    "Land Registry record: exact unit known (+1)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:xl",
+    "usage:Office"
+   ],
+   "first_seen": "2026-10-15T06:51:41+08:00",
+   "is_new": true
   },
   {
    "id": "88ce9255abc2",
@@ -25008,20 +25057,10 @@
   }
  ],
  "learning": {
-  "overrides": 7,
+  "overrides": 8,
   "features": [
    {
     "feature": "lead:Prospect networking",
-    "n": 5,
-    "avg": -0.6
-   },
-   {
-    "feature": "venue:major",
-    "n": 5,
-    "avg": -0.6
-   },
-   {
-    "feature": "kind:event",
     "n": 6,
     "avg": -0.33
    },
@@ -25029,6 +25068,11 @@
     "feature": "sector:Retail & Consumer",
     "n": 2,
     "avg": -1.0
+   },
+   {
+    "feature": "venue:major",
+    "n": 6,
+    "avg": -0.33
    },
    {
     "feature": "access:Public",
@@ -25041,19 +25085,24 @@
     "avg": -1.0
    },
    {
-    "feature": "area:Wan Chai",
-    "n": 4,
-    "avg": -0.25
-   },
-   {
     "feature": "access:Not stated in listing",
-    "n": 2,
-    "avg": 0.0
+    "n": 3,
+    "avg": 0.33
    },
    {
     "feature": "area:Lantau / Airport",
-    "n": 2,
-    "avg": 0.0
+    "n": 3,
+    "avg": 0.33
+   },
+   {
+    "feature": "kind:event",
+    "n": 7,
+    "avg": -0.14
+   },
+   {
+    "feature": "area:Wan Chai",
+    "n": 4,
+    "avg": -0.25
    }
   ],
   "status": "ok"
@@ -25075,7 +25124,7 @@
    "group": "Events",
    "name": "BritCham HK events",
    "ok": true,
-   "count": 57
+   "count": 56
   },
   {
    "group": "Events",
@@ -25087,7 +25136,7 @@
    "group": "Events",
    "name": "HKGCC events",
    "ok": true,
-   "count": 15
+   "count": 14
   },
   {
    "group": "Events",
@@ -25117,7 +25166,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"Grade A\" office tenant",
    "ok": true,
-   "count": 20
+   "count": 22
   },
   {
    "group": "Property",
@@ -25135,13 +25184,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 43
+   "count": 48
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 37
+   "count": 42
   },
   {
    "group": "Property",
@@ -25153,19 +25202,19 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 60
+   "count": 54
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 72
+   "count": 75
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 18
+   "count": 21
   },
   {
    "group": "Property",
@@ -25177,13 +25226,13 @@
    "group": "Property",
    "name": "News search (EN): \"new Hong Kong office\"",
    "ok": true,
-   "count": 8
+   "count": 9
   },
   {
    "group": "Property",
    "name": "News search (EN): \"opens Hong Kong office\"",
    "ok": true,
-   "count": 6
+   "count": 5
   },
   {
    "group": "Property",
@@ -25195,7 +25244,7 @@
    "group": "Property",
    "name": "News search (EN): asianinvestor.net",
    "ok": true,
-   "count": 91
+   "count": 88
   },
   {
    "group": "Property",
@@ -25213,7 +25262,7 @@
    "group": "Property",
    "name": "News search (EN): campaignasia.com",
    "ok": true,
-   "count": 39
+   "count": 37
   },
   {
    "group": "Property",
@@ -25333,7 +25382,7 @@
    "group": "Property",
    "name": "News search (EN): w.media",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "group": "Property",
@@ -25363,7 +25412,7 @@
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 22
+   "count": 31
   },
   {
    "group": "Property",
@@ -25375,7 +25424,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 61
+   "count": 64
   },
   {
    "group": "Property",
@@ -25405,7 +25454,7 @@
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 100
+   "count": 98
   },
   {
    "group": "Property",
@@ -25447,55 +25496,55 @@
    "group": "Property",
    "name": "News search (中文): 億購 商廈 OR 寫字樓 OR 工廈",
    "ok": true,
-   "count": 74
+   "count": 75
   },
   {
    "group": "Property",
    "name": "News search (中文): 商廈 樓層 成交 億",
    "ok": true,
-   "count": 57
+   "count": 64
   },
   {
    "group": "Property",
    "name": "News search (中文): 寫字樓 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 70
+   "count": 69
   },
   {
    "group": "Property",
    "name": "News search (中文): 工廈 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 58
+   "count": 61
   },
   {
    "group": "Property",
    "name": "News search (中文): 承租 寫字樓 樓面 總部",
    "ok": true,
-   "count": 22
+   "count": 24
   },
   {
    "group": "Property",
    "name": "News search (中文): 租客為 寫字樓 OR 商廈",
    "ok": true,
-   "count": 62
+   "count": 64
   },
   {
    "group": "Property",
    "name": "News search (中文): 租用 甲廈 平方呎",
    "ok": true,
-   "count": 32
+   "count": 35
   },
   {
    "group": "Property",
    "name": "News search (中文): 萬購 全層 自用",
    "ok": true,
-   "count": 62
+   "count": 60
   },
   {
    "group": "Property",
    "name": "News search (中文): 註冊處資料顯示 買家 有限公司",
    "ok": true,
-   "count": 16
+   "count": 18
   },
   {
    "group": "Property",
@@ -25507,19 +25556,19 @@
    "group": "Property",
    "name": "News search (中文): 進駐 甲廈 樓面",
    "ok": true,
-   "count": 24
+   "count": 25
   },
   {
    "group": "Property",
    "name": "News search (中文): 預租 甲廈 總部",
    "ok": true,
-   "count": 10
+   "count": 11
   },
   {
    "group": "Property",
    "name": "News search (中文): 香港 寫字樓 搬遷",
    "ok": true,
-   "count": 14
+   "count": 13
   },
   {
    "group": "Property",
@@ -25537,7 +25586,7 @@
    "group": "Transactions",
    "name": "Centaline Commercial transaction register",
    "ok": true,
-   "count": 2275
+   "count": 2272
   },
   {
    "group": "Transactions",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T06:52:04+08:00",
+ "generated": "2026-10-18T06:45:19+08:00",
  "property_days": 90,
  "events": [
   {
@@ -424,7 +424,7 @@
    "who": "Hospital, clinic and laboratory facility & security heads",
    "pitch": "Restricted-area access control, CCTV, guarding, duress / panic alarms",
    "actions": [
-    "Register / plan attendance by 17 Oct 2026.",
+    "Register / plan attendance now (event is close).",
     "Before the fair, shortlist exhibitors and visitors from: Hospital, clinic and laboratory facility & security heads. Book 3-5 meetings.",
     "Pitch: Restricted-area access control, CCTV, guarding, duress / panic alarms.",
     "Follow up within 3 working days after 25 Oct 2026 and log contacts here."
@@ -1046,7 +1046,7 @@
     "venue:other"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a315bbf342bb",
@@ -1177,6 +1177,69 @@
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
+  },
+  {
+   "id": "2f31acc281b7",
+   "kind": "event",
+   "name": "從振興中華到民族復興——孫中山史蹟展",
+   "start": "2026-11-03",
+   "end": "2026-11-07",
+   "month": "2026-11",
+   "months": [
+    "2026-11"
+   ],
+   "time": "",
+   "venue": "Hong Kong Convention and Exhibition Centre (HKCEC), Wan Chai",
+   "area": "Wan Chai",
+   "sectors": [
+    "Other"
+   ],
+   "sector": "Other",
+   "access": "Invitation only",
+   "audience": "By Invitation",
+   "category": "Exhibition / conference",
+   "organiser": "Bauhinia Magazine",
+   "organiser_url": "https://bau.com.hk",
+   "contact_phone": "",
+   "contact_email": "",
+   "lead_types": [
+    "Prospect networking"
+   ],
+   "who": "Senior executives (C-suite, COOs, GMs) across industries",
+   "pitch": "Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals",
+   "actions": [
+    "Request an invitation from the organiser by 27 Oct 2026; check if a client or partner can bring you.",
+    "Before the fair, shortlist exhibitors and visitors from: Senior executives (C-suite, COOs, GMs) across industries. Book 3-5 meetings.",
+    "Pitch: Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals.",
+    "Follow up within 3 working days after 7 Nov 2026 and log contacts here."
+   ],
+   "sources": [
+    {
+     "name": "HKCEC event calendar",
+     "url": "https://bau.com.hk"
+    }
+   ],
+   "verification": "Official listing",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Invitation-only: exclusive access to decision-makers (+2)",
+    "Large trade exhibition: many exhibitors to prospect (+1)"
+   ],
+   "features": [
+    "access:Invitation only",
+    "area:Wan Chai",
+    "kind:event",
+    "lead:Prospect networking",
+    "sector:Other",
+    "venue:major"
+   ],
+   "first_seen": "2026-10-18T06:45:19+08:00",
+   "is_new": true
   },
   {
    "id": "67a9d4008600",
@@ -1919,7 +1982,7 @@
     "venue:major"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "45c4b5fd46fb",
@@ -2047,7 +2110,7 @@
     "venue:other"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "11635e57a14d",
@@ -4820,7 +4883,7 @@
    "sources": [
     {
      "name": "South China Morning Post",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTk91aS11UmtYS0IzWmhIcWlEa3U0UHVyUkNveWxxc0N6NVNlMkJmYnBGblNCMXFWQjk5dUZMVGJRUkV1cFRqZWlyQnRkTDVuWkI3YndJRHRPcXllU1pVYUZoWGd0UUs3LXc0RERXT0RlOVNzMGxUOFpKSnV4VGlKakM3QVVOOUxYeWZ5WGRBZ0tWcXdQdHhxSzNQb3lTS3Uwcm1ZcjN1X1dhbXdTQVRGaEI4VEhuWndlaTQzV2Vic0hHdVE?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTk91aS11UmtYS0IzWmhIcWlEa3U0UHVyUkNveWxxc0N6NVNlMkJmYnBGblNCMXFWQjk5dUZMVGJRUkV1cFRqZWlyQnRkTDVuWkI3YndJRHRPcXllU1pVYUZoWGd0UUs3LXc0RERXT0RlOVNzMGxUOFpKSnV4VGlKakM3QVVOOUxYeWZ5WGRBZ0tWcXdQdHhxSzNQb3lTS3Uwcm1ZcjN1X1dhbXdTQVRGaEI4VEhuWndlaTQzV2Vic0hHdVHSAcMBQVVfeXFMTk4ybmN6VEtuaVZpc2F3RlNBWTZyVkFVZ0VraWFrZnJqOWd2QktUZW9oOEpHNDBlcFZVcG5VTE9hOW1sZ0RrN3czRE4yQmJfOFdHbG4xcjZTa2JGREVaelpaaHZ4T3k1S0xSWjhDamQzOV9Ma3I3T2Yxa1ZKVjlVWU1xdFUxcWxOUmpVU3NKVDlGcWZxaGtpbWd2VEpPSTk4akVPNVVESGRSbWViVmpfQWhzU3IyQk5EODQ3ai1FX2s5ZTU0?oc=5",
      "title": "Laopu Gold expands Hong Kong footprint with full-floor lease in Central: sources",
      "date": "2026-10-11"
     }
@@ -5095,7 +5158,7 @@
   {
    "id": "9388bc824002",
    "kind": "property",
-   "headline": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
+   "headline": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
    "date": "2026-09-21",
    "first_reported": "2026-09-21",
    "month": "2026-09",
@@ -5139,15 +5202,15 @@
    ],
    "sources": [
     {
-     "name": "香港01",
-     "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOcmx1Yllnbi0wZ3NIU20tcUd5MldIRnBxbFZqMXNCNlRJbnU5eDdidU9odnVqYTlaYnlUdk1JTDVaRVM0eVk4UUVNSHdteS10RFJzb2h5cXpVOWlJdjZLWWJSUjdTTERkQXc1U0tkbXlZdldPekVidmRrUy1nN2dSMTRlaDd6bEJ5aWl3ckxIbWd6dGkxbjJETkpFWjR3bTl3WER0QmM1ZlhnN0Q2Y2ViWkMyUG1OajZ6XzZ3VHZDZW1XNFpRby16MDFOS0trRExZc3dmNmdVRWxNbU1DNkhCSGZCUmdhd3lDdWlqMktsVFVQZFh1NU16NGVMX1pMZWJjRkpwNU9KdGVjSFNMclRVbkNXenRZOFR4QWVjVDVMc2ZwbUdWcVktODU5X0hVMG1fSEJ5ZmJnczlReXRTaGt6Si1ZLVJadjNJbzlBTnhYc2F6SUhXUWNpcDl6ZFdtc0dQLXp3Y2paZDN3VDhpSXNNTW5GZmZuMnl5R25Ob2czU0JIX2wxOWpVMzI4aVZKRmNU?oc=5",
-     "title": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
-     "date": "2026-09-21"
-    },
-    {
      "name": "on.cc東網",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFNJOEl5cVpXRHJfV1hpY1c4NmxndTNRNFZuRERndGRjSS1OanBPaUpxS05GNm81TF80QTVELTd6dTF5d0s2UnJ3WjBEN2RPRjNJZFdVTGxucVVmLVJzdEwtS0h3SXpidjdSSDFFcWY3NjRVQzRzbzVDdkdVVGpEUllxZEN4RU9CdV82RkNaQQ?oc=5",
      "title": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
+     "date": "2026-09-21"
+    },
+    {
+     "name": "香港01",
+     "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOcmx1Yllnbi0wZ3NIU20tcUd5MldIRnBxbFZqMXNCNlRJbnU5eDdidU9odnVqYTlaYnlUdk1JTDVaRVM0eVk4UUVNSHdteS10RFJzb2h5cXpVOWlJdjZLWWJSUjdTTERkQXc1U0tkbXlZdldPekVidmRrUy1nN2dSMTRlaDd6bEJ5aWl3ckxIbWd6dGkxbjJETkpFWjR3bTl3WER0QmM1ZlhnN0Q2Y2ViWkMyUG1OajZ6XzZ3VHZDZW1XNFpRby16MDFOS0trRExZc3dmNmdVRWxNbU1DNkhCSGZCUmdhd3lDdWlqMktsVFVQZFh1NU16NGVMX1pMZWJjRkpwNU9KdGVjSFNMclRVbkNXenRZOFR4QWVjVDVMc2ZwbUdWcVktODU5X0hVMG1fSEJ5ZmJnczlReXRTaGt6Si1ZLVJadjNJbzlBTnhYc2F6SUhXUWNpcDl6ZFdtc0dQLXp3Y2paZDN3VDhpSXNNTW5GZmZuMnl5R25Ob2czU0JIX2wxOWpVMzI4aVZKRmNU?oc=5",
+     "title": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
      "date": "2026-09-21"
     },
     {
@@ -5465,6 +5528,150 @@
    "is_new": false
   },
   {
+   "id": "7a07aa5d3c2b",
+   "kind": "property",
+   "headline": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
+   "date": "2026-09-10",
+   "first_reported": "2026-09-09",
+   "month": "2026-09",
+   "company": "ZA Bank",
+   "types": [
+    "Lease / pre-lease",
+    "New HQ"
+   ],
+   "type": "Lease / pre-lease",
+   "building": "Lee Garden Eight",
+   "landlords": [
+    "Hysan"
+   ],
+   "area": "Causeway Bay",
+   "grade": "Grade A building (named)",
+   "sectors": [
+    "Finance & Professional Services",
+    "Facility Management & Real Estate",
+    "AI & Technology"
+   ],
+   "sector": "Finance & Professional Services",
+   "size": 45000,
+   "size_txt": "4.5萬呎",
+   "floors": 4,
+   "floors_txt": "four floors",
+   "lang": "en",
+   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
+   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
+   "actions": [
+    "Find ZA Bank's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call Hysan leasing / building management at Lee Garden Eight for the fit-out timeline, contractor and consultant.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=ZA%20Bank%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=ZA%20Bank%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Hong Kong Business",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY19PWERTM1RlTW5mdnJJSFJlWEloRVJIcDljZXRnenYwSWs5NnZiNUpwWlJvVlU4QnJNajlZUXVZd0M5NnhMZ2taV0plR3o4dTdGZGtXZXN0bTR0QTdHRFNvZjFTcTE3dEMyMGUwanU5ay1kcEpwWUZSNHVNcTFCWVgzRC1MY1VnWkdjb0RKSUhkUGp1ZF84SkRoa1Y?oc=5",
+     "title": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "The Standard (HK)",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN21NZTFDazUyS3Q0ajBLajNPZUU0Sk1xNDJYZi04Y3N0THVZVjduVUJiTjVFOFhFdTZVejh1ajlEUVJfQkNSOTNoaTVmSXlaY1Z5Y3pjTVpBUDh2cUNpU3hiLWR1WDdIMkFzejZzbG9Ea0g3dDA4WjZPUjZZZzBPYkpYZlRGYlBWR083dDNMOWJIX3p4Z1N6aDdPUmRpQ0Z3ajZPN0JKVWRucmxCbEkxQW4zSjVNSG8?oc=5",
+     "title": "ZA Bank to rent four floors of Lee Garden Eight's office space",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3RMVFFYaVZRZ0ZlTTRzdThyZU8zcWxrcnE0WFZsVloxbUpMQmpMM0ltS2RCWHFKdlpqSnNZSzd0UXo5ZmNHNVVaclQ4Y254Uk51RDdXZHl2QVZZY2UxTk9qNzhaNzVPZ3BlVTRVa29BM1JiSDlFcGpUOVhMcklsZjh2UGNZU3ZWRUFSYVRXaTlWVXNieEpSX21yNHhKT3NfcUVERlhNNkdFOTc3MTJBZC16MTNfQldGV2xRb3BsTG5JeUhLZ1pxZzA3WS1yeTZ0di04VFBR0gHWAUFVX3lxTFB3TWlpSks2ZFRHX3VURVFxdlV2dFpJMHh5Mk1GMFJNei1pS2dPcTZZbGtxbkVWY2dhclpld3Q5UUNDRkwxV1RPTW44dE91YmpIeklsMnJxSldoMEZiQnFBZnZSYnpRTnJURnpFel9KRDVGRGpaenQxQTBEQVBRNGRqMUo5M1ZvMVgxV2tPVWtvdlhlQ3E2b1h3TGpkeDM0b3B5ZEd3Y283d0VBX0c5Q0F6dnRURDRzbG5LRjR0dTYtbVR0cUNUV0dJdzRDRnBKNVQ2d2N3Y1E?oc=5",
+     "title": "Hysan courts fintech as ZA Bank commits to new Causeway Bay headquarters",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "on.cc東網",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd1RsMUlDRnhlV0pmRDhhTlZwb05vbzFqbzJlTzFEaUJ5NmNqVF9yWEJGRDFVYjZHRDNmRjAzdmFBdUJjNURzNmxxVzE5ejJBYzh3ZUhmM2VQa2JLNjNpWjhBTWFqNFdNUjJIYjlMd0JiNUsxcTNxeTdBN3AzcHJ6c05EVnZMeDhlblhzN0ExQQ?oc=5",
+     "title": "ZA Bank承租希慎利園八期作新總部 料明年內啟用",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "香港01",
+     "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxNRklKZjJZNF9HOUF3S2FhOXhfY1huRkYtTi16eWd6M3dtb2RsSnpja1RYS0xjVk9ONFdFc3ZLaGFmMTM0VUQycFZhWTNfekJLbmtkQU90M1FwRkZSN3NoTV8yLTBxTmN6cURCRVQ5Ulh2MjlFa0l0UkZYTzBqS19HSzlxZUZwR0ZvUkJXaVpEVzBmRnljNmNzWGxhWExjWG1JZDlGVFluaFhsVXdacDBjWldSUHAyVnhFNmZlaTM4MElOY2VxbmctTHgtVXN1NmVLN1VrT2RwRGs4X0hTMVg2YXhMVEhBcGFZRWs1LW56eGZ5SGZ6S2ZxdW4tWVNabDE1SmpyaHBIZXptSFQxOHoxVUxocVRBYUlGaDlFMzZlX0l5Nzc4V2VNRXpKMmFzMGZuLVVyTzJ5ellTZEdkSG9USDI5SllkakxjLTYxWkg4M1p0SnRPd184WDNGNDU0NWN3aXJlZ2VTT09ndzNLQ2xMNjBsYjVQMzFXb0FYcGxlTTI5SDZRMmxDbldQRkdfRkhrc2NKVjBXQmpGQ0JYN2JBcVBn?oc=5",
+     "title": "ZA Bank新總部落戶利園八期 豪租四層成大戶 明年啟用擬增人才",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "明報財經網",
+     "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNQTBsZld6bzRmTXVTc2xDbmFOSkVxM0V4VTRJaWFsek1OcGl1bzZtcDhmRWk1QlRhSlF4d0hDUlhFTXp4bTJLUmRGOVpwSS1UbnREeklTTmJ3bzZTUUFmSENnOEVMbUZKakt6R2UzRHJBVGJTSnZ0X2t3Tk84VU1UNGVfU25iWmVsMG1DdFc4X2dITTRYNHZLRFdXNFJIdy1vVjBEbHhtekhQUjdYZnJJRUtQVHBmRzl4M1pTdVBoaF83eF9uOFVvZHdNOS1RNGR4Z2Zac1Nua0pqZjRnLTBqSzJKLU1sU0NDT0xlOXh2aXdvUFExRl9MNjJGaHhsWGJJdHpVMjl5aGJrUEdESF9EWG1sUE5aYUR1ZnV4dDM0VDIzQW8yNUYzWkhXMG83OThvcWF2WXNkMklCVGdqWUROVU1SNmlRVnpKdFJqY3ZfUkdscFpkYTE1bmdJdDh2V2h0dFJpT0ltVnJkSlRMdkZkMTFfaDc5UWwyOGd4ei1iaw?oc=5",
+     "title": "眾安銀行租利園八期約4.5萬呎 較數碼港總部增近五成",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "信報網站",
+     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQUG5sS1pYSUlOQXhWWjFFSGpucnp4NWhFT2lSbVhoQ1ZTSHZyZzE1b2NiTFJIaGxyYjlXZHhRNUpnU1pPbGJZdExoejhyZ2hsdGNURk5ocGtheWRWdDlBSUVVZF93WXFnV3dfekw5NHFoeTRBZDRJdS1tdlJBTVNsd01xbGJMWHgtT2V6M3RMdnBsX1IwZ19Ja1RmUUVVMEo4TkpwRmdVUmxZWVBpTU5pT2JOM2RFdGJNbmdMODFsTFp5bFBWVzRFVmtYZUpCR0JLRzRrdzZ4NTdWZXNFalRPT3lDTWwyZG9XMHgyUnpueGMtdzNtamt2eE1ySzdzS3lTNVJYNkx4UGw4Qk5FUDhoSnVQQk5oaWZ3ODdldXVTazc5UHZQMjRHLW9tcWZ6TE0?oc=5",
+     "title": "眾安銀行承租利園8期4.5萬呎樓面作總部",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "香港文匯報",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFbnlyT1hNT0l1Uzl6c2V0a0ZVVnJkajQ1dElDbkU4Y295c2xNdGhfZ1FKRWptMW5XNFNNaTk2Tk9ZT1p2Y2JXS1VnWUR5bl9PYXNONjhhVm5hem02d1ZvSGIwVVhDVE1jUmVxM2JHYy1OSHNmSERN?oc=5",
+     "title": "利園八期下季竣工ZA Bank租四層寫字樓作新總部- 地產",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "星島頭條",
+     "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNQTZ1QnlUZEFtVGJKRzQyNXlySUwxU0FxZUxkSHpwNlVTTlBROGJaS2V1MVBxLW1EU2RUTEJ4blhYdThzNmEyMFZpMDcxUEpLMUxNM0xBeVl0YWI5U2M1VXpIbTNic2x3a054clBXS1d4QlNwQmtBTTM4X012aXBsOWc2UjAyaDR3cE9nVEdDMmNPWGlSejlxZjlmcGs2RWFCSFlYVlFKbWJ3ZkdhV3RaMnVYMl95T0NnUW1rQ3FyX3lLMW0wanJoQnFmUzVTOFpKYWhiV21STE1lZ0ZKVm82dm9GNTc3eG51WjVlSmVWZl9rcUQwVzU2eC1wN3JTeDRxVWNRYkxDVHJXMnV4RnFVcnhBQjMyb3R4SkRkUm9wcGNvRFc4cjEwbkdMWTlOUmRsWE94amM5TjdRUU5LSi1XNWVqOFB1anVvZHZ0M3p4dXZMWXN1bUlmOERoakFLRGE5OU1mbmsyUHJWZmhEc2JoTDNEWS1rUQ?oc=5",
+     "title": "希慎稱利園八期預租率理想 獲ZA Bank承租4層寫字樓作總部",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnl0S1U1WFJ2VkVqX0l5ak5EZmphT3hqaGNzVlNfaEFtWnJydDNJelYtb0piOWxFUXBOSDJiRXZxXzllbHZKRGJRQzdNbmdValdGaURXY3ktNjI4T25rMDNyRk1DcFpZc2xtOElvTlJma29pVTRMSDJvRkFoVlBIbnJ2NjNIazE1akE?oc=5",
+     "title": "【數字銀行】ZA Bank總部2027遷利園八期 CEO：心情如睇兒子小學畢業",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "信報網站",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZ0p3S0toY3JTSmFzY0tiaDU4Q0tmbWxvU2tIQ0t2NU9tN0NwUHlfbHBTSVdVVXp0U0JGdGEzYUQzcnR5M1hkanhsdTFWSGx3MG0tWUpTNjNJXzJkVnE4ZERfUDVLcldiNG9SWFdPVkJ4RVE5dmx3TUF5TVZ2aFh1cHB4Q1RXVTMyTGl4Y0dRYTZyUkVRbzUtTlJZbWJTVHNUeVVtSEZIczlQRzF4eGJXemVZZV9OMnZMb2YxT0ZyZGZZVmE1cGV6OENiZko2U3dVak5DTThfSHg1WXY1R3cyU3ZwZEJHOVIxdUpOM0RCaVRiS2tkUFFOalpWNWw?oc=5",
+     "title": "眾安銀行租利園8期四層作總部",
+     "date": "2026-09-10"
+    }
+   ],
+   "verification": "Corroborated by 10 outlets",
+   "score": 13,
+   "level": "HIGH",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "Move-in: new premises need security systems (+2)",
+    "Grade A building: Lee Garden Eight (+2)",
+    "Mid-size space (45,000 sq ft) (+2)",
+    "4 floors (+1)",
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Reported by 10 outlets (+1)"
+   ],
+   "features": [
+    "area:Causeway Bay",
+    "grade:Grade A building (named)",
+    "kind:property",
+    "move:Lease / pre-lease",
+    "move:New HQ",
+    "sector:Finance & Professional Services"
+   ],
+   "first_seen": "2026-10-12T01:08:09+08:00",
+   "is_new": false
+  },
+  {
    "id": "7b4e637a3f46",
    "kind": "property",
    "headline": "ZA承租利園八期第三座頂層四層 樓面約4.4萬平方呎作新總部",
@@ -5540,144 +5747,6 @@
     "sector:Facility Management & Real Estate"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
-  },
-  {
-   "id": "7a07aa5d3c2b",
-   "kind": "property",
-   "headline": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
-   "date": "2026-09-09",
-   "first_reported": "2026-09-09",
-   "month": "2026-09",
-   "company": "ZA Bank",
-   "types": [
-    "Lease / pre-lease",
-    "New HQ"
-   ],
-   "type": "Lease / pre-lease",
-   "building": "Lee Garden Eight",
-   "landlords": [
-    "Hysan"
-   ],
-   "area": "Causeway Bay",
-   "grade": "Grade A building (named)",
-   "sectors": [
-    "Finance & Professional Services",
-    "Facility Management & Real Estate",
-    "AI & Technology"
-   ],
-   "sector": "Finance & Professional Services",
-   "size": 45000,
-   "size_txt": "4.5萬呎",
-   "floors": 4,
-   "floors_txt": "four floors",
-   "lang": "en",
-   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
-   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
-   "actions": [
-    "Find ZA Bank's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call Hysan leasing / building management at Lee Garden Eight for the fit-out timeline, contractor and consultant.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=ZA%20Bank%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=ZA%20Bank%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Hong Kong Business",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY19PWERTM1RlTW5mdnJJSFJlWEloRVJIcDljZXRnenYwSWs5NnZiNUpwWlJvVlU4QnJNajlZUXVZd0M5NnhMZ2taV0plR3o4dTdGZGtXZXN0bTR0QTdHRFNvZjFTcTE3dEMyMGUwanU5ay1kcEpwWUZSNHVNcTFCWVgzRC1MY1VnWkdjb0RKSUhkUGp1ZF84SkRoa1Y?oc=5",
-     "title": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "The Standard (HK)",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN21NZTFDazUyS3Q0ajBLajNPZUU0Sk1xNDJYZi04Y3N0THVZVjduVUJiTjVFOFhFdTZVejh1ajlEUVJfQkNSOTNoaTVmSXlaY1Z5Y3pjTVpBUDh2cUNpU3hiLWR1WDdIMkFzejZzbG9Ea0g3dDA4WjZPUjZZZzBPYkpYZlRGYlBWR083dDNMOWJIX3p4Z1N6aDdPUmRpQ0Z3ajZPN0JKVWRucmxCbEkxQW4zSjVNSG8?oc=5",
-     "title": "ZA Bank to rent four floors of Lee Garden Eight's office space",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3RMVFFYaVZRZ0ZlTTRzdThyZU8zcWxrcnE0WFZsVloxbUpMQmpMM0ltS2RCWHFKdlpqSnNZSzd0UXo5ZmNHNVVaclQ4Y254Uk51RDdXZHl2QVZZY2UxTk9qNzhaNzVPZ3BlVTRVa29BM1JiSDlFcGpUOVhMcklsZjh2UGNZU3ZWRUFSYVRXaTlWVXNieEpSX21yNHhKT3NfcUVERlhNNkdFOTc3MTJBZC16MTNfQldGV2xRb3BsTG5JeUhLZ1pxZzA3WS1yeTZ0di04VFBR0gHWAUFVX3lxTFB3TWlpSks2ZFRHX3VURVFxdlV2dFpJMHh5Mk1GMFJNei1pS2dPcTZZbGtxbkVWY2dhclpld3Q5UUNDRkwxV1RPTW44dE91YmpIeklsMnJxSldoMEZiQnFBZnZSYnpRTnJURnpFel9KRDVGRGpaenQxQTBEQVBRNGRqMUo5M1ZvMVgxV2tPVWtvdlhlQ3E2b1h3TGpkeDM0b3B5ZEd3Y283d0VBX0c5Q0F6dnRURDRzbG5LRjR0dTYtbVR0cUNUV0dJdzRDRnBKNVQ2d2N3Y1E?oc=5",
-     "title": "Hysan courts fintech as ZA Bank commits to new Causeway Bay headquarters",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "香港01",
-     "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxNRklKZjJZNF9HOUF3S2FhOXhfY1huRkYtTi16eWd6M3dtb2RsSnpja1RYS0xjVk9ONFdFc3ZLaGFmMTM0VUQycFZhWTNfekJLbmtkQU90M1FwRkZSN3NoTV8yLTBxTmN6cURCRVQ5Ulh2MjlFa0l0UkZYTzBqS19HSzlxZUZwR0ZvUkJXaVpEVzBmRnljNmNzWGxhWExjWG1JZDlGVFluaFhsVXdacDBjWldSUHAyVnhFNmZlaTM4MElOY2VxbmctTHgtVXN1NmVLN1VrT2RwRGs4X0hTMVg2YXhMVEhBcGFZRWs1LW56eGZ5SGZ6S2ZxdW4tWVNabDE1SmpyaHBIZXptSFQxOHoxVUxocVRBYUlGaDlFMzZlX0l5Nzc4V2VNRXpKMmFzMGZuLVVyTzJ5ellTZEdkSG9USDI5SllkakxjLTYxWkg4M1p0SnRPd184WDNGNDU0NWN3aXJlZ2VTT09ndzNLQ2xMNjBsYjVQMzFXb0FYcGxlTTI5SDZRMmxDbldQRkdfRkhrc2NKVjBXQmpGQ0JYN2JBcVBn?oc=5",
-     "title": "ZA Bank新總部落戶利園八期 豪租四層成大戶 明年啟用擬增人才",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "on.cc東網",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd1RsMUlDRnhlV0pmRDhhTlZwb05vbzFqbzJlTzFEaUJ5NmNqVF9yWEJGRDFVYjZHRDNmRjAzdmFBdUJjNURzNmxxVzE5ejJBYzh3ZUhmM2VQa2JLNjNpWjhBTWFqNFdNUjJIYjlMd0JiNUsxcTNxeTdBN3AzcHJ6c05EVnZMeDhlblhzN0ExQQ?oc=5",
-     "title": "ZA Bank承租希慎利園八期作新總部 料明年內啟用",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "明報財經網",
-     "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNQTBsZld6bzRmTXVTc2xDbmFOSkVxM0V4VTRJaWFsek1OcGl1bzZtcDhmRWk1QlRhSlF4d0hDUlhFTXp4bTJLUmRGOVpwSS1UbnREeklTTmJ3bzZTUUFmSENnOEVMbUZKakt6R2UzRHJBVGJTSnZ0X2t3Tk84VU1UNGVfU25iWmVsMG1DdFc4X2dITTRYNHZLRFdXNFJIdy1vVjBEbHhtekhQUjdYZnJJRUtQVHBmRzl4M1pTdVBoaF83eF9uOFVvZHdNOS1RNGR4Z2Zac1Nua0pqZjRnLTBqSzJKLU1sU0NDT0xlOXh2aXdvUFExRl9MNjJGaHhsWGJJdHpVMjl5aGJrUEdESF9EWG1sUE5aYUR1ZnV4dDM0VDIzQW8yNUYzWkhXMG83OThvcWF2WXNkMklCVGdqWUROVU1SNmlRVnpKdFJqY3ZfUkdscFpkYTE1bmdJdDh2V2h0dFJpT0ltVnJkSlRMdkZkMTFfaDc5UWwyOGd4ei1iaw?oc=5",
-     "title": "眾安銀行租利園八期約4.5萬呎 較數碼港總部增近五成",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQUG5sS1pYSUlOQXhWWjFFSGpucnp4NWhFT2lSbVhoQ1ZTSHZyZzE1b2NiTFJIaGxyYjlXZHhRNUpnU1pPbGJZdExoejhyZ2hsdGNURk5ocGtheWRWdDlBSUVVZF93WXFnV3dfekw5NHFoeTRBZDRJdS1tdlJBTVNsd01xbGJMWHgtT2V6M3RMdnBsX1IwZ19Ja1RmUUVVMEo4TkpwRmdVUmxZWVBpTU5pT2JOM2RFdGJNbmdMODFsTFp5bFBWVzRFVmtYZUpCR0JLRzRrdzZ4NTdWZXNFalRPT3lDTWwyZG9XMHgyUnpueGMtdzNtamt2eE1ySzdzS3lTNVJYNkx4UGw4Qk5FUDhoSnVQQk5oaWZ3ODdldXVTazc5UHZQMjRHLW9tcWZ6TE0?oc=5",
-     "title": "眾安銀行承租利園8期4.5萬呎樓面作總部",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "香港文匯報",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFbnlyT1hNT0l1Uzl6c2V0a0ZVVnJkajQ1dElDbkU4Y295c2xNdGhfZ1FKRWptMW5XNFNNaTk2Tk9ZT1p2Y2JXS1VnWUR5bl9PYXNONjhhVm5hem02d1ZvSGIwVVhDVE1jUmVxM2JHYy1OSHNmSERN?oc=5",
-     "title": "利園八期下季竣工ZA Bank租四層寫字樓作新總部- 地產",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnl0S1U1WFJ2VkVqX0l5ak5EZmphT3hqaGNzVlNfaEFtWnJydDNJelYtb0piOWxFUXBOSDJiRXZxXzllbHZKRGJRQzdNbmdValdGaURXY3ktNjI4T25rMDNyRk1DcFpZc2xtOElvTlJma29pVTRMSDJvRkFoVlBIbnJ2NjNIazE1akE?oc=5",
-     "title": "【數字銀行】ZA Bank總部2027遷利園八期 CEO：心情如睇兒子小學畢業",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "星島頭條",
-     "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNQTZ1QnlUZEFtVGJKRzQyNXlySUwxU0FxZUxkSHpwNlVTTlBROGJaS2V1MVBxLW1EU2RUTEJ4blhYdThzNmEyMFZpMDcxUEpLMUxNM0xBeVl0YWI5U2M1VXpIbTNic2x3a054clBXS1d4QlNwQmtBTTM4X012aXBsOWc2UjAyaDR3cE9nVEdDMmNPWGlSejlxZjlmcGs2RWFCSFlYVlFKbWJ3ZkdhV3RaMnVYMl95T0NnUW1rQ3FyX3lLMW0wanJoQnFmUzVTOFpKYWhiV21STE1lZ0ZKVm82dm9GNTc3eG51WjVlSmVWZl9rcUQwVzU2eC1wN3JTeDRxVWNRYkxDVHJXMnV4RnFVcnhBQjMyb3R4SkRkUm9wcGNvRFc4cjEwbkdMWTlOUmRsWE94amM5TjdRUU5LSi1XNWVqOFB1anVvZHZ0M3p4dXZMWXN1bUlmOERoakFLRGE5OU1mbmsyUHJWZmhEc2JoTDNEWS1rUQ?oc=5",
-     "title": "希慎稱利園八期預租率理想 獲ZA Bank承租4層寫字樓作總部",
-     "date": "2026-09-09"
-    }
-   ],
-   "verification": "Corroborated by 10 outlets",
-   "score": 13,
-   "level": "HIGH",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)",
-    "Grade A building: Lee Garden Eight (+2)",
-    "Mid-size space (45,000 sq ft) (+2)",
-    "4 floors (+1)",
-    "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 10 outlets (+1)"
-   ],
-   "features": [
-    "area:Causeway Bay",
-    "grade:Grade A building (named)",
-    "kind:property",
-    "move:Lease / pre-lease",
-    "move:New HQ",
-    "sector:Finance & Professional Services"
-   ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
   },
   {
@@ -6020,7 +6089,8 @@
    "company": "Qatar Airways Cargo",
    "types": [
     "Relocation",
-    "New HQ"
+    "New HQ",
+    "New office"
    ],
    "type": "Relocation",
    "building": "",
@@ -6063,13 +6133,19 @@
      "date": "2026-08-19"
     },
     {
+     "name": "South China Morning Post",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdUY2cFJHem5MMjVXeVZWWkNtdldhQWN6MmxTbE5fVUV6MW04eWlmaXNtSmhyYTFiclZKNlBFMDJNcVFZUGhKTDI1ZUdIRkw5R0JITFlubUVlUXNnYnVJY3VwVFd3bHhlcDlUVEJiTzFFdTNhQlgzNFNVT0NtcDhtUEtqdld5UUhUNnUtaGpFWDEwRlZWM1M1N005UFh5UExRam5CNEkzQU9sNXRMMU5hLUdzb1dZVEJwejhOc2I4eGtUaUVxNmNMc18wT2NybDUxMjhYeTJSN29UVDY1N1NIUDV2WFlGd9IB5gFBVV95cUxNWFZkOWo5SXoxNWNhN1RVdXk1Z1I1VDByZGpHVmZuSDVoWmNMRS1Qdjd5c3pCM2NzUjljeEtRVkpzZWg1UlhJaUFTb3pKLS1CMHV1N2FPdU1QZURhQ0JfMngxbEdpZWphS19ZNkl2UUttb0NqZDh5LWRrME9qU3pkZVRhcGVweXRvX1M4T2VUYTRHTldVRDlBU0Z6VmlCNmhhVzYwOW56dlVBdGI0bmhQeFFZSTBZYU1GNkxMMkFoYnVGbm4wYXh5Ym5fLWNUWW0zM181bEdLWHFtNDJLeV9KNmFSY0NJUQ?oc=5",
+     "title": "Mable Chan uses Qatar Airways office opening to drop Central Asia route reveal",
+     "date": "2026-08-19"
+    },
+    {
      "name": "Marketing-Interactive",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWpGRXlWTldHRWstcEFmYlQtcDU2bG1nVXEtRVdaTS1Mb0VNMEp0bDhSaS1kd1RQQlN5dWZhLTRmcXppdDZFYXF1ZFdNS3hKakhGcU5vcnlXUU9DZ2Iyc1RxNG9hR01TcFFCUzZERDdwemFObGlNWUVXSEt0dTBIa2lzUXBDT3YtSkdFNk5TM1BjTFkyUUdz?oc=5",
      "title": "Qatar Airways Cargo relocates regional HQ to Hong Kong",
      "date": "2026-08-20"
     }
    ],
-   "verification": "Corroborated by 2 outlets",
+   "verification": "Corroborated by 3 outlets",
    "score": 6,
    "level": "MEDIUM",
    "thresholds": [
@@ -6079,13 +6155,14 @@
    "reasons": [
     "New headquarters fit-out (+3)",
     "Move-in: new premises need security systems (+2)",
-    "Reported by 2 outlets (+1)"
+    "Reported by 3 outlets (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
     "grade:Not stated",
     "kind:property",
     "move:New HQ",
+    "move:New office",
     "move:Relocation",
     "sector:Logistics & Supply Chain"
    ],
@@ -6182,12 +6259,6 @@
      "name": "信報網站",
      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVThNM3ZtLU1fVklHZ2FUZWt2Zmc0UVdTMHBLTzFwM0p3VXd6VzBHbk1Rb3pKX0NtcHB3UlB6ZG1EbVN5Q2ZxOGUzSWFFZFNzSk1mQi1VYTNTY19pd205cQ?oc=5",
      "title": "保誠擴充太古坊香港總部辦公空間",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "香港文匯報",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4V3lSblp1VGlUUkwwY1JRNjVLUkltRUJWTXdBVDY5ZmdfVENJNnVROUxaWnJ4ZHNjZmhGMWt3LTdWTVB0RmZRU0tMMGh6aHpHVHpJamFGWDREdjdhcHJoRWFmUnMxZnhkOE1wVDctVGFLLTJ6LTJn?oc=5",
-     "title": "保誠與太古簽新租約擴充太古坊香港總部辦公空間- 地產",
      "date": "2026-08-19"
     },
     {
@@ -6318,81 +6389,6 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "27ab6a18cb00",
-   "kind": "property",
-   "headline": "教育行業擴充 國際校紛租大樓面",
-   "date": "2026-08-18",
-   "first_reported": "2026-08-18",
-   "month": "2026-08",
-   "company": "教育行業",
-   "types": [
-    "Lease / pre-lease",
-    "Expansion"
-   ],
-   "type": "Lease / pre-lease",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Education & Government"
-   ],
-   "sector": "Education & Government",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "zh",
-   "who": "Campus estates & security offices, school administrators, public-facility managers",
-   "pitch": "Campus guarding, visitor management, CCTV; track upcoming tenders",
-   "actions": [
-    "Find 教育行業's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
-    "Pitch: Campus guarding, visitor management, CCTV; track upcoming tenders.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=%E6%95%99%E8%82%B2%E8%A1%8C%E6%A5%AD%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=%E6%95%99%E8%82%B2%E8%A1%8C%E6%A5%AD%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQQjhPMFNHdXhRMG41bTFhNlR3dElHbkJ2b2RoVmhxY2I2MkZodDlWNENYU0duQ0FTaDlVci16cW5SdTd3ZDQ5UHNPVU5Nd21nanAxMmtEVm85c1BRRHJ3anV0YkM3TDRJc1FMam9pdmVMcm9NYlYtNEJHWVNjcDh2Y0k4b0ltZWE5T0NqSmlTbl9EYUhmZ3VGTWZIQ0VLeHZ3THVubEtDX2VYcDhnSG5mSjM4VDlJSXlUTl9HaVFlMUY3dU9uZ0lkRDFFTDYzX2ZCRGFlelowQzliX1ZHV1ZWaEZNdFJzX1hTUmQ0bUxuQ0hkSnAwQ2NqR2pWTTM?oc=5",
-     "title": "教育行業擴充 國際校紛租大樓面",
-     "date": "2026-08-18"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "Move-in: new premises need security systems (+2)",
-    "Expansion: extra floors to secure (+2)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:Expansion",
-    "move:Lease / pre-lease",
-    "sector:Education & Government"
-   ],
-   "first_seen": "2026-10-13T23:38:54+08:00",
    "is_new": false
   },
   {
@@ -6643,7 +6639,7 @@
     "usage:Commercial / industrial"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bd00e552174d",
@@ -6697,9 +6693,15 @@
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOHpjRWR2XzJXd1ltMWlvSm4yLWtoaWJMcjRHamxNdDhIWWVRemhFcFlWTEs1cWg4QlVtTVJMNGtNd1A1M2VHbFAyZW0zNG5jcWE1SWEta3ZJS2U5azh4TFA0YV9mNDB0Rjl6ZUR4SmMweExJUkc3MjZuU2Q1UGgza1dOZXRwczZ1TUlseHJjTkpGTVdPeG54WHpBRlB2U2lFaFh3UE9zTzNSNGJDelFz?oc=5",
      "title": "Centurion to acquire Yan Woo building in Hong Kong for US$46.4 million",
      "date": "2026-09-25"
+    },
+    {
+     "name": "EdgeProp.sg",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY2dYTzRzMzFzRWNtbVppUjltUTdvaU9KX2t5T0dBeThYWHpGRHBMZm5wS216aGQ5NUF3Vzc1dG9lSTZFYktWMEZGTlBmYTlieDI2dTF2UGtCcTc4LVBKbklYWkhpc3hxdjM5NFFsemU0LXFtd1FVQmJ5WFNJWERMcWtSdjZrNVRxVlJMTzNhRHVfck1kZUlqYnhRUlRKMXZ3dm1BQWd5b3dhTVMzS3cybw?oc=5",
+     "title": "Centurion buys Hong Kong mixed-use development Yan Woo Building for HK$364 mil",
+     "date": "2026-09-28"
     }
    ],
-   "verification": "Single outlet: open source to confirm",
+   "verification": "Corroborated by 2 outlets",
    "score": 4,
    "level": "LOW",
    "thresholds": [
@@ -7366,7 +7368,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "190882cb6fe9",
@@ -9068,7 +9070,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6a752ad51549",
@@ -9398,7 +9400,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "7577425147ed",
@@ -10122,7 +10124,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bf1dca78ecbb",
@@ -15197,86 +15199,6 @@
    "is_new": false
   },
   {
-   "id": "a3199f0dd572",
-   "kind": "transaction",
-   "date": "2026-08-17",
-   "month": "2026-08",
-   "group": "Kowloon / N.T.",
-   "deal": "Lease",
-   "usage": "Industrial",
-   "district": "Tsuen Wan",
-   "building": "Goodman Global Gateway",
-   "building_zh": "嘉民國際訊通中心",
-   "floor": "12/F",
-   "unit": "02",
-   "area_sqft": 20849,
-   "area_txt": "20,849 ft² approx",
-   "price": 371112.0,
-   "price_txt": "HK$371,112/month",
-   "psf": "@17.8",
-   "record_source": "Land Search",
-   "party": "",
-   "party_source": "",
-   "premises": "12/F Unit 02, Goodman Global Gateway",
-   "line": "Tenant not named - 12/F Unit 02, Goodman Global Gateway (Leased for HK$371,112/month)",
-   "area": "Kwai Tsing / Tsuen Wan",
-   "sectors": [
-    "Logistics & Supply Chain"
-   ],
-   "sector": "Logistics & Supply Chain",
-   "who": "",
-   "pitch": "Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol",
-   "actions": [
-    "Get the tenant's name from a Land Registry search (IRIS Online, small fee) on Goodman Global Gateway 12/F 02.",
-    "New tenants fit out before moving in: reach them before the fit-out tender.",
-    "Contact Goodman Global Gateway's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/industrial/new-territories-tsuen-wan-goodman-global-gateway/detail/3240401000/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Land Search)",
-     "url": "https://oir.centanet.com/en/transaction/all/industrial/new-territories-tsuen-wan-goodman-global-gateway/detail/3240401000/",
-     "title": "",
-     "date": "2026-08-17"
-    }
-   ],
-   "verification": "Register record",
-   "score": 5,
-   "level": "MEDIUM",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Very large lease (20,849 sq ft) (+4)",
-    "Land Registry record: exact unit known (+1)"
-   ],
-   "features": [
-    "area:Kwai Tsing / Tsuen Wan",
-    "deal:Lease",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Land Search",
-    "region:Kowloon / N.T.",
-    "sector:Logistics & Supply Chain",
-    "size:xl",
-    "usage:Industrial"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
    "id": "caed23bc036c",
    "kind": "transaction",
    "date": "2026-08-14",
@@ -15608,7 +15530,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "216ecc8bf670",
@@ -18775,7 +18697,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5b43703c957b",
@@ -18857,7 +18779,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b60f5522e769",
@@ -19874,7 +19796,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "865ceddc8318",
@@ -20686,7 +20608,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b27a0a6be3df",
@@ -21170,7 +21092,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "644550c486ca",
@@ -25907,7 +25829,7 @@
    "group": "Events",
    "name": "HKCEC event calendar",
    "ok": true,
-   "count": 45
+   "count": 46
   },
   {
    "group": "Events",
@@ -25943,13 +25865,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"Grade A\" office tenant",
    "ok": true,
-   "count": 21
+   "count": 22
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"regional headquarters\" office opens OR relocates",
    "ok": true,
-   "count": 18
+   "count": 19
   },
   {
    "group": "Property",
@@ -25961,13 +25883,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 48
+   "count": 49
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 47
+   "count": 44
   },
   {
    "group": "Property",
@@ -25979,31 +25901,31 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 50
+   "count": 44
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 76
+   "count": 77
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 19
+   "count": 16
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Nippon Express\" \"Hong Kong\" office OR warehouse OR relocate OR opens",
    "ok": true,
-   "count": 6
+   "count": 9
   },
   {
    "group": "Property",
    "name": "News search (EN): \"new Hong Kong office\"",
    "ok": true,
-   "count": 9
+   "count": 10
   },
   {
    "group": "Property",
@@ -26021,7 +25943,7 @@
    "group": "Property",
    "name": "News search (EN): asianinvestor.net",
    "ok": true,
-   "count": 77
+   "count": 38
   },
   {
    "group": "Property",
@@ -26039,7 +25961,7 @@
    "group": "Property",
    "name": "News search (EN): campaignasia.com",
    "ok": true,
-   "count": 36
+   "count": 39
   },
   {
    "group": "Property",
@@ -26189,7 +26111,7 @@
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 65
+   "count": 60
   },
   {
    "group": "Property",
@@ -26201,7 +26123,7 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 57
+   "count": 62
   },
   {
    "group": "Property",
@@ -26219,7 +26141,7 @@
    "group": "Property",
    "name": "News search (中文): i-cable.com",
    "ok": true,
-   "count": 53
+   "count": 46
   },
   {
    "group": "Property",
@@ -26273,61 +26195,61 @@
    "group": "Property",
    "name": "News search (中文): 億購 商廈 OR 寫字樓 OR 工廈",
    "ok": true,
-   "count": 75
+   "count": 74
   },
   {
    "group": "Property",
    "name": "News search (中文): 商廈 樓層 成交 億",
    "ok": true,
-   "count": 60
+   "count": 63
   },
   {
    "group": "Property",
    "name": "News search (中文): 寫字樓 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 71
+   "count": 69
   },
   {
    "group": "Property",
    "name": "News search (中文): 工廈 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 64
+   "count": 62
   },
   {
    "group": "Property",
    "name": "News search (中文): 承租 寫字樓 樓面 總部",
    "ok": true,
-   "count": 27
+   "count": 26
   },
   {
    "group": "Property",
    "name": "News search (中文): 租客為 寫字樓 OR 商廈",
    "ok": true,
-   "count": 62
+   "count": 57
   },
   {
    "group": "Property",
    "name": "News search (中文): 租用 甲廈 平方呎",
    "ok": true,
-   "count": 35
+   "count": 33
   },
   {
    "group": "Property",
    "name": "News search (中文): 萬購 全層 自用",
    "ok": true,
-   "count": 60
+   "count": 61
   },
   {
    "group": "Property",
    "name": "News search (中文): 註冊處資料顯示 買家 有限公司",
    "ok": true,
-   "count": 20
+   "count": 22
   },
   {
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 41
+   "count": 40
   },
   {
    "group": "Property",
@@ -26363,7 +26285,7 @@
    "group": "Transactions",
    "name": "Centaline Commercial transaction register",
    "ok": true,
-   "count": 2334
+   "count": 2296
   },
   {
    "group": "Transactions",

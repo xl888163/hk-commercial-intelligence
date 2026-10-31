@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T06:58:41+08:00",
+ "generated": "2026-11-01T06:56:38+08:00",
  "property_days": 90,
  "events": [
   {
@@ -10,7 +10,6 @@
    "end": "2026-11-01",
    "month": "2026-10",
    "months": [
-    "2026-10",
     "2026-11"
    ],
    "time": "",
@@ -207,6 +206,70 @@
    "is_new": false
   },
   {
+   "id": "324eec83b650",
+   "kind": "event",
+   "name": "從振興中華到民族復興——孫中山史蹟展",
+   "start": "2026-11-02",
+   "end": "2026-11-07",
+   "month": "2026-11",
+   "months": [
+    "2026-11"
+   ],
+   "time": "",
+   "venue": "Hong Kong Convention and Exhibition Centre (HKCEC), Wan Chai",
+   "area": "Wan Chai",
+   "sectors": [
+    "Other"
+   ],
+   "sector": "Other",
+   "access": "Invitation only",
+   "audience": "By Invitation",
+   "category": "Exhibition / conference",
+   "organiser": "Bauhinia Magazine",
+   "organiser_url": "https://bau.com.hk",
+   "contact_phone": "",
+   "contact_email": "",
+   "lead_types": [
+    "Prospect networking"
+   ],
+   "who": "Senior executives (C-suite, COOs, GMs) across industries",
+   "pitch": "Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals",
+   "actions": [
+    "Request an invitation from the organiser now (event is close); check if a client or partner can bring you.",
+    "Before the fair, shortlist exhibitors and visitors from: Senior executives (C-suite, COOs, GMs) across industries. Book 3-5 meetings.",
+    "Pitch: Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals.",
+    "Follow up within 3 working days after 7 Nov 2026 and log contacts here."
+   ],
+   "sources": [
+    {
+     "name": "HKCEC event calendar",
+     "url": "https://bau.com.hk"
+    }
+   ],
+   "verification": "Official listing",
+   "score": 2,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Invitation-only: exclusive access to decision-makers (+2)",
+    "Large trade exhibition: many exhibitors to prospect (+1)",
+    "Team feedback on similar items: -0.4 level on average across 49 re-ratings (-1)"
+   ],
+   "features": [
+    "access:Invitation only",
+    "area:Wan Chai",
+    "kind:event",
+    "lead:Prospect networking",
+    "sector:Other",
+    "venue:major"
+   ],
+   "first_seen": "2026-11-01T06:56:38+08:00",
+   "is_new": true
+  },
+  {
    "id": "a315bbf342bb",
    "kind": "event",
    "name": "Leading the Frontier: Female Tech Leaders Shaping the Future of Finance",
@@ -336,70 +399,6 @@
     "venue:major"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "2f31acc281b7",
-   "kind": "event",
-   "name": "從振興中華到民族復興——孫中山史蹟展",
-   "start": "2026-11-03",
-   "end": "2026-11-07",
-   "month": "2026-11",
-   "months": [
-    "2026-11"
-   ],
-   "time": "",
-   "venue": "Hong Kong Convention and Exhibition Centre (HKCEC), Wan Chai",
-   "area": "Wan Chai",
-   "sectors": [
-    "Other"
-   ],
-   "sector": "Other",
-   "access": "Invitation only",
-   "audience": "By Invitation",
-   "category": "Exhibition / conference",
-   "organiser": "Bauhinia Magazine",
-   "organiser_url": "https://bau.com.hk",
-   "contact_phone": "",
-   "contact_email": "",
-   "lead_types": [
-    "Prospect networking"
-   ],
-   "who": "Senior executives (C-suite, COOs, GMs) across industries",
-   "pitch": "Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals",
-   "actions": [
-    "Request an invitation from the organiser now (event is close); check if a client or partner can bring you.",
-    "Before the fair, shortlist exhibitors and visitors from: Senior executives (C-suite, COOs, GMs) across industries. Book 3-5 meetings.",
-    "Pitch: Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals.",
-    "Follow up within 3 working days after 7 Nov 2026 and log contacts here."
-   ],
-   "sources": [
-    {
-     "name": "HKCEC event calendar",
-     "url": "https://bau.com.hk"
-    }
-   ],
-   "verification": "Official listing",
-   "score": 2,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Invitation-only: exclusive access to decision-makers (+2)",
-    "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.4 level on average across 49 re-ratings (-1)"
-   ],
-   "features": [
-    "access:Invitation only",
-    "area:Wan Chai",
-    "kind:event",
-    "lead:Prospect networking",
-    "sector:Other",
-    "venue:major"
-   ],
-   "first_seen": "2026-10-18T06:45:19+08:00",
    "is_new": false
   },
   {
@@ -1042,7 +1041,7 @@
    "who": "Senior executives (C-suite, COOs, GMs) across industries",
    "pitch": "Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals",
    "actions": [
-    "Register / plan attendance by 31 Oct 2026.",
+    "Register / plan attendance now (event is close).",
     "Before the fair, shortlist exhibitors and visitors from: Senior executives (C-suite, COOs, GMs) across industries. Book 3-5 meetings.",
     "Pitch: Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals.",
     "Follow up within 3 working days after 7 Nov 2026 and log contacts here."
@@ -2013,6 +2012,70 @@
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
+  },
+  {
+   "id": "fe564ec97b9b",
+   "kind": "event",
+   "name": "2026 Thanksgiving Luncheon",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "month": "2026-11",
+   "months": [
+    "2026-11"
+   ],
+   "time": "27 Nov 2026 | 12:00 PM - 02:00 PM",
+   "venue": "Island Shangri-La Ballroom",
+   "area": "Admiralty",
+   "sectors": [
+    "Other"
+   ],
+   "sector": "Other",
+   "access": "Invitation / members only",
+   "audience": "Chamber members & guests",
+   "category": "Members Only",
+   "organiser": "AmCham HK",
+   "organiser_url": "",
+   "contact_phone": "",
+   "contact_email": "",
+   "lead_types": [
+    "Senior networking"
+   ],
+   "who": "Senior executives (C-suite, COOs, GMs) across industries",
+   "pitch": "Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals",
+   "actions": [
+    "Request an invitation from the organiser by 20 Nov 2026; check if a client or partner can bring you.",
+    "Target in the room: Senior executives (C-suite, COOs, GMs) across industries.",
+    "Pitch: Securitas integrated security (people + technology + MySecuritas); Risk Intelligence for multinationals.",
+    "Follow up within 3 working days after 27 Nov 2026 and log contacts here."
+   ],
+   "sources": [
+    {
+     "name": "AmCham HK events",
+     "url": "https://amchamhk.glueup.com/event/189630"
+    }
+   ],
+   "verification": "Official listing",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Senior decision-makers in the room (+2)",
+    "Invitation-only: exclusive access to decision-makers (+2)",
+    "Team feedback on similar items: -0.4 level on average across 14 re-ratings (-1)"
+   ],
+   "features": [
+    "access:Invitation / members only",
+    "area:Admiralty",
+    "kind:event",
+    "lead:Senior networking",
+    "sector:Other",
+    "venue:other"
+   ],
+   "first_seen": "2026-11-01T06:56:38+08:00",
+   "is_new": true
   },
   {
    "id": "e08e5acc9c17",
@@ -4465,6 +4528,79 @@
  ],
  "property": [
   {
+   "id": "3d7cb369139b",
+   "kind": "property",
+   "headline": "Shandong Weigao Relocates Principal Hong Kong Office to Central District",
+   "date": "2026-10-30",
+   "first_reported": "2026-10-30",
+   "month": "2026-10",
+   "company": "Shandong Weigao",
+   "types": [
+    "Relocation"
+   ],
+   "type": "Relocation",
+   "building": "",
+   "landlords": [],
+   "area": "Central / Sheung Wan",
+   "grade": "Prime office district",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Landlords' asset & property managers, building management offices, FM companies",
+   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
+   "actions": [
+    "Find Shandong Weigao's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at Central / Sheung Wan for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Shandong%20Weigao%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Shandong%20Weigao%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPc1JicmdfeC1FNTdKVTduTjJacUlCaHRWMGROb3FGRFhwdlVFUUJrYXM0VjB2ZmNOY0lqNk9xbG5qRS1BaHBPRHFpalVfOXVoQXZ4Z212T1ozeEVKQ3oyT0h2akd2UWVzblpsdVhJTXk3cU1jSFpVOUtMZTdwQVNaR3Z2SUhaRDBXbFRyNWpxQklMYVh6amRzY1FaTTJRN2RFemNsSFEtQ1RqSUlXSjlQcDlnQkxjbDVydzk2ZVVqYjBRZw?oc=5",
+     "title": "Shandong Weigao Relocates Principal Hong Kong Office to Central District",
+     "date": "2026-10-30"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Move-in: new premises need security systems (+2)",
+    "Prime office district: Central / Sheung Wan (+1)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "grade:Prime office district",
+    "kind:property",
+    "move:Relocation",
+    "sector:Facility Management & Real Estate"
+   ],
+   "first_seen": "2026-11-01T06:56:38+08:00",
+   "is_new": true
+  },
+  {
    "id": "e17902542c28",
    "kind": "property",
    "headline": "寫字樓出租率9成 保險業進駐",
@@ -4831,82 +4967,6 @@
    "is_new": false
   },
   {
-   "id": "ab7fc5fc6e60",
-   "kind": "property",
-   "headline": "UBS weighs moving headquarters from Switzerland if capital rules tighten, WSJ reports",
-   "date": "2026-10-15",
-   "first_reported": "2026-10-15",
-   "month": "2026-10",
-   "company": "UBS",
-   "types": [
-    "New HQ",
-    "Relocation"
-   ],
-   "type": "New HQ",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Finance & Professional Services"
-   ],
-   "sector": "Finance & Professional Services",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
-   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
-   "actions": [
-    "Find UBS's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=UBS%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=UBS%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "The Standard (HK)",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNXM2RFpkN1VQNWYwS2Jqa2hDcGdfUzQzMzdVbkFLQmVQMkpDdWdSYlhwaUZfbi0wQVJXLWZGdkxrazNSVHFrYS16Q0piUGhMNHFiSHE5NjZuV2lmTjB3OUotOFF2eGxiTU5EYVdzNDNVZzNxTkZndGhQcTl1OUxYcVcydjRQOFJXLUYtWjMtQ0J6dUFJb2tCTC1OUjB3V1R0b3prMGdPYTNQeUxvSWtPWllJVVVXN2xlSzI4U2JVZkk5Q2RJaTF3bGk2bkZDeTU2Wlp3ZA?oc=5",
-     "title": "UBS weighs moving headquarters from Switzerland if capital rules tighten, WSJ reports",
-     "date": "2026-10-15"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 7,
-   "level": "MEDIUM",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:New HQ",
-    "move:Relocation",
-    "sector:Finance & Professional Services"
-   ],
-   "first_seen": "2026-10-23T06:54:26+08:00",
-   "is_new": false
-  },
-  {
    "id": "313452818aef",
    "kind": "property",
    "headline": "AIsphere Officially Opens Hong Kong Office at Cyberport, Building an AI Hub for the City",
@@ -4952,8 +5012,8 @@
    ],
    "sources": [
     {
-     "name": "Yahoo Finance",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRHNXZEV6LTktTUVxVEhHMmU3eFM0MjhTQ3Y0WllCT0tTM1hoVlI1cmJyaWtCa1RYU1NVdTVGRnllVkdYcV9UT1BCaXB4a0sxOXNLMVZkanNTRTFFVUFZb0pPNURXX0h6M1FPX0lmeTdSYWJfNzl3a0o5cWMtS3BGVklOd1MwanljUjlMd28zM04zaGtiRV9WalRxbzBzN28x?oc=5",
+     "name": "The Malaysian Reserve",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMTZIQl85RGZOUU0tNTZLLVlvTTFmZll3cE00WXUtaGFwTV9QeUtXTFh0Y0xuN1ROdmNzXzA3bnhqQUYwU0xNeE9ZZlZpX3h4Q29aQ0k0QUl3aGlOTlhjdEFFdHNzaDFiVE1kNk1YcFRiNGQ4NW0zYi1KRVVBLVBNSlVlc3RyUHp3cUd1STZZMVJ3TWF0M1NiZzZNR1RtVDl4QU1Yei0yTWJ3eWs1dEU3RDRidTd4WE9XdDlyS0hrSERLM0E2WG9IcUxYWQ?oc=5",
      "title": "AIsphere Officially Opens Hong Kong Office at Cyberport, Building an AI Hub for the City",
      "date": "2026-10-13"
     }
@@ -5439,7 +5499,80 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
+  },
+  {
+   "id": "f8650eef0456",
+   "kind": "property",
+   "headline": "【HSBC】滙豐英國交易員明年初遷新總部 樓層間距、樓底較同行為低",
+   "date": "2026-10-01",
+   "first_reported": "2026-10-01",
+   "month": "2026-10",
+   "company": "HSBC",
+   "types": [
+    "New HQ"
+   ],
+   "type": "New HQ",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Finance & Professional Services"
+   ],
+   "sector": "Finance & Professional Services",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "zh",
+   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
+   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
+   "actions": [
+    "Find HSBC's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=HSBC%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=HSBC%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPLVlRU1RNUUdQZmYydXVBWFpfamk1c3k1dkd3NXJFT0ZRNy1QVzh4ektLUURfZ1p0MF9iVE9LeFJWVHgwVkM1eGx2SDRXbWU5LXBoZXoyb3lQdGZBSnJ0d2hxdHNvN3JLb191NTE1dVBkTXhWaTQwUWFMV1Y2LTYyQ1FvaVVvZzhkQ2FraTJabFp6ZTdtTXBTbVZnUHFBNlU0MHlIYzJYLUtfMWpxUXV6NTMzNkp5WXZqdUtZUUU0VDJUSUpKMUpRdGlDNnlHNWhpSTQ2bVozRVZXSWtNeld0VUxwc05BaW5MLUs4d24zVm1WZzEwbVBYampkbGx0M3VjUlpaVEJlbEROd0UyNkk3QUhLZDNwZkdVcjRmdVJxQmlDZmZzX3ZJdmo5cm9pV1JtODVPcjRfd2Z0c25qd0hTaTdmME5qTEpHU19ENXI2cmRjcUhORkxfNllMeXBueExnc0NiR0Zyek1xWVNLd2JPT0NTVDBCVTJzWlpkOVFtMVJfUl9FUkFSQ3ByM1FGSmo5M1JvZzVjeFFNZ2dTX2lQaTFrV1JRcGdXQS11Z2hiS2lHdw?oc=5",
+     "title": "【HSBC】滙豐英國交易員明年初遷新總部 樓層間距、樓底較同行為低",
+     "date": "2026-10-01"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "High-security tenant (finance / legal / luxury / data) (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:New HQ",
+    "sector:Finance & Professional Services"
+   ],
+   "first_seen": "2026-10-19T06:46:46+08:00",
+   "is_new": false
   },
   {
    "id": "384f95780375",
@@ -5693,21 +5826,21 @@
      "date": "2026-09-17"
     },
     {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxPNE14dHZSZ09faXA5TUVONzlyTnNLZVdHaEF0cHhSemJYdjMwOVFyUUMtMUpZamVOTzRXUVZhR05UaEhnWHc4WlBzZ3FiMEVuajRxTWZCUzRqaDM0NUl5Si14bzlEQXhHaVR2UE13M3B3TGFfZFVaQ3lwMzBza0VPNGtsSU5GV3B5Z2F1Wl9aYVctZERORkJwdWU1RmNNOTB0LU1yREJEaFdmSWtWaDlmQ0hIT2tuT1BpQ1dIamoxcExpUVluWHE4VXJ1ZS0yWTFqUl90M2N1VTBhYlZHVGxFaTBwVDhMRHNrbFdPYm5TR1VIeGNDYWNraDNBaTl4ZWJQOFRpejJsRXo0NTNMaW1uTFYyTG9PN0hfMUlTSlY3OHlLajBQYVZqSnQ0ZzgxWUNxQjVwLXdwUlhudUpraFlSUUFpYlBxM002Z29wTENMclh3OTAzalhBRWhWLXJpTmtMb25lY0VEWVpMMnRLUG5CQ3VrMFRqZ3JCeEItdjFBRWp4MF9XQmh1RDh5SmNjTjZaaTk0bEtHc3A2TnczS3I0SzFESWdELWZ4c2pXbUxRT1k1cmlwUGdSYjNsYTVyYnlab2owWjJOYnRWeDJQall0QWRKQVExRDhIa3dYMnE3SWRoRWJ6LU1BeFh2eU43YndjRUN5a0JOcHpIWUVldmE5Mi1fYWVzc3E4cXFZV0JfRThXVFQzV0dGejVHRlNyR01SVk9LY19pWkZMbmZYdHQ5TDVBbHNUWGltTWtwRWp6SGFMQ0hMdU14MEhPNGNwSUE4Unc?oc=5",
-     "title": "【1113】長江集團中心二期已接近全部租出和記地產：美量化交易公司Susquehanna已簽約租用3層寫字樓樓面",
-     "date": "2026-09-17"
-    },
-    {
      "name": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxPN2F3SVBVOWRuT0pLYUpwTHduWFZzcmdaVWM2S2xjdHNmY1hLVjIweGRnRWFtVlhoaVFYQVZIeEdrZW1GSlVhV1JaV3Q2VGk1ZzdGZXZOYTV2Zkx1cF9HSUpnY2twLVcyYmhyNk5rSV9od2VFWUNNenhzQTVCNldvWUhVYWV1S3hlLVRMLTV1RmNYY2MzTFZFUnpoMzByZmRVZ2ktOGpFZmZVR2lPa2dxbUwtT08zLW1IWkwxdGdjMGJnenhpOC1pM0RGZ005ZGdVTEZiNzEydVdxX3Uza1pWZ3ozVlN1d3A3dkxzYzBic002SzQtUUdWV05MSFlSWi1PN0JpYXk2SC01OXNCTFVIZXFHYjJlMXJ4V3lvNGNVenhlbFpxcG9hZUNCR09YamdQWTJBOGdUVnBld1Q3NDk4M3BfNzVoaGpBd0ExX0tyRmY0N3hoX3JZMjQtYmlJZzN4LXZiUE9uOUlwYVZZQzR1Q2FzckV0WEZiV2NWTmRETDg4b19CdFhKQlJhTVliRDJRanRaMjhfbThNNk5uR3V3d01CYThoblBEbmd1bGJtZ2RaVEtvZGxZX1Fwa3otcUtMaHJ3Ug?oc=5",
      "title": "長江中心二期近全部租出 長實證實美國量化交易巨頭SIG租用3層寫字樓",
      "date": "2026-09-17"
     },
     {
-     "name": "橙新聞",
-     "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOQ3RMckZvTXZlcVFxOWlXa1FacHVpYW5TMERuSGJIcC02OGdaQU5yS29feHpqZE1Cd1RLb1dhU0ZoM3c2dlF2TFpmMHpDcmF3Z1FqZW1YRzlnTmVyMWJPNWNScFl0V1pHd05aclB3WmtVdk5GZWlpb25udTU0QV9yV3hPXzYtbHpDNjNNaU9ScGVsQ19qSlNrY1pUSHVBYkVxOV8xSEVkQXhqQTV6dElTOElmZVcwRlMtbkMtemh6Z2hLb0I4M3ZETVBZdG12M25rZzBpc09wVXJnRjBER3dTbEVkNzJxQUdwMUVIdnFJWEJBWWZLWlU0U3RGMlBiM1dVVnp4RVFvNExxWmNYVGRmZmtySDhOekJRN2Fob0t3TU5kVmNIYUVZVVZxR2pvVEJqcGhzZGVjRHNBbHBFWHIwREFWOVVmX1dsRnM1TFVPUGZZLVcxVF9hckh6SnRIUXFNRkVTNmdTVjZHZUk?oc=5",
-     "title": "美量化交易巨頭租用長江集團中心二期 三層近5.2萬呎",
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxPNE14dHZSZ09faXA5TUVONzlyTnNLZVdHaEF0cHhSemJYdjMwOVFyUUMtMUpZamVOTzRXUVZhR05UaEhnWHc4WlBzZ3FiMEVuajRxTWZCUzRqaDM0NUl5Si14bzlEQXhHaVR2UE13M3B3TGFfZFVaQ3lwMzBza0VPNGtsSU5GV3B5Z2F1Wl9aYVctZERORkJwdWU1RmNNOTB0LU1yREJEaFdmSWtWaDlmQ0hIT2tuT1BpQ1dIamoxcExpUVluWHE4VXJ1ZS0yWTFqUl90M2N1VTBhYlZHVGxFaTBwVDhMRHNrbFdPYm5TR1VIeGNDYWNraDNBaTl4ZWJQOFRpejJsRXo0NTNMaW1uTFYyTG9PN0hfMUlTSlY3OHlLajBQYVZqSnQ0ZzgxWUNxQjVwLXdwUlhudUpraFlSUUFpYlBxM002Z29wTENMclh3OTAzalhBRWhWLXJpTmtMb25lY0VEWVpMMnRLUG5CQ3VrMFRqZ3JCeEItdjFBRWp4MF9XQmh1RDh5SmNjTjZaaTk0bEtHc3A2TnczS3I0SzFESWdELWZ4c2pXbUxRT1k1cmlwUGdSYjNsYTVyYnlab2owWjJOYnRWeDJQall0QWRKQVExRDhIa3dYMnE3SWRoRWJ6LU1BeFh2eU43YndjRUN5a0JOcHpIWUVldmE5Mi1fYWVzc3E4cXFZV0JfRThXVFQzV0dGejVHRlNyR01SVk9LY19pWkZMbmZYdHQ5TDVBbHNUWGltTWtwRWp6SGFMQ0hMdU14MEhPNGNwSUE4Unc?oc=5",
+     "title": "【1113】長江集團中心二期已接近全部租出和記地產：美量化交易公司Susquehanna已簽約租用3層寫字樓樓面",
+     "date": "2026-09-17"
+    },
+    {
+     "name": "Yahoo 財經",
+     "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQRHl2Z0Rxdm94dXZHSi1XcVdJcE1WdF84QTljYTdnaENEMm95cE9JcG1EVkhJWVNNRUIwaW14eUZRUmJOc2Jva0JMUWJFV2U2UFZPZU44cGpwTXU4YV9LblBUOGl6d2lYM1QtQ3hNLTF4Y3BhWmdHWXVaMUx5bUdMUHlQbndfWHNEb1hPcXFIYXFNUk55cGRLOXpCbWpCLWxHMERvSDUxQy1pUjc0SmJYOEdqNU1DNFF1dDJKb0tlZVRuUXFwMUdraHc5dzFGbUgtaWxGSnhYS3VaaXg2aWxJUTJvOWJkQkJYSExvN0RjWWxISG5GakZjVm00YURXWHQtRGlRMlQteF93Z1Y0T2xWNDI5bGZXTnBFY3Y1ajdDVUstV0FmVW5lNWJRcl8wei1fLVQxdWphb2YwVDY3QVRyN0RXaUk1NDRjTGM5akFBeHhPVEJCR2JhaGlXbm5keldWQ2t4ZXQza1JrNUpzYkE?oc=5",
+     "title": "長江中心二期近全部租出 美量化巨頭承租3層 涉5.2萬呎",
      "date": "2026-09-17"
     },
     {
@@ -5976,16 +6109,16 @@
   {
    "id": "7a07aa5d3c2b",
    "kind": "property",
-   "headline": "Hysan courts fintech as ZA Bank commits to new Causeway Bay headquarters",
+   "headline": "ZA Bank to rent four floors of Lee Garden Eight's office space",
    "date": "2026-09-10",
    "first_reported": "2026-09-08",
    "month": "2026-09",
    "company": "ZA Bank",
    "types": [
-    "New HQ",
-    "Lease / pre-lease"
+    "Lease / pre-lease",
+    "New HQ"
    ],
-   "type": "New HQ",
+   "type": "Lease / pre-lease",
    "building": "Lee Garden Eight",
    "landlords": [
     "Hysan"
@@ -5994,14 +6127,14 @@
    "grade": "Grade A building (named)",
    "sectors": [
     "Finance & Professional Services",
-    "AI & Technology",
-    "Facility Management & Real Estate"
+    "Facility Management & Real Estate",
+    "AI & Technology"
    ],
    "sector": "Finance & Professional Services",
    "size": 45000,
    "size_txt": "4.5萬平方呎",
    "floors": 4,
-   "floors_txt": "四層",
+   "floors_txt": "four floors",
    "lang": "en",
    "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
    "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
@@ -6030,6 +6163,18 @@
      "date": "2026-09-08"
     },
     {
+     "name": "The Standard (HK)",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN21NZTFDazUyS3Q0ajBLajNPZUU0Sk1xNDJYZi04Y3N0THVZVjduVUJiTjVFOFhFdTZVejh1ajlEUVJfQkNSOTNoaTVmSXlaY1Z5Y3pjTVpBUDh2cUNpU3hiLWR1WDdIMkFzejZzbG9Ea0g3dDA4WjZPUjZZZzBPYkpYZlRGYlBWR083dDNMOWJIX3p4Z1N6aDdPUmRpQ0Z3ajZPN0JKVWRucmxCbEkxQW4zSjVNSG8?oc=5",
+     "title": "ZA Bank to rent four floors of Lee Garden Eight's office space",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "Hong Kong Business",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY19PWERTM1RlTW5mdnJJSFJlWEloRVJIcDljZXRnenYwSWs5NnZiNUpwWlJvVlU4QnJNajlZUXVZd0M5NnhMZ2taV0plR3o4dTdGZGtXZXN0bTR0QTdHRFNvZjFTcTE3dEMyMGUwanU5ay1kcEpwWUZSNHVNcTFCWVgzRC1MY1VnWkdjb0RKSUhkUGp1ZF84SkRoa1Y?oc=5",
+     "title": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
+     "date": "2026-09-09"
+    },
+    {
      "name": "South China Morning Post",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd3RMVFFYaVZRZ0ZlTTRzdThyZU8zcWxrcnE0WFZsVloxbUpMQmpMM0ltS2RCWHFKdlpqSnNZSzd0UXo5ZmNHNVVaclQ4Y254Uk51RDdXZHl2QVZZY2UxTk9qNzhaNzVPZ3BlVTRVa29BM1JiSDlFcGpUOVhMcklsZjh2UGNZU3ZWRUFSYVRXaTlWVXNieEpSX21yNHhKT3NfcUVERlhNNkdFOTc3MTJBZC16MTNfQldGV2xRb3BsTG5JeUhLZ1pxZzA3WS1yeTZ0di04VFBR0gHWAUFVX3lxTFB3TWlpSks2ZFRHX3VURVFxdlV2dFpJMHh5Mk1GMFJNei1pS2dPcTZZbGtxbkVWY2dhclpld3Q5UUNDRkwxV1RPTW44dE91YmpIeklsMnJxSldoMEZiQnFBZnZSYnpRTnJURnpFel9KRDVGRGpaenQxQTBEQVBRNGRqMUo5M1ZvMVgxV2tPVWtvdlhlQ3E2b1h3TGpkeDM0b3B5ZEd3Y283d0VBX0c5Q0F6dnRURDRzbG5LRjR0dTYtbVR0cUNUV0dJdzRDRnBKNVQ2d2N3Y1E?oc=5",
      "title": "Hysan courts fintech as ZA Bank commits to new Causeway Bay headquarters",
@@ -6049,7 +6194,7 @@
     },
     {
      "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQUG5sS1pYSUlOQXhWWjFFSGpucnp4NWhFT2lSbVhoQ1ZTSHZyZzE1b2NiTFJIaGxyYjlXZHhRNUpnU1pPbGJZdExoejhyZ2hsdGNURk5ocGtheWRWdDlBSUVVZF93WXFnV3dfekw5NHFoeTRBZDRJdS1tdlJBTVNsd01xbGJMWHgtT2V6M3RMdnBsX1IwZ19Ja1RmUUVVMEo4TkpwRmdVUmxZWVBpTU5pT2JOM2RFdGJNbmdMODFsTFp5bFBWVzRFVmtYZUpCR0JLRzRrdzZ4NTdWZXNFalRPT3lDTWwyZG9XMHgyUnpueGMtdzNtamt2eE1ySzdzS3lTNVJYNkx4UGw4Qk5FUDhoSnVQQk5oaWZ3ODdldXVTazc5UHZQMjRHLW9tcWZ6TE0?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOU2I4XzZDRFdMNHpNamVWdlpKSHVpVzlZOVVPcnJ4LVF5LWRNWWtrQ2pVZWdiQzZJWXdqLW9oUHR2a0pxdEZlakZOd1AtcGVJVmFtMElxeDBQY1VMYUFhbXVIQnlLdDZkVW53dlJwVmU2R25BYS1jaFNxWlUxXzcyVng2MjFFTXFWOThmNi1ZLWY2UXhzSE01NFJJYWFPU3pERWFkUzhraDV1QS1WWFJtUlZCM3JmR28wOFpnQklOT3htSG1PeHhVa3BaVl9zUTk0UHNnbmktMXdPVGRMMldCel9GaG1wTXotMFZ4S25YZUljTHJ3UzBQVncwSDhOV2FFc1BxMmw4REtEajN4SnNEbzRybjNxb05XNDRhYlI3Z0JKRURG?oc=5",
      "title": "眾安銀行承租利園8期4.5萬呎樓面作總部",
      "date": "2026-09-09"
     },
@@ -6060,21 +6205,15 @@
      "date": "2026-09-09"
     },
     {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnl0S1U1WFJ2VkVqX0l5ak5EZmphT3hqaGNzVlNfaEFtWnJydDNJelYtb0piOWxFUXBOSDJiRXZxXzllbHZKRGJRQzdNbmdValdGaURXY3ktNjI4T25rMDNyRk1DcFpZc2xtOElvTlJma29pVTRMSDJvRkFoVlBIbnJ2NjNIazE1akE?oc=5",
-     "title": "【數字銀行】ZA Bank總部2027遷利園八期 CEO：心情如睇兒子小學畢業",
-     "date": "2026-09-09"
-    },
-    {
      "name": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNQTZ1QnlUZEFtVGJKRzQyNXlySUwxU0FxZUxkSHpwNlVTTlBROGJaS2V1MVBxLW1EU2RUTEJ4blhYdThzNmEyMFZpMDcxUEpLMUxNM0xBeVl0YWI5U2M1VXpIbTNic2x3a054clBXS1d4QlNwQmtBTTM4X012aXBsOWc2UjAyaDR3cE9nVEdDMmNPWGlSejlxZjlmcGs2RWFCSFlYVlFKbWJ3ZkdhV3RaMnVYMl95T0NnUW1rQ3FyX3lLMW0wanJoQnFmUzVTOFpKYWhiV21STE1lZ0ZKVm82dm9GNTc3eG51WjVlSmVWZl9rcUQwVzU2eC1wN3JTeDRxVWNRYkxDVHJXMnV4RnFVcnhBQjMyb3R4SkRkUm9wcGNvRFc4cjEwbkdMWTlOUmRsWE94amM5TjdRUU5LSi1XNWVqOFB1anVvZHZ0M3p4dXZMWXN1bUlmOERoakFLRGE5OU1mbmsyUHJWZmhEc2JoTDNEWS1rUQ?oc=5",
      "title": "希慎稱利園八期預租率理想 獲ZA Bank承租4層寫字樓作總部",
      "date": "2026-09-09"
     },
     {
-     "name": "橙新聞",
-     "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQUVR4Xy0tT1JLNkxDS1hnSXN2QUItYUNLQlVIVFBId2RtVGVyMllZdFNGemdTSzhzeTJEYl9OMFFOOHZ4RDBha3ZIdTU5aFhpNlM2TlRuSlc1REIta1NadHZBUVd3SnZqbDdIUmFiYlR3LVExTk5qd3NzLWRleUNGWnFOLTJrVHJLMTNFWjhyLVk3OEltN29IaVY5SHpDWS1XdXQzVUMwbkp0aWxHb09RRjZPY3lBeWJ1MlBFdU9kNzdPM3FsYWN5OFExS0xDRzFDXzl2aW9Ia3E0NHJxVDV3TFUtemlocVZQdkx3QlpUYi1VbkdEbmFkS0VCT0trcEdlSUxHYVRXOUdDWUNNRlVrcmF4dVlZc0J4TXlDWk5xZTlncmlINkx5VnM5bjZZM2NYaV94QVhPT1p5TzdiSFNvbXdUVU1pUQ?oc=5",
-     "title": "希慎利園八期年底落成 獲ZA Bank租用四層設新總部",
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnl0S1U1WFJ2VkVqX0l5ak5EZmphT3hqaGNzVlNfaEFtWnJydDNJelYtb0piOWxFUXBOSDJiRXZxXzllbHZKRGJRQzdNbmdValdGaURXY3ktNjI4T25rMDNyRk1DcFpZc2xtOElvTlJma29pVTRMSDJvRkFoVlBIbnJ2NjNIazE1akE?oc=5",
+     "title": "【數字銀行】ZA Bank總部2027遷利園八期 CEO：心情如睇兒子小學畢業",
      "date": "2026-09-09"
     },
     {
@@ -6090,7 +6229,7 @@
      "date": "2026-09-10"
     }
    ],
-   "verification": "Corroborated by 11 outlets",
+   "verification": "Corroborated by 12 outlets",
    "score": 13,
    "level": "HIGH",
    "thresholds": [
@@ -6104,7 +6243,7 @@
     "Mid-size space (45,000 sq ft) (+2)",
     "4 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 11 outlets (+1)"
+    "Reported by 12 outlets (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -6322,12 +6461,6 @@
      "date": "2026-08-24"
     },
     {
-     "name": "明報財經網",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONDJOT0lsSnRaeFN3Q3lQQl9ETVZpQUtvUThja2h6YWhyendhRHBfMkRObU9WZkJaYldxRV8wRzVaS2NEVnAzejdCRkVaZlpuMFAzeUV2RWM3dXBQMzF1MF9XZzlBV2ZsVlNSTU1rN1kzSDBYejdPZ1hyeUpFNkdIOU5DMW93cnNkYTNxZVlIWmlEUWZ0c1VxdEhUaURRRTI3YkY0SnRVUnROV0oxcnRRSUlfck4zV0o2RUhpTGI0QzYzV0lrYm1WVnhOUmQtQk9URUc1ellHWEFhblpKTUJTMGtQUS1GMmdianMzMzYyblFqVGw3alB5UQ?oc=5",
-     "title": "AXA進駐IGC近10萬呎樓面 租期10年",
-     "date": "2026-08-24"
-    },
-    {
      "name": "on.cc東網",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNHdWd0VHaUQwMmtQajJHVXZiUjhXT2psUU5DMGZPSEQxZ2EyaDJyNDJnVDRtR2JCVGdDYl8wS3pIeGQ0NGNsWk5MYUVBVG5nMFBweXdIZ3NJYUJWb3JEd1hBQjl4Y2Z6b2FxUHViclQyZXlVcE5yVFlzU00tRzBfWV9SZFF6cXBPeEwtRG5RWQ?oc=5",
      "title": "AXA安盛承租新地高鐵站上蓋商廈IGC兩層半 租期10年",
@@ -6352,7 +6485,7 @@
      "date": "2026-08-25"
     }
    ],
-   "verification": "Corroborated by 6 outlets",
+   "verification": "Corroborated by 5 outlets",
    "score": 11,
    "level": "HIGH",
    "thresholds": [
@@ -6365,7 +6498,7 @@
     "Large space (100,000 sq ft) (+3)",
     "2 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 6 outlets (+1)"
+    "Reported by 5 outlets (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -6529,60 +6662,66 @@
    "is_new": false
   },
   {
-   "id": "35883ad46a0a",
+   "id": "2c0b13063293",
    "kind": "property",
-   "headline": "METiS TechBio relocates corporate headquarters to Nexxus Building Hong Kong",
+   "headline": "Qatar Airways Cargo relocates regional office to Hong Kong",
    "date": "2026-08-20",
-   "first_reported": "2026-08-20",
+   "first_reported": "2026-08-19",
    "month": "2026-08",
-   "company": "METiS TechBio",
+   "company": "Qatar Airways Cargo",
    "types": [
-    "New HQ",
-    "Relocation"
+    "Relocation",
+    "New HQ"
    ],
-   "type": "New HQ",
+   "type": "Relocation",
    "building": "",
    "landlords": [],
    "area": "Hong Kong (district not stated)",
    "grade": "Not stated",
    "sectors": [
-    "Facility Management & Real Estate"
+    "Logistics & Supply Chain"
    ],
-   "sector": "Facility Management & Real Estate",
+   "sector": "Logistics & Supply Chain",
    "size": null,
    "size_txt": "",
    "floors": null,
    "floors_txt": "",
    "lang": "en",
-   "who": "Landlords' asset & property managers, building management offices, FM companies",
-   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
+   "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
+   "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
    "actions": [
-    "Find METiS TechBio's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Find Qatar Airways Cargo's workplace / facilities / office-admin lead in Hong Kong (links below).",
     "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
     "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
+    "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
     "Update Status here after each contact so the team can see progress."
    ],
    "links": [
     {
      "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=METiS%20TechBio%20Hong%20Kong%20facilities"
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Qatar%20Airways%20Cargo%20Hong%20Kong%20facilities"
     },
     {
      "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=METiS%20TechBio%20Hong%20Kong%20office%20address"
+     "url": "https://www.google.com/search?q=Qatar%20Airways%20Cargo%20Hong%20Kong%20office%20address"
     }
    ],
    "sources": [
     {
-     "name": "Vietnam Investment Review - VIR",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWFh1endEZ0Rzb3V1UXJyZEtSdkIyR1V0ck0yWkNBTEllRFpoTllobktPdzJWcEJXN1pPM2NQWVNTNEsxQXRYVEJ3bkJ5OTg5aDN2RFkzUW1xNm5yblhuNU1ZQ2F5WTlDN1dYR1h5UlJGSE4xVUpvOUNOdkNFVmY2ZjRKS3B1V3c1bzZUUEcwdklEdEFVQUxKS1BuVDdaNlNOWjFDbDY2bzI4QQ?oc=5",
-     "title": "METiS TechBio relocates corporate headquarters to Nexxus Building Hong Kong",
+     "name": "The Standard (HK)",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRy1pbFQ1MVRUcGRLOWZtanI3Z2hvLVF6TWNudlJiVzRuR0JVMnZGT2haVkxNa3pDRHZpX2pzeGRlQ0xDZHQ0d21lclRUb0UwTzA2YUpsREwySm93RWp5enI4Y1VJYl9pMF95bGxnZ2NJNC1YM1AzS1hhVVJhOXp6UEFvZ0swRU1uT2kycTRWMDZ4cld4WVJOQ0lMcFJrSk1vVUt4RFhlYjBjMUFEVmc?oc=5",
+     "title": "Qatar Airways Cargo relocates regional office to Hong Kong",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "Marketing-Interactive",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWpGRXlWTldHRWstcEFmYlQtcDU2bG1nVXEtRVdaTS1Mb0VNMEp0bDhSaS1kd1RQQlN5dWZhLTRmcXppdDZFYXF1ZFdNS3hKakhGcU5vcnlXUU9DZ2Iyc1RxNG9hR01TcFFCUzZERDdwemFObGlNWUVXSEt0dTBIa2lzUXBDT3YtSkdFNk5TM1BjTFkyUUdz?oc=5",
+     "title": "Qatar Airways Cargo relocates regional HQ to Hong Kong",
      "date": "2026-08-20"
     }
    ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 5,
+   "verification": "Corroborated by 2 outlets",
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     8,
@@ -6590,7 +6729,8 @@
    ],
    "reasons": [
     "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)"
+    "Move-in: new premises need security systems (+2)",
+    "Reported by 2 outlets (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -6598,9 +6738,9 @@
     "kind:property",
     "move:New HQ",
     "move:Relocation",
-    "sector:Facility Management & Real Estate"
+    "sector:Logistics & Supply Chain"
    ],
-   "first_seen": "2026-10-30T07:01:34+08:00",
+   "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
   },
   {
@@ -6708,12 +6848,6 @@
      "date": "2026-08-19"
     },
     {
-     "name": "香港文匯報",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4V3lSblp1VGlUUkwwY1JRNjVLUkltRUJWTXdBVDY5ZmdfVENJNnVROUxaWnJ4ZHNjZmhGMWt3LTdWTVB0RmZRU0tMMGh6aHpHVHpJamFGWDREdjdhcHJoRWFmUnMxZnhkOE1wVDctVGFLLTJ6LTJn?oc=5",
-     "title": "保誠與太古簽新租約擴充太古坊香港總部辦公空間- 地產",
-     "date": "2026-08-19"
-    },
-    {
      "name": "香港經濟日報HKET",
      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPSGpudHJuUHpEZXdEMmRwdTQwcUhhaXBUb0hJaUo1ZW5FTnFuZ2pFbmFFLVl5UnJsNVBFZXBVQlNnTE9maWx0UndfYTNLbXVETlY4ZFN3Vk96SmRtWWlicWRuUXZzMFl2a0lIdjdmM2ZpeVZ1M1RMam9tLU9zODdRUUVLbV9jQ3pZcmpVNmNraU8yUWVLRS1YX1pFVVF0SjVxOF9XSW5yVEdPdHRQUmtyRVp4RW1oR2RONzU3eDVQbTF1bGk0dm5OM0tkc1owQ2pjRHFWdDljLWN3NVMzZG9fdnBlUzI2Skt4N01DXzd5N2syT3djVUUtcFI2TVc2c2lnUDN1SVZpNVRDbHNC?oc=5",
      "title": "保誠擴租太古坊 香港總部增至8.3萬呎",
@@ -6755,73 +6889,60 @@
    "is_new": false
   },
   {
-   "id": "2c0b13063293",
+   "id": "35883ad46a0a",
    "kind": "property",
-   "headline": "Qatar Airways Cargo relocates regional office to Hong Kong",
+   "headline": "METiS TechBio relocates corporate headquarters to Nexxus Building Hong Kong",
    "date": "2026-08-20",
-   "first_reported": "2026-08-19",
+   "first_reported": "2026-08-20",
    "month": "2026-08",
-   "company": "Qatar Airways Cargo",
+   "company": "METiS TechBio",
    "types": [
-    "Relocation",
     "New HQ",
-    "New office"
+    "Relocation"
    ],
-   "type": "Relocation",
+   "type": "New HQ",
    "building": "",
    "landlords": [],
    "area": "Hong Kong (district not stated)",
    "grade": "Not stated",
    "sectors": [
-    "Logistics & Supply Chain"
+    "Facility Management & Real Estate"
    ],
-   "sector": "Logistics & Supply Chain",
+   "sector": "Facility Management & Real Estate",
    "size": null,
    "size_txt": "",
    "floors": null,
    "floors_txt": "",
    "lang": "en",
-   "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
-   "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
+   "who": "Landlords' asset & property managers, building management offices, FM companies",
+   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
    "actions": [
-    "Find Qatar Airways Cargo's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Find METiS TechBio's workplace / facilities / office-admin lead in Hong Kong (links below).",
     "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
     "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
+    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
     "Update Status here after each contact so the team can see progress."
    ],
    "links": [
     {
      "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=Qatar%20Airways%20Cargo%20Hong%20Kong%20facilities"
+     "url": "https://www.linkedin.com/search/results/people/?keywords=METiS%20TechBio%20Hong%20Kong%20facilities"
     },
     {
      "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=Qatar%20Airways%20Cargo%20Hong%20Kong%20office%20address"
+     "url": "https://www.google.com/search?q=METiS%20TechBio%20Hong%20Kong%20office%20address"
     }
    ],
    "sources": [
     {
-     "name": "The Standard (HK)",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRy1pbFQ1MVRUcGRLOWZtanI3Z2hvLVF6TWNudlJiVzRuR0JVMnZGT2haVkxNa3pDRHZpX2pzeGRlQ0xDZHQ0d21lclRUb0UwTzA2YUpsREwySm93RWp5enI4Y1VJYl9pMF95bGxnZ2NJNC1YM1AzS1hhVVJhOXp6UEFvZ0swRU1uT2kycTRWMDZ4cld4WVJOQ0lMcFJrSk1vVUt4RFhlYjBjMUFEVmc?oc=5",
-     "title": "Qatar Airways Cargo relocates regional office to Hong Kong",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdUY2cFJHem5MMjVXeVZWWkNtdldhQWN6MmxTbE5fVUV6MW04eWlmaXNtSmhyYTFiclZKNlBFMDJNcVFZUGhKTDI1ZUdIRkw5R0JITFlubUVlUXNnYnVJY3VwVFd3bHhlcDlUVEJiTzFFdTNhQlgzNFNVT0NtcDhtUEtqdld5UUhUNnUtaGpFWDEwRlZWM1M1N005UFh5UExRam5CNEkzQU9sNXRMMU5hLUdzb1dZVEJwejhOc2I4eGtUaUVxNmNMc18wT2NybDUxMjhYeTJSN29UVDY1N1NIUDV2WFlGd9IB5gFBVV95cUxNWFZkOWo5SXoxNWNhN1RVdXk1Z1I1VDByZGpHVmZuSDVoWmNMRS1Qdjd5c3pCM2NzUjljeEtRVkpzZWg1UlhJaUFTb3pKLS1CMHV1N2FPdU1QZURhQ0JfMngxbEdpZWphS19ZNkl2UUttb0NqZDh5LWRrME9qU3pkZVRhcGVweXRvX1M4T2VUYTRHTldVRDlBU0Z6VmlCNmhhVzYwOW56dlVBdGI0bmhQeFFZSTBZYU1GNkxMMkFoYnVGbm4wYXh5Ym5fLWNUWW0zM181bEdLWHFtNDJLeV9KNmFSY0NJUQ?oc=5",
-     "title": "Mable Chan uses Qatar Airways office opening to drop Central Asia route reveal",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "Marketing-Interactive",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaWpGRXlWTldHRWstcEFmYlQtcDU2bG1nVXEtRVdaTS1Mb0VNMEp0bDhSaS1kd1RQQlN5dWZhLTRmcXppdDZFYXF1ZFdNS3hKakhGcU5vcnlXUU9DZ2Iyc1RxNG9hR01TcFFCUzZERDdwemFObGlNWUVXSEt0dTBIa2lzUXBDT3YtSkdFNk5TM1BjTFkyUUdz?oc=5",
-     "title": "Qatar Airways Cargo relocates regional HQ to Hong Kong",
+     "name": "Vietnam Investment Review - VIR",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWFh1endEZ0Rzb3V1UXJyZEtSdkIyR1V0ck0yWkNBTEllRFpoTllobktPdzJWcEJXN1pPM2NQWVNTNEsxQXRYVEJ3bkJ5OTg5aDN2RFkzUW1xNm5yblhuNU1ZQ2F5WTlDN1dYR1h5UlJGSE4xVUpvOUNOdkNFVmY2ZjRKS3B1V3c1bzZUUEcwdklEdEFVQUxKS1BuVDdaNlNOWjFDbDY2bzI4QQ?oc=5",
+     "title": "METiS TechBio relocates corporate headquarters to Nexxus Building Hong Kong",
      "date": "2026-08-20"
     }
    ],
-   "verification": "Corroborated by 3 outlets",
-   "score": 6,
+   "verification": "Single outlet: open source to confirm",
+   "score": 5,
    "level": "MEDIUM",
    "thresholds": [
     8,
@@ -6829,19 +6950,17 @@
    ],
    "reasons": [
     "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)",
-    "Reported by 3 outlets (+1)"
+    "Move-in: new premises need security systems (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
     "grade:Not stated",
     "kind:property",
     "move:New HQ",
-    "move:New office",
     "move:Relocation",
-    "sector:Logistics & Supply Chain"
+    "sector:Facility Management & Real Estate"
    ],
-   "first_seen": "2026-10-12T01:08:09+08:00",
+   "first_seen": "2026-10-30T07:01:34+08:00",
    "is_new": false
   },
   {
@@ -7401,7 +7520,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "85badb628536",
@@ -7452,7 +7571,7 @@
    "sources": [
     {
      "name": "香港01",
-     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE44c2tvS1R5ejBpOElmU3pkRzhZdDVjTWNVbC1uNEt0cnV1LTl4ZHIwYW8wUkhGeUNLNF9aeWZKeHY1SHlPYlFBSDQzUGt0UQ?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxQTS13cGNycHIxdzNCaVVmY0dtZnhfMFduN0pPcG8xNkpzQTZHQjRnM1dmTjhKWVF1aE9LWm9rcjJuZHczZ0NBelFTZzM1NFozaXRPRTd0dXRteVJtVGx5dGxxLUwydnJFOFg3ZXp2WXhXdG1qYkZSSFYtSEloR3RjcDQtQWZTTkRYQ2M5cnlzSXVwTVZzWC1JRkVQNUZSaFpmXzJscHBXV3JwR0xrOVQ5VlEtbjhvbjZsQXplb3ZaZ2FXb2ZCU0FjZmRzMjZmQkQtdnI3dm90VHNKWVNMaVN2MFk3SWJwY0I3MDhEUkMzRVRxLVAxaGNvYWVFZi10a2Z5YnQ0bjNpWHRMeVJyZFhaSzBGXzJqSHktU2F5cFk0UmYtN2hlTWdoNkhSRzh6WEtKRGk4UDlBTFZKMldyVWhGZ0gyS1lST1JsZUJrNWNnb2Y4Qk1jcGxnUERfdzkxN1pvVHlLbUx4TEVndHlucEMtZzB1d2RHcDNCN3Q5Qllhc2RJVFNJTEdtRGNUUWpsb2RKRGtqSjQyUjlHQVl0T3NhUzlId1ozQ01NMmdfRw?oc=5",
      "title": "華僑銀行3900萬沽屯門工廈全層 揸20年造價翻兩倍！藥業巨頭接貨",
      "date": "2026-10-30"
     }
@@ -7480,86 +7599,7 @@
     "usage:Commercial / industrial"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
-  },
-  {
-   "id": "94221ea6fc11",
-   "kind": "transaction",
-   "date": "2026-10-30",
-   "month": "2026-10",
-   "group": "Kowloon / N.T.",
-   "deal": "Sale",
-   "usage": "Office",
-   "district": "",
-   "building": "",
-   "building_zh": "",
-   "floor": "",
-   "unit": "",
-   "area_sqft": null,
-   "area_txt": "",
-   "price": null,
-   "price_txt": "23億",
-   "psf": "",
-   "record_source": "News",
-   "party": "港區人大",
-   "party_source": "per news report",
-   "premises": "See headline",
-   "line": "港區人大 - 領展23億沽旺角T.O.P全幢商廈 10年勁蝕36億 港區人大接貨|香港經濟日報",
-   "area": "Mong Kok / Yau Ma Tei",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing",
-   "actions": [
-    "Buyer named in news: 港區人大. Find their facilities / admin lead (links below).",
-    "Confirm the floor / unit from the article, then contact the building management office for the fit-out timeline.",
-    "Pitch: CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=%E6%B8%AF%E5%8D%80%E4%BA%BA%E5%A4%A7%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=%E6%B8%AF%E5%8D%80%E4%BA%BA%E5%A4%A7%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "地產站",
-     "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPSTg2ZGlNRklfN3NuYXE4NnBsdWR1dGs2bG1oUE5fclBIS3RJUEpvZTJLalh1TXpaX3oyTVNUZEdQV0Zyc0E4MWJnTnhCVTNLN3YyREJoUElHNDNNbGVFN0U5aXZ2YnU4RXFSenMwTE84RHlwb3lfZnNCTVA0anFSNllBbjZ6M2tyZ1l6SXl0VTRjWWhBX0ZsQnVocmd6SEwydXcyaXR0Q094cHpiaDdLdkNJZTkxc3BNMVN5aG40Tlp6ZTgwb2x2X1VodkRvdUVRZS14MVJkdVBSLVJFV0pwaXQ4S2pJZE1YbjhTdTJwTnB2Vm9rdGs0OS1Rc0ZtbEpMdW5BdFVkd0pQd0hxbXJabHZvejczS24wdVJQeWRaOVptcWRFVXRtb2pTNDRhZVN6S0M0OVF3czlvTU5vbnNmRm5QZzd0T3JJaGdZZVJLNXNqOUhqWnFJNUFlV1liQUE?oc=5",
-     "title": "領展23億沽旺角T.O.P全幢商廈 10年勁蝕36億 港區人大接貨|香港經濟日報",
-     "date": "2026-10-30"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Deal reported in news (+2)",
-    "Buyer / tenant named in a news report (+2)"
-   ],
-   "features": [
-    "area:Mong Kok / Yau Ma Tei",
-    "deal:Sale",
-    "kind:transaction",
-    "party:named",
-    "record:News",
-    "region:Kowloon / N.T.",
-    "sector:Facility Management & Real Estate",
-    "size:m",
-    "usage:Office"
-   ],
-   "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "658091d2aad8",
@@ -7644,7 +7684,7 @@
     "usage:Office / commercial"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "33783eb444a0",
@@ -7724,7 +7764,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "97283df6d959",
@@ -7803,7 +7843,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "63e4afdaed38",
@@ -8925,7 +8965,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "584e8afd4681",
@@ -9581,7 +9621,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "c84bd3552375",
@@ -9984,7 +10024,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "50628b38882e",
@@ -10073,7 +10113,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5796d7e13ebc",
@@ -10154,7 +10194,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "14ec7ec9281b",
@@ -12431,7 +12471,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "bc82c4080ced",
@@ -15485,87 +15525,6 @@
    "is_new": false
   },
   {
-   "id": "7957809aa122",
-   "kind": "transaction",
-   "date": "2026-08-31",
-   "month": "2026-08",
-   "group": "Kowloon / N.T.",
-   "deal": "Sale",
-   "usage": "Industrial",
-   "district": "Kwun Tong",
-   "building": "New East Sun Industrial Building",
-   "building_zh": "新怡生工業大廈",
-   "floor": "08/F",
-   "unit": "W/F",
-   "area_sqft": 16000,
-   "area_txt": "16,000 ft² approx",
-   "price": 35000000.0,
-   "price_txt": "HK$35.0M",
-   "psf": "@2,188",
-   "record_source": "Land Search",
-   "party": "",
-   "party_source": "",
-   "premises": "08/F Unit W/F, New East Sun Industrial Building",
-   "line": "Buyer not named - 08/F Unit W/F, New East Sun Industrial Building (Bought for HK$35.0M)",
-   "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
-   "sectors": [
-    "Logistics & Supply Chain"
-   ],
-   "sector": "Logistics & Supply Chain",
-   "who": "",
-   "pitch": "Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol",
-   "actions": [
-    "Get the buyer's name from a Land Registry search (IRIS Online, small fee) on New East Sun Industrial Building 08/F W/F.",
-    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
-    "Contact New East Sun Industrial Building's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/industrial/kowloon-kwun-tong-new-east-sun-industrial-building/detail/2800400150/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Land Search)",
-     "url": "https://oir.centanet.com/en/transaction/all/industrial/kowloon-kwun-tong-new-east-sun-industrial-building/detail/2800400150/",
-     "title": "",
-     "date": "2026-08-31"
-    }
-   ],
-   "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Purchase HK$35.0M (+2)",
-    "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
-   ],
-   "features": [
-    "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
-    "deal:Sale",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Land Search",
-    "region:Kowloon / N.T.",
-    "sector:Logistics & Supply Chain",
-    "size:l",
-    "usage:Industrial"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
    "id": "362fa6f440e8",
    "kind": "transaction",
    "date": "2026-08-28",
@@ -15728,7 +15687,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d1db0b1927b1",
@@ -15810,7 +15769,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "ba03867800a6",
@@ -15891,7 +15850,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b3dcc26d3db7",
@@ -15971,7 +15930,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3c00c14b08ab",
@@ -16220,9 +16179,9 @@
    "is_new": false
   },
   {
-   "id": "866bd3b953fa",
+   "id": "a31ab4224eec",
    "kind": "transaction",
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "month": "2026-10",
    "group": "HK Island",
    "deal": "Sale",
@@ -16270,7 +16229,7 @@
      "name": "Yahoo 財經",
      "url": "https://news.google.com/rss/articles/CBMiugNBVV95cUxNTzBVdFZNckZaR1FwLWpKZnF4UGo0XzRPeTVzbkVqTWtjdHN6Z0VlbjVBZmxyZGxPZVZ2aXRkdXY0WEtnQUNBZXpHNWJBOUMyQlBEdk9QWHEycDFnQUtDV3I4R2dnaElCd1hSeVB2UTB6QUV6QVNwa2p1TUd1ZVE5WHl2cm0tY1NzZmJseE84Y0NfSHNLNU1pYUJJUEdrSVdVNUhhQ1k4dDVyUWJITGwtQlFTbVJHOEdTaml4ZGlBbzhSdFIzZzNTQmYyS3hwLXRMVHdjcldsTFFKNWdicDVReHkyeVBYejUxLWdaRkpCMVJzZG5mSHJ0MnpweEdKS3ZfbUxyS3hiQUw2UXFVWVkyZFBFOGRDbEpUYklCWV83c0xGZlJ3V1NuU3o0SWNqYmR0S0N5ekFfekRNUVVwc1pNU0xxNHpwR2pfM0lKTVhDSHF0RWNjYjF0MHhCZzlHaHRiU1Fvb1o1ZjNTcWJmWGNYOUR4Y1NSN0c2ekQ5bm5wZDduNXQ1RTVKYTRaYUJjVnhZTmRlOFdKS3NMYXdkVUxyQVNpbXJ3MldIODdLS242ZmEteU1rUmVhSmh3?oc=5",
      "title": "明星入市｜郭富城628萬購柴灣工廈 比較隔籬張智霖3年前買入單位平4成",
-     "date": "2026-10-22"
+     "date": "2026-10-23"
     }
    ],
    "verification": "Single outlet: open source to confirm",
@@ -16295,8 +16254,8 @@
     "size:m",
     "usage:Commercial / industrial"
    ],
-   "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "first_seen": "2026-10-29T06:59:33+08:00",
+   "is_new": false
   },
   {
    "id": "a97a2af5a786",
@@ -20060,7 +20019,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "a8a83ea7a154",
@@ -20143,7 +20102,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5ff829283c59",
@@ -21794,7 +21753,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b58a29171656",
@@ -23810,13 +23769,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"Grade A\" office tenant",
    "ok": true,
-   "count": 9
+   "count": 24
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"regional headquarters\" office opens OR relocates",
    "ok": true,
-   "count": 28
+   "count": 26
   },
   {
    "group": "Property",
@@ -23828,13 +23787,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 44
+   "count": 42
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 36
+   "count": 27
   },
   {
    "group": "Property",
@@ -23846,37 +23805,37 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 14
+   "count": 11
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 75
+   "count": 32
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 9
+   "count": 12
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Nippon Express\" \"Hong Kong\" office OR warehouse OR relocate OR opens",
    "ok": true,
-   "count": 9
+   "count": 8
   },
   {
    "group": "Property",
    "name": "News search (EN): \"new Hong Kong office\"",
    "ok": true,
-   "count": 11
+   "count": 10
   },
   {
    "group": "Property",
    "name": "News search (EN): \"opens Hong Kong office\"",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   {
    "group": "Property",
@@ -23888,7 +23847,7 @@
    "group": "Property",
    "name": "News search (EN): asianinvestor.net",
    "ok": true,
-   "count": 86
+   "count": 80
   },
   {
    "group": "Property",
@@ -23900,13 +23859,13 @@
    "group": "Property",
    "name": "News search (EN): businesswire.com",
    "ok": true,
-   "count": 72
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (EN): campaignasia.com",
    "ok": true,
-   "count": 67
+   "count": 45
   },
   {
    "group": "Property",
@@ -23930,7 +23889,7 @@
    "group": "Property",
    "name": "News search (EN): globenewswire.com",
    "ok": true,
-   "count": 100
+   "count": 59
   },
   {
    "group": "Property",
@@ -23948,13 +23907,13 @@
    "group": "Property",
    "name": "News search (EN): insideretail.asia",
    "ok": true,
-   "count": 24
+   "count": 72
   },
   {
    "group": "Property",
    "name": "News search (EN): law.com",
    "ok": true,
-   "count": 66
+   "count": 100
   },
   {
    "group": "Property",
@@ -23966,7 +23925,7 @@
    "group": "Property",
    "name": "News search (EN): news.gov.hk",
    "ok": true,
-   "count": 60
+   "count": 100
   },
   {
    "group": "Property",
@@ -23978,7 +23937,7 @@
    "group": "Property",
    "name": "News search (EN): prnewswire.com",
    "ok": true,
-   "count": 74
+   "count": 69
   },
   {
    "group": "Property",
@@ -24008,13 +23967,13 @@
    "group": "Property",
    "name": "News search (EN): therealdeal.com",
    "ok": true,
-   "count": 59
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (EN): thestandard.com.hk",
    "ok": true,
-   "count": 100
+   "count": 23
   },
   {
    "group": "Property",
@@ -24026,7 +23985,7 @@
    "group": "Property",
    "name": "News search (EN): w.media",
    "ok": true,
-   "count": 7
+   "count": 8
   },
   {
    "group": "Property",
@@ -24050,13 +24009,13 @@
    "group": "Property",
    "name": "News search (中文): dotdotnews.com",
    "ok": true,
-   "count": 42
+   "count": 43
   },
   {
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 47
+   "count": 34
   },
   {
    "group": "Property",
@@ -24068,55 +24027,55 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 26
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (中文): hkej.com",
    "ok": true,
-   "count": 51
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (中文): hket.com",
    "ok": true,
-   "count": 75
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (中文): i-cable.com",
    "ok": true,
-   "count": 12
+   "count": 13
   },
   {
    "group": "Property",
    "name": "News search (中文): mingpao.com",
    "ok": true,
-   "count": 95
+   "count": 88
   },
   {
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 64
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (中文): on.cc",
    "ok": true,
-   "count": 71
+   "count": 70
   },
   {
    "group": "Property",
    "name": "News search (中文): orangenews.hk",
    "ok": true,
-   "count": 56
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (中文): stheadline.com",
    "ok": true,
-   "count": 74
+   "count": 70
   },
   {
    "group": "Property",
@@ -24134,7 +24093,7 @@
    "group": "Property",
    "name": "News search (中文): wenweipo.com",
    "ok": true,
-   "count": 67
+   "count": 100
   },
   {
    "group": "Property",
@@ -24146,19 +24105,19 @@
    "group": "Property",
    "name": "News search (中文): 商廈 樓層 成交 億",
    "ok": true,
-   "count": 23
+   "count": 18
   },
   {
    "group": "Property",
    "name": "News search (中文): 寫字樓 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 70
+   "count": 34
   },
   {
    "group": "Property",
    "name": "News search (中文): 工廈 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 24
+   "count": 57
   },
   {
    "group": "Property",
@@ -24170,37 +24129,37 @@
    "group": "Property",
    "name": "News search (中文): 租客為 寫字樓 OR 商廈",
    "ok": true,
-   "count": 53
+   "count": 52
   },
   {
    "group": "Property",
    "name": "News search (中文): 租用 甲廈 平方呎",
    "ok": true,
-   "count": 30
+   "count": 9
   },
   {
    "group": "Property",
    "name": "News search (中文): 萬購 全層 自用",
    "ok": true,
-   "count": 21
+   "count": 22
   },
   {
    "group": "Property",
    "name": "News search (中文): 註冊處資料顯示 買家 有限公司",
    "ok": true,
-   "count": 16
+   "count": 27
   },
   {
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 40
+   "count": 17
   },
   {
    "group": "Property",
    "name": "News search (中文): 進駐 甲廈 樓面",
    "ok": true,
-   "count": 9
+   "count": 26
   },
   {
    "group": "Property",
@@ -24212,7 +24171,7 @@
    "group": "Property",
    "name": "News search (中文): 香港 寫字樓 搬遷",
    "ok": true,
-   "count": 15
+   "count": 17
   },
   {
    "group": "Property",
@@ -24230,7 +24189,7 @@
    "group": "Transactions",
    "name": "Centaline Commercial transaction register",
    "ok": true,
-   "count": 2283
+   "count": 2251
   },
   {
    "group": "Transactions",

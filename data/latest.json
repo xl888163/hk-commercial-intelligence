@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T07:01:56+08:00",
+ "generated": "2026-11-04T07:08:20+08:00",
  "property_days": 90,
  "events": [
   {
@@ -22,10 +22,10 @@
    "access": "Not stated in listing",
    "audience": "Business / investors (InvestHK listing)",
    "category": "Business event",
-   "organiser": "Invest Hong Kong",
+   "organiser": "",
    "organiser_url": "",
-   "contact_phone": "(852) 3107 1000",
-   "contact_email": "enq@investhk.gov.hk",
+   "contact_phone": "",
+   "contact_email": "",
    "lead_types": [
     "Prospect networking",
     "Senior networking"
@@ -42,13 +42,9 @@
     {
      "name": "InvestHK events (HKSAR Gov)",
      "url": "https://www.investhk.gov.hk/en/events/hong-kong-fintech-week-x-startmeuphk-2026/"
-    },
-    {
-     "name": "HKCEC event calendar",
-     "url": "http://fintechweek.hk"
     }
    ],
-   "verification": "Official listing · 2 sources",
+   "verification": "Official listing",
    "score": 2,
    "level": "LOW",
    "thresholds": [
@@ -134,74 +130,6 @@
     "venue:major"
    ],
    "first_seen": "2026-11-01T06:56:38+08:00",
-   "is_new": false
-  },
-  {
-   "id": "a315bbf342bb",
-   "kind": "event",
-   "name": "Leading the Frontier: Female Tech Leaders Shaping the Future of Finance",
-   "start": "2026-11-03",
-   "end": "2026-11-03",
-   "month": "2026-11",
-   "months": [
-    "2026-11"
-   ],
-   "time": "",
-   "venue": "",
-   "area": "Hong Kong (district not stated)",
-   "sectors": [
-    "AI & Technology",
-    "Finance & Professional Services"
-   ],
-   "sector": "Finance & Professional Services",
-   "access": "Chamber registration (member / guest)",
-   "audience": "Chamber members & guests",
-   "category": "Chamber event",
-   "organiser": "Hong Kong General Chamber of Commerce",
-   "organiser_url": "",
-   "contact_phone": "",
-   "contact_email": "",
-   "lead_types": [
-    "Prospect networking",
-    "Senior networking"
-   ],
-   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
-   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
-   "actions": [
-    "Book through the chamber now (event is close) (member rate if Securitas is a member).",
-    "Target in the room: Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms.",
-    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
-    "Follow up within 3 working days after 3 Nov 2026 and log contacts here."
-   ],
-   "sources": [
-    {
-     "name": "HKGCC events",
-     "url": "https://www.chamber.org.hk/en/events/whatson_detail.aspx?e_code=S261103VC"
-    }
-   ],
-   "verification": "Official listing",
-   "score": 5,
-   "level": "MEDIUM",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Buyers in a Securitas sector: Finance & Professional Services (+3)",
-    "Several target sectors present (+1)",
-    "Senior decision-makers in the room (+2)",
-    "Team feedback on similar items: -0.4 level on average across 27 re-ratings (-1)"
-   ],
-   "features": [
-    "access:Chamber registration (member / guest)",
-    "area:Hong Kong (district not stated)",
-    "kind:event",
-    "lead:Prospect networking",
-    "lead:Senior networking",
-    "sector:Finance & Professional Services",
-    "venue:other"
-   ],
-   "first_seen": "2026-10-12T23:09:34+08:00",
    "is_new": false
   },
   {
@@ -2516,7 +2444,7 @@
    "audience": "Public",
    "category": "Exhibition / conference",
    "organiser": "The Hong Kong Council of Social Service",
-   "organiser_url": "?filter_keyword=&field_event_start_date_value=%2B0%20day&field_event_end_date_value=%2B1%20year&page=3",
+   "organiser_url": "",
    "contact_phone": "28642929",
    "contact_email": "gies.info@hkcss.org.hk",
    "lead_types": [
@@ -3512,6 +3440,76 @@
    "is_new": false
   },
   {
+   "id": "9e5a86f618f3",
+   "kind": "event",
+   "name": "Hong Kong International Diamond, Gem & Pearl Show",
+   "start": "2027-03-02",
+   "end": "2027-03-06",
+   "month": "2027-03",
+   "months": [
+    "2027-03"
+   ],
+   "time": "",
+   "venue": "AsiaWorld-Expo",
+   "area": "Lantau / Airport",
+   "sectors": [
+    "Luxury & HNW Goods"
+   ],
+   "sector": "Luxury & HNW Goods",
+   "access": "Not stated in listing",
+   "audience": "Business / investors (InvestHK listing)",
+   "category": "Business event",
+   "organiser": "",
+   "organiser_url": "",
+   "contact_phone": "",
+   "contact_email": "",
+   "lead_types": [
+    "Prospect networking",
+    "HNW clients & artwork protection",
+    "Exhibitor & organiser partnership"
+   ],
+   "who": "Collectors and high-net-worth visitors, galleries, auction houses, art logistics & storage firms, jewellery & watch houses, family offices, private banks",
+   "pitch": "Artwork & collection protection (high-grade alarms, CCTV, access control for galleries, vaults and private residences), VIP / executive protection, secure exhibition guarding, Pinkerton due diligence for family offices",
+   "actions": [
+    "Register / plan attendance by 23 Feb 2027.",
+    "Before the fair, shortlist exhibitors and visitors from: Collectors and high-net-worth visitors, galleries, auction houses, art logistics & storage firms, jewellery & watch houses, family offices, private banks. Book 3-5 meetings.",
+    "Pitch: Artwork & collection protection (high-grade alarms, CCTV, access control for galleries, vaults and private residences), VIP / executive protection, secure exhibition guarding, Pinkerton due diligence for family offices.",
+    "Partnership: ask the organiser about official security partner / sponsor packages, and offer exhibitors booth security, high-value item guarding and alarm/CCTV for the show period.",
+    "Follow up within 3 working days after 6 Mar 2027 and log contacts here."
+   ],
+   "sources": [
+    {
+     "name": "InvestHK events (HKSAR Gov)",
+     "url": "https://www.investhk.gov.hk/en/events/hong-kong-international-diamond-gem-pearl-show-2027/"
+    }
+   ],
+   "verification": "Official listing",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Buyers in a Securitas sector: Luxury & HNW Goods (+5)",
+    "Exhibitors / organiser are potential partners (+1)",
+    "Large trade exhibition: many exhibitors to prospect (+1)",
+    "Team feedback on similar items: -0.3 level on average across 50 re-ratings (-1)"
+   ],
+   "features": [
+    "access:Not stated in listing",
+    "area:Lantau / Airport",
+    "kind:event",
+    "lead:Exhibitor & organiser partnership",
+    "lead:HNW clients & artwork protection",
+    "lead:Prospect networking",
+    "sector:Luxury & HNW Goods",
+    "venue:major"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
+   "is_new": true
+  },
+  {
    "id": "fc81949f3058",
    "kind": "event",
    "name": "HKTDC Hong Kong International Jewellery Show (香港貿發局香港國際珠寶展)",
@@ -3622,9 +3620,13 @@
     {
      "name": "HKCEC event calendar",
      "url": "https://hkfilmart.hktdc.com/conference/hkfilmart/en"
+    },
+    {
+     "name": "InvestHK events (HKSAR Gov)",
+     "url": "https://www.investhk.gov.hk/en/events/hong-kong-international-film-and-tv-market-2027/"
     }
    ],
-   "verification": "Official listing",
+   "verification": "Official listing · 2 sources",
    "score": 2,
    "level": "LOW",
    "thresholds": [
@@ -4465,7 +4467,7 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "431e4e85aabe",
@@ -4545,6 +4547,80 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
+   "is_new": false
+  },
+  {
+   "id": "ce70272bc49f",
+   "kind": "property",
+   "headline": "ClearVue Opens Hong Kong Office to Expand Regional Solar Building Solutions",
+   "date": "2026-11-02",
+   "first_reported": "2026-11-02",
+   "month": "2026-11",
+   "company": "ClearVue",
+   "types": [
+    "Expansion",
+    "New office"
+   ],
+   "type": "Expansion",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Energy & Environment"
+   ],
+   "sector": "Energy & Environment",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Utility, plant and green-facility managers",
+   "pitch": "Remote-site perimeter protection, mobile patrol, remote viewing",
+   "actions": [
+    "Find ClearVue's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
+    "Pitch: Remote-site perimeter protection, mobile patrol, remote viewing.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=ClearVue%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=ClearVue%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObzEtVHp3b18tcVFyRzJzLU1uR2MtRFktZWpWcWk3WWZ4OEhGV01VbFFCUTAyYUY0c1YwU0hqaVY5SzBMVDVXMF9zYWtJcmxSNU5FLWVKb2dlNGtNem1ndlRGZmkzRFlJY0sxN3ljVk1zNUJ4Y2tUNGxJNjNjQ0JuakVPV3FJQ1JuZW5Vb1NzcGZvRkRBSDZHN1l3cGVqaThheVRTcFhLZjlmTXk0MVBucTljOWE2alFUS3pqenFtSjlLcVloTHc?oc=5",
+     "title": "ClearVue Opens Hong Kong Office to Expand Regional Solar Building Solutions",
+     "date": "2026-11-02"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 2,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Expansion: extra floors to secure (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:Expansion",
+    "move:New office",
+    "sector:Energy & Environment"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
    "is_new": true
   },
   {
@@ -4618,7 +4694,7 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "68e5241d1f2c",
@@ -4692,7 +4768,7 @@
     "sector:Facility Management & Real Estate"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "3d7cb369139b",
@@ -4834,6 +4910,81 @@
    "features": [
     "area:Hong Kong (district not stated)",
     "grade:Not stated",
+    "kind:property",
+    "move:Relocation",
+    "sector:Finance & Professional Services"
+   ],
+   "first_seen": "2026-10-28T06:56:25+08:00",
+   "is_new": false
+  },
+  {
+   "id": "126b9b93bcee",
+   "kind": "property",
+   "headline": "廣發証券遷入IGC 近8萬呎月租400萬",
+   "date": "2026-10-26",
+   "first_reported": "2026-10-26",
+   "month": "2026-10",
+   "company": "GF Securities",
+   "types": [
+    "Relocation"
+   ],
+   "type": "Relocation",
+   "building": "IGC",
+   "landlords": [],
+   "area": "Tsim Sha Tsui / West Kowloon",
+   "grade": "Grade A building (named)",
+   "sectors": [
+    "Finance & Professional Services"
+   ],
+   "sector": "Finance & Professional Services",
+   "size": 80000,
+   "size_txt": "8萬呎",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "zh",
+   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
+   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
+   "actions": [
+    "Find GF Securities's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at IGC for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=GF%20Securities%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=GF%20Securities%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "大公文匯網",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lOWpNdlE4Z0JzcUVna1NxcWxnOTI1Z05oNWswOUd2enBZeHZPZWpObkplNEw5NTJFWlQ0aVJOZXZxX0RDM21TV1IyUi1QX0YtQW1CYm5HV3ZKZXFSNEtTa3c5V2JLQmxHS2c5UlYybTdNa3Jf?oc=5",
+     "title": "廣發証券遷入IGC 近8萬呎月租400萬",
+     "date": "2026-10-26"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 9,
+   "level": "HIGH",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Move-in: new premises need security systems (+2)",
+    "Grade A building: IGC (+2)",
+    "Large space (80,000 sq ft) (+3)",
+    "High-security tenant (finance / legal / luxury / data) (+2)"
+   ],
+   "features": [
+    "area:Tsim Sha Tsui / West Kowloon",
+    "grade:Grade A building (named)",
     "kind:property",
     "move:Relocation",
     "sector:Finance & Professional Services"
@@ -4986,6 +5137,159 @@
    "is_new": false
   },
   {
+   "id": "ab7fc5fc6e60",
+   "kind": "property",
+   "headline": "UBS weighs moving headquarters from Switzerland if capital rules tighten, WSJ reports",
+   "date": "2026-10-15",
+   "first_reported": "2026-10-15",
+   "month": "2026-10",
+   "company": "UBS",
+   "types": [
+    "New HQ",
+    "Relocation"
+   ],
+   "type": "New HQ",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Finance & Professional Services"
+   ],
+   "sector": "Finance & Professional Services",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
+   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
+   "actions": [
+    "Find UBS's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=UBS%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=UBS%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Standard (HK)",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNXM2RFpkN1VQNWYwS2Jqa2hDcGdfUzQzMzdVbkFLQmVQMkpDdWdSYlhwaUZfbi0wQVJXLWZGdkxrazNSVHFrYS16Q0piUGhMNHFiSHE5NjZuV2lmTjB3OUotOFF2eGxiTU5EYVdzNDNVZzNxTkZndGhQcTl1OUxYcVcydjRQOFJXLUYtWjMtQ0J6dUFJb2tCTC1OUjB3V1R0b3prMGdPYTNQeUxvSWtPWllJVVVXN2xlSzI4U2JVZkk5Q2RJaTF3bGk2bkZDeTU2Wlp3ZA?oc=5",
+     "title": "UBS weighs moving headquarters from Switzerland if capital rules tighten, WSJ reports",
+     "date": "2026-10-15"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 7,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "Move-in: new premises need security systems (+2)",
+    "High-security tenant (finance / legal / luxury / data) (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:New HQ",
+    "move:Relocation",
+    "sector:Finance & Professional Services"
+   ],
+   "first_seen": "2026-10-23T06:54:26+08:00",
+   "is_new": false
+  },
+  {
+   "id": "cb9bad70300b",
+   "kind": "property",
+   "headline": "眾安銀行預租4.5萬呎 將作新總部",
+   "date": "2026-10-14",
+   "first_reported": "2026-10-14",
+   "month": "2026-10",
+   "company": "ZA Bank",
+   "types": [
+    "New HQ",
+    "Lease / pre-lease"
+   ],
+   "type": "New HQ",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Finance & Professional Services"
+   ],
+   "sector": "Finance & Professional Services",
+   "size": 45000,
+   "size_txt": "4.5萬呎",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "zh",
+   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
+   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
+   "actions": [
+    "Find ZA Bank's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=ZA%20Bank%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=ZA%20Bank%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "香港經濟日報HKET",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVGpWWXM2VGtlbDBCZThjR3g2QmtfYUV1T2ZaRER3T1NId1NrN2xvLXdibjVLdWFXM2ZPbzdEc2UtclF2ZlRqNGJTd19WUFlmVnA1aGVXcmpmMFpKak5DNS13dWNvT0NxMUpZdWIxc0h3S05SOUk0WnNva24zTWlDbjM4UHNXcFR3LUJkbi1wTEFQNzRBTkE0MFdxeEhwT2dpZFlLcVZxdHg3X0VnSllORlNpMW5mLV92YVNZZFJGSW5jTzUzSjcyZkJkbXZtX3c2LWx5LXE4MEVoeFpFUTRRSHIxQjJzUG9Jc1pDUldHLUlBUmk5?oc=5",
+     "title": "眾安銀行預租4.5萬呎 將作新總部",
+     "date": "2026-10-14"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 9,
+   "level": "HIGH",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "Move-in: new premises need security systems (+2)",
+    "Mid-size space (45,000 sq ft) (+2)",
+    "High-security tenant (finance / legal / luxury / data) (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:Lease / pre-lease",
+    "move:New HQ",
+    "sector:Finance & Professional Services"
+   ],
+   "first_seen": "2026-10-14T06:51:54+08:00",
+   "is_new": false
+  },
+  {
    "id": "313452818aef",
    "kind": "property",
    "headline": "AIsphere Officially Opens Hong Kong Office at Cyberport, Building an AI Hub for the City",
@@ -5056,83 +5360,6 @@
     "sector:AI & Technology"
    ],
    "first_seen": "2026-10-13T23:38:54+08:00",
-   "is_new": false
-  },
-  {
-   "id": "cb9bad70300b",
-   "kind": "property",
-   "headline": "眾安銀行預租4.5萬呎 將作新總部",
-   "date": "2026-10-13",
-   "first_reported": "2026-10-13",
-   "month": "2026-10",
-   "company": "ZA Bank",
-   "types": [
-    "New HQ",
-    "Lease / pre-lease"
-   ],
-   "type": "New HQ",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Finance & Professional Services"
-   ],
-   "sector": "Finance & Professional Services",
-   "size": 45000,
-   "size_txt": "4.5萬呎",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "zh",
-   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
-   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
-   "actions": [
-    "Find ZA Bank's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=ZA%20Bank%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=ZA%20Bank%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "香港經濟日報HKET",
-     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVGpWWXM2VGtlbDBCZThjR3g2QmtfYUV1T2ZaRER3T1NId1NrN2xvLXdibjVLdWFXM2ZPbzdEc2UtclF2ZlRqNGJTd19WUFlmVnA1aGVXcmpmMFpKak5DNS13dWNvT0NxMUpZdWIxc0h3S05SOUk0WnNva24zTWlDbjM4UHNXcFR3LUJkbi1wTEFQNzRBTkE0MFdxeEhwT2dpZFlLcVZxdHg3X0VnSllORlNpMW5mLV92YVNZZFJGSW5jTzUzSjcyZkJkbXZtX3c2LWx5LXE4MEVoeFpFUTRRSHIxQjJzUG9Jc1pDUldHLUlBUmk5?oc=5",
-     "title": "眾安銀行預租4.5萬呎 將作新總部",
-     "date": "2026-10-13"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 9,
-   "level": "HIGH",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)",
-    "Mid-size space (45,000 sq ft) (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:Lease / pre-lease",
-    "move:New HQ",
-    "sector:Finance & Professional Services"
-   ],
-   "first_seen": "2026-10-14T06:51:54+08:00",
    "is_new": false
   },
   {
@@ -5284,6 +5511,81 @@
     "sector:Luxury & HNW Goods"
    ],
    "first_seen": "2026-10-12T23:09:34+08:00",
+   "is_new": false
+  },
+  {
+   "id": "cf499918aff0",
+   "kind": "property",
+   "headline": "港大10.6萬租美銀中心極高層",
+   "date": "2026-10-10",
+   "first_reported": "2026-10-10",
+   "month": "2026-10",
+   "company": "HKU",
+   "types": [
+    "Lease / pre-lease"
+   ],
+   "type": "Lease / pre-lease",
+   "building": "Bank of America Tower",
+   "landlords": [],
+   "area": "Admiralty",
+   "grade": "Grade A building (named)",
+   "sectors": [
+    "Education & Government",
+    "Finance & Professional Services"
+   ],
+   "sector": "Education & Government",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "zh",
+   "who": "Campus estates & security offices, school administrators, public-facility managers",
+   "pitch": "Campus guarding, visitor management, CCTV; track upcoming tenders",
+   "actions": [
+    "Find HKU's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at Bank of America Tower for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Campus guarding, visitor management, CCTV; track upcoming tenders.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=HKU%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=HKU%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "信報網站",
+     "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNTEpsVVJ5OGhyaDVlc1RkaFFMWWlmVjQwVjljMzlremp4YWplbm9qRFJHc0pJelJzOTd6QW1YS3pNWi0wemVlX3c5ZW0wVHhORFBqdDduWElVdTQ5VjlKc2xOWVU2Q1MzVXU5bEE0Y1hTdmNVa3R4MkFSUm1lZnBaTmk0MkVqR2ZaUFRsS3RnQUhOcFVrWGxIU2lsWkJVcUVnRWpFRlZjVnJGWmRObThTbi1VQjFNTGo1ZmJKbkF6TG1tRm11ZGhQT1JOY0hSN1RmUzZfYmN0aXE0LXMtSzJwdHgtRjRuVktfVmZJU1NkOHNQSC1FUU12VU1OWmlwNHZfVzBHVlV3TEdlSzhmTG1SajgtZ2Y5NGplcVFFMzRjN2xuaVBUX3g2cGgwRWZFNmpiQ0t6cjd4LVNkZWdMQ0RTanNIUnJab3NH?oc=5",
+     "title": "港大10.6萬租美銀中心極高層",
+     "date": "2026-10-10"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Move-in: new premises need security systems (+2)",
+    "Grade A building: Bank of America Tower (+2)",
+    "High-security tenant (finance / legal / luxury / data) (+2)"
+   ],
+   "features": [
+    "area:Admiralty",
+    "grade:Grade A building (named)",
+    "kind:property",
+    "move:Lease / pre-lease",
+    "sector:Education & Government"
+   ],
+   "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
   },
   {
@@ -5530,7 +5832,7 @@
   {
    "id": "9388bc824002",
    "kind": "property",
-   "headline": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
+   "headline": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
    "date": "2026-09-22",
    "first_reported": "2026-09-21",
    "month": "2026-09",
@@ -5574,15 +5876,15 @@
    ],
    "sources": [
     {
-     "name": "on.cc東網",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFNJOEl5cVpXRHJfV1hpY1c4NmxndTNRNFZuRERndGRjSS1OanBPaUpxS05GNm81TF80QTVELTd6dTF5d0s2UnJ3WjBEN2RPRjNJZFdVTGxucVVmLVJzdEwtS0h3SXpidjdSSDFFcWY3NjRVQzRzbzVDdkdVVGpEUllxZEN4RU9CdV82RkNaQQ?oc=5",
-     "title": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
-     "date": "2026-09-21"
-    },
-    {
      "name": "香港01",
      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOcmx1Yllnbi0wZ3NIU20tcUd5MldIRnBxbFZqMXNCNlRJbnU5eDdidU9odnVqYTlaYnlUdk1JTDVaRVM0eVk4UUVNSHdteS10RFJzb2h5cXpVOWlJdjZLWWJSUjdTTERkQXc1U0tkbXlZdldPekVidmRrUy1nN2dSMTRlaDd6bEJ5aWl3ckxIbWd6dGkxbjJETkpFWjR3bTl3WER0QmM1ZlhnN0Q2Y2ViWkMyUG1OajZ6XzZ3VHZDZW1XNFpRby16MDFOS0trRExZc3dmNmdVRWxNbU1DNkhCSGZCUmdhd3lDdWlqMktsVFVQZFh1NU16NGVMX1pMZWJjRkpwNU9KdGVjSFNMclRVbkNXenRZOFR4QWVjVDVMc2ZwbUdWcVktODU5X0hVMG1fSEJ5ZmJnczlReXRTaGt6Si1ZLVJadjNJbzlBTnhYc2F6SUhXUWNpcDl6ZFdtc0dQLXp3Y2paZDN3VDhpSXNNTW5GZmZuMnl5R25Ob2czU0JIX2wxOWpVMzI4aVZKRmNU?oc=5",
      "title": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
+     "date": "2026-09-21"
+    },
+    {
+     "name": "on.cc東網",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFNJOEl5cVpXRHJfV1hpY1c4NmxndTNRNFZuRERndGRjSS1OanBPaUpxS05GNm81TF80QTVELTd6dTF5d0s2UnJ3WjBEN2RPRjNJZFdVTGxucVVmLVJzdEwtS0h3SXpidjdSSDFFcWY3NjRVQzRzbzVDdkdVVGpEUllxZEN4RU9CdV82RkNaQQ?oc=5",
+     "title": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
      "date": "2026-09-21"
     },
     {
@@ -5626,7 +5928,7 @@
   {
    "id": "35311802845e",
    "kind": "property",
-   "headline": "Hong Kong's CK Asset says Susquehanna leases floors in its office tower",
+   "headline": "US Quant Trading Giant SIG Leases Three Floors at Cheung Kong Center II, Bringing Occupancy to Near Full",
    "date": "2026-09-18",
    "first_reported": "2026-09-02",
    "month": "2026-09",
@@ -5636,7 +5938,7 @@
     "Expansion"
    ],
    "type": "Lease / pre-lease",
-   "building": "Cheung Kong Center",
+   "building": "Cheung Kong Center II",
    "landlords": [
     "CK Asset"
    ],
@@ -5650,13 +5952,13 @@
    "size": 52000,
    "size_txt": "5.2萬呎",
    "floors": 3,
-   "floors_txt": "3層",
+   "floors_txt": "Three Floors",
    "lang": "en",
    "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
    "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
    "actions": [
     "Find Susquehanna (SIG)'s workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call CK Asset leasing / building management at Cheung Kong Center for the fit-out timeline, contractor and consultant.",
+    "Call CK Asset leasing / building management at Cheung Kong Center II for the fit-out timeline, contractor and consultant.",
     "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
     "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
     "Update Status here after each contact so the team can see progress."
@@ -5679,16 +5981,16 @@
      "date": "2026-09-02"
     },
     {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iQXRmR2ZmN096VkNDaUFVNlBHYlJfZi1ZeDA0TDBVNnoyUnJ4YTUwRGM1ZWV4M3cwMlJsNnRuUld6eWxHcWRtTmdDR0FXaXhPOTdROUxud2xoWHprSFM5Z21yREFrOU5xaFhoZjdjZW5FUmZIU3c?oc=5",
+     "title": "US Quant Trading Giant SIG Leases Three Floors at Cheung Kong Center II, Bringing Occupancy to Near Full",
+     "date": "2026-09-16"
+    },
+    {
      "name": "TradingView",
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWGV0bXcyS3RvV2szZEEtM0dpZGZFclp5ck56enpHcmp6QXJqSGRxR2EyM3lBMnFWbEhsVHcyWHUxaENfZ2xaUF9sbkVCMC1MVVJ1bVlEbTh3VVlWU0dzVXNUcHJwUkEybHl4UkYtSFZ2LWt3dFZiRjVSeEg0TThOUjQyWElhazRDRFlPMUNzOExjVnNVMUx1ZTQzZE0wQ1JPaExHaXp5WlBrUW53ci1fUGFIUjNMWVRBWUdWaVkwSFJGMkhRTEZOMGJua3YwTmRTLW83U0lOMFQ?oc=5",
      "title": "Hong Kong's CK Asset says Susquehanna leases floors in its office tower",
      "date": "2026-09-16"
-    },
-    {
-     "name": "Yahoo 財經",
-     "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQRHl2Z0Rxdm94dXZHSi1XcVdJcE1WdF84QTljYTdnaENEMm95cE9JcG1EVkhJWVNNRUIwaW14eUZRUmJOc2Jva0JMUWJFV2U2UFZPZU44cGpwTXU4YV9LblBUOGl6d2lYM1QtQ3hNLTF4Y3BhWmdHWXVaMUx5bUdMUHlQbndfWHNEb1hPcXFIYXFNUk55cGRLOXpCbWpCLWxHMERvSDUxQy1pUjc0SmJYOEdqNU1DNFF1dDJKb0tlZVRuUXFwMUdraHc5dzFGbUgtaWxGSnhYS3VaaXg2aWxJUTJvOWJkQkJYSExvN0RjWWxISG5GakZjVm00YURXWHQtRGlRMlQteF93Z1Y0T2xWNDI5bGZXTnBFY3Y1ajdDVUstV0FmVW5lNWJRcl8wei1fLVQxdWphb2YwVDY3QVRyN0RXaUk1NDRjTGM5akFBeHhPVEJCR2JhaGlXbm5keldWQ2t4ZXQza1JrNUpzYkE?oc=5",
-     "title": "長江中心二期近全部租出 美量化巨頭承租3層 涉5.2萬呎",
-     "date": "2026-09-17"
     },
     {
      "name": "星島頭條",
@@ -5719,7 +6021,7 @@
    "reasons": [
     "Move-in: new premises need security systems (+2)",
     "Expansion: extra floors to secure (+2)",
-    "Grade A building: Cheung Kong Center (+2)",
+    "Grade A building: Cheung Kong Center II (+2)",
     "Large space (52,000 sq ft) (+3)",
     "3 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
@@ -5986,8 +6288,8 @@
    "grade": "Grade A building (named)",
    "sectors": [
     "Finance & Professional Services",
-    "Facility Management & Real Estate",
-    "AI & Technology"
+    "AI & Technology",
+    "Facility Management & Real Estate"
    ],
    "sector": "Finance & Professional Services",
    "size": 45000,
@@ -6016,15 +6318,9 @@
    ],
    "sources": [
     {
-     "name": "Asian Banking & Finance",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY3VaMVV5cVpQdXpGWDBqaExWcndaZGh4bFRPOGYtYl96dW82MFAtZ3hGMlYxVXFRQkxQZEk0VkZ2aHIxRk01UzVuN3pKSHlQZ2dkalR5VlAzNElORzdQanZQejVicF9DVGZFZDctQTBicE9CU0lmMGotNXdfVThQRjdIQ2hPWDlpUmRJeDExTlQ3OUVHQmU2M0RqaTZ1UVpFbXVNYU93?oc=5",
+     "name": "Hong Kong Business",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY19PWERTM1RlTW5mdnJJSFJlWEloRVJIcDljZXRnenYwSWs5NnZiNUpwWlJvVlU4QnJNajlZUXVZd0M5NnhMZ2taV0plR3o4dTdGZGtXZXN0bTR0QTdHRFNvZjFTcTE3dEMyMGUwanU5ay1kcEpwWUZSNHVNcTFCWVgzRC1MY1VnWkdjb0RKSUhkUGp1ZF84SkRoa1Y?oc=5",
      "title": "ZA Bank parent leases top four floors of Lee Garden Eight’s Tower 3",
-     "date": "2026-09-09"
-    },
-    {
-     "name": "The Standard (HK)",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN21NZTFDazUyS3Q0ajBLajNPZUU0Sk1xNDJYZi04Y3N0THVZVjduVUJiTjVFOFhFdTZVejh1ajlEUVJfQkNSOTNoaTVmSXlaY1Z5Y3pjTVpBUDh2cUNpU3hiLWR1WDdIMkFzejZzbG9Ea0g3dDA4WjZPUjZZZzBPYkpYZlRGYlBWR083dDNMOWJIX3p4Z1N6aDdPUmRpQ0Z3ajZPN0JKVWRucmxCbEkxQW4zSjVNSG8?oc=5",
-     "title": "ZA Bank to rent four floors of Lee Garden Eight's office space",
      "date": "2026-09-09"
     },
     {
@@ -6043,6 +6339,12 @@
      "name": "on.cc東網",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd1RsMUlDRnhlV0pmRDhhTlZwb05vbzFqbzJlTzFEaUJ5NmNqVF9yWEJGRDFVYjZHRDNmRjAzdmFBdUJjNURzNmxxVzE5ejJBYzh3ZUhmM2VQa2JLNjNpWjhBTWFqNFdNUjJIYjlMd0JiNUsxcTNxeTdBN3AzcHJ6c05EVnZMeDhlblhzN0ExQQ?oc=5",
      "title": "ZA Bank承租希慎利園八期作新總部 料明年內啟用",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "明報財經網",
+     "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNQTBsZld6bzRmTXVTc2xDbmFOSkVxM0V4VTRJaWFsek1OcGl1bzZtcDhmRWk1QlRhSlF4d0hDUlhFTXp4bTJLUmRGOVpwSS1UbnREeklTTmJ3bzZTUUFmSENnOEVMbUZKakt6R2UzRHJBVGJTSnZ0X2t3Tk84VU1UNGVfU25iWmVsMG1DdFc4X2dITTRYNHZLRFdXNFJIdy1vVjBEbHhtekhQUjdYZnJJRUtQVHBmRzl4M1pTdVBoaF83eF9uOFVvZHdNOS1RNGR4Z2Zac1Nua0pqZjRnLTBqSzJKLU1sU0NDT0xlOXh2aXdvUFExRl9MNjJGaHhsWGJJdHpVMjl5aGJrUEdESF9EWG1sUE5aYUR1ZnV4dDM0VDIzQW8yNUYzWkhXMG83OThvcWF2WXNkMklCVGdqWUROVU1SNmlRVnpKdFJqY3ZfUkdscFpkYTE1bmdJdDh2V2h0dFJpT0ltVnJkSlRMdkZkMTFfaDc5UWwyOGd4ei1iaw?oc=5",
+     "title": "眾安銀行租利園八期約4.5萬呎 較數碼港總部增近五成",
      "date": "2026-09-09"
     },
     {
@@ -6080,15 +6382,9 @@
      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZ0p3S0toY3JTSmFzY0tiaDU4Q0tmbWxvU2tIQ0t2NU9tN0NwUHlfbHBTSVdVVXp0U0JGdGEzYUQzcnR5M1hkanhsdTFWSGx3MG0tWUpTNjNJXzJkVnE4ZERfUDVLcldiNG9SWFdPVkJ4RVE5dmx3TUF5TVZ2aFh1cHB4Q1RXVTMyTGl4Y0dRYTZyUkVRbzUtTlJZbWJTVHNUeVVtSEZIczlQRzF4eGJXemVZZV9OMnZMb2YxT0ZyZGZZVmE1cGV6OENiZko2U3dVak5DTThfSHg1WXY1R3cyU3ZwZEJHOVIxdUpOM0RCaVRiS2tkUFFOalpWNWw?oc=5",
      "title": "眾安銀行租利園8期四層作總部",
      "date": "2026-09-10"
-    },
-    {
-     "name": "明報新聞網",
-     "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNSTlHNEZBNWNtM0tIeFR2eFJoLTc2eWp0ZmFrYkRIVld1MzVMYTM3Z25OcVNkd3Z5T0hMVnBSZmhpUkJSNXE5em9SUWlyeVRWNWIwbXZnMEx6c2lmTXpDLTJIWXhZazJvX1B3dWhteTg0NjZzcHgza0hYbHY4c3BDQjJhX01ZX1dGQ0RQY01XTmE4UFVwRnFMZHg0RlhOWmJKbE1penotNUE1TUtEcF9oWDJBQS1FckhXUlEzZkxMcnBlQmFTVFBmNFE4NGxqeEFpeXVTTXk2UFlRVllHazRORVdJMGdnb0I1elhLTkdOQkFpblkwVlZ4YjNBWXozam5pa1lJOGpibFI0M1FucTlXVndNaTI3R2p1ZVMxMGRZRlRIaGFrQUl3bm5SUTBrZ2xORDFUb2JXeE0xTmxFeXpGbDB2YzZGSE9HbWxOQUUwYWRNb1BuMlkxLUdHZks2eGdEMVhGNVFfa19TZU1ZT0NlX1NqLVJRdVRm?oc=5",
-     "title": "眾安租利園八期約4.5萬呎 較數碼港總部增五成",
-     "date": "2026-09-10"
     }
    ],
-   "verification": "Corroborated by 11 outlets",
+   "verification": "Corroborated by 9 outlets",
    "score": 13,
    "level": "HIGH",
    "thresholds": [
@@ -6102,7 +6398,7 @@
     "Mid-size space (45,000 sq ft) (+2)",
     "4 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 11 outlets (+1)"
+    "Reported by 9 outlets (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -6274,16 +6570,88 @@
    "is_new": false
   },
   {
+   "id": "bf5d59a91964",
+   "kind": "property",
+   "headline": "CATL Relocates Hong Kong Principal Office to Central Business District",
+   "date": "2026-08-26",
+   "first_reported": "2026-08-26",
+   "month": "2026-08",
+   "company": "CATL",
+   "types": [
+    "Relocation"
+   ],
+   "type": "Relocation",
+   "building": "",
+   "landlords": [],
+   "area": "Central / Sheung Wan",
+   "grade": "Prime office district",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Landlords' asset & property managers, building management offices, FM companies",
+   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
+   "actions": [
+    "Find CATL's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at Central / Sheung Wan for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=CATL%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=CATL%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNeXd2X0N6TXNjWWwydV9lY2hxMl9xMFdkQVkxOGxwQ1BFMDVrcU5wQ1FZYklEc1ZWM3RnZENNdmQzbThsWWFEQUN2MUJFNDlnOE45QngyTGJ2NDE5UjNyZGFCcnNUQkpFemZoU3RCNDdsd1pFbngzbXZhQzFZZzYxLTFpUTZKcWYwdUtJRGswN2ZGTUhQQzNJZm9hbnlBVk9EcnNLcC1sYTNKUEV1czgyWGtJNXl3eGgxTnlodlprSUJhOTRNeWtiTGRNU3R5V01jRjB1NDBXMjlfakwtMm10alYxVE9UeWVWbG5GRw?oc=5",
+     "title": "CATL Relocates Hong Kong Principal Office to Central Business District",
+     "date": "2026-08-26"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Move-in: new premises need security systems (+2)",
+    "Prime office district: Central / Sheung Wan (+1)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "grade:Prime office district",
+    "kind:property",
+    "move:Relocation",
+    "sector:Facility Management & Real Estate"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
+   "is_new": true
+  },
+  {
    "id": "8a4fd968bce0",
    "kind": "property",
    "headline": "SHKP leases two and a half floors of IGC to AXA under agreement",
-   "date": "2026-08-25",
+   "date": "2026-08-24",
    "first_reported": "2026-08-24",
    "month": "2026-08",
    "company": "AXA",
    "types": [
-    "Lease / pre-lease",
-    "Relocation"
+    "Lease / pre-lease"
    ],
    "type": "Lease / pre-lease",
    "building": "IGC",
@@ -6344,15 +6712,9 @@
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EUHFrOHNVS2dJLVVxUFJxbmtMMmwxY2FOSTZ6cmlNdDItZnctOUp0RDBfXzlqNmtCMlE2Q2wwVDNHWUg2X2FfTEtLUG84S3U2eXJzQlFPbndPU01DV01veGtDMllHTU5mOUs3MDJSRmRic3c?oc=5",
      "title": "【16】新地西九龍IGC與AXA安盛簽約10年約 承租近10萬呎樓面、建旗艦財富管理中心",
      "date": "2026-08-24"
-    },
-    {
-     "name": "明報新聞網",
-     "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPNmJsbkM3YzYxa0ptQmFmQWFrVnZVbGJYS0FkMFRZdjNlZWdNWVdleTU0Szh4MnVOOGhkalBKU0ZkTms2c0ZqUW9WMzNhaWRhb1lFb1FucnJXV3l1bXFydGxOSS1kaXVHems3ZUxpckttODhEdXMyRFNOa3hiam9ob1NtVnRJQzJHQ0tWMG5xLV95NGV4dklWaU44SlBDR1Q5SUowZmV6Vld4SFltWktvRlJBSDMtUTBqbzJSVUN3YURRbW0td2dvdDUxb2luUzJCdjV3eHdhYldCU1dhMjl2T2xIcEFyWk1VY0dFUm1MUjVmQnFWd0VlYmx2QUdKa1hObmlveFE5NFo0dUd5cHNQS0hGMXpNSWRmVGZUei1IQm1xUGs4bWQtSTdNUFpNMGd3TEF5Sw?oc=5",
-     "title": "AXA安盛租IGC近10萬呎 2028年進駐 租期10年",
-     "date": "2026-08-25"
     }
    ],
-   "verification": "Corroborated by 5 outlets",
+   "verification": "Corroborated by 4 outlets",
    "score": 11,
    "level": "HIGH",
    "thresholds": [
@@ -6365,14 +6727,13 @@
     "Large space (100,000 sq ft) (+3)",
     "2 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 5 outlets (+1)"
+    "Reported by 4 outlets (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
     "grade:Grade A building (named)",
     "kind:property",
     "move:Lease / pre-lease",
-    "move:Relocation",
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
@@ -6430,7 +6791,7 @@
    "sources": [
     {
      "name": "South China Morning Post",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVE82YWFqLUxnR2lEV19QV2ZIZXh0aHRFUlQzSGgtdFNEZGVsekRTLVBZS3dUajR6d18wU0lzcTMweE1sVnFtR0VFRWFhNjhKVzhKNi1kUWtZVHUwaXVrOGpjUU5hV3E1VVNSVzdQYXVRMUYtbUdSVWtBMWRvMUpWZG1rYlhIYVdaVG10ckdGYWQwMERYVVZkX1B2Snc5RnV0MkV3aTNKbW5iYmdNNjlLTmFWUFhqeTB2WGNJVEJ2QWt3VVBlMEcxNnh30gHKAUFVX3lxTE5lRGV3TzVpb3RBck9QWGJkRjROUGNUenJWSF9RWVUxR1B1WG14bXNoQUluVlRvNnZ2cGpNRFNtNERGbERDaF95blBBaWV0Y25JZjhwZXBTRjhWbjBHSGtDbjk4c254VERrdFlMekVnNGwtMnNRYUJzNjBwY1ctNzViU2hzYUJnZUFCd3hlNkMxY0RPWWszdGsyZ0ZKaEIwZDF6MVptOVFsd0RDZ2s5SWFaT20xRmhsc1pCZE9HTnhTbkRqeFl2M3Vsb0E?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVE82YWFqLUxnR2lEV19QV2ZIZXh0aHRFUlQzSGgtdFNEZGVsekRTLVBZS3dUajR6d18wU0lzcTMweE1sVnFtR0VFRWFhNjhKVzhKNi1kUWtZVHUwaXVrOGpjUU5hV3E1VVNSVzdQYXVRMUYtbUdSVWtBMWRvMUpWZG1rYlhIYVdaVG10ckdGYWQwMERYVVZkX1B2Snc5RnV0MkV3aTNKbW5iYmdNNjlLTmFWUFhqeTB2WGNJVEJ2QWt3VVBlMEcxNnh3?oc=5",
      "title": "Prudential Hong Kong expands headquarters across Swire Properties’ towers",
      "date": "2026-08-19"
     },
@@ -6465,21 +6826,9 @@
      "date": "2026-08-19"
     },
     {
-     "name": "明報財經網",
-     "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQMFlYS19iR3BFVWhIc3NsWGtVQTYyYlRKY2ZtbHVNNURNZ1lfdmVTSEFtQ2hTRnlCNkg3V25aQmtDcnhLdXU5ZV9QbFBCbUlSVXhRZG9tWXM3cVd2TmlzT3pnM3FZUnFVdHFicDZ0MDN6b0I0LTdfYWx1QnBibjNEYkRXMTNVZmVmRmZKRG14MW9NX3p5Q2ItanpvNTRWbFBHT1lidTlDQ0ZpOFJQTkMyaXZRYXJZckM3Z3gwUV9keGVFeU93S3VHU0hNZy1lS0RkMklFT2diVzhWM3dSci1qbVVZZ2FoZnNJWmNpeThxMGNlZVdiM2tWR0NyS0gzd0xHQUk5VWt4eENzU2haQlRPbUpkdHJfRXVESk11V05WaTVWa3Y2b2I2NEFJa3BNWW5pdW5rOGVlZEZNdW1LYjRWSVhOR2JIMXp6MW5QdlVYZW5EcC1xeldiaGw4NXUzSjhlY3NGbGRlZl82Q3JOYllHaE9aVQ?oc=5",
-     "title": "財富退休規劃需求增 保誠擴充太古坊樓面至8.3萬呎",
-     "date": "2026-08-19"
-    },
-    {
      "name": "星島頭條",
      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPU0g2NWdUOUMxTGVoM0dhTWswekdUYkxIQUZUOGNKQVAwdVBNV3Zjdy01RnpadUlaaUE5Ukh5M3BtNVBad1dUVjNvMk5vcjNSZEJ2TndiQzUzNEF6UXFtMTlsT1R1eUhRX0RrMGNOTUxMeXUtRnZtS1JKQ3VDbEZKb3J4aEpHeF9aTzFDRGZpckdhckJuSUFpMHMxZ0hqVjZ3RTZxOWRWdkUtTlN6cENxc0hQX2tFSzZiQ3JvaWVyc3pnRVhWbENPbElYUmhUdU5HRlU0MW9zV0FrTWZqeGZJa0d0NFk3aHlmQndsZGN3NGp6TXRDTWplTnRtSXRoTmpFc0dCWXJYb0phdjZGbXZYX2NkSzgyTncteGtfNE01UU5UUVZxWFRyN2h4UWxsaEY1eTl5Y1lVWWlZemxFVVc1ZzdIUzg5d1JHSzFwSm1NcUo5c1hWVGtGdVBmRGctNlhua21kZ1I2cHJJQVZBYjBCQkFlTU1BbDQ?oc=5",
      "title": "保誠與太古地產簽協議 擴充太古坊香港總部辦公空間",
-     "date": "2026-08-19"
-    },
-    {
-     "name": "信報網站",
-     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPUEgyUjY4SEhBYlVCWFREcTRfRGJsX3oxTEg2SC1yVW16bFpXN0Rtd05xYkZaZ3BnS2FTYVBWektmb2N3NE05LUdpVGUzcTRuNmtQTUlicmZCcTFCNmpDVDN2bmdJMVBrRUJIUHREQXRuajhXYS1veTdVWEU0QUViWDN0NF9SSnBmczRyeHRYQUMtaUdTYUowb0tMUXlkTVoxYTdrbC1oUnRld0lYVDBwc2xvaDlOZW9oWi1SSGZZX0VIMGxyS2NqeEZzWS01X1BKVXNqbEUtSnpaNjR6UVM1cWRfN1dLbTlYc3Y2VkZ5MlFtWWkxSEpRU2ZJc0Nyd1NyVlFNZ1VpVzBITnVtZnRLOVVFck1ya3QyTzhNVEpB?oc=5",
-     "title": "保誠擴充太古坊香港總部辦公空間",
      "date": "2026-08-19"
     },
     {
@@ -6507,7 +6856,7 @@
      "date": "2026-08-24"
     }
    ],
-   "verification": "Corroborated by 12 outlets",
+   "verification": "Corroborated by 10 outlets",
    "score": 15,
    "level": "HIGH",
    "thresholds": [
@@ -6521,7 +6870,7 @@
     "Grade A building: Taikoo Place (+2)",
     "Large space (83,000 sq ft) (+3)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 12 outlets (+1)"
+    "Reported by 10 outlets (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -6683,81 +7032,6 @@
     "sector:AI & Technology"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "35883ad46a0a",
-   "kind": "property",
-   "headline": "METiS TechBio relocates corporate headquarters to Nexxus Building Hong Kong",
-   "date": "2026-08-20",
-   "first_reported": "2026-08-20",
-   "month": "2026-08",
-   "company": "METiS TechBio",
-   "types": [
-    "New HQ",
-    "Relocation"
-   ],
-   "type": "New HQ",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Landlords' asset & property managers, building management offices, FM companies",
-   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
-   "actions": [
-    "Find METiS TechBio's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=METiS%20TechBio%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=METiS%20TechBio%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Vietnam Investment Review - VIR",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWFh1endEZ0Rzb3V1UXJyZEtSdkIyR1V0ck0yWkNBTEllRFpoTllobktPdzJWcEJXN1pPM2NQWVNTNEsxQXRYVEJ3bkJ5OTg5aDN2RFkzUW1xNm5yblhuNU1ZQ2F5WTlDN1dYR1h5UlJGSE4xVUpvOUNOdkNFVmY2ZjRKS3B1V3c1bzZUUEcwdklEdEFVQUxKS1BuVDdaNlNOWjFDbDY2bzI4QQ?oc=5",
-     "title": "METiS TechBio relocates corporate headquarters to Nexxus Building Hong Kong",
-     "date": "2026-08-20"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 5,
-   "level": "MEDIUM",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:New HQ",
-    "move:Relocation",
-    "sector:Facility Management & Real Estate"
-   ],
-   "first_seen": "2026-10-30T07:01:34+08:00",
    "is_new": false
   },
   {
@@ -6925,82 +7199,6 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-10-12T01:08:09+08:00",
-   "is_new": false
-  },
-  {
-   "id": "6e75b43526b4",
-   "kind": "property",
-   "headline": "有線寬頻承租觀塘KOHO多層物業作總部及媒體營運 租約連續租共約1.46億元",
-   "date": "2026-08-14",
-   "first_reported": "2026-08-14",
-   "month": "2026-08",
-   "company": "有線寬頻",
-   "types": [
-    "New HQ",
-    "Lease / pre-lease"
-   ],
-   "type": "New HQ",
-   "building": "",
-   "landlords": [],
-   "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
-   "grade": "Prime office district",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "zh",
-   "who": "Landlords' asset & property managers, building management offices, FM companies",
-   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
-   "actions": [
-    "Find 有線寬頻's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak) for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=%E6%9C%89%E7%B7%9A%E5%AF%AC%E9%A0%BB%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=%E6%9C%89%E7%B7%9A%E5%AF%AC%E9%A0%BB%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "明報財經網",
-     "url": "https://news.google.com/rss/articles/CBMi2gNBVV95cUxQVmpJWXUwRXF4U0ZtRVdzd1FZbW04R3lWUHdzdGg2YU5RelNlZWhScmxhT2hycEhTTXZxTUFISjVmYVdBZFotdE5vTllwamktWmFnbnJPLWFoRWdmQkdvUEh4NkRTMmMtWVYyLXV5QzBhNTZyQ2xnYlFHTl9MZ1NybC01NnpkN2JRaU5VaUdkZmpUTk5pYUFRa0Qtd1VRQ0tra04yWGpwOV9Ea0JhMTU2V1htTmZEUUhBakEwcjlBQS1oTG51WVk0dTlqdUhXRk4tTVktWjcwOXN1djA2YWRFaVhjdERQbzV0WHU0M244d3dOVmRReDJSZUxYTURlbC1PQk1zdGpPblJyZ1Ewd1JORXRBd29USEpWOFJNOGYxMkxXelFHeE5QWTlvRGlrQjY1c0taU3JaNzRlZk9sWjZtZ2xVd2FzNnJwNXp2RnRycER5WjJDZ3hxUFNWai1JR2lSWTVDeUhfdWtEcTRqam1obkhMM3RzdU1VMkVKVThIS1N4bVNlVExCTkhmY0dOd2lydVRxVGptd1cxRTBUU096bFVIQzhfeHd1UDBKQVZtQ0l5aGJsVzZwd3lNOGQwYXNaVXIwMElXTjNqZnBSUzRjbFNjcmh4bmttaWc?oc=5",
-     "title": "有線寬頻承租觀塘KOHO多層物業作總部及媒體營運 租約連續租共約1.46億元",
-     "date": "2026-08-14"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 6,
-   "level": "MEDIUM",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "New headquarters fit-out (+3)",
-    "Move-in: new premises need security systems (+2)",
-    "Prime office district: Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak) (+1)"
-   ],
-   "features": [
-    "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
-    "grade:Prime office district",
-    "kind:property",
-    "move:Lease / pre-lease",
-    "move:New HQ",
-    "sector:Facility Management & Real Estate"
-   ],
-   "first_seen": "2026-10-19T06:46:46+08:00",
    "is_new": false
   }
  ],
@@ -7249,29 +7447,29 @@
    "is_new": false
   },
   {
-   "id": "4a92e6652a59",
+   "id": "967d640d7319",
    "kind": "transaction",
    "date": "2026-11-02",
    "month": "2026-11",
    "group": "Kowloon / N.T.",
    "deal": "Lease",
    "usage": "Office",
-   "district": "Tsim Sha Tsui",
-   "building": "Mira Place Tower A",
-   "building_zh": "美麗華廣場A座",
-   "floor": "Low",
+   "district": "Kwun Tong",
+   "building": "Millennium City 1 Tower 1",
+   "building_zh": "創紀之城一期一座",
+   "floor": "Mid",
    "unit": "",
-   "area_sqft": 16783,
-   "area_txt": "16,783 ft² approx",
-   "price": 721669.0,
-   "price_txt": "HK$721,669/month",
-   "psf": "@43",
+   "area_sqft": 5512,
+   "area_txt": "5,512 ft² approx",
+   "price": 132288.0,
+   "price_txt": "HK$132,288/month",
+   "psf": "@24",
    "record_source": "Market News",
    "party": "",
    "party_source": "",
-   "premises": "Low floor (exact floor not disclosed), Mira Place Tower A",
-   "line": "Tenant not named - Low floor (exact floor not disclosed), Mira Place Tower A (Leased for HK$721,669/month)",
-   "area": "Tsim Sha Tsui / West Kowloon",
+   "premises": "Mid floor (exact floor not disclosed), Millennium City 1 Tower 1",
+   "line": "Tenant not named - Mid floor (exact floor not disclosed), Millennium City 1 Tower 1 (Leased for HK$132,288/month)",
+   "area": "Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
    "sectors": [
     "Facility Management & Real Estate"
    ],
@@ -7279,9 +7477,9 @@
    "who": "",
    "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
    "actions": [
-    "Ask Mira Place Tower A's building management office, or the agent, who the tenant is.",
+    "Ask Millennium City 1 Tower 1's building management office, or the agent, who the tenant is.",
     "New tenants fit out before moving in: reach them before the fit-out tender.",
-    "Contact Mira Place Tower A's building management office for the fit-out / handover timeline and contractor.",
+    "Contact Millennium City 1 Tower 1's building management office for the fit-out / handover timeline and contractor.",
     "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
     "Update Status here after each contact."
    ],
@@ -7292,40 +7490,41 @@
     },
     {
      "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-tsim-sha-tsui-mira-place-tower-a/detail/2120400330/"
+     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-kwun-tong-millennium-city-1-tower-1/detail/2800402250/"
     }
    ],
    "sources": [
     {
      "name": "Centaline register (Market News)",
-     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-tsim-sha-tsui-mira-place-tower-a/detail/2120400330/",
+     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-kwun-tong-millennium-city-1-tower-1/detail/2800402250/",
      "title": "",
      "date": "2026-11-02"
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
-    "Large lease (16,783 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Lease 5,512 sq ft (+2)",
+    "Office premises: fit-out and access control (+1)",
+    "Grade A / landmark building: Millennium City 1 Tower 1 (+2)"
    ],
    "features": [
-    "area:Tsim Sha Tsui / West Kowloon",
+    "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
     "deal:Lease",
     "kind:transaction",
     "party:unnamed",
     "record:Market News",
     "region:Kowloon / N.T.",
     "sector:Facility Management & Real Estate",
-    "size:l",
+    "size:m",
     "usage:Office"
    ],
-   "first_seen": "2026-11-03T07:01:56+08:00",
+   "first_seen": "2026-11-04T07:08:20+08:00",
    "is_new": true
   },
   {
@@ -7411,7 +7610,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "10779313da16",
@@ -8132,6 +8331,87 @@
    ],
    "first_seen": "2026-10-29T06:59:33+08:00",
    "is_new": false
+  },
+  {
+   "id": "9ae38bfd4a40",
+   "kind": "transaction",
+   "date": "2026-10-26",
+   "month": "2026-10",
+   "group": "Kowloon / N.T.",
+   "deal": "Sale",
+   "usage": "Office",
+   "district": "Tsim Sha Tsui",
+   "building": "Lippo Sun Plaza",
+   "building_zh": "力寶太陽廣場",
+   "floor": "09/F",
+   "unit": "01",
+   "area_sqft": 2639,
+   "area_txt": "2,639 ft² approx",
+   "price": 32000000.0,
+   "price_txt": "HK$32.0M",
+   "psf": "@12,126",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "09/F Unit 01, Lippo Sun Plaza",
+   "line": "Buyer not named - 09/F Unit 01, Lippo Sun Plaza (Bought for HK$32.0M)",
+   "area": "Tsim Sha Tsui / West Kowloon",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the buyer's name from a Land Registry search (IRIS Online, small fee) on Lippo Sun Plaza 09/F 01.",
+    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
+    "Contact Lippo Sun Plaza's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-tsim-sha-tsui-lippo-sun-plaza/detail/2110400010/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-tsim-sha-tsui-lippo-sun-plaza/detail/2110400010/",
+     "title": "",
+     "date": "2026-10-26"
+    }
+   ],
+   "verification": "Register record",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$32.0M (+2)",
+    "Office premises: fit-out and access control (+1)",
+    "Land Registry record: exact unit known (+1)"
+   ],
+   "features": [
+    "area:Tsim Sha Tsui / West Kowloon",
+    "deal:Sale",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:Kowloon / N.T.",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
+   "is_new": true
   },
   {
    "id": "8583fd7bfdb6",
@@ -9431,6 +9711,87 @@
    ],
    "first_seen": "2026-10-14T06:51:54+08:00",
    "is_new": false
+  },
+  {
+   "id": "1f5e16f7373f",
+   "kind": "transaction",
+   "date": "2026-10-12",
+   "month": "2026-10",
+   "group": "Kowloon / N.T.",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Tsim Sha Tsui",
+   "building": "Mira Place Tower A",
+   "building_zh": "美麗華廣場A座",
+   "floor": "10/F",
+   "unit": "01-02,12-18",
+   "area_sqft": 16783,
+   "area_txt": "16,783 ft² approx",
+   "price": 721669.0,
+   "price_txt": "HK$721,669/month",
+   "psf": "@43",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "10/F Unit 01-02,12-18, Mira Place Tower A",
+   "line": "Tenant not named - 10/F Unit 01-02,12-18, Mira Place Tower A (Leased for HK$721,669/month)",
+   "area": "Tsim Sha Tsui / West Kowloon",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the tenant's name from a Land Registry search (IRIS Online, small fee) on Mira Place Tower A 10/F 01-02,12-18.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact Mira Place Tower A's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-tsim-sha-tsui-mira-place-tower-a/detail/2120400330/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-tsim-sha-tsui-mira-place-tower-a/detail/2120400330/",
+     "title": "",
+     "date": "2026-10-12"
+    }
+   ],
+   "verification": "Register record",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Large lease (16,783 sq ft) (+3)",
+    "Office premises: fit-out and access control (+1)",
+    "Land Registry record: exact unit known (+1)"
+   ],
+   "features": [
+    "area:Tsim Sha Tsui / West Kowloon",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:Kowloon / N.T.",
+    "sector:Facility Management & Real Estate",
+    "size:l",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
+   "is_new": true
   },
   {
    "id": "ad5ee6d37d8e",
@@ -15418,7 +15779,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0642fee548f4",
@@ -15500,7 +15861,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "58d5616d5fbd",
@@ -15582,7 +15943,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "55c3025a9eab",
@@ -15664,7 +16025,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9cfbeae202a6",
@@ -15908,6 +16269,87 @@
    ],
    "first_seen": "2026-10-31T06:58:41+08:00",
    "is_new": false
+  },
+  {
+   "id": "88b48004b017",
+   "kind": "transaction",
+   "date": "2026-10-28",
+   "month": "2026-10",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Office",
+   "district": "Sheung Wan",
+   "building": "Shun Tak Centre, West Tower",
+   "building_zh": "信德中心西翼",
+   "floor": "Low",
+   "unit": "",
+   "area_sqft": 5390,
+   "area_txt": "5,390 ft² approx",
+   "price": 99720000.0,
+   "price_txt": "HK$99.7M",
+   "psf": "@18,500",
+   "record_source": "Market News",
+   "party": "",
+   "party_source": "",
+   "premises": "Low floor (exact floor not disclosed), Shun Tak Centre, West Tower",
+   "line": "Buyer not named - Low floor (exact floor not disclosed), Shun Tak Centre, West Tower (Bought for HK$99.7M)",
+   "area": "Central / Sheung Wan",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Ask Shun Tak Centre, West Tower's building management office, or the agent, who the buyer is.",
+    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
+    "Contact Shun Tak Centre, West Tower's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-sheung-wan-shun-tak-centre-west-tower/detail/1240400010/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Market News)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-sheung-wan-shun-tak-centre-west-tower/detail/1240400010/",
+     "title": "",
+     "date": "2026-10-28"
+    }
+   ],
+   "verification": "Register record",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Sizeable purchase (HK$99.7M) (+3)",
+    "Office premises: fit-out and access control (+1)",
+    "Grade A / landmark building: Shun Tak Centre, West Tower (+2)"
+   ],
+   "features": [
+    "area:Central / Sheung Wan",
+    "deal:Sale",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Market News",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:l",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
+   "is_new": true
   },
   {
    "id": "b3dcc26d3db7",
@@ -16234,6 +16676,171 @@
    ],
    "first_seen": "2026-10-27T06:58:50+08:00",
    "is_new": false
+  },
+  {
+   "id": "d09952872a99",
+   "kind": "transaction",
+   "date": "2026-10-22",
+   "month": "2026-10",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Admiralty",
+   "building": "One Pacific Place",
+   "building_zh": "太古廣場1期",
+   "floor": "20/F",
+   "unit": "01,09-12",
+   "area_sqft": 7600,
+   "area_txt": "7,600 ft² approx",
+   "price": 836000.0,
+   "price_txt": "HK$836,000/month",
+   "psf": "@110",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "20/F Unit 01,09-12, One Pacific Place",
+   "line": "Tenant not named - 20/F Unit 01,09-12, One Pacific Place (Leased for HK$836,000/month)",
+   "area": "Admiralty",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the tenant's name from a Land Registry search (IRIS Online, small fee) on One Pacific Place 20/F 01,09-12.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact One Pacific Place's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-admiralty-one-pacific-place/detail/1240400320/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-admiralty-one-pacific-place/detail/1240400320/",
+     "title": "",
+     "date": "2026-10-22"
+    }
+   ],
+   "verification": "Register record",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Lease 7,600 sq ft (+2)",
+    "Office premises: fit-out and access control (+1)",
+    "Grade A / landmark building: One Pacific Place (+2)",
+    "Land Registry record: exact unit known (+1)"
+   ],
+   "features": [
+    "area:Admiralty",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
+   "is_new": true
+  },
+  {
+   "id": "4899078b4927",
+   "kind": "transaction",
+   "date": "2026-10-22",
+   "month": "2026-10",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Quarry Bay",
+   "building": "Two Taikoo Place",
+   "building_zh": "太古坊二座",
+   "floor": "10,11/F",
+   "unit": "10WF,1101-03",
+   "area_sqft": 34317,
+   "area_txt": "34,317 ft² approx",
+   "price": 1544265.0,
+   "price_txt": "HK$1.5M/month",
+   "psf": "@45",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "10,11/F Unit 10WF,1101-03, Two Taikoo Place",
+   "line": "Tenant not named - 10,11/F Unit 10WF,1101-03, Two Taikoo Place (Leased for HK$1.5M/month)",
+   "area": "Island East (North Point / Quarry Bay / Taikoo)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the tenant's name from a Land Registry search (IRIS Online, small fee) on Two Taikoo Place 10,11/F 10WF,1101-03.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact Two Taikoo Place's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-quarry-bay-two-taikoo-place/detail/1550402610/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-quarry-bay-two-taikoo-place/detail/1550402610/",
+     "title": "",
+     "date": "2026-10-22"
+    }
+   ],
+   "verification": "Register record",
+   "score": 9,
+   "level": "HIGH",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Very large lease (34,317 sq ft) (+4)",
+    "Office premises: fit-out and access control (+1)",
+    "Grade A / landmark building: Two Taikoo Place (+2)",
+    "Whole floor(s) or several floors (+1)",
+    "Land Registry record: exact unit known (+1)"
+   ],
+   "features": [
+    "area:Island East (North Point / Quarry Bay / Taikoo)",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:xl",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
+   "is_new": true
   },
   {
    "id": "866bd3b953fa",
@@ -18198,6 +18805,87 @@
    "is_new": false
   },
   {
+   "id": "4cf583760148",
+   "kind": "transaction",
+   "date": "2026-10-06",
+   "month": "2026-10",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Causeway Bay",
+   "building": "Causeway Bay Plaza 1",
+   "building_zh": "銅鑼灣廣場1期",
+   "floor": "17/F",
+   "unit": "01,02",
+   "area_sqft": 2942,
+   "area_txt": "2,942 ft² approx",
+   "price": 163647.0,
+   "price_txt": "HK$163,647/month",
+   "psf": "@55.6",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "17/F Unit 01,02, Causeway Bay Plaza 1",
+   "line": "Tenant not named - 17/F Unit 01,02, Causeway Bay Plaza 1 (Leased for HK$163,647/month)",
+   "area": "Causeway Bay",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the tenant's name from a Land Registry search (IRIS Online, small fee) on Causeway Bay Plaza 1 17/F 01,02.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact Causeway Bay Plaza 1's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-causeway-bay-causeway-bay-plaza-1/detail/1460400300/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-causeway-bay-causeway-bay-plaza-1/detail/1460400300/",
+     "title": "",
+     "date": "2026-10-06"
+    }
+   ],
+   "verification": "Register record",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Lease 2,942 sq ft (+2)",
+    "Office premises: fit-out and access control (+1)",
+    "Land Registry record: exact unit known (+1)"
+   ],
+   "features": [
+    "area:Causeway Bay",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-04T07:08:20+08:00",
+   "is_new": true
+  },
+  {
    "id": "34a613ec49ea",
    "kind": "transaction",
    "date": "2026-10-06",
@@ -19336,87 +20024,6 @@
    "is_new": false
   },
   {
-   "id": "9f473360c913",
-   "kind": "transaction",
-   "date": "2026-09-28",
-   "month": "2026-09",
-   "group": "HK Island",
-   "deal": "Lease",
-   "usage": "Office",
-   "district": "Admiralty",
-   "building": "One Pacific Place",
-   "building_zh": "太古廣場1期",
-   "floor": "Mid",
-   "unit": "",
-   "area_sqft": 7600,
-   "area_txt": "7,600 ft² approx",
-   "price": 760000.0,
-   "price_txt": "HK$760,000/month",
-   "psf": "@100",
-   "record_source": "Market News",
-   "party": "",
-   "party_source": "",
-   "premises": "Mid floor (exact floor not disclosed), One Pacific Place",
-   "line": "Tenant not named - Mid floor (exact floor not disclosed), One Pacific Place (Leased for HK$760,000/month)",
-   "area": "Admiralty",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
-   "actions": [
-    "Ask One Pacific Place's building management office, or the agent, who the tenant is.",
-    "New tenants fit out before moving in: reach them before the fit-out tender.",
-    "Contact One Pacific Place's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-admiralty-one-pacific-place/detail/1240400320/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Market News)",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-admiralty-one-pacific-place/detail/1240400320/",
-     "title": "",
-     "date": "2026-09-28"
-    }
-   ],
-   "verification": "Register record",
-   "score": 5,
-   "level": "MEDIUM",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Lease 7,600 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: One Pacific Place (+2)"
-   ],
-   "features": [
-    "area:Admiralty",
-    "deal:Lease",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Market News",
-    "region:HK Island",
-    "sector:Facility Management & Real Estate",
-    "size:m",
-    "usage:Office"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
    "id": "a2c80a9b06ec",
    "kind": "transaction",
    "date": "2026-09-28",
@@ -20253,25 +20860,34 @@
    "price_txt": "HK$553,140/month",
    "psf": "@105",
    "record_source": "Market News",
-   "party": "",
-   "party_source": "",
+   "party": "Susquehanna (SIG)",
+   "party_source": "per news report",
    "premises": "Mid floor (exact floor not disclosed), Cheung Kong Center II",
-   "line": "Tenant not named - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$553,140/month)",
+   "line": "Susquehanna (SIG) - Mid floor (exact floor not disclosed), Cheung Kong Center II (Leased for HK$553,140/month)",
    "area": "Central / Sheung Wan",
    "sectors": [
-    "Facility Management & Real Estate"
+    "Facility Management & Real Estate",
+    "Finance & Professional Services"
    ],
    "sector": "Facility Management & Real Estate",
    "who": "",
    "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
    "actions": [
-    "Ask Cheung Kong Center II's building management office, or the agent, who the tenant is.",
+    "Tenant named in news: Susquehanna (SIG). Find their facilities / admin lead (links below).",
     "New tenants fit out before moving in: reach them before the fit-out tender.",
     "Contact Cheung Kong Center II's building management office for the fit-out / handover timeline and contractor.",
     "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
     "Update Status here after each contact."
    ],
    "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Susquehanna%20%28SIG%29%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Susquehanna%20%28SIG%29%20Hong%20Kong%20office%20address"
+    },
     {
      "label": "Land Registry search (IRIS)",
      "url": "https://www.iris.gov.hk/"
@@ -20287,11 +20903,17 @@
      "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-cheung-kong-center-ii/detail/1240400810/",
      "title": "",
      "date": "2026-09-23"
+    },
+    {
+     "name": "BigGo Finance",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iQXRmR2ZmN096VkNDaUFVNlBHYlJfZi1ZeDA0TDBVNnoyUnJ4YTUwRGM1ZWV4M3cwMlJsNnRuUld6eWxHcWRtTmdDR0FXaXhPOTdROUxud2xoWHprSFM5Z21yREFrOU5xaFhoZjdjZW5FUmZIU3c?oc=5",
+     "title": "US Quant Trading Giant SIG Leases Three Floors at Cheung Kong Center II, Bringing Occupancy to Near Full",
+     "date": "2026-09-16"
     }
    ],
-   "verification": "Register record",
-   "score": 5,
-   "level": "MEDIUM",
+   "verification": "Register record + news report",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -20299,13 +20921,14 @@
    "reasons": [
     "Lease 5,268 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Cheung Kong Center II (+2)"
+    "Grade A / landmark building: Cheung Kong Center II (+2)",
+    "Buyer / tenant named in a news report (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
     "deal:Lease",
     "kind:transaction",
-    "party:unnamed",
+    "party:named",
     "record:Market News",
     "region:HK Island",
     "sector:Facility Management & Real Estate",
@@ -22679,168 +23302,6 @@
    "is_new": false
   },
   {
-   "id": "4ba983f4fac3",
-   "kind": "transaction",
-   "date": "2026-09-09",
-   "month": "2026-09",
-   "group": "HK Island",
-   "deal": "Lease",
-   "usage": "Office",
-   "district": "Central",
-   "building": "One Exchange Square",
-   "building_zh": "交易廣場第一座",
-   "floor": "15/F",
-   "unit": "01-04",
-   "area_sqft": 6658,
-   "area_txt": "6,658 ft² approx",
-   "price": 898830.0,
-   "price_txt": "HK$898,830/month",
-   "psf": "@135",
-   "record_source": "Land Search",
-   "party": "",
-   "party_source": "",
-   "premises": "15/F Unit 01-04, One Exchange Square",
-   "line": "Tenant not named - 15/F Unit 01-04, One Exchange Square (Leased for HK$898,830/month)",
-   "area": "Central / Sheung Wan",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
-   "actions": [
-    "Get the tenant's name from a Land Registry search (IRIS Online, small fee) on One Exchange Square 15/F 01-04.",
-    "New tenants fit out before moving in: reach them before the fit-out tender.",
-    "Contact One Exchange Square's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-one-exchange-square/detail/1240400170/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Land Search)",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-one-exchange-square/detail/1240400170/",
-     "title": "",
-     "date": "2026-09-09"
-    }
-   ],
-   "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Lease 6,658 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: One Exchange Square (+2)",
-    "Land Registry record: exact unit known (+1)"
-   ],
-   "features": [
-    "area:Central / Sheung Wan",
-    "deal:Lease",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Land Search",
-    "region:HK Island",
-    "sector:Facility Management & Real Estate",
-    "size:m",
-    "usage:Office"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
-   "id": "e384747c84d6",
-   "kind": "transaction",
-   "date": "2026-09-09",
-   "month": "2026-09",
-   "group": "HK Island",
-   "deal": "Lease",
-   "usage": "Office",
-   "district": "Central",
-   "building": "8 Queen's Road Central",
-   "building_zh": "皇后大道中八號",
-   "floor": "High",
-   "unit": "",
-   "area_sqft": 3012,
-   "area_txt": "3,012 ft² approx",
-   "price": 240960.0,
-   "price_txt": "HK$240,960/month",
-   "psf": "@80",
-   "record_source": "Market News",
-   "party": "",
-   "party_source": "",
-   "premises": "High floor (exact floor not disclosed), 8 Queen's Road Central",
-   "line": "Tenant not named - High floor (exact floor not disclosed), 8 Queen's Road Central (Leased for HK$240,960/month)",
-   "area": "Central / Sheung Wan",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
-   "actions": [
-    "Ask 8 Queen's Road Central's building management office, or the agent, who the tenant is.",
-    "New tenants fit out before moving in: reach them before the fit-out tender.",
-    "Contact 8 Queen's Road Central's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-8-queen-s-road-central/detail/1240401700/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Market News)",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-central-8-queen-s-road-central/detail/1240401700/",
-     "title": "",
-     "date": "2026-09-09"
-    }
-   ],
-   "verification": "Register record",
-   "score": 3,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Lease 3,012 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
-   ],
-   "features": [
-    "area:Central / Sheung Wan",
-    "deal:Lease",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Market News",
-    "region:HK Island",
-    "sector:Facility Management & Real Estate",
-    "size:m",
-    "usage:Office"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
    "id": "bb2bcc59d866",
    "kind": "transaction",
    "date": "2026-09-02",
@@ -23429,25 +23890,25 @@
    "group": "Events",
    "name": "BritCham HK events",
    "ok": true,
-   "count": 58
+   "count": 59
   },
   {
    "group": "Events",
    "name": "HKCEC event calendar",
    "ok": true,
-   "count": 49
+   "count": 48
   },
   {
    "group": "Events",
    "name": "HKGCC events",
    "ok": true,
-   "count": 13
+   "count": 12
   },
   {
    "group": "Events",
    "name": "InvestHK events (HKSAR Gov)",
    "ok": true,
-   "count": 12
+   "count": 14
   },
   {
    "group": "Events",
@@ -23471,13 +23932,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"Grade A\" office tenant",
    "ok": true,
-   "count": 9
+   "count": 27
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"regional headquarters\" office opens OR relocates",
    "ok": true,
-   "count": 25
+   "count": 26
   },
   {
    "group": "Property",
@@ -23489,13 +23950,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 29
+   "count": 27
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 37
+   "count": 34
   },
   {
    "group": "Property",
@@ -23507,19 +23968,19 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 49
+   "count": 51
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 71
+   "count": 74
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 12
+   "count": 8
   },
   {
    "group": "Property",
@@ -23531,13 +23992,13 @@
    "group": "Property",
    "name": "News search (EN): \"new Hong Kong office\"",
    "ok": true,
-   "count": 7
+   "count": 6
   },
   {
    "group": "Property",
    "name": "News search (EN): \"opens Hong Kong office\"",
    "ok": true,
-   "count": 10
+   "count": 11
   },
   {
    "group": "Property",
@@ -23549,7 +24010,7 @@
    "group": "Property",
    "name": "News search (EN): asianinvestor.net",
    "ok": true,
-   "count": 74
+   "count": 39
   },
   {
    "group": "Property",
@@ -23561,25 +24022,25 @@
    "group": "Property",
    "name": "News search (EN): businesswire.com",
    "ok": true,
-   "count": 100
+   "count": 68
   },
   {
    "group": "Property",
    "name": "News search (EN): campaignasia.com",
    "ok": true,
-   "count": 44
+   "count": 43
   },
   {
    "group": "Property",
    "name": "News search (EN): datacenterdynamics.com",
    "ok": true,
-   "count": 63
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (EN): edgeprop.sg",
    "ok": true,
-   "count": 60
+   "count": 100
   },
   {
    "group": "Property",
@@ -23591,7 +24052,7 @@
    "group": "Property",
    "name": "News search (EN): globenewswire.com",
    "ok": true,
-   "count": 100
+   "count": 61
   },
   {
    "group": "Property",
@@ -23603,31 +24064,31 @@
    "group": "Property",
    "name": "News search (EN): hongkongfp.com",
    "ok": true,
-   "count": 23
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (EN): insideretail.asia",
    "ok": true,
-   "count": 22
+   "count": 21
   },
   {
    "group": "Property",
    "name": "News search (EN): law.com",
    "ok": true,
-   "count": 69
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (EN): mingtiandi.com",
    "ok": true,
-   "count": 99
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (EN): news.gov.hk",
    "ok": true,
-   "count": 62
+   "count": 100
   },
   {
    "group": "Property",
@@ -23639,13 +24100,13 @@
    "group": "Property",
    "name": "News search (EN): prnewswire.com",
    "ok": true,
-   "count": 78
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (EN): realestateasia.com",
    "ok": true,
-   "count": 79
+   "count": 16
   },
   {
    "group": "Property",
@@ -23669,13 +24130,13 @@
    "group": "Property",
    "name": "News search (EN): therealdeal.com",
    "ok": true,
-   "count": 100
+   "count": 60
   },
   {
    "group": "Property",
    "name": "News search (EN): thestandard.com.hk",
    "ok": true,
-   "count": 29
+   "count": 100
   },
   {
    "group": "Property",
@@ -23687,7 +24148,7 @@
    "group": "Property",
    "name": "News search (EN): w.media",
    "ok": true,
-   "count": 7
+   "count": 6
   },
   {
    "group": "Property",
@@ -23699,7 +24160,7 @@
    "group": "Property",
    "name": "News search (中文): am730.com.hk",
    "ok": true,
-   "count": 59
+   "count": 100
   },
   {
    "group": "Property",
@@ -23711,13 +24172,13 @@
    "group": "Property",
    "name": "News search (中文): dotdotnews.com",
    "ok": true,
-   "count": 45
+   "count": 44
   },
   {
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 21
+   "count": 18
   },
   {
    "group": "Property",
@@ -23729,25 +24190,25 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 83
+   "count": 77
   },
   {
    "group": "Property",
    "name": "News search (中文): hkej.com",
    "ok": true,
-   "count": 55
+   "count": 100
   },
   {
    "group": "Property",
    "name": "News search (中文): hket.com",
    "ok": true,
-   "count": 93
+   "count": 98
   },
   {
    "group": "Property",
    "name": "News search (中文): i-cable.com",
    "ok": true,
-   "count": 17
+   "count": 24
   },
   {
    "group": "Property",
@@ -23759,13 +24220,13 @@
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 100
+   "count": 59
   },
   {
    "group": "Property",
    "name": "News search (中文): on.cc",
    "ok": true,
-   "count": 68
+   "count": 100
   },
   {
    "group": "Property",
@@ -23777,7 +24238,7 @@
    "group": "Property",
    "name": "News search (中文): stheadline.com",
    "ok": true,
-   "count": 77
+   "count": 100
   },
   {
    "group": "Property",
@@ -23801,25 +24262,25 @@
    "group": "Property",
    "name": "News search (中文): 億購 商廈 OR 寫字樓 OR 工廈",
    "ok": true,
-   "count": 74
+   "count": 73
   },
   {
    "group": "Property",
    "name": "News search (中文): 商廈 樓層 成交 億",
    "ok": true,
-   "count": 18
+   "count": 61
   },
   {
    "group": "Property",
    "name": "News search (中文): 寫字樓 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 66
+   "count": 68
   },
   {
    "group": "Property",
    "name": "News search (中文): 工廈 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 61
+   "count": 21
   },
   {
    "group": "Property",
@@ -23831,7 +24292,7 @@
    "group": "Property",
    "name": "News search (中文): 租客為 寫字樓 OR 商廈",
    "ok": true,
-   "count": 27
+   "count": 67
   },
   {
    "group": "Property",
@@ -23843,13 +24304,13 @@
    "group": "Property",
    "name": "News search (中文): 萬購 全層 自用",
    "ok": true,
-   "count": 42
+   "count": 41
   },
   {
    "group": "Property",
    "name": "News search (中文): 註冊處資料顯示 買家 有限公司",
    "ok": true,
-   "count": 24
+   "count": 23
   },
   {
    "group": "Property",
@@ -23861,19 +24322,19 @@
    "group": "Property",
    "name": "News search (中文): 進駐 甲廈 樓面",
    "ok": true,
-   "count": 29
+   "count": 28
   },
   {
    "group": "Property",
    "name": "News search (中文): 預租 甲廈 總部",
    "ok": true,
-   "count": 12
+   "count": 13
   },
   {
    "group": "Property",
    "name": "News search (中文): 香港 寫字樓 搬遷",
    "ok": true,
-   "count": 10
+   "count": 13
   },
   {
    "group": "Property",
@@ -23891,7 +24352,7 @@
    "group": "Transactions",
    "name": "Centaline Commercial transaction register",
    "ok": true,
-   "count": 2223
+   "count": 2222
   },
   {
    "group": "Transactions",

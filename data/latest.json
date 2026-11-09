@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T06:57:29+08:00",
+ "generated": "2026-11-10T07:06:55+08:00",
  "property_days": 90,
  "events": [
   {
@@ -203,6 +203,72 @@
    "is_new": false
   },
   {
+   "id": "0251476c85f3",
+   "kind": "event",
+   "name": "Hong Kong Maritime Week",
+   "start": "2026-11-15",
+   "end": "2026-11-21",
+   "month": "2026-11",
+   "months": [
+    "2026-11"
+   ],
+   "time": "",
+   "venue": "",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Logistics & Supply Chain"
+   ],
+   "sector": "Logistics & Supply Chain",
+   "access": "Not stated in listing",
+   "audience": "Business / investors (InvestHK listing)",
+   "category": "Business event",
+   "organiser": "",
+   "organiser_url": "",
+   "contact_phone": "",
+   "contact_email": "",
+   "lead_types": [
+    "Prospect networking",
+    "Senior networking"
+   ],
+   "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
+   "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
+   "actions": [
+    "Register / plan attendance now (event is close).",
+    "Target in the room: Warehouse / 3PL operations & security managers, port and air-cargo operators.",
+    "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
+    "Follow up within 3 working days after 21 Nov 2026 and log contacts here."
+   ],
+   "sources": [
+    {
+     "name": "InvestHK events (HKSAR Gov)",
+     "url": "https://www.investhk.gov.hk/en/events/hong-kong-maritime-week-2026/"
+    }
+   ],
+   "verification": "Official listing",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Buyers in a Securitas sector: Logistics & Supply Chain (+3)",
+    "Senior decision-makers in the room (+2)",
+    "Team feedback on similar items: -0.3 level on average across 32 re-ratings (-1)"
+   ],
+   "features": [
+    "access:Not stated in listing",
+    "area:Hong Kong (district not stated)",
+    "kind:event",
+    "lead:Prospect networking",
+    "lead:Senior networking",
+    "sector:Logistics & Supply Chain",
+    "venue:other"
+   ],
+   "first_seen": "2026-11-10T07:06:55+08:00",
+   "is_new": true
+  },
+  {
    "id": "0c108726ef8c",
    "kind": "event",
    "name": "Bank of China (Hong Kong) Hong Kong-Zhuhai-Macao Bridge (HK Section) Half Marathon 2026",
@@ -299,7 +365,7 @@
    "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
    "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
    "actions": [
-    "Register / plan attendance by 9 Nov 2026.",
+    "Register / plan attendance now (event is close).",
     "Before the fair, shortlist exhibitors and visitors from: Warehouse / 3PL operations & security managers, port and air-cargo operators. Book 3-5 meetings.",
     "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
     "Follow up within 3 working days after 17 Nov 2026 and log contacts here."
@@ -368,7 +434,7 @@
    "who": "Warehouse / 3PL operations & security managers, port and air-cargo operators",
    "pitch": "Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence",
    "actions": [
-    "Register / plan attendance by 9 Nov 2026.",
+    "Register / plan attendance now (event is close).",
     "Before the fair, shortlist exhibitors and visitors from: Warehouse / 3PL operations & security managers, port and air-cargo operators. Book 3-5 meetings.",
     "Pitch: Perimeter & yard CCTV, dock access control, guarding & mobile patrol, remote viewing, supply-chain risk intelligence.",
     "Follow up within 3 working days after 17 Nov 2026 and log contacts here."
@@ -3650,7 +3716,7 @@
     "Several target sectors present (+1)",
     "Exhibitors / organiser are potential partners (+1)",
     "Large trade exhibition: many exhibitors to prospect (+1)",
-    "Team feedback on similar items: -0.4 level on average across 54 re-ratings (-1)"
+    "Team feedback on similar items: -0.3 level on average across 56 re-ratings (-1)"
    ],
    "features": [
     "access:Not stated in listing",
@@ -3735,6 +3801,89 @@
  ],
  "property": [
   {
+   "id": "c9b361120a09",
+   "kind": "property",
+   "headline": "ClearVue Opens Hong Kong Office to Expand Regional Solar Building Solutions",
+   "date": "2026-11-08",
+   "first_reported": "2026-11-03",
+   "month": "2026-11",
+   "company": "ClearVue",
+   "types": [
+    "Expansion",
+    "New office"
+   ],
+   "type": "Expansion",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Energy & Environment",
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Energy & Environment",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Utility, plant and green-facility managers",
+   "pitch": "Remote-site perimeter protection, mobile patrol, remote viewing",
+   "actions": [
+    "Find ClearVue's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
+    "Pitch: Remote-site perimeter protection, mobile patrol, remote viewing.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=ClearVue%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=ClearVue%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZFVhT2hOTkpIYThZcWo1YXdYYk0zZTlJa3hwVU9zQVU2TmVKZTNCNGZRdmVpQVVlcld6NGJjRkxhVnZvSnlVc2lrVXM2azRCWTA3c0xMZDNqajFGQW96YmVZdGcwM3A2NmVzLXRpdzU5a1RqOXA3UWpCdmJ0VWxIenFhQ3RVTENOTF9kNUVKMnpsWW81MksxMzBIVm5fT01qZEZrTS1sTWhjT3Zhak5sMmRTQVpKQVVDQUhQdVQwLU9aNWNBM3Mtck9keU4yR3EtZHJCVi1OSlhvYkloVVl1MG1ydW14MzJWQWZMcl9nS3NxQ0U?oc=5",
+     "title": "ClearVue Opens Hong Kong Office to Expand Regional Solar Building Solutions",
+     "date": "2026-11-03"
+    },
+    {
+     "name": "TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWGQ1aG0xbzhIQVNQbDMwdWIteFZFOC1KNUo3QnZLWFp2MHlpcmJEMUtUWW9RR2xHNnh5QmFmVWN2dG83WDNCSWJESUxFWFFzbmloVFV5ZVM1SldEeENYTmRRQ1FieVRRaVNpTzRHR0x3TF9hQWRCRGNTb3l5QXlRZzA4NHVKSGdjSTc4SWw0ajMwdzRZbjBHeWxLbXdlZFdwV0I0R2lTemxsNW5wUVBfeg?oc=5",
+     "title": "ClearVue Opens Hong Kong Office to Expand Regional Presence",
+     "date": "2026-11-08"
+    }
+   ],
+   "verification": "Corroborated by 2 outlets",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Expansion: extra floors to secure (+2)",
+    "Reported by 2 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:Expansion",
+    "move:New office",
+    "sector:Energy & Environment"
+   ],
+   "first_seen": "2026-11-06T07:08:37+08:00",
+   "is_new": false
+  },
+  {
    "id": "ba072bd55011",
    "kind": "property",
    "headline": "告別荃灣！周大福媒體娛樂斥6400萬翻新觀塘總部 料158日完工",
@@ -3787,7 +3936,7 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 5,
+   "score": 7,
    "level": "MEDIUM",
    "thresholds": [
     8,
@@ -3795,7 +3944,8 @@
    ],
    "reasons": [
     "New headquarters fit-out (+3)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Kwai Tsing / Tsuen Wan",
@@ -3858,10 +4008,16 @@
      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxPbWZoSTR0OFJvYko0Rko0UkctMjVMeDljdm1Ia2RlV0xDbl9TRnVBbUR5cUF1cTlVLWVLVHAtTkdpMlNaQ2pDRXZ3Q3YwZllXYl9hYnlDREhiWDVlUXV6STdCdzI5V2tTbHgyZzJDaTI5XzRDWm9wSHFzUmRlaFVyRVkyTlktWHpwUTNtUWVzZWdTUjd5c3d6TklQaU9oMm8zNWxOMVRfdklHUkMxMnZ3eDJfSmkyMUpTSzRhejAtS25LZThabllnSkJlcldRZ0NxTGtrazRhMmpUckl2ZlBsbE1PQUFnemlYbm5ZX2l2bXpCQ1JvS2F5T2tnZmpsSTFPODF0MHhLSnQ3UC1MOWd6UmFIX2JGMDB0MEltaDROVVlHcWt2VGtSVl9QSUh2R0ltT2Q5VVVSQU9nUnQ4NGROZmcwU1FDOExac243SWNNVkRMUUdFRVczY18xX3B0M2c2NzNHYVNyaXBHZ1cyZ3hIUm9iX0VzMjFIZS02Rm10SjlXM0dZMzNpNlZB?oc=5",
      "title": "瑞銀進駐西九環球匯新總部 50萬呎瑞銀中心首階段啟用",
      "date": "2026-11-06"
+    },
+    {
+     "name": "香港01",
+     "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxOTGJUNTJFVC0yRmVIYmNnSGpXV1lta0hhaDlSbmNZMW83VlVQTWFXUXRscW9DT3h2bW9uZmxiUEtJcDd5UV9DQXAxSllqaFJvYkFIaFpJVUlDSUEzV1docG4xdHZkR1cwakFTUE5mMTlHZEtFSEloMng0VS1PQzBWNTNNSXVaY3M3TWNaRy0ybFhqb1J5ZURNMXNXSjQ5a3NOdG1nLXBWT2VESURBV29SX1BXTVFHSVRoMUlVT2QwSFY5bThzWmw5S1dQcmc2d2QyTlZmWWxXSzdpS3gzUU5PRWxIZGRZSjVKWl9Pakk0R1RoRm1oNGhLZjgzMFZFQk45OFF1SmlnS2dVNXdLTk9XMUhlWTV0bmJtNkREYV9JZW01RUtRYzM0UjVoRkQ1ajNYR1EtVUVhckQzZDh1bDE5WkI1VldOS1E4YnFLNHJhalNNcndaemJYWGd4ZGVBNUF4VWV6cENNR2dsTG5FVm02ZDlydVMzSVo0SkNROURLdWtuN2NjOTVoNE5CcW9sSmp5eXk5bm92eVo2bmlxam9FS3pFMDh5ME16czhNUTRtZTJ1b1VRTDg2aExBVE9pQQ?oc=5",
+     "title": "瑞銀香港新總部西九「瑞銀中心」首階段啟用 設亞太最大交易大堂",
+     "date": "2026-11-06"
     }
    ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 12,
+   "verification": "Corroborated by 2 outlets",
+   "score": 15,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -3872,7 +4028,9 @@
     "Move-in: new premises need security systems (+2)",
     "Grade A building: IGC (+2)",
     "Large space (500,000 sq ft) (+3)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Reported by 2 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -3939,15 +4097,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 3,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
    ],
    "reasons": [
     "New office opening (+1)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -3962,17 +4121,17 @@
   {
    "id": "8bb1d6a95696",
    "kind": "property",
-   "headline": "西九地標｜新地IGC傳獲華為承租兩層樓面共7萬方呎 料月租280萬元",
+   "headline": "新地（016）西九龍環球匯ONE IGC甲級商廈再獲巨頭進駐，傳內地科技龍頭華為洽租兩層樓面共7萬平方呎，料月租約280萬元，呎租約70元。 市場消息，內地科技巨頭華為正積極洽租環球匯 ONE IGC 6樓及7樓全層，涉及總面積約7萬平方呎。由於承租樓層較低，呎租較",
    "date": "2026-11-05",
    "first_reported": "2026-11-04",
    "month": "2026-11",
    "company": "Huawei",
    "types": [
-    "Lease / pre-lease",
     "Relocation",
+    "Lease / pre-lease",
     "New HQ"
    ],
-   "type": "Lease / pre-lease",
+   "type": "Relocation",
    "building": "IGC",
    "landlords": [
     "Sun Hung Kai Properties"
@@ -4009,12 +4168,6 @@
    ],
    "sources": [
     {
-     "name": "Yahoo 財經",
-     "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNT284elIwM19vemdGYUt0eGM1REJURkp6WXFmcWdEX1RpWF9iRGZfQ0xLNHp2THJ3Tk4xYjlLLWwtU1JxYjNCX25UOS1DMlBObVBsM1dfTFZBOTZXdnhXbDdISlNMMXI1aUpjb0pLbFFwMDdtdy1jMEZqR2RrYzBzVFVKUnJGRTN5YmZmdVdaeks4eGNoWU1oRzhkTnpqbkMxdTJTWU9xLWg4WXZkWVo3elBydHpVLVdlakFSay1sNjZNZnZFRmJoS1E0SGw0UVRROV9McWx5YWNrSXRic01LbXkzOWlaNm9mMEdQYzV0OHZqTE4wRWpXandUcEFFLUJuWDhYWGhSS0ppWjFUU1J2djVOeUdCdVUyWG5nbTA4aFg5b1FiYkxLYmcxY1BmLTRXWW5HNE5yWFQ1YUdGVHVlV052OHFiU2wwNzRTVnFUbUxDZUZiNFp5QlUydkdZeGk2Wmo1ZEQ1RnFabTkyZHUtXzJOMXBTM21QWXV5QlpmNV9wZTBDeHR0LXpyUl9iZkt4a2NlNGZR?oc=5",
-     "title": "西九地標｜新地IGC傳獲華為承租兩層樓面共7萬方呎 料月租280萬元",
-     "date": "2026-11-04"
-    },
-    {
      "name": "Instagram",
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5BSlgxX083aWZBQ3VtOVItM0NLNzJWcW1ZTkp2X3hJNFFsMUdQNWdVejdaS0NOeVlLaFFKb1Nma0oxbUExTG8xRldTcENDVjhDNWc?oc=5",
      "title": "新地（016）西九龍環球匯ONE IGC甲級商廈再獲巨頭進駐，傳內地科技龍頭華為洽租兩層樓面共7萬平方呎，料月租約280萬元，呎租約70元。 市場消息，內地科技巨頭華為正積極洽租環球匯 ONE IGC 6樓及7樓全層，涉及總面積約7萬平方呎。由於承租樓層較低，呎租較",
@@ -4028,13 +4181,19 @@
     },
     {
      "name": "Yahoo 財經",
+     "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNT284elIwM19vemdGYUt0eGM1REJURkp6WXFmcWdEX1RpWF9iRGZfQ0xLNHp2THJ3Tk4xYjlLLWwtU1JxYjNCX25UOS1DMlBObVBsM1dfTFZBOTZXdnhXbDdISlNMMXI1aUpjb0pLbFFwMDdtdy1jMEZqR2RrYzBzVFVKUnJGRTN5YmZmdVdaeks4eGNoWU1oRzhkTnpqbkMxdTJTWU9xLWg4WXZkWVo3elBydHpVLVdlakFSay1sNjZNZnZFRmJoS1E0SGw0UVRROV9McWx5YWNrSXRic01LbXkzOWlaNm9mMEdQYzV0OHZqTE4wRWpXandUcEFFLUJuWDhYWGhSS0ppWjFUU1J2djVOeUdCdVUyWG5nbTA4aFg5b1FiYkxLYmcxY1BmLTRXWW5HNE5yWFQ1YUdGVHVlV052OHFiU2wwNzRTVnFUbUxDZUZiNFp5QlUydkdZeGk2Wmo1ZEQ1RnFabTkyZHUtXzJOMXBTM21QWXV5QlpmNV9wZTBDeHR0LXpyUl9iZkt4a2NlNGZR?oc=5",
+     "title": "西九地標｜新地IGC傳獲華為承租兩層樓面共7萬方呎 料月租280萬元",
+     "date": "2026-11-04"
+    },
+    {
+     "name": "Yahoo 財經",
      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxNbF8yNjVkQ2s5SVk1S1N3aGx0eG9hZ3JJVU1McV84TnpkdThYMHFUUzNWS3YxQ0tvY2MtZXZPU2luT2doY3JqTWM4Yk5jNUxLLTBjaFFsNVhHa3lHVHQ1T1pOMnNYSXlWdzlEeU92N2luZm91TVFDd0tBRF8xQmQ1bS1rTkt3eVUyTl91LWk1TFhBeXZFdER1QS1rellJdDFXUzF4YWZnY0ZQNE9LU0RtNWpIdGpuSkMtSEtQUk1iOFBnNm9sSllaMjY2aHdoTUFHTTE3dTB6WjR5Wnd1c3BqM051THE5OHVjaU9LcXY2dF90UG1PVUZiU2JhQ0FPb1ZMVkY4TkZSTENXdnZJVXRIWWQ5TlA3cWtiVm96SGtqRmNMbWduLUI4bGdMX2tha1lTZERsaC1GRTRUQjRFMC1IMXdJdnc4bkVVSWQzcUhMdG1RUGtVcDJEWk9oYWxNVlVoT1dyeVRLWVExYzZ2dEgtTWx3QjkwemVadFY3dW1mUm43VHFZdlRlQjRGYk5SS01fd2FXT3hMeWlSXzdJampZRjJJXzM5LXU1SzFUUzZmal94MU5PYUtB?oc=5",
      "title": "棄尖沙咀逾10萬呎總部！華為傳落戶西九IGC，中資巨企看準甚麼地利優勢？",
      "date": "2026-11-05"
     }
    ],
    "verification": "Corroborated by 3 outlets",
-   "score": 13,
+   "score": 15,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -4047,7 +4206,8 @@
     "Large space (100,000 sq ft) (+3)",
     "2 floors (+1)",
     "Tech / healthcare tenant: access control & IP protection (+1)",
-    "Reported by 3 outlets (+1)"
+    "Reported by 3 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -4120,15 +4280,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
    ],
    "reasons": [
     "Expansion: extra floors to secure (+2)",
-    "Grade A office (per report) (+2)"
+    "Grade A office (per report) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 5 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -4194,8 +4355,8 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 8,
+   "level": "HIGH",
    "thresholds": [
     8,
     5
@@ -4203,7 +4364,8 @@
    "reasons": [
     "Move-in: new premises need security systems (+2)",
     "Grade A building: Lee Garden Eight (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -4214,80 +4376,6 @@
     "sector:Finance & Professional Services"
    ],
    "first_seen": "2026-11-05T07:07:10+08:00",
-   "is_new": false
-  },
-  {
-   "id": "c9b361120a09",
-   "kind": "property",
-   "headline": "ClearVue Opens Hong Kong Office to Expand Regional Solar Building Solutions",
-   "date": "2026-11-03",
-   "first_reported": "2026-11-03",
-   "month": "2026-11",
-   "company": "ClearVue",
-   "types": [
-    "Expansion",
-    "New office"
-   ],
-   "type": "Expansion",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Energy & Environment"
-   ],
-   "sector": "Energy & Environment",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Utility, plant and green-facility managers",
-   "pitch": "Remote-site perimeter protection, mobile patrol, remote viewing",
-   "actions": [
-    "Find ClearVue's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
-    "Pitch: Remote-site perimeter protection, mobile patrol, remote viewing.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=ClearVue%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=ClearVue%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZFVhT2hOTkpIYThZcWo1YXdYYk0zZTlJa3hwVU9zQVU2TmVKZTNCNGZRdmVpQVVlcld6NGJjRkxhVnZvSnlVc2lrVXM2azRCWTA3c0xMZDNqajFGQW96YmVZdGcwM3A2NmVzLXRpdzU5a1RqOXA3UWpCdmJ0VWxIenFhQ3RVTENOTF9kNUVKMnpsWW81MksxMzBIVm5fT01qZEZrTS1sTWhjT3Zhak5sMmRTQVpKQVVDQUhQdVQwLU9aNWNBM3Mtck9keU4yR3EtZHJCVi1OSlhvYkloVVl1MG1ydW14MzJWQWZMcl9nS3NxQ0U?oc=5",
-     "title": "ClearVue Opens Hong Kong Office to Expand Regional Solar Building Solutions",
-     "date": "2026-11-03"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 2,
-   "level": "LOW",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "Expansion: extra floors to secure (+2)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:Expansion",
-    "move:New office",
-    "sector:Energy & Environment"
-   ],
-   "first_seen": "2026-11-06T07:08:37+08:00",
    "is_new": false
   },
   {
@@ -4343,15 +4431,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 3,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
    ],
    "reasons": [
     "New office opening (+1)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -4416,15 +4505,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 3,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
    ],
    "reasons": [
     "New office opening (+1)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -4489,15 +4579,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 3,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
    ],
    "reasons": [
     "New office opening (+1)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -4562,7 +4653,7 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 1,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     8,
@@ -4570,8 +4661,7 @@
    ],
    "reasons": [
     "Move-in: new premises need security systems (+2)",
-    "Prime office district: Wan Chai (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-2)"
+    "Prime office district: Wan Chai (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -4582,6 +4672,80 @@
    ],
    "first_seen": "2026-11-03T07:01:56+08:00",
    "is_new": false
+  },
+  {
+   "id": "0e7a1e18dcb8",
+   "kind": "property",
+   "headline": "金融通山海開放贏未來——中國銀行發揮中銀香港東南亞區域總部作用賦能APEC經貿高質量發展",
+   "date": "2026-10-30",
+   "first_reported": "2026-10-30",
+   "month": "2026-10",
+   "company": "Bank of China (HK)",
+   "types": [
+    "New HQ"
+   ],
+   "type": "New HQ",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Finance & Professional Services"
+   ],
+   "sector": "Finance & Professional Services",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "zh",
+   "who": "Heads of corporate real estate / workplace, office managers, COOs and security / risk heads at banks, insurers, funds and law firms",
+   "pitch": "Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence",
+   "actions": [
+    "Find Bank of China (HK)'s workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
+    "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=Bank%20of%20China%20%28HK%29%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=Bank%20of%20China%20%28HK%29%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "香港商报",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yenVlRVF0Mjl5T20zb24xUmhOS2p3bzdPNVkyUFVYN2k5YjZzMTdqZDgwSl9wVWpUaFozTWhKUlR0X1FoVkdzcHZaZlBZa2dHUmVxREpLU2tBT0kzRERBS3dxZHVpNGp3alhldG9yUlh5R2tuQVE?oc=5",
+     "title": "金融通山海開放贏未來——中國銀行發揮中銀香港東南亞區域總部作用賦能APEC經貿高質量發展",
+     "date": "2026-10-30"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 7,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "New headquarters fit-out (+3)",
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:New HQ",
+    "sector:Finance & Professional Services"
+   ],
+   "first_seen": "2026-11-10T07:06:55+08:00",
+   "is_new": true
   },
   {
    "id": "e17902542c28",
@@ -4637,15 +4801,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
+   "score": 6,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
    ],
    "reasons": [
     "Move-in: new premises need security systems (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -4717,8 +4882,8 @@
     }
    ],
    "verification": "Corroborated by 2 outlets",
-   "score": 3,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
@@ -4726,7 +4891,8 @@
    "reasons": [
     "New office opening (+1)",
     "Prime office district: Central / Sheung Wan (+1)",
-    "Reported by 2 outlets (+1)"
+    "Reported by 2 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -4791,14 +4957,15 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 1,
+   "score": 2,
    "level": "LOW",
    "thresholds": [
     8,
     5
    ],
    "reasons": [
-    "New office opening (+1)"
+    "New office opening (+1)",
+    "Team feedback on similar items: +0.5 level on average across 5 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -4864,7 +5031,7 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 9,
+   "score": 11,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -4874,7 +5041,8 @@
     "New headquarters fit-out (+3)",
     "Move-in: new premises need security systems (+2)",
     "Mid-size space (45,000 sq ft) (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -4940,7 +5108,7 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 2,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     8,
@@ -4948,7 +5116,8 @@
    ],
    "reasons": [
     "New office opening (+1)",
-    "Tech / healthcare tenant: access control & IP protection (+1)"
+    "Tech / healthcare tenant: access control & IP protection (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
@@ -5013,7 +5182,7 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     8,
@@ -5022,7 +5191,8 @@
    "reasons": [
     "Move-in: new premises need security systems (+2)",
     "Prime office district: Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak) (+1)",
-    "Mid-size space (20,000 sq ft) (+2)"
+    "Mid-size space (20,000 sq ft) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 5 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -5088,8 +5258,8 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 7,
-   "level": "MEDIUM",
+   "score": 9,
+   "level": "HIGH",
    "thresholds": [
     8,
     5
@@ -5098,7 +5268,8 @@
     "Move-in: new premises need security systems (+2)",
     "Expansion: extra floors to secure (+2)",
     "Prime office district: Central / Sheung Wan (+1)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -5109,78 +5280,6 @@
     "sector:Luxury & HNW Goods"
    ],
    "first_seen": "2026-10-12T23:09:34+08:00",
-   "is_new": false
-  },
-  {
-   "id": "3b5b76f58713",
-   "kind": "property",
-   "headline": "Qingling Motors Relocates Hong Kong Principal Office and Affirms Board Structure",
-   "date": "2026-10-10",
-   "first_reported": "2026-10-10",
-   "month": "2026-10",
-   "company": "Qingling Motors",
-   "types": [
-    "Relocation"
-   ],
-   "type": "Relocation",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "size": null,
-   "size_txt": "",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Landlords' asset & property managers, building management offices, FM companies",
-   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
-   "actions": [
-    "Find Qingling Motors's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Move-in: security design is usually fixed during fit-out planning, so reach them before the fit-out tender.",
-    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=Qingling%20Motors%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=Qingling%20Motors%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "The Globe and Mail",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQU1FoZVUyVkxCRnR2SUdXVUdBYjluN3c4WmNUM090Mk5wVVF6RzBFU2dvUzl0UDQ5cDRXUG9IeGVfakJjdllxYjZuN1h5cWR1MXhzcElVRHQwXzU3d2IwVTh0WjdIb0JnemduaWNXU1ZIZ0hJS1U1STVEWW1SUkxiQk1hU3RKZ2pjeDB4NkNJbFJMakxpREQxUFYxYllLS2t5di04ak5jUEc3UEw4a1ZPVEdHdUxTMUwtQjdSbWxpWGVVRFYwSDd0Y1hBQk5mVVV6bnc2SUdHWW9KbTBxMzg5aGJHRTh3dzZWeWczOVNDYXg2SUR0UHUzODFR?oc=5",
-     "title": "Qingling Motors Relocates Hong Kong Principal Office and Affirms Board Structure",
-     "date": "2026-10-10"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 2,
-   "level": "LOW",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "Move-in: new premises need security systems (+2)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:Relocation",
-    "sector:Facility Management & Real Estate"
-   ],
-   "first_seen": "2026-11-06T07:08:37+08:00",
    "is_new": false
   },
   {
@@ -5244,7 +5343,7 @@
     }
    ],
    "verification": "Corroborated by 2 outlets",
-   "score": 8,
+   "score": 10,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -5255,7 +5354,8 @@
     "Expansion: extra floors to secure (+2)",
     "Prime office district: Causeway Bay (+1)",
     "Tech / healthcare tenant: access control & IP protection (+1)",
-    "Reported by 2 outlets (+1)"
+    "Reported by 2 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -5328,7 +5428,7 @@
     }
    ],
    "verification": "Corroborated by 2 outlets",
-   "score": 10,
+   "score": 12,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -5339,7 +5439,8 @@
     "Grade A building: IGC (+2)",
     "Large space (70,000 sq ft) (+3)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 2 outlets (+1)"
+    "Reported by 2 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -5354,16 +5455,15 @@
   {
    "id": "d190c24026d7",
    "kind": "property",
-   "headline": "Danantara Eyes Hong Kong Office as Expansion Drive",
+   "headline": "Danantara Said to Open Office in Hong Kong, Plans Hiring",
    "date": "2026-09-29",
    "first_reported": "2026-09-29",
    "month": "2026-09",
    "company": "Danantara",
    "types": [
-    "Expansion",
     "New office"
    ],
-   "type": "Expansion",
+   "type": "New office",
    "building": "",
    "landlords": [],
    "area": "Hong Kong (district not stated)",
@@ -5382,7 +5482,7 @@
    "actions": [
     "Find Danantara's workplace / facilities / office-admin lead in Hong Kong (links below).",
     "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
+    "New office: offer the SME bundle (access control + intruder alarm + SOC remote viewing).",
     "Pitch: Reception & access-control guarding, CCTV and access control for new floors, visitor management, executive protection, Pinkerton due diligence.",
     "Update Status here after each contact so the team can see progress."
    ],
@@ -5398,19 +5498,13 @@
    ],
    "sources": [
     {
-     "name": "Briefs Finance",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMktYcllkRC10Zm9PM3RPMmh5SEQwOWdnSjgtcUQ3WGFaay1sOXV5UHFQN2dQVnJzcGJSR0JxVGVaYVBPdzJoZVBtZTl0eWVuZUNBMGdOTjZpOE01N0FNUjVxTF8wamIxR1RKVjBJY2FqWjlES19tUEVRUFdpaDRlSHFwNlF5T3R5dVpFYTZYZzY0UQ?oc=5",
-     "title": "Danantara Eyes Hong Kong Office as Expansion Drive",
-     "date": "2026-09-29"
-    },
-    {
      "name": "Bloomberg.com",
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdy1wNFRrT2NURWFPdG51SE0xQXBoM0hBRTFMaEFLVTBDR3hYOXRPS2MxUzdSY2NzZW5vRzV2a0pyeno5RVhSRm55d296elpybzNpNjBYU2VOd2ptMW4wMWlaWWNwMnVMbzdsWFRqQ3pvRXlWenhXYXlKeEQ1VjNHS1psUXZNWGVkaDRCcjBvaGdUSXhlSHR3Z2E0ZnFSNG9iRHp0am9PMWdkQQ?oc=5",
      "title": "Danantara Said to Open Office in Hong Kong, Plans Hiring",
      "date": "2026-09-29"
     }
    ],
-   "verification": "Corroborated by 2 outlets",
+   "verification": "Single outlet: open source to confirm",
    "score": 5,
    "level": "MEDIUM",
    "thresholds": [
@@ -5418,15 +5512,14 @@
     5
    ],
    "reasons": [
-    "Expansion: extra floors to secure (+2)",
+    "New office opening (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 2 outlets (+1)"
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
     "grade:Not stated",
     "kind:property",
-    "move:Expansion",
     "move:New office",
     "sector:Finance & Professional Services"
    ],
@@ -5505,7 +5598,7 @@
     }
    ],
    "verification": "Corroborated by 4 outlets",
-   "score": 10,
+   "score": 12,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -5516,7 +5609,8 @@
     "Move-in: new premises need security systems (+2)",
     "Grade A building: Pacific Place (+2)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 4 outlets (+1)"
+    "Reported by 4 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Admiralty",
@@ -5610,7 +5704,7 @@
     }
    ],
    "verification": "Corroborated by 4 outlets",
-   "score": 10,
+   "score": 12,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -5622,7 +5716,8 @@
     "Grade A building: Cheung Kong Center (+2)",
     "3 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 4 outlets (+1)"
+    "Reported by 4 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -5695,8 +5790,8 @@
     }
    ],
    "verification": "Corroborated by 2 outlets",
-   "score": 7,
-   "level": "MEDIUM",
+   "score": 9,
+   "level": "HIGH",
    "thresholds": [
     8,
     5
@@ -5706,7 +5801,8 @@
     "Expansion: extra floors to secure (+2)",
     "17,000 sq ft (+1)",
     "Tech / healthcare tenant: access control & IP protection (+1)",
-    "Reported by 2 outlets (+1)"
+    "Reported by 2 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Mong Kok / Yau Ma Tei",
@@ -5772,7 +5868,7 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 1,
+   "score": 2,
    "level": "LOW",
    "thresholds": [
     8,
@@ -5780,7 +5876,7 @@
    ],
    "reasons": [
     "New headquarters fit-out (+3)",
-    "Team feedback on similar items: -0.7 level on average across 6 re-ratings (-2)"
+    "Team feedback on similar items: -0.2 level on average across 9 re-ratings (-1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -5845,14 +5941,15 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 1,
+   "score": 2,
    "level": "LOW",
    "thresholds": [
     8,
     5
    ],
    "reasons": [
-    "New office opening (+1)"
+    "New office opening (+1)",
+    "Team feedback on similar items: +0.5 level on average across 5 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -5945,15 +6042,15 @@
      "date": "2026-09-09"
     },
     {
-     "name": "明報財經網",
-     "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNQTBsZld6bzRmTXVTc2xDbmFOSkVxM0V4VTRJaWFsek1OcGl1bzZtcDhmRWk1QlRhSlF4d0hDUlhFTXp4bTJLUmRGOVpwSS1UbnREeklTTmJ3bzZTUUFmSENnOEVMbUZKakt6R2UzRHJBVGJTSnZ0X2t3Tk84VU1UNGVfU25iWmVsMG1DdFc4X2dITTRYNHZLRFdXNFJIdy1vVjBEbHhtekhQUjdYZnJJRUtQVHBmRzl4M1pTdVBoaF83eF9uOFVvZHdNOS1RNGR4Z2Zac1Nua0pqZjRnLTBqSzJKLU1sU0NDT0xlOXh2aXdvUFExRl9MNjJGaHhsWGJJdHpVMjl5aGJrUEdESF9EWG1sUE5aYUR1ZnV4dDM0VDIzQW8yNUYzWkhXMG83OThvcWF2WXNkMklCVGdqWUROVU1SNmlRVnpKdFJqY3ZfUkdscFpkYTE1bmdJdDh2V2h0dFJpT0ltVnJkSlRMdkZkMTFfaDc5UWwyOGd4ei1iaw?oc=5",
-     "title": "眾安銀行租利園八期約4.5萬呎 較數碼港總部增近五成",
-     "date": "2026-09-09"
-    },
-    {
      "name": "信報網站",
      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOU2I4XzZDRFdMNHpNamVWdlpKSHVpVzlZOVVPcnJ4LVF5LWRNWWtrQ2pVZWdiQzZJWXdqLW9oUHR2a0pxdEZlakZOd1AtcGVJVmFtMElxeDBQY1VMYUFhbXVIQnlLdDZkVW53dlJwVmU2R25BYS1jaFNxWlUxXzcyVng2MjFFTXFWOThmNi1ZLWY2UXhzSE01NFJJYWFPU3pERWFkUzhraDV1QS1WWFJtUlZCM3JmR28wOFpnQklOT3htSG1PeHhVa3BaVl9zUTk0UHNnbmktMXdPVGRMMldCel9GaG1wTXotMFZ4S25YZUljTHJ3UzBQVncwSDhOV2FFc1BxMmw4REtEajN4SnNEbzRybjNxb05XNDRhYlI3Z0JKRURG?oc=5",
      "title": "眾安銀行承租利園8期4.5萬呎樓面作總部",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "明報財經網",
+     "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNQTBsZld6bzRmTXVTc2xDbmFOSkVxM0V4VTRJaWFsek1OcGl1bzZtcDhmRWk1QlRhSlF4d0hDUlhFTXp4bTJLUmRGOVpwSS1UbnREeklTTmJ3bzZTUUFmSENnOEVMbUZKakt6R2UzRHJBVGJTSnZ0X2t3Tk84VU1UNGVfU25iWmVsMG1DdFc4X2dITTRYNHZLRFdXNFJIdy1vVjBEbHhtekhQUjdYZnJJRUtQVHBmRzl4M1pTdVBoaF83eF9uOFVvZHdNOS1RNGR4Z2Zac1Nua0pqZjRnLTBqSzJKLU1sU0NDT0xlOXh2aXdvUFExRl9MNjJGaHhsWGJJdHpVMjl5aGJrUEdESF9EWG1sUE5aYUR1ZnV4dDM0VDIzQW8yNUYzWkhXMG83OThvcWF2WXNkMklCVGdqWUROVU1SNmlRVnpKdFJqY3ZfUkdscFpkYTE1bmdJdDh2V2h0dFJpT0ltVnJkSlRMdkZkMTFfaDc5UWwyOGd4ei1iaw?oc=5",
+     "title": "眾安銀行租利園八期約4.5萬呎 較數碼港總部增近五成",
      "date": "2026-09-09"
     },
     {
@@ -5994,7 +6091,7 @@
     }
    ],
    "verification": "Corroborated by 12 outlets",
-   "score": 13,
+   "score": 15,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -6007,7 +6104,8 @@
     "Mid-size space (45,000 sq ft) (+2)",
     "4 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 12 outlets (+1)"
+    "Reported by 12 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -6080,8 +6178,8 @@
     }
    ],
    "verification": "Corroborated by 2 outlets",
-   "score": 7,
-   "level": "MEDIUM",
+   "score": 8,
+   "level": "HIGH",
    "thresholds": [
     8,
     5
@@ -6090,7 +6188,8 @@
     "Move-in: new premises need security systems (+2)",
     "Grade A office (per report) (+2)",
     "6 floors (+2)",
-    "Reported by 2 outlets (+1)"
+    "Reported by 2 outlets (+1)",
+    "Team feedback on similar items: +0.3 level on average across 5 re-ratings (+1)"
    ],
    "features": [
     "area:Sha Tin / Tai Po (incl. Science Park)",
@@ -6162,7 +6261,7 @@
     }
    ],
    "verification": "Corroborated by 2 outlets",
-   "score": 8,
+   "score": 10,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -6173,7 +6272,8 @@
     "Grade A building: IFC (+2)",
     "11,000 sq ft (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 2 outlets (+1)"
+    "Reported by 2 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -6240,6 +6340,12 @@
      "date": "2026-08-24"
     },
     {
+     "name": "明報財經網",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONDJOT0lsSnRaeFN3Q3lQQl9ETVZpQUtvUThja2h6YWhyendhRHBfMkRObU9WZkJaYldxRV8wRzVaS2NEVnAzejdCRkVaZlpuMFAzeUV2RWM3dXBQMzF1MF9XZzlBV2ZsVlNSTU1rN1kzSDBYejdPZ1hyeUpFNkdIOU5DMW93cnNkYTNxZVlIWmlEUWZ0c1VxdEhUaURRRTI3YkY0SnRVUnROV0oxcnRRSUlfck4zV0o2RUhpTGI0QzYzV0lrYm1WVnhOUmQtQk9URUc1ellHWEFhblpKTUJTMGtQUS1GMmdianMzMzYyblFqVGw3alB5UQ?oc=5",
+     "title": "AXA進駐IGC近10萬呎樓面 租期10年",
+     "date": "2026-08-24"
+    },
+    {
      "name": "on.cc東網",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNHdWd0VHaUQwMmtQajJHVXZiUjhXT2psUU5DMGZPSEQxZ2EyaDJyNDJnVDRtR2JCVGdDYl8wS3pIeGQ0NGNsWk5MYUVBVG5nMFBweXdIZ3NJYUJWb3JEd1hBQjl4Y2Z6b2FxUHViclQyZXlVcE5yVFlzU00tRzBfWV9SZFF6cXBPeEwtRG5RWQ?oc=5",
      "title": "AXA安盛承租新地高鐵站上蓋商廈IGC兩層半 租期10年",
@@ -6264,8 +6370,8 @@
      "date": "2026-08-25"
     }
    ],
-   "verification": "Corroborated by 5 outlets",
-   "score": 11,
+   "verification": "Corroborated by 6 outlets",
+   "score": 13,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -6277,7 +6383,8 @@
     "Large space (100,000 sq ft) (+3)",
     "2 floors (+1)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 5 outlets (+1)"
+    "Reported by 6 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -6343,8 +6450,8 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 7,
-   "level": "MEDIUM",
+   "score": 9,
+   "level": "HIGH",
    "thresholds": [
     8,
     5
@@ -6352,7 +6459,8 @@
    "reasons": [
     "New headquarters fit-out (+3)",
     "Grade A building: The Henderson (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -6433,12 +6541,6 @@
      "date": "2026-08-19"
     },
     {
-     "name": "地產站",
-     "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQQ19lUzJHaHJ4S1dVOFIwOXpMYWc4cW9fYkU5VF9Ka2lxckxHT05JMndpV2Vib0o1OW9IY0FpNlQzeXo0d1RVd0lReE90M000YTFXOS05N0k3bkdQRTRnNmtWVG93UUhIb3d0NmUtTENSRXJQa01obG0yRmU4M2VuY0l1ajR4OFU5U1I1NDI5U1M2Y3lFWTI2TTg5TGc2SXdJT1RjOWhkVHZQaFo2WHhOQU1qZVdZd21rRW1KczBGM2gzc2RnZS1iRVN4dDRkQ0hoaHNMS3JRUU5jSFVwYzFvaER1M1BqV0lYRk9uMWtXVHN6Sm1ZQXhMSkRqZlNvd3EySGFsUHdRdVFsMFl5N21rVTE4b19LRENJbTl4dHJVaVl2MmNaM0xJTmxxbU5HVld5SmF6M0t2dVM1LUNGdkdxanNXVUFUVmpWMzRVTFFXMGpOZkJ6MzJad0s2UWZMLXVkTG1lamwtYzVmNkZl?oc=5",
-     "title": "太古坊成保險業基地 保誠擴充太古坊香港總部至8.3萬呎|香港經濟日報",
-     "date": "2026-08-19"
-    },
-    {
      "name": "香港01",
      "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxQUkJZektCSVRQYlRncUdtc2NjTzFKelBTZUNnXzh6VVlmcFZtWUI4a0hSRmlET1RpZ1NUZFBKT2dXaTNLQXVYN25NNlJoR0E2ZUJMLXlLSnhhQTdraEdWbHVxYTZVYVBia0ZNNEVHWmJlb08xTXB0OHdPQmFtVFBGX0RYeHdiUVF5Uy1nWnJ5MlZOWFhkQTI4WEM5R1Q0VUJsbmFZNWFMMmViUXZBM1ZEWnF2QksyY0VodDFJc0dnRXlDcFB0NVVTa1RzNUllU0Vyem9zcmlRbXF2NjJHT3lqMmJoRW43LVJNamxMMUpPcmE0ZnNuQzhrS0ZLLUxUaVl3d0FfQ0h1V0RGVF9weTgwc2VaQWhNWmU2TjlKTVkyMm45Q0VYZmZGMWRTQTg4TWpfdlRnc1NPeWItYlA4WkFSakhpamhiZXdNTkdZdUtBUWJuc2RXRGF6ZzZ6SDNnN0tRY0wzd1JZcmRJdXhURExmcGIya1FxemZ1dk9TYWQtU1NZeGdpbHhlZ2pRcU14eVk4bi1zVGgxN3lGdjdKS0hwcFFycmlMOVk?oc=5",
      "title": "保誠保險與太古地產簽新租約 擴充太古坊辦公空間至8.3萬呎",
@@ -6448,6 +6550,12 @@
      "name": "香港經濟日報HKET",
      "url": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxNR1loMzdsYmEyd09JdnVvUzlRV2JrSjlFaEpoMDY2b2hBQWo4NnhULU00X2p2MFIyOEI3a2Z5Y1FFQkxiY21uYzM0MElPSk02TEs2ZDdyd1U0UmhwSUVwZmdadEhndXpZMmw3S1FMNmhSQS1WcUQ1ZnFIbXlqeVNyQWdZbmxGOXNlQWh4UTE1NTd4UGlVNmJXYlY1enNSN2JoWnhMVVBQT2pJOFhPRE9ZYWJEazhPNl9ncHJPTlpURnBJNlhxSWhUc3pQSzVEN1BSbmxxVUhmODdtUkZ2Ml93aUc4MWk0bF9qZlJNRi1uS0pxU2hSOTYzM2N2M1RfOG1UUFByYVNLMXVzX0JnbmVoaVVCQTZJZHBKWlljN3ZoclBpbUNuakNvd2VJWXV6VnZwUlpORFYzYlZVdVRCYnlkWUNvcm9Sa0xCVWg5U2xpN3lZQnFydTBTdUhXTmhGSkJrWlE5dzVFU25LRm5CNkdYLUNTWUNyVWNfcGoyMmtDanBnTzQ3WFFEVUZoM0NJWWE4Q1VZNnpzd2lVbFNEaUZjc0NmekY2aWRXVE5yLXlwNS1JMndrUXdWLU5YdVA3SVpiQnpvNEphTnVmeHZqcE1XbG1SVEdPSG1iRWIybU9rWlhZa1BYbGpEWHlqbVlBNUdrMmp1aTIwbjBHNG9fTUE?oc=5",
      "title": "【1972】保誠擴充太古坊總部辦公樓面面積至約8.3萬呎 體現對香港長遠發展前景信心",
+     "date": "2026-08-19"
+    },
+    {
+     "name": "地產站",
+     "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQQ19lUzJHaHJ4S1dVOFIwOXpMYWc4cW9fYkU5VF9Ka2lxckxHT05JMndpV2Vib0o1OW9IY0FpNlQzeXo0d1RVd0lReE90M000YTFXOS05N0k3bkdQRTRnNmtWVG93UUhIb3d0NmUtTENSRXJQa01obG0yRmU4M2VuY0l1ajR4OFU5U1I1NDI5U1M2Y3lFWTI2TTg5TGc2SXdJT1RjOWhkVHZQaFo2WHhOQU1qZVdZd21rRW1KczBGM2gzc2RnZS1iRVN4dDRkQ0hoaHNMS3JRUU5jSFVwYzFvaER1M1BqV0lYRk9uMWtXVHN6Sm1ZQXhMSkRqZlNvd3EySGFsUHdRdVFsMFl5N21rVTE4b19LRENJbTl4dHJVaVl2MmNaM0xJTmxxbU5HVld5SmF6M0t2dVM1LUNGdkdxanNXVUFUVmpWMzRVTFFXMGpOZkJ6MzJad0s2UWZMLXVkTG1lamwtYzVmNkZl?oc=5",
+     "title": "太古坊成保險業基地 保誠擴充太古坊香港總部至8.3萬呎|香港經濟日報",
      "date": "2026-08-19"
     },
     {
@@ -6482,7 +6590,7 @@
     }
    ],
    "verification": "Corroborated by 10 outlets",
-   "score": 15,
+   "score": 17,
    "level": "HIGH",
    "thresholds": [
     8,
@@ -6495,7 +6603,8 @@
     "Grade A building: Taikoo Place (+2)",
     "Large space (83,000 sq ft) (+3)",
     "High-security tenant (finance / legal / luxury / data) (+2)",
-    "Reported by 10 outlets (+1)"
+    "Reported by 10 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -6563,8 +6672,8 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
+   "score": 6,
+   "level": "MEDIUM",
    "thresholds": [
     8,
     5
@@ -6572,7 +6681,8 @@
    "reasons": [
     "Move-in: new premises need security systems (+2)",
     "Prime office district: Central / Sheung Wan (+1)",
-    "Tech / healthcare tenant: access control & IP protection (+1)"
+    "Tech / healthcare tenant: access control & IP protection (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -6652,8 +6762,8 @@
     }
    ],
    "verification": "Corroborated by 3 outlets",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 8,
+   "level": "HIGH",
    "thresholds": [
     8,
     5
@@ -6661,7 +6771,8 @@
    "reasons": [
     "New headquarters fit-out (+3)",
     "Move-in: new premises need security systems (+2)",
-    "Reported by 3 outlets (+1)"
+    "Reported by 3 outlets (+1)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -6731,8 +6842,8 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 8,
+   "level": "HIGH",
    "thresholds": [
     8,
     5
@@ -6740,7 +6851,8 @@
    "reasons": [
     "Move-in: new premises need security systems (+2)",
     "Grade A office (per report) (+2)",
-    "High-security tenant (finance / legal / luxury / data) (+2)"
+    "High-security tenant (finance / legal / luxury / data) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -6806,7 +6918,7 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 6,
+   "score": 7,
    "level": "MEDIUM",
    "thresholds": [
     8,
@@ -6815,7 +6927,8 @@
    "reasons": [
     "New headquarters fit-out (+3)",
     "Move-in: new premises need security systems (+2)",
-    "Prime office district: Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak) (+1)"
+    "Prime office district: Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak) (+1)",
+    "Team feedback on similar items: +0.5 level on average across 5 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -6885,15 +6998,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Deal reported in news (+2)",
-    "Buyer / tenant named in a news report (+2)"
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -6964,15 +7078,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Deal reported in news (+2)",
-    "Buyer / tenant named in a news report (+2)"
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -7049,15 +7164,16 @@
     }
    ],
    "verification": "Corroborated by 2 outlets",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Deal reported in news (+2)",
-    "Buyer / tenant named in a news report (+2)"
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -7074,40 +7190,40 @@
    "is_new": false
   },
   {
-   "id": "684e5b2d1072",
+   "id": "dcf7b0b5bb32",
    "kind": "transaction",
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "month": "2026-11",
    "group": "Kowloon / N.T.",
    "deal": "Sale",
-   "usage": "Office / commercial",
-   "district": "",
-   "building": "",
-   "building_zh": "",
-   "floor": "",
+   "usage": "Office",
+   "district": "Cheung Sha Wan",
+   "building": "83 Wing Hong Street",
+   "building_zh": "永康街83號",
+   "floor": "High",
    "unit": "",
-   "area_sqft": null,
-   "area_txt": "",
-   "price": 130408000.0,
+   "area_sqft": 19144,
+   "area_txt": "19,144 ft² approx",
+   "price": 130410000.0,
    "price_txt": "HK$130.4M",
-   "psf": "",
-   "record_source": "HKEX filing",
+   "psf": "@6,812",
+   "record_source": "Market News",
    "party": "Solomon Systech Limited",
-   "party_source": "buyer, per HKEX filing",
-   "premises": "28th Floor of 83 Wing Hong Street, Kowloon, Hong Kong",
-   "line": "Solomon Systech Limited - 28th Floor of 83 Wing Hong Street, Kowloon, Hong Kong",
-   "area": "Hong Kong (district not stated)",
+   "party_source": "per HKEX filing",
+   "premises": "High floor (exact floor not disclosed), 83 Wing Hong Street",
+   "line": "Solomon Systech Limited - High floor (exact floor not disclosed), 83 Wing Hong Street (Bought for HK$130.4M)",
+   "area": "Cheung Sha Wan / Lai Chi Kok",
    "sectors": [
     "Facility Management & Real Estate"
    ],
    "sector": "Facility Management & Real Estate",
    "who": "",
-   "pitch": "Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
    "actions": [
-    "Buyer named in the filing: Solomon Systech Limited (subsidiary of / listed company Solomon Systech). Counterparty: Bonson Holdings Limited (seller). Find their admin / facilities lead (links below).",
-    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
-    "Contact the building management office for the fit-out timeline and contractor.",
-    "Pitch: Office: CCTV, access control and intruder alarm for the premises, reception guarding, SOC remote viewing.",
+    "Buyer named in news: Solomon Systech Limited. Find their facilities / admin lead (links below).",
+    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
+    "Contact 83 Wing Hong Street's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
     "Update Status here after each contact."
    ],
    "links": [
@@ -7120,11 +7236,21 @@
      "url": "https://www.google.com/search?q=Solomon%20Systech%20Limited%20Hong%20Kong%20office%20address"
     },
     {
-     "label": "Open the HKEX filing",
-     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601698.pdf"
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-cheung-sha-wan-83-wing-hong-street/detail/2610403710/"
     }
    ],
    "sources": [
+    {
+     "name": "Centaline register (Market News)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/kowloon-cheung-sha-wan-83-wing-hong-street/detail/2610403710/",
+     "title": "",
+     "date": "2026-11-07"
+    },
     {
      "name": "HKEX filing (Solomon Systech)",
      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601698.pdf",
@@ -7132,7 +7258,7 @@
      "date": "2026-11-06"
     }
    ],
-   "verification": "Official filing (HKEXnews)",
+   "verification": "Register record + HKEX filing",
    "score": 8,
    "level": "HIGH",
    "thresholds": [
@@ -7140,23 +7266,24 @@
     5
    ],
    "reasons": [
-    "Purchase HK$130.4M (+4)",
-    "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)"
+    "Large purchase (HK$130.4M) (+4)",
+    "Office premises: fit-out and access control (+1)",
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
-    "area:Hong Kong (district not stated)",
+    "area:Cheung Sha Wan / Lai Chi Kok",
     "deal:Sale",
     "kind:transaction",
     "party:named",
-    "record:HKEX filing",
+    "record:Market News",
     "region:Kowloon / N.T.",
     "sector:Facility Management & Real Estate",
     "size:xl",
-    "usage:Office / commercial"
+    "usage:Office"
    ],
-   "first_seen": "2026-11-07T07:03:44+08:00",
-   "is_new": false
+   "first_seen": "2026-11-10T07:06:55+08:00",
+   "is_new": true
   },
   {
    "id": "91a3da7ba66a",
@@ -7218,8 +7345,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -7228,7 +7355,8 @@
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
     "Industrial premises (+1)",
-    "Renewal of an existing lease: no move (-2)"
+    "Renewal of an existing lease: no move (-2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Sha Tin / Tai Po (incl. Science Park)",
@@ -7379,7 +7507,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -7387,7 +7515,8 @@
    ],
    "reasons": [
     "Very large lease (27,438 sq ft) (+4)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -7538,7 +7667,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -7547,7 +7676,8 @@
    "reasons": [
     "Lease 5,512 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Millennium City 1 Tower 1 (+2)"
+    "Grade A / landmark building: Millennium City 1 Tower 1 (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -7623,8 +7753,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -7632,7 +7762,8 @@
    "reasons": [
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Industrial premises (+1)"
+    "Industrial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -7703,15 +7834,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Deal reported in news (+2)",
-    "Buyer / tenant named in a news report (+2)"
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Mong Kok / Yau Ma Tei",
@@ -7783,7 +7915,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -7791,7 +7923,8 @@
    ],
    "reasons": [
     "Lease 5,867 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -7862,15 +7995,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Deal reported in news (+2)",
-    "Buyer / tenant named in a news report (+2)"
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Northern Metropolis / NT North-West",
@@ -7946,8 +8080,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -7955,7 +8089,8 @@
    "reasons": [
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)"
+    "Office / commercial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -8027,7 +8162,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -8035,7 +8170,8 @@
    ],
    "reasons": [
     "Purchase HK$30.8M (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -8186,7 +8322,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -8194,7 +8330,8 @@
    ],
    "reasons": [
     "Lease 5,840 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Mong Kok / Yau Ma Tei",
@@ -8424,8 +8561,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -8433,7 +8570,8 @@
    "reasons": [
     "Purchase HK$32.0M (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -8505,7 +8643,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -8514,7 +8652,8 @@
    "reasons": [
     "Lease 3,591 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Ocean Centre (+2)"
+    "Grade A / landmark building: Ocean Centre (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -8586,7 +8725,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -8595,7 +8734,8 @@
    "reasons": [
     "Lease 3,579 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Ocean Centre (+2)"
+    "Grade A / landmark building: Ocean Centre (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -8671,7 +8811,7 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -8680,7 +8820,8 @@
    "reasons": [
     "Purchase HK$16.8M (+1)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Industrial premises (+1)"
+    "Industrial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kwai Tsing / Tsuen Wan",
@@ -8752,7 +8893,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -8760,7 +8901,8 @@
    ],
    "reasons": [
     "Very large lease (28,124 sq ft) (+4)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -8832,15 +8974,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (17,237 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -8912,7 +9055,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -8920,7 +9063,8 @@
    ],
    "reasons": [
     "Very large lease (28,462 sq ft) (+4)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -8992,7 +9136,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -9000,7 +9144,8 @@
    ],
    "reasons": [
     "Lease 6,371 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -9230,7 +9375,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -9238,7 +9383,8 @@
    ],
    "reasons": [
     "Lease 5,047 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -9482,7 +9628,7 @@
     }
    ],
    "verification": "Register record + HKEX filing",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -9491,7 +9637,8 @@
    "reasons": [
     "Very large lease (20,100 sq ft) (+4)",
     "Office premises: fit-out and access control (+1)",
-    "Buyer / tenant named in a news report (+2)"
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kwai Tsing / Tsuen Wan",
@@ -9642,8 +9789,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -9652,7 +9799,8 @@
     "Sizeable purchase (HK$90.0M) (+3)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -9667,6 +9815,88 @@
    ],
    "first_seen": "2026-10-29T06:59:33+08:00",
    "is_new": false
+  },
+  {
+   "id": "99e1c8fa65a4",
+   "kind": "transaction",
+   "date": "2026-10-13",
+   "month": "2026-10",
+   "group": "Kowloon / N.T.",
+   "deal": "Sale",
+   "usage": "Office",
+   "district": "Tsuen Wan",
+   "building": "57-59 Kwok Shui Road",
+   "building_zh": "國瑞路57-59號",
+   "floor": "WB/F",
+   "unit": "WB",
+   "area_sqft": 100417,
+   "area_txt": "100,417 ft² approx",
+   "price": 150000000.0,
+   "price_txt": "HK$150.0M",
+   "psf": "@1,494",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "WB/F Unit WB, 57-59 Kwok Shui Road",
+   "line": "Buyer not named - WB/F Unit WB, 57-59 Kwok Shui Road (Bought for HK$150.0M)",
+   "area": "Kwai Tsing / Tsuen Wan",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the buyer's name from a Land Registry search (IRIS Online, small fee) on 57-59 Kwok Shui Road WB/F WB.",
+    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
+    "Contact 57-59 Kwok Shui Road's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/new-territories-tsuen-wan-57-59-kwok-shui-road/detail/3270407210/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/new-territories-tsuen-wan-57-59-kwok-shui-road/detail/3270407210/",
+     "title": "",
+     "date": "2026-10-13"
+    }
+   ],
+   "verification": "Register record",
+   "score": 7,
+   "level": "HIGH",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Large purchase (HK$150.0M) (+4)",
+    "Office premises: fit-out and access control (+1)",
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
+   ],
+   "features": [
+    "area:Kwai Tsing / Tsuen Wan",
+    "deal:Sale",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:Kowloon / N.T.",
+    "sector:Facility Management & Real Estate",
+    "size:xl",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-10T07:06:55+08:00",
+   "is_new": true
   },
   {
    "id": "03772cd61477",
@@ -9724,15 +9954,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (10,031 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -9804,7 +10035,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -9813,7 +10044,8 @@
    "reasons": [
     "Large lease (16,783 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -9885,7 +10117,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -9893,7 +10125,8 @@
    ],
    "reasons": [
     "Lease 5,564 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -9965,8 +10198,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -9974,7 +10207,8 @@
    "reasons": [
     "Lease 7,588 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kwai Tsing / Tsuen Wan",
@@ -10448,8 +10682,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -10457,7 +10691,8 @@
    "reasons": [
     "Lease 9,329 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -10535,7 +10770,7 @@
     }
    ],
    "verification": "Register record + news report",
-   "score": 9,
+   "score": 10,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -10546,7 +10781,8 @@
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Harbourfront Landmark (+2)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hung Hom / Kowloon City",
@@ -10618,8 +10854,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -10627,7 +10863,8 @@
    "reasons": [
     "Large lease (10,291 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: AIRSIDE (+2)"
+    "Grade A / landmark building: AIRSIDE (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -10778,8 +11015,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -10788,7 +11025,8 @@
     "Sizeable purchase (HK$96.2M) (+3)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -10860,7 +11098,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 8,
+   "score": 9,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -10871,7 +11109,8 @@
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Landmark East - AXA Tower(Twr1) (+2)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -10943,7 +11182,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -10951,7 +11190,8 @@
    ],
    "reasons": [
     "Lease 9,630 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -11023,15 +11263,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (18,332 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -11103,15 +11344,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (13,165 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -11187,8 +11429,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -11196,7 +11438,8 @@
    "reasons": [
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Industrial premises (+1)"
+    "Industrial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -11268,7 +11511,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -11276,7 +11519,8 @@
    ],
    "reasons": [
     "Lease 5,047 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -11348,7 +11592,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -11358,7 +11602,8 @@
     "Lease 4,689 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -11430,7 +11675,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -11438,7 +11683,8 @@
    ],
    "reasons": [
     "Lease 5,047 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -11510,7 +11756,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -11519,7 +11765,8 @@
    "reasons": [
     "Lease 4,360 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: The Gateway Tower 1 (+2)"
+    "Grade A / landmark building: The Gateway Tower 1 (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -11591,7 +11838,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -11600,7 +11847,8 @@
    "reasons": [
     "Lease 4,519 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: The Gateway Tower 6 (+2)"
+    "Grade A / landmark building: The Gateway Tower 6 (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -11614,87 +11862,6 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
-   "id": "ca52d24213e8",
-   "kind": "transaction",
-   "date": "2026-09-30",
-   "month": "2026-09",
-   "group": "Kowloon / N.T.",
-   "deal": "Sale",
-   "usage": "Office",
-   "district": "Tsuen Wan",
-   "building": "57-59 Kwok Shui Road",
-   "building_zh": "國瑞路57-59號",
-   "floor": "WB/F",
-   "unit": "WB",
-   "area_sqft": 100417,
-   "area_txt": "100,417 ft² approx",
-   "price": 150000000.0,
-   "price_txt": "HK$150.0M",
-   "psf": "@1,494",
-   "record_source": "Land Search",
-   "party": "",
-   "party_source": "",
-   "premises": "WB/F Unit WB, 57-59 Kwok Shui Road",
-   "line": "Buyer not named - WB/F Unit WB, 57-59 Kwok Shui Road (Bought for HK$150.0M)",
-   "area": "Kwai Tsing / Tsuen Wan",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
-   "actions": [
-    "Get the buyer's name from a Land Registry search (IRIS Online, small fee) on 57-59 Kwok Shui Road WB/F WB.",
-    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
-    "Contact 57-59 Kwok Shui Road's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/office/new-territories-tsuen-wan-57-59-kwok-shui-road/detail/3270407210/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Land Search)",
-     "url": "https://oir.centanet.com/en/transaction/all/office/new-territories-tsuen-wan-57-59-kwok-shui-road/detail/3270407210/",
-     "title": "",
-     "date": "2026-09-30"
-    }
-   ],
-   "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Large purchase (HK$150.0M) (+4)",
-    "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
-   ],
-   "features": [
-    "area:Kwai Tsing / Tsuen Wan",
-    "deal:Sale",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Land Search",
-    "region:Kowloon / N.T.",
-    "sector:Facility Management & Real Estate",
-    "size:xl",
-    "usage:Office"
-   ],
-   "first_seen": "2026-11-07T07:03:44+08:00",
    "is_new": false
   },
   {
@@ -11753,7 +11920,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -11762,7 +11929,8 @@
    "reasons": [
     "Lease 4,104 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: International Commerce Centre (+2)"
+    "Grade A / landmark building: International Commerce Centre (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -11834,7 +12002,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -11842,7 +12010,8 @@
    ],
    "reasons": [
     "Lease 8,385 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -11914,7 +12083,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -11923,8 +12092,7 @@
    "reasons": [
     "Large lease (11,659 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Grand Central Plaza, Tower I (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Grade A / landmark building: Grand Central Plaza, Tower I (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -11996,7 +12164,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -12006,7 +12174,8 @@
     "Very large lease (35,977 sq ft) (+4)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -12078,15 +12247,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (11,575 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -12158,7 +12328,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 9,
+   "score": 10,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -12169,7 +12339,8 @@
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Kowloon Commerce Centre Tower A (+2)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -12241,15 +12412,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (10,605 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -12404,8 +12576,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -12414,7 +12586,8 @@
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
     "Office / commercial premises (+1)",
-    "Renewal of an existing lease: no move (-2)"
+    "Renewal of an existing lease: no move (-2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Tsim Sha Tsui / West Kowloon",
@@ -12653,7 +12826,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -12662,7 +12835,8 @@
    "reasons": [
     "Very large lease (23,965 sq ft) (+4)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Manulife Financial Centre - Tower B (+2)"
+    "Grade A / landmark building: Manulife Financial Centre - Tower B (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -12815,7 +12989,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -12825,7 +12999,8 @@
     "Lease 9,681 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -12897,7 +13072,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -12907,7 +13082,8 @@
     "Very large lease (144,669 sq ft) (+4)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -13137,7 +13313,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -13145,7 +13321,8 @@
    ],
    "reasons": [
     "Lease 8,546 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -13455,7 +13632,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -13464,7 +13641,8 @@
    "reasons": [
     "Lease 7,000 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Billion Centre - Tower A (+2)"
+    "Grade A / landmark building: Billion Centre - Tower A (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -13536,8 +13714,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -13545,7 +13723,8 @@
    "reasons": [
     "Lease 7,405 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -13696,8 +13875,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -13705,7 +13884,8 @@
    "reasons": [
     "Large purchase (HK$160.0M) (+4)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Mong Kok / Yau Ma Tei",
@@ -13777,7 +13957,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -13786,7 +13966,8 @@
    "reasons": [
     "Lease 8,790 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: The Harbourfront Tower I (+2)"
+    "Grade A / landmark building: The Harbourfront Tower I (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hung Hom / Kowloon City",
@@ -13858,8 +14039,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -13868,7 +14049,8 @@
     "Lease 6,483 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Landmark East - AXA Tower(Twr1) (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Kowloon East (Kwun Tong / Kowloon Bay / Kai Tak)",
@@ -14415,8 +14597,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -14424,7 +14606,8 @@
    "reasons": [
     "Large lease (17,398 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Langham Place (+2)"
+    "Grade A / landmark building: Langham Place (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Mong Kok / Yau Ma Tei",
@@ -14496,7 +14679,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -14505,7 +14688,8 @@
    "reasons": [
     "Lease 6,345 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: D2 Place Two (+2)"
+    "Grade A / landmark building: D2 Place Two (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -14577,7 +14761,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -14586,7 +14770,8 @@
    "reasons": [
     "Lease 6,170 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: D2 Place Two (+2)"
+    "Grade A / landmark building: D2 Place Two (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -14658,7 +14843,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -14667,7 +14852,8 @@
    "reasons": [
     "Lease 5,432 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: D2 Place Two (+2)"
+    "Grade A / landmark building: D2 Place Two (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Cheung Sha Wan / Lai Chi Kok",
@@ -14739,7 +14925,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -14748,7 +14934,8 @@
    "reasons": [
     "Large lease (10,692 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Northern Metropolis / NT North-West",
@@ -14903,7 +15090,7 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -14912,7 +15099,8 @@
    "reasons": [
     "Purchase HK$98.0M (+3)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Industrial premises (+1)"
+    "Industrial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Sha Tin / Tai Po (incl. Science Park)",
@@ -14995,164 +15183,6 @@
    ],
    "features": [
     "area:Sha Tin / Tai Po (incl. Science Park)",
-    "deal:Lease",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Market News",
-    "region:Kowloon / N.T.",
-    "sector:Logistics & Supply Chain",
-    "size:l",
-    "usage:Industrial"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
-   "id": "7d174c1d36c6",
-   "kind": "transaction",
-   "date": "2026-09-10",
-   "month": "2026-09",
-   "group": "Kowloon / N.T.",
-   "deal": "Sale",
-   "usage": "Commercial / industrial",
-   "district": "",
-   "building": "",
-   "building_zh": "",
-   "floor": "",
-   "unit": "",
-   "area_sqft": null,
-   "area_txt": "",
-   "price": null,
-   "price_txt": "1.4億",
-   "psf": "",
-   "record_source": "News",
-   "party": "HKUST (reported, unconfirmed)",
-   "party_source": "per news report",
-   "premises": "See headline",
-   "line": "HKUST (reported, unconfirmed) - 舖王再滴血！鄧成波家族西貢工廈1.4億、蝕6成沽 科大接貨呼聲高",
-   "area": "Tseung Kwan O / Sai Kung",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing",
-   "actions": [
-    "Buyer named in news: HKUST (reported, unconfirmed). Find their facilities / admin lead (links below).",
-    "Confirm the floor / unit from the article, then contact the building management office for the fit-out timeline.",
-    "Pitch: CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=HKUST%20%28reported%2C%20unconfirmed%29%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=HKUST%20%28reported%2C%20unconfirmed%29%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "香港01",
-     "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxPb3lDOFlaSGNPZ2JQdjc0eEVBQ1dQb2FsbWdjTTR3dFVRU0pLLUw0TUNydFlTZDJZWURXa014NnhncXhtSEZOWFJlSzR6RWJaQW5UbDV1OUNaSm5MbFUxeTE3WkIwTldBVFFJZFpNQjhPT2JMQVREdGdEZXV3YmxPOWFEZDBEMzEzbVlfN1pGZWUwSEo3d2FGNngzajZ0NE16cmhqU1dOOFotM3ctS0NwOFZ2WmEtc0FyVkJjaFRVWkNpb2hzd21fZFhWbHFLWVEtNzQwSGNfQXFlaFZKeURoenA0RHdocUhNcENfQ2ZBRjlWNE1ZOHhmUzhKa0tzLVMzTXR6X1NLZEpGQnZsY3g0QW9sZ0s5U0pRSk9ZTmo0TTNWTWNJN3RNVGdUSjlXMzFxS2xXekY1THRkUHdnUC1NSjdHbS1rVy1uMFJJbWFHdnZ6QmxYemtza3d3UXh2LVVqS0JHT2xXbHZQNXdEYloyZDBnWWo2M25CdnZFWGNWVUZTSnJRQXlPXzhHWVV6Tmh0bU5TZHpBb2Z4cGZ1emtkV0VxbURhM1FpZEpZ?oc=5",
-     "title": "舖王再滴血！鄧成波家族西貢工廈1.4億、蝕6成沽 科大接貨呼聲高",
-     "date": "2026-09-10"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Deal reported in news (+2)",
-    "Buyer / tenant named in a news report (+2)"
-   ],
-   "features": [
-    "area:Tseung Kwan O / Sai Kung",
-    "deal:Sale",
-    "kind:transaction",
-    "party:named",
-    "record:News",
-    "region:Kowloon / N.T.",
-    "sector:Facility Management & Real Estate",
-    "size:m",
-    "usage:Commercial / industrial"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
-   "id": "e6aa2d59a2b5",
-   "kind": "transaction",
-   "date": "2026-09-09",
-   "month": "2026-09",
-   "group": "Kowloon / N.T.",
-   "deal": "Lease",
-   "usage": "Industrial",
-   "district": "Sheung Shui",
-   "building": "China Resources Logistics Sheung Shui Warehouse",
-   "building_zh": "華潤物流上水貨倉",
-   "floor": "High",
-   "unit": "",
-   "area_sqft": 15621,
-   "area_txt": "15,621 ft² approx",
-   "price": 218694.0,
-   "price_txt": "HK$218,694/month",
-   "psf": "@14",
-   "record_source": "Market News",
-   "party": "",
-   "party_source": "",
-   "premises": "High floor (exact floor not disclosed), China Resources Logistics Sheung Shui Warehouse",
-   "line": "Tenant not named - High floor (exact floor not disclosed), China Resources Logistics Sheung Shui Warehouse (Leased for HK$218,694/month)",
-   "area": "Northern Metropolis / NT North-West",
-   "sectors": [
-    "Logistics & Supply Chain"
-   ],
-   "sector": "Logistics & Supply Chain",
-   "who": "",
-   "pitch": "Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol",
-   "actions": [
-    "Ask China Resources Logistics Sheung Shui Warehouse's building management office, or the agent, who the tenant is.",
-    "New tenants fit out before moving in: reach them before the fit-out tender.",
-    "Contact China Resources Logistics Sheung Shui Warehouse's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Industrial: perimeter CCTV, intruder alarm with SOC response, access control, mobile patrol.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/industrial/new-territories-sheung-shui-china-resources-logistics-sheung-shui-warehouse/detail/6240400030/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Market News)",
-     "url": "https://oir.centanet.com/en/transaction/all/industrial/new-territories-sheung-shui-china-resources-logistics-sheung-shui-warehouse/detail/6240400030/",
-     "title": "",
-     "date": "2026-09-09"
-    }
-   ],
-   "verification": "Register record",
-   "score": 3,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Large lease (15,621 sq ft) (+3)"
-   ],
-   "features": [
-    "area:Northern Metropolis / NT North-West",
     "deal:Lease",
     "kind:transaction",
     "party:unnamed",
@@ -15251,65 +15281,61 @@
    "is_new": false
   },
   {
-   "id": "362fa6f440e8",
+   "id": "c8747498f5c3",
    "kind": "transaction",
-   "date": "2026-08-28",
-   "month": "2026-08",
-   "group": "Kowloon / N.T.",
+   "date": "2026-11-09",
+   "month": "2026-11",
+   "group": "HK Island",
    "deal": "Lease",
-   "usage": "Retail",
-   "district": "Sha Tin / Tai Po (incl. Science Park)",
-   "building": "",
-   "building_zh": "",
-   "floor": "",
+   "usage": "Office",
+   "district": "Wong Chuk Hang",
+   "building": "S22",
+   "building_zh": "S22",
+   "floor": "High",
    "unit": "",
-   "area_sqft": null,
-   "area_txt": "",
-   "price": 169000.0,
-   "price_txt": "HK$169,000 (total stated in filing)",
-   "psf": "",
-   "record_source": "HKEX filing",
-   "party": "Giant Harvest Advertising & Communications Limited",
-   "party_source": "tenant, per HKEX filing",
-   "premises": "Shop Nos. 321 –328 on Level 1 of Zone E of Tai Po Mega Mall (also known as Shopping Mall Tai Po Centre), Tai Po Town Lot No. 15, Hong Kong",
-   "line": "Giant Harvest Advertising & Communications Limited - Shop Nos. 321 –328 on Level 1 of Zone E of Tai Po Mega Mall (also known as Shopping Mall Tai Po Centre), Tai Po Town Lot No. 15, Hong Kong",
-   "area": "Sha Tin / Tai Po (incl. Science Park)",
+   "area_sqft": 7630,
+   "area_txt": "7,630 ft² approx",
+   "price": 190750.0,
+   "price_txt": "HK$190,750/month",
+   "psf": "@25",
+   "record_source": "Market News",
+   "party": "",
+   "party_source": "",
+   "premises": "High floor (exact floor not disclosed), S22",
+   "line": "Tenant not named - High floor (exact floor not disclosed), S22 (Leased for HK$190,750/month)",
+   "area": "Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
    "sectors": [
-    "Retail & Consumer"
+    "Facility Management & Real Estate"
    ],
-   "sector": "Retail & Consumer",
+   "sector": "Facility Management & Real Estate",
    "who": "",
-   "pitch": "Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
    "actions": [
-    "Tenant named in the filing: Giant Harvest Advertising & Communications Limited (subsidiary of / listed company Modernhealthtec). Counterparty: Tainam Holdings Limited (landlord). Find their admin / facilities lead (links below).",
-    "Read the filing for the completion or lease start date, then time your approach before move-in / handover.",
-    "Contact the building management office for the fit-out timeline and contractor.",
-    "Pitch: Retail: loss-prevention officers, CCTV analytics, intruder alarm with SOC response.",
+    "Ask S22's building management office, or the agent, who the tenant is.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact S22's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
     "Update Status here after each contact."
    ],
    "links": [
     {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=Giant%20Harvest%20Advertising%20%26%20Communications%20Limited%20Hong%20Kong%20facilities"
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
     },
     {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=Giant%20Harvest%20Advertising%20%26%20Communications%20Limited%20Hong%20Kong%20office%20address"
-    },
-    {
-     "label": "Open the HKEX filing",
-     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082804236.pdf"
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wong-chuk-hang-s22/detail/1750412010/"
     }
    ],
    "sources": [
     {
-     "name": "HKEX filing (Modernhealthtec)",
-     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082804236.pdf",
-     "title": "DISCLOSEABLE TRANSACTIONS IN RELATION TO THE LEASE AGREEMENTS",
-     "date": "2026-08-28"
+     "name": "Centaline register (Market News)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wong-chuk-hang-s22/detail/1750412010/",
+     "title": "",
+     "date": "2026-11-09"
     }
    ],
-   "verification": "Official filing (HKEXnews)",
+   "verification": "Register record",
    "score": 4,
    "level": "LOW",
    "thresholds": [
@@ -15317,23 +15343,103 @@
     5
    ],
    "reasons": [
-    "New / renewed lease (+2)",
-    "Buyer / tenant named in an official HKEX filing (+3)",
-    "Team feedback on similar items: -0.7 level on average across 6 re-ratings (-1)"
+    "Lease 7,630 sq ft (+2)",
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
-    "area:Sha Tin / Tai Po (incl. Science Park)",
+    "area:Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
     "deal:Lease",
     "kind:transaction",
-    "party:named",
-    "record:HKEX filing",
-    "region:Kowloon / N.T.",
-    "sector:Retail & Consumer",
+    "party:unnamed",
+    "record:Market News",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
     "size:m",
-    "usage:Retail"
+    "usage:Office"
    ],
-   "first_seen": "2026-10-13T23:38:54+08:00",
-   "is_new": false
+   "first_seen": "2026-11-10T07:06:55+08:00",
+   "is_new": true
+  },
+  {
+   "id": "d1e049ddafd1",
+   "kind": "transaction",
+   "date": "2026-11-06",
+   "month": "2026-11",
+   "group": "HK Island",
+   "deal": "Lease",
+   "usage": "Office",
+   "district": "Wan Chai",
+   "building": "Jubilee Centre",
+   "building_zh": "捷利中心",
+   "floor": "Low",
+   "unit": "",
+   "area_sqft": 8364,
+   "area_txt": "8,364 ft² approx",
+   "price": 230010.0,
+   "price_txt": "HK$230,010/month",
+   "psf": "@27.5",
+   "record_source": "Market News",
+   "party": "",
+   "party_source": "",
+   "premises": "Low floor (exact floor not disclosed), Jubilee Centre",
+   "line": "Tenant not named - Low floor (exact floor not disclosed), Jubilee Centre (Leased for HK$230,010/month)",
+   "area": "Wan Chai",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Ask Jubilee Centre's building management office, or the agent, who the tenant is.",
+    "New tenants fit out before moving in: reach them before the fit-out tender.",
+    "Contact Jubilee Centre's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wan-chai-jubilee-centre/detail/1310400370/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Market News)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wan-chai-jubilee-centre/detail/1310400370/",
+     "title": "",
+     "date": "2026-11-06"
+    }
+   ],
+   "verification": "Register record",
+   "score": 3,
+   "level": "LOW",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Lease 8,364 sq ft (+2)",
+    "Office premises: fit-out and access control (+1)"
+   ],
+   "features": [
+    "area:Wan Chai",
+    "deal:Lease",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Market News",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-10T07:06:55+08:00",
+   "is_new": true
   },
   {
    "id": "65c0ddf98c83",
@@ -15391,7 +15497,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -15399,7 +15505,8 @@
    ],
    "reasons": [
     "Lease 8,314 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -15471,7 +15578,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -15479,7 +15586,8 @@
    ],
    "reasons": [
     "Purchase HK$38.0M (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -15551,7 +15659,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -15559,7 +15667,8 @@
    ],
    "reasons": [
     "Lease 4,580 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -15574,6 +15683,86 @@
    ],
    "first_seen": "2026-11-06T07:08:37+08:00",
    "is_new": false
+  },
+  {
+   "id": "6d17910356f0",
+   "kind": "transaction",
+   "date": "2026-11-05",
+   "month": "2026-11",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Office",
+   "district": "",
+   "building": "",
+   "building_zh": "",
+   "floor": "",
+   "unit": "",
+   "area_sqft": null,
+   "area_txt": "",
+   "price": null,
+   "price_txt": "3.7億",
+   "psf": "",
+   "record_source": "News",
+   "party": "藍帶啤酒代理",
+   "party_source": "per news report",
+   "premises": "See headline",
+   "line": "藍帶啤酒代理 - 吳鎮科家族銅鑼灣銀主商廈BIZ AURA 3.7億沽 藍帶啤酒代理接貨",
+   "area": "Causeway Bay",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing",
+   "actions": [
+    "Buyer named in news: 藍帶啤酒代理. Find their facilities / admin lead (links below).",
+    "Confirm the floor / unit from the article, then contact the building management office for the fit-out timeline.",
+    "Pitch: CCTV, access control and intruder alarm for the premises, guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=%E8%97%8D%E5%B8%B6%E5%95%A4%E9%85%92%E4%BB%A3%E7%90%86%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=%E8%97%8D%E5%B8%B6%E5%95%A4%E9%85%92%E4%BB%A3%E7%90%86%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "香港01",
+     "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQMTFZdE5jdG9FRng5WUJiaHRDNlYzTE9IbS1QVndLVFFWODhncnJDMVo5cm1KMnFKUm9BRTZmWjF5LUJfQmlpa1g4SlMxMVdZZUlRZTFiYlJxb296eWpFUk9GakhBd2pqU2FXNGxodlNPYXRGR3pmZjRmQjlxTTFTR3BaS1BwbGo0YWJ1M0dCMlFRU3VoVTlSQnYzanA2NDZLNFhXeENBOUtFd0tMdDdQMUFOckZpczdvalNxc3ZGYUVOSVNaM2doRjV1Qm5ma2hHUXpaSk9LVWppZGRhNENKYTNzNzZzd21Nai1JeUd3LWJBTnNSVE9TRkhBRGhENDRuRVVadFpVYU1zVHdhUlBFTVhSd0VNcEFIRmJVeTBQRW1BU1RzVzJhazlMbzJ5SFNPUXR3eC1ZTTBEbURDNDNRSXRjUGpEbzhKSE12VzEyWEEzXzNZZF9KOU5tek5iajVUazZlT0E2amt4M3dGZndKZW9CRXdaQ2JXRHZaemctRGtiRWpucGVCMlZ1RHgyYUk?oc=5",
+     "title": "吳鎮科家族銅鑼灣銀主商廈BIZ AURA 3.7億沽 藍帶啤酒代理接貨",
+     "date": "2026-11-05"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Deal reported in news (+2)",
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
+   ],
+   "features": [
+    "area:Causeway Bay",
+    "deal:Sale",
+    "kind:transaction",
+    "party:named",
+    "record:News",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-10T07:06:55+08:00",
+   "is_new": true
   },
   {
    "id": "2d53c80d51f8",
@@ -15631,7 +15820,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -15640,7 +15829,8 @@
    "reasons": [
     "Purchase HK$35.0M (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Lippo Centre, Tower 1 (+2)"
+    "Grade A / landmark building: Lippo Centre, Tower 1 (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Admiralty",
@@ -15712,7 +15902,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -15721,7 +15911,8 @@
    "reasons": [
     "Very large lease (21,287 sq ft) (+4)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: The Center (+2)"
+    "Grade A / landmark building: The Center (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -15793,7 +15984,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -15801,7 +15992,8 @@
    ],
    "reasons": [
     "Lease 5,621 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -15873,7 +16065,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -15881,7 +16073,8 @@
    ],
    "reasons": [
     "Lease 1,064 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -15953,8 +16146,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -15962,8 +16155,7 @@
    "reasons": [
     "Lease 6,842 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Sun Hung Kai Centre (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Grade A / landmark building: Sun Hung Kai Centre (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -16035,7 +16227,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -16044,8 +16236,7 @@
    "reasons": [
     "Large lease (11,704 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Central Plaza (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Grade A / landmark building: Central Plaza (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -16117,8 +16308,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -16126,8 +16317,7 @@
    "reasons": [
     "Lease 3,142 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Central Plaza (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Grade A / landmark building: Central Plaza (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -16199,8 +16389,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -16208,8 +16398,7 @@
    "reasons": [
     "Lease 2,812 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Central Plaza (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Grade A / landmark building: Central Plaza (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -16281,15 +16470,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (11,712 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -16361,8 +16551,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -16371,7 +16561,8 @@
     "Lease 3,576 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Nine Queen's Road Central (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -16443,7 +16634,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -16452,7 +16643,8 @@
    "reasons": [
     "Lease 2,080 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Central Tower (+2)"
+    "Grade A / landmark building: Central Tower (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -16524,8 +16716,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -16533,7 +16725,8 @@
    "reasons": [
     "Sizeable purchase (HK$99.7M) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Shun Tak Centre, West Tower (+2)"
+    "Grade A / landmark building: Shun Tak Centre, West Tower (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -16605,7 +16798,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -16613,7 +16806,8 @@
    ],
    "reasons": [
     "Lease 3,660 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -16685,7 +16879,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -16693,7 +16887,8 @@
    ],
    "reasons": [
     "Lease 4,186 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -16769,8 +16964,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -16778,8 +16973,7 @@
    "reasons": [
     "Purchase HK$12.0M (+1)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office / commercial premises (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -16851,7 +17045,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -16859,7 +17053,8 @@
    ],
    "reasons": [
     "Lease 6,352 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -16930,15 +17125,16 @@
     }
    ],
    "verification": "Single outlet: open source to confirm",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Deal reported in news (+2)",
-    "Buyer / tenant named in a news report (+2)"
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -17010,8 +17206,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -17020,7 +17216,8 @@
     "Lease 7,600 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: One Pacific Place (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Admiralty",
@@ -17092,7 +17289,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 9,
+   "score": 10,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -17103,7 +17300,8 @@
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Two Taikoo Place (+2)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -17175,7 +17373,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -17183,8 +17381,7 @@
    ],
    "reasons": [
     "Lease 6,584 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office premises: fit-out and access control (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -17256,8 +17453,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -17265,8 +17462,7 @@
    "reasons": [
     "Lease 3,137 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: China Resources Building (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Grade A / landmark building: China Resources Building (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -17338,7 +17534,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -17346,7 +17542,8 @@
    ],
    "reasons": [
     "Lease 7,050 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
@@ -17360,86 +17557,6 @@
     "usage:Office"
    ],
    "first_seen": "2026-10-17T06:52:04+08:00",
-   "is_new": false
-  },
-  {
-   "id": "216ecc8bf670",
-   "kind": "transaction",
-   "date": "2026-10-15",
-   "month": "2026-10",
-   "group": "HK Island",
-   "deal": "Sale",
-   "usage": "Office",
-   "district": "Happy Valley",
-   "building": "First Commercial Building",
-   "building_zh": "第一商業大廈",
-   "floor": "High",
-   "unit": "",
-   "area_sqft": 2285,
-   "area_txt": "2,285 ft² approx",
-   "price": 26000000.0,
-   "price_txt": "HK$26.0M",
-   "psf": "@11,379",
-   "record_source": "Market News",
-   "party": "",
-   "party_source": "",
-   "premises": "High floor (exact floor not disclosed), First Commercial Building",
-   "line": "Buyer not named - High floor (exact floor not disclosed), First Commercial Building (Bought for HK$26.0M)",
-   "area": "Hong Kong (district not stated)",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
-   "actions": [
-    "Ask First Commercial Building's building management office, or the agent, who the buyer is.",
-    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
-    "Contact First Commercial Building's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-happy-valley-first-commercial-building/detail/1320400500/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Market News)",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-happy-valley-first-commercial-building/detail/1320400500/",
-     "title": "",
-     "date": "2026-10-15"
-    }
-   ],
-   "verification": "Register record",
-   "score": 3,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Purchase HK$26.0M (+2)",
-    "Office premises: fit-out and access control (+1)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "deal:Sale",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Market News",
-    "region:HK Island",
-    "sector:Facility Management & Real Estate",
-    "size:m",
-    "usage:Office"
-   ],
-   "first_seen": "2026-10-16T06:50:28+08:00",
    "is_new": false
   },
   {
@@ -17498,7 +17615,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -17506,8 +17623,7 @@
    ],
    "reasons": [
     "Lease 5,080 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office premises: fit-out and access control (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -17579,7 +17695,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -17589,7 +17705,8 @@
     "Large purchase (HK$118.0M) (+4)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -17604,6 +17721,89 @@
    ],
    "first_seen": "2026-10-29T06:59:33+08:00",
    "is_new": false
+  },
+  {
+   "id": "4d1f7519bcfb",
+   "kind": "transaction",
+   "date": "2026-10-14",
+   "month": "2026-10",
+   "group": "HK Island",
+   "deal": "Sale",
+   "usage": "Office",
+   "district": "Happy Valley",
+   "building": "First Commercial Building",
+   "building_zh": "第一商業大廈",
+   "floor": "20/F",
+   "unit": "WF",
+   "area_sqft": 2285,
+   "area_txt": "2,285 ft² approx",
+   "price": 26000000.0,
+   "price_txt": "HK$26.0M",
+   "psf": "@11,379",
+   "record_source": "Land Search",
+   "party": "",
+   "party_source": "",
+   "premises": "20/F Unit WF, First Commercial Building",
+   "line": "Buyer not named - 20/F Unit WF, First Commercial Building (Bought for HK$26.0M)",
+   "area": "Hong Kong (district not stated)",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "who": "",
+   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
+   "actions": [
+    "Get the buyer's name from a Land Registry search (IRIS Online, small fee) on First Commercial Building 20/F WF.",
+    "Owner-occupiers usually refurbish before moving in, and investors often re-tender FM and security: find out which applies.",
+    "Contact First Commercial Building's building management office for the fit-out / handover timeline and contractor.",
+    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
+    "Update Status here after each contact."
+   ],
+   "links": [
+    {
+     "label": "Land Registry search (IRIS)",
+     "url": "https://www.iris.gov.hk/"
+    },
+    {
+     "label": "Centaline record",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-happy-valley-first-commercial-building/detail/1320400500/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Centaline register (Land Search)",
+     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-happy-valley-first-commercial-building/detail/1320400500/",
+     "title": "",
+     "date": "2026-10-14"
+    }
+   ],
+   "verification": "Register record",
+   "score": 6,
+   "level": "MEDIUM",
+   "thresholds": [
+    7,
+    5
+   ],
+   "reasons": [
+    "Purchase HK$26.0M (+2)",
+    "Office premises: fit-out and access control (+1)",
+    "Whole floor(s) or several floors (+1)",
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "deal:Sale",
+    "kind:transaction",
+    "party:unnamed",
+    "record:Land Search",
+    "region:HK Island",
+    "sector:Facility Management & Real Estate",
+    "size:m",
+    "usage:Office"
+   ],
+   "first_seen": "2026-11-10T07:06:55+08:00",
+   "is_new": true
   },
   {
    "id": "0caa1bdf715e",
@@ -17661,7 +17861,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -17669,7 +17869,8 @@
    ],
    "reasons": [
     "Lease 5,385 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -17741,7 +17942,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -17749,8 +17950,7 @@
    ],
    "reasons": [
     "Lease 8,683 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office premises: fit-out and access control (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -17822,7 +18022,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -17830,7 +18030,8 @@
    ],
    "reasons": [
     "Lease 9,060 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -17902,7 +18103,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -17910,8 +18111,7 @@
    ],
    "reasons": [
     "Lease 6,895 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office premises: fit-out and access control (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -17997,7 +18197,7 @@
     }
    ],
    "verification": "Register record + HKEX filing",
-   "score": 8,
+   "score": 9,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -18008,7 +18208,8 @@
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Lippo Centre, Tower 2 (+2)",
     "Buyer / tenant named in a news report (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Admiralty",
@@ -18080,7 +18281,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -18089,7 +18290,8 @@
    "reasons": [
     "Lease 1,872 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Champion Tower (+2)"
+    "Grade A / landmark building: Champion Tower (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -18161,7 +18363,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -18169,7 +18371,8 @@
    ],
    "reasons": [
     "Lease 4,683 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -18241,7 +18444,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -18249,7 +18452,8 @@
    ],
    "reasons": [
     "Lease 3,843 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -18321,8 +18525,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -18330,7 +18534,8 @@
    "reasons": [
     "Large lease (10,028 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Times Square, Tower 2 (+2)"
+    "Grade A / landmark building: Times Square, Tower 2 (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -18402,7 +18607,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -18410,7 +18615,8 @@
    ],
    "reasons": [
     "Lease 6,450 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -18497,7 +18703,7 @@
     }
    ],
    "verification": "Register record + news report",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -18507,7 +18713,8 @@
     "Lease 5,268 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Cheung Kong Center II (+2)",
-    "Buyer / tenant named in a news report (+2)"
+    "Buyer / tenant named in a news report (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -18816,7 +19023,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -18824,7 +19031,8 @@
    ],
    "reasons": [
     "Lease 4,580 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -18896,7 +19104,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -18904,7 +19112,8 @@
    ],
    "reasons": [
     "Lease 5,895 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -18976,7 +19185,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -18986,7 +19195,8 @@
     "Large lease (11,325 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: One International Finance Centre (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -19058,8 +19268,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -19067,7 +19277,8 @@
    "reasons": [
     "Lease 2,942 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -19143,8 +19354,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -19152,7 +19363,8 @@
    "reasons": [
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)"
+    "Office / commercial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -19224,7 +19436,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -19232,8 +19444,7 @@
    ],
    "reasons": [
     "Lease 8,946 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office premises: fit-out and access control (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -19305,8 +19516,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -19314,7 +19525,8 @@
    "reasons": [
     "Large lease (10,769 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Times Square, Tower 1 (+2)"
+    "Grade A / landmark building: Times Square, Tower 1 (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -19386,8 +19598,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -19395,8 +19607,7 @@
    "reasons": [
     "Lease 4,106 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Central Plaza (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Grade A / landmark building: Central Plaza (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -19468,8 +19679,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -19477,8 +19688,7 @@
    "reasons": [
     "Lease 3,092 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Central Plaza (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Grade A / landmark building: Central Plaza (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -19550,8 +19760,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -19559,7 +19769,8 @@
    "reasons": [
     "Large lease (12,658 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Gloucester Tower (+2)"
+    "Grade A / landmark building: Gloucester Tower (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -19631,7 +19842,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -19640,7 +19851,8 @@
    "reasons": [
     "Lease 6,405 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Shun Tak Centre, China Merchants Tower (+2)"
+    "Grade A / landmark building: Shun Tak Centre, China Merchants Tower (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -19712,7 +19924,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -19720,8 +19932,7 @@
    ],
    "reasons": [
     "Lease 6,895 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office premises: fit-out and access control (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -19793,7 +20004,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -19802,7 +20013,8 @@
    "reasons": [
     "Lease 4,709 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Oxford House (+2)"
+    "Grade A / landmark building: Oxford House (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -19874,7 +20086,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -19882,7 +20094,8 @@
    ],
    "reasons": [
     "Lease 7,513 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -19954,8 +20167,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -19963,7 +20176,8 @@
    "reasons": [
     "Large lease (16,866 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: One Taikoo Place (+2)"
+    "Grade A / landmark building: One Taikoo Place (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -20035,7 +20249,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 2,
+   "score": 3,
    "level": "LOW",
    "thresholds": [
     7,
@@ -20043,8 +20257,7 @@
    ],
    "reasons": [
     "Lease 4,185 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office premises: fit-out and access control (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -20116,7 +20329,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -20124,7 +20337,8 @@
    ],
    "reasons": [
     "Lease 5,176 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -20196,8 +20410,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -20205,7 +20419,8 @@
    "reasons": [
     "Lease 4,370 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -20277,7 +20492,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -20286,7 +20501,8 @@
    "reasons": [
     "Very large lease (22,508 sq ft) (+4)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: One Pacific Place (+2)"
+    "Grade A / landmark building: One Pacific Place (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Admiralty",
@@ -20358,7 +20574,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -20367,7 +20583,8 @@
    "reasons": [
     "Lease 2,436 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Two Pacific Place (+2)"
+    "Grade A / landmark building: Two Pacific Place (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Admiralty",
@@ -20439,7 +20656,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -20448,7 +20665,8 @@
    "reasons": [
     "Lease 1,632 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Two Pacific Place (+2)"
+    "Grade A / landmark building: Two Pacific Place (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Admiralty",
@@ -20520,8 +20738,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -20530,7 +20748,8 @@
     "Lease 2,581 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Two International Finance Centre (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -20602,8 +20821,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -20612,7 +20831,8 @@
     "Lease 4,181 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Two International Finance Centre (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -20684,15 +20904,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (10,254 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Southern (Wong Chuk Hang / Aberdeen / Cyberport)",
@@ -20764,7 +20985,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -20773,7 +20994,8 @@
    "reasons": [
     "Lease 4,935 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Five Pacific Place (+2)"
+    "Grade A / landmark building: Five Pacific Place (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Admiralty",
@@ -20845,8 +21067,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -20855,7 +21077,8 @@
     "Lease 1,914 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Jardine House (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -20927,7 +21150,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 9,
+   "score": 10,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -20938,7 +21161,8 @@
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Edinburgh Tower (+2)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21014,7 +21238,7 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -21023,7 +21247,8 @@
    "reasons": [
     "Purchase HK$10.0M (+1)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)"
+    "Office / commercial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -21095,7 +21320,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -21104,7 +21329,8 @@
    "reasons": [
     "Lease 5,268 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Cheung Kong Center II (+2)"
+    "Grade A / landmark building: Cheung Kong Center II (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21176,7 +21402,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -21185,7 +21411,8 @@
    "reasons": [
     "Lease 3,359 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Cheung Kong Center II (+2)"
+    "Grade A / landmark building: Cheung Kong Center II (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21257,8 +21484,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -21266,7 +21493,8 @@
    "reasons": [
     "Large lease (17,254 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Cheung Kong Center II (+2)"
+    "Grade A / landmark building: Cheung Kong Center II (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21338,7 +21566,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -21347,7 +21575,8 @@
    "reasons": [
     "Lease 8,627 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Cheung Kong Center II (+2)"
+    "Grade A / landmark building: Cheung Kong Center II (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21419,7 +21648,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -21428,7 +21657,8 @@
    "reasons": [
     "Lease 8,627 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Cheung Kong Center II (+2)"
+    "Grade A / landmark building: Cheung Kong Center II (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21500,8 +21730,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -21510,7 +21740,8 @@
     "Large lease (19,280 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21582,7 +21813,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -21590,7 +21821,8 @@
    ],
    "reasons": [
     "Lease 4,641 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21666,7 +21898,7 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -21676,8 +21908,7 @@
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
     "Office / commercial premises (+1)",
-    "Known building: Shui On Centre (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Known building: Shui On Centre (+2)"
    ],
    "features": [
     "area:Wan Chai",
@@ -21749,7 +21980,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -21759,8 +21990,7 @@
     "Lease 4,005 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Harbour Centre (+2)",
-    "Land Registry record: exact unit known (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Land Registry record: exact unit known (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -21832,7 +22062,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -21841,7 +22071,8 @@
    "reasons": [
     "Lease 5,268 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Cheung Kong Center II (+2)"
+    "Grade A / landmark building: Cheung Kong Center II (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -21913,7 +22144,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -21921,7 +22152,8 @@
    ],
    "reasons": [
     "Lease 6,352 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Causeway Bay",
@@ -21993,7 +22225,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -22001,7 +22233,8 @@
    ],
    "reasons": [
     "Lease 7,669 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -22073,7 +22306,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -22081,7 +22314,8 @@
    ],
    "reasons": [
     "Lease 6,374 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -22153,7 +22387,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -22162,7 +22396,8 @@
    "reasons": [
     "Lease 4,915 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Shun Tak Centre, West Tower (+2)"
+    "Grade A / landmark building: Shun Tak Centre, West Tower (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -22234,7 +22469,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -22242,7 +22477,8 @@
    ],
    "reasons": [
     "Lease 2,717 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -22318,7 +22554,7 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -22327,8 +22563,7 @@
    "reasons": [
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
+    "Office / commercial premises (+1)"
    ],
    "features": [
     "area:Wan Chai",
@@ -22400,8 +22635,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -22410,7 +22645,8 @@
     "Sizeable purchase (HK$57.0M) (+3)",
     "Office premises: fit-out and access control (+1)",
     "Whole floor(s) or several floors (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -22482,7 +22718,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 5,
+   "score": 6,
    "level": "MEDIUM",
    "thresholds": [
     7,
@@ -22491,7 +22727,8 @@
    "reasons": [
     "Lease 4,152 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Shun Tak Centre, West Tower (+2)"
+    "Grade A / landmark building: Shun Tak Centre, West Tower (+2)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -22563,7 +22800,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 7,
+   "score": 8,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -22573,7 +22810,8 @@
     "Large lease (10,728 sq ft) (+3)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Edinburgh Tower (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -22645,8 +22883,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -22655,7 +22893,8 @@
     "Lease 5,796 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
     "Grade A / landmark building: Two International Finance Centre (+2)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -22727,7 +22966,7 @@
     }
    ],
    "verification": "Register record",
-   "score": 3,
+   "score": 4,
    "level": "LOW",
    "thresholds": [
     7,
@@ -22735,7 +22974,8 @@
    ],
    "reasons": [
     "Lease 5,376 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -22807,8 +23047,8 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
@@ -22816,7 +23056,8 @@
    "reasons": [
     "Lease 4,750 sq ft (+2)",
     "Office premises: fit-out and access control (+1)",
-    "Land Registry record: exact unit known (+1)"
+    "Land Registry record: exact unit known (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -22888,15 +23129,16 @@
     }
    ],
    "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
+   "score": 5,
+   "level": "MEDIUM",
    "thresholds": [
     7,
     5
    ],
    "reasons": [
     "Large lease (15,451 sq ft) (+3)",
-    "Office premises: fit-out and access control (+1)"
+    "Office premises: fit-out and access control (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -22907,169 +23149,6 @@
     "region:HK Island",
     "sector:Facility Management & Real Estate",
     "size:l",
-    "usage:Office"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
-   "id": "6fa003d7914b",
-   "kind": "transaction",
-   "date": "2026-09-14",
-   "month": "2026-09",
-   "group": "HK Island",
-   "deal": "Lease",
-   "usage": "Office",
-   "district": "Wan Chai",
-   "building": "Cnt Tower",
-   "building_zh": "北海中心",
-   "floor": "Low",
-   "unit": "",
-   "area_sqft": 6773,
-   "area_txt": "6,773 ft² approx",
-   "price": 108368.0,
-   "price_txt": "HK$108,368/month",
-   "psf": "@16",
-   "record_source": "Market News",
-   "party": "",
-   "party_source": "",
-   "premises": "Low floor (exact floor not disclosed), Cnt Tower",
-   "line": "Tenant not named - Low floor (exact floor not disclosed), Cnt Tower (Leased for HK$108,368/month)",
-   "area": "Wan Chai",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
-   "actions": [
-    "Ask Cnt Tower's building management office, or the agent, who the tenant is.",
-    "New tenants fit out before moving in: reach them before the fit-out tender.",
-    "Contact Cnt Tower's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wan-chai-cnt-tower/detail/1320400020/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Market News)",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wan-chai-cnt-tower/detail/1320400020/",
-     "title": "",
-     "date": "2026-09-14"
-    }
-   ],
-   "verification": "Register record",
-   "score": 2,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Lease 6,773 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
-   ],
-   "features": [
-    "area:Wan Chai",
-    "deal:Lease",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Market News",
-    "region:HK Island",
-    "sector:Facility Management & Real Estate",
-    "size:m",
-    "usage:Office"
-   ],
-   "first_seen": "2026-10-13T00:12:05+08:00",
-   "is_new": false
-  },
-  {
-   "id": "6c2d786b5f9c",
-   "kind": "transaction",
-   "date": "2026-09-14",
-   "month": "2026-09",
-   "group": "HK Island",
-   "deal": "Lease",
-   "usage": "Office",
-   "district": "Wan Chai",
-   "building": "Central Plaza",
-   "building_zh": "中環廣場",
-   "floor": "High",
-   "unit": "",
-   "area_sqft": 3308,
-   "area_txt": "3,308 ft² approx",
-   "price": 200000.0,
-   "price_txt": "HK$200,000/month",
-   "psf": "@60.5",
-   "record_source": "Market News",
-   "party": "",
-   "party_source": "",
-   "premises": "High floor (exact floor not disclosed), Central Plaza",
-   "line": "Tenant not named - High floor (exact floor not disclosed), Central Plaza (Leased for HK$200,000/month)",
-   "area": "Wan Chai",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "who": "",
-   "pitch": "Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing",
-   "actions": [
-    "Ask Central Plaza's building management office, or the agent, who the tenant is.",
-    "New tenants fit out before moving in: reach them before the fit-out tender.",
-    "Contact Central Plaza's building management office for the fit-out / handover timeline and contractor.",
-    "Pitch: Office: CCTV, access control and intruder alarm for the new premises, reception guarding, SOC remote viewing.",
-    "Update Status here after each contact."
-   ],
-   "links": [
-    {
-     "label": "Land Registry search (IRIS)",
-     "url": "https://www.iris.gov.hk/"
-    },
-    {
-     "label": "Centaline record",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wan-chai-central-plaza/detail/1350400050/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "Centaline register (Market News)",
-     "url": "https://oir.centanet.com/en/transaction/all/office/hk-island-wan-chai-central-plaza/detail/1350400050/",
-     "title": "",
-     "date": "2026-09-14"
-    }
-   ],
-   "verification": "Register record",
-   "score": 4,
-   "level": "LOW",
-   "thresholds": [
-    7,
-    5
-   ],
-   "reasons": [
-    "Lease 3,308 sq ft (+2)",
-    "Office premises: fit-out and access control (+1)",
-    "Grade A / landmark building: Central Plaza (+2)",
-    "Team feedback on similar items: -0.5 level on average across 9 re-ratings (-1)"
-   ],
-   "features": [
-    "area:Wan Chai",
-    "deal:Lease",
-    "kind:transaction",
-    "party:unnamed",
-    "record:Market News",
-    "region:HK Island",
-    "sector:Facility Management & Real Estate",
-    "size:m",
     "usage:Office"
    ],
    "first_seen": "2026-10-13T00:12:05+08:00",
@@ -23305,8 +23384,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -23314,7 +23393,8 @@
    "reasons": [
     "New / renewed lease (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)"
+    "Office / commercial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Island East (North Point / Quarry Bay / Taikoo)",
@@ -23390,8 +23470,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -23399,7 +23479,8 @@
    "reasons": [
     "Purchase HK$32.9M (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)"
+    "Office / commercial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Central / Sheung Wan",
@@ -23475,7 +23556,7 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 8,
+   "score": 9,
    "level": "HIGH",
    "thresholds": [
     7,
@@ -23484,7 +23565,8 @@
    "reasons": [
     "Purchase HK$195.0M (+4)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)"
+    "Office / commercial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -23560,8 +23642,8 @@
     }
    ],
    "verification": "Official filing (HKEXnews)",
-   "score": 6,
-   "level": "MEDIUM",
+   "score": 7,
+   "level": "HIGH",
    "thresholds": [
     7,
     5
@@ -23569,7 +23651,8 @@
    "reasons": [
     "Purchase HK$31.5M (+2)",
     "Buyer / tenant named in an official HKEX filing (+3)",
-    "Office / commercial premises (+1)"
+    "Office / commercial premises (+1)",
+    "Team feedback on similar items: +0.4 level on average across 2 re-ratings (+1)"
    ],
    "features": [
     "area:Hong Kong (district not stated)",
@@ -23587,7 +23670,7 @@
   }
  ],
  "learning": {
-  "overrides": 15,
+  "overrides": 17,
   "features": [
    {
     "feature": "lead:Prospect networking",
@@ -23628,6 +23711,16 @@
     "feature": "access:Trade only",
     "n": 4,
     "avg": -1.0
+   },
+   {
+    "feature": "kind:property",
+    "n": 3,
+    "avg": 1.0
+   },
+   {
+    "feature": "sector:Facility Management & Real Estate",
+    "n": 2,
+    "avg": 1.0
    },
    {
     "feature": "access:Not stated in listing",
@@ -23682,7 +23775,7 @@
    "group": "Events",
    "name": "InvestHK events (HKSAR Gov)",
    "ok": true,
-   "count": 11
+   "count": 12
   },
   {
    "group": "Events",
@@ -23706,13 +23799,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"Grade A\" office tenant",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" \"regional headquarters\" office opens OR relocates",
    "ok": true,
-   "count": 9
+   "count": 10
   },
   {
    "group": "Property",
@@ -23724,13 +23817,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 27
+   "count": 29
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 32
+   "count": 28
   },
   {
    "group": "Property",
@@ -23742,25 +23835,25 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office lease \"sq ft\"",
    "ok": true,
-   "count": 9
+   "count": 10
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 31
+   "count": 32
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 9
+   "count": 7
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Nippon Express\" \"Hong Kong\" office OR warehouse OR relocate OR opens",
    "ok": true,
-   "count": 3
+   "count": 2
   },
   {
    "group": "Property",
@@ -23772,7 +23865,7 @@
    "group": "Property",
    "name": "News search (EN): \"opens Hong Kong office\"",
    "ok": true,
-   "count": 12
+   "count": 13
   },
   {
    "group": "Property",
@@ -23784,7 +23877,7 @@
    "group": "Property",
    "name": "News search (EN): asianinvestor.net",
    "ok": true,
-   "count": 50
+   "count": 44
   },
   {
    "group": "Property",
@@ -23796,7 +23889,7 @@
    "group": "Property",
    "name": "News search (EN): businesswire.com",
    "ok": true,
-   "count": 70
+   "count": 67
   },
   {
    "group": "Property",
@@ -23808,13 +23901,13 @@
    "group": "Property",
    "name": "News search (EN): datacenterdynamics.com",
    "ok": true,
-   "count": 63
+   "count": 64
   },
   {
    "group": "Property",
    "name": "News search (EN): edgeprop.sg",
    "ok": true,
-   "count": 61
+   "count": 62
   },
   {
    "group": "Property",
@@ -23826,19 +23919,19 @@
    "group": "Property",
    "name": "News search (EN): globenewswire.com",
    "ok": true,
-   "count": 57
+   "count": 59
   },
   {
    "group": "Property",
    "name": "News search (EN): hongkongbusiness.hk",
    "ok": true,
-   "count": 10
+   "count": 11
   },
   {
    "group": "Property",
    "name": "News search (EN): hongkongfp.com",
    "ok": true,
-   "count": 30
+   "count": 29
   },
   {
    "group": "Property",
@@ -23850,19 +23943,19 @@
    "group": "Property",
    "name": "News search (EN): law.com",
    "ok": true,
-   "count": 56
+   "count": 53
   },
   {
    "group": "Property",
    "name": "News search (EN): mingtiandi.com",
    "ok": true,
-   "count": 72
+   "count": 86
   },
   {
    "group": "Property",
    "name": "News search (EN): news.gov.hk",
    "ok": true,
-   "count": 62
+   "count": 60
   },
   {
    "group": "Property",
@@ -23874,7 +23967,7 @@
    "group": "Property",
    "name": "News search (EN): prnewswire.com",
    "ok": true,
-   "count": 64
+   "count": 67
   },
   {
    "group": "Property",
@@ -23892,7 +23985,7 @@
    "group": "Property",
    "name": "News search (EN): rthk.hk",
    "ok": true,
-   "count": 52
+   "count": 53
   },
   {
    "group": "Property",
@@ -23910,7 +24003,7 @@
    "group": "Property",
    "name": "News search (EN): thestandard.com.hk",
    "ok": true,
-   "count": 46
+   "count": 51
   },
   {
    "group": "Property",
@@ -23934,7 +24027,7 @@
    "group": "Property",
    "name": "News search (中文): am730.com.hk",
    "ok": true,
-   "count": 80
+   "count": 57
   },
   {
    "group": "Property",
@@ -23946,13 +24039,13 @@
    "group": "Property",
    "name": "News search (中文): dotdotnews.com",
    "ok": true,
-   "count": 39
+   "count": 41
   },
   {
    "group": "Property",
    "name": "News search (中文): etnet.com.hk",
    "ok": true,
-   "count": 14
+   "count": 17
   },
   {
    "group": "Property",
@@ -23964,25 +24057,25 @@
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 23
+   "count": 19
   },
   {
    "group": "Property",
    "name": "News search (中文): hkej.com",
    "ok": true,
-   "count": 38
+   "count": 37
   },
   {
    "group": "Property",
    "name": "News search (中文): hket.com",
    "ok": true,
-   "count": 75
+   "count": 78
   },
   {
    "group": "Property",
    "name": "News search (中文): i-cable.com",
    "ok": true,
-   "count": 37
+   "count": 33
   },
   {
    "group": "Property",
@@ -23994,13 +24087,13 @@
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 56
+   "count": 55
   },
   {
    "group": "Property",
    "name": "News search (中文): on.cc",
    "ok": true,
-   "count": 72
+   "count": 66
   },
   {
    "group": "Property",
@@ -24030,25 +24123,25 @@
    "group": "Property",
    "name": "News search (中文): wenweipo.com",
    "ok": true,
-   "count": 66
+   "count": 65
   },
   {
    "group": "Property",
    "name": "News search (中文): 億購 商廈 OR 寫字樓 OR 工廈",
    "ok": true,
-   "count": 32
+   "count": 28
   },
   {
    "group": "Property",
    "name": "News search (中文): 商廈 樓層 成交 億",
    "ok": true,
-   "count": 15
+   "count": 19
   },
   {
    "group": "Property",
    "name": "News search (中文): 寫字樓 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 31
+   "count": 30
   },
   {
    "group": "Property",
@@ -24060,13 +24153,13 @@
    "group": "Property",
    "name": "News search (中文): 承租 寫字樓 樓面 總部",
    "ok": true,
-   "count": 34
+   "count": 32
   },
   {
    "group": "Property",
    "name": "News search (中文): 租客為 寫字樓 OR 商廈",
    "ok": true,
-   "count": 12
+   "count": 16
   },
   {
    "group": "Property",
@@ -24084,13 +24177,13 @@
    "group": "Property",
    "name": "News search (中文): 註冊處資料顯示 買家 有限公司",
    "ok": true,
-   "count": 24
+   "count": 25
   },
   {
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 12
+   "count": 14
   },
   {
    "group": "Property",
@@ -24108,7 +24201,7 @@
    "group": "Property",
    "name": "News search (中文): 香港 寫字樓 搬遷",
    "ok": true,
-   "count": 13
+   "count": 14
   },
   {
    "group": "Property",
@@ -24126,13 +24219,13 @@
    "group": "Transactions",
    "name": "Centaline Commercial transaction register",
    "ok": true,
-   "count": 2199
+   "count": 2200
   },
   {
    "group": "Transactions",
    "name": "HKEXnews filings (named buyers / tenants)",
    "ok": true,
-   "count": 25
+   "count": 24
   }
  ],
  "sectors": [

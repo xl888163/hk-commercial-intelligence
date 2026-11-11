@@ -18,7 +18,7 @@ import webbrowser
 ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT)
 
-from intel import analyze, events, hkex, learn, property as prop, render, transactions  # noqa: E402
+from intel import analyze, events, hkex, learn, property as prop, render, transactions, translate  # noqa: E402
 from intel.taxonomy import AREA_NAMES, SECTOR_NAMES  # noqa: E402
 
 DATA = os.path.join(ROOT, "data")
@@ -68,6 +68,7 @@ def main():
     pr = analyze.build_property(raw_pr, today, args.days)
     tx = analyze.build_transactions(raw_tx, raw_pr, today, filings=raw_fx)
     analyze.add_features(ev + pr + tx)
+    translate.apply(ev, pr, tx)   # Chinese -> English, originals kept as *_zh
 
     # learn from the team's priority changes (needs the Sheet passcode, e.g. a GitHub secret)
     learning = {"overrides": 0, "features": [], "status": "not configured"}

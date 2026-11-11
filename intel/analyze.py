@@ -316,7 +316,7 @@ def _company(title, lang, known):
             m = rx.search(title)
             if m:
                 c = m.group(1).strip()
-                generic = re.search(r"超級|升級|多家|業內|機構|首|兼|大舉|再度|巨頭|全港|市場|公司|集團|商廈|寫字樓|業主|發展商|基金|年約|年前|香港|本港", c)
+                generic = re.search(r"超級|升級|多家|業內|機構|首|兼|大舉|再度|巨頭|全港|市場|公司|集團|商廈|寫字樓|業主|發展商|基金|年約|年前|香港|本港|業$|律師行|人大|大廠|托市|行業|有線寬頻", c)
                 if not generic and not area_for(c):
                     return c
     return ""
@@ -525,7 +525,7 @@ PARTY_ZH = [
     (re.compile(r"(?:由|獲)\s*([\u4e00-\u9fffA-Za-z&\.]{2,12}?)\s*(?:接貨|承接|購入|承租)"), False),
     (re.compile(r"([\u4e00-\u9fffA-Za-z&\.]{2,10}?)接貨"), False),
 ]
-PARTY_GENERIC = re.compile(r"買家|賣家|業主|投資者|用家|老牌|家族|基金|財團|發展商|公司|集團|市場|全幢|商廈|寫字樓|工廈|"
+PARTY_GENERIC = re.compile(r"巨頭|人大|業$|名人|明星|買家|賣家|業主|投資者|用家|老牌|家族|基金|財團|發展商|公司|集團|市場|全幢|商廈|寫字樓|工廈|"
                            r"大廈|中心|香港|本港|億|萬|呼聲|料|傳", re.I)
 
 

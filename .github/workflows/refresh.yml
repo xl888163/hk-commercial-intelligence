@@ -24,15 +24,16 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install PDF reader for HKEX filings
-        run: pip install pypdf==6.1.1
+        run: pip install pypdf==6.1.1 anthropic
       - name: Fetch sources and build the site
         env:
           SHEET_PASSCODE: ${{ secrets.SHEET_PASSCODE }}   # lets the refresh learn from priority changes
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: Claude translation (else free MyMemory)
         run: python run.py --no-open --public --no-snapshot
       - name: Save the refreshed site
         run: |
           git config user.name "dashboard-bot"
           git config user.email "dashboard-bot@users.noreply.github.com"
-          git add docs data/latest.json data/history.json data/id_map.json data/hkex_cache.json
+          git add docs data/latest.json data/history.json data/id_map.json data/hkex_cache.json data/translations.json
           git diff --cached --quiet || git commit -m "Refresh dashboard data"
           git push

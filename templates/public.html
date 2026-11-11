@@ -272,6 +272,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
         <li><b>Events</b> come only from official listings: the HKCEC event calendar, AsiaWorld-Expo, InvestHK (HKSAR Government), HKGCC, AmCham and BritCham. Dates, venue, access type (Trade / Public / By registration / By invitation) and organiser phone/email are copied from the listing.</li>
         <li><b>Office move-ins</b> come from news headlines in Google News Hong Kong editions (English and Chinese) across Hong Kong business outlets, shown as published with links. Shop leases, closures, move-outs, land sales, residential deals, commentary and items without a named company are removed.</li>
         <li><b>Transactions</b> come from Centaline Commercial's public transaction register and from <b>HKEXnews filings</b>: listed companies must announce property purchases, sales and leases, naming the buyer or tenant and the exact address. A name from a filing is attached to the matching register record (same building, deal type and price within 5%) or listed on its own. Each record gives the date, building, floor, unit, area and price or rent, and is marked as either a Land Registry record or a market-news record. The register does not name buyers or tenants. A name is shown only when a news report about the same building and deal names them; reports using words like "tipped" or "傳" are marked "reported, unconfirmed". Included: office sales from HK$20M, industrial sales from HK$30M, office leases from 5,000 sq ft or HK$150,000/month, industrial leases from 10,000 sq ft.</li>
+        <li><b>Chinese text is translated into English automatically</b> (headlines, company and party names). The original Chinese is shown beneath each translation and kept in the Excel export, so you can always check it.</li>
         <li>Company, building, size and floors appear only when stated in the source. Reports of the same item are grouped and labelled "Corroborated by N outlets", "Register record + news report" or "Single outlet: open source to confirm".</li>
         <li><b>Priority, why go, who to meet, pitch and action plan</b> are sales guidance built from rules and Securitas HK's service range: guarding, mobile patrol, electronic security, remote viewing, Pinkerton risk services and MySecuritas. They are not reported facts.</li>
       </ul>
@@ -456,7 +457,7 @@ function pass(r){
   if (!has("status", s => s.has(t.status || "__none"))) return false;
   const q = $("#fq").value.trim().toLowerCase();
   if (q){
-    const hay = [r.name, r.headline, r.company, r.building, r.building_zh, r.line, r.district, r.venue, r.organiser, r.area, r.sectors.join(" "), t.pic, t.status, ...(r.sources||[]).map(s => s.title || s.name)].join(" ").toLowerCase();
+    const hay = [r.name, r.headline, r.headline_zh, r.company, r.company_zh, r.party, r.party_zh, r.line_zh, r.name_zh, r.building, r.building_zh, r.line, r.district, r.venue, r.organiser, r.area, r.sectors.join(" "), t.pic, t.status, ...(r.sources||[]).map(s => s.title || s.name)].join(" ").toLowerCase();
     if (!hay.includes(q)) return false;
   }
   return true;
@@ -570,7 +571,7 @@ function prRow(p){
   return `<tr class="${eff(p)}">
     <td data-label="Priority">${prioCell(p)}</td>
     <td data-label="Reported">${esc(fmtD(p.date))}${p.first_reported !== p.date ? `<div class="sm muted">first ${esc(fmtD(p.first_reported))}</div>` : ""}</td>
-    <td class="main"><div class="name">${esc(p.company)}</div><div class="sub2">${esc(p.headline)}</div>${planBtn(p)}</td>
+    <td class="main"><div class="name">${esc(p.company)}${p.company_zh ? ` <span class="muted sm">${esc(p.company_zh)}</span>` : ""}</div><div class="sub2">${esc(p.headline)}</div>${p.headline_zh ? `<div class="sm muted" lang="zh-Hant">Original: ${esc(p.headline_zh)}</div>` : ""}${planBtn(p)}</td>
     <td data-label="Move & size" class="tags">${p.types.map(t => `<span class="tag">${esc(t)}</span>`).join("")}<div class="sm">${size ? esc(size) : `<span class="muted">Size not stated</span>`}</div></td>
     <td data-label="Building / area">${p.building ? `<div>${esc(p.building)}</div>` : ""}<div class="sm muted">${esc(p.area)}</div><div class="sm muted">${esc(p.grade)}</div></td>
     <td data-label="Sector" class="tags">${p.sectors.slice(0,2).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
@@ -579,11 +580,11 @@ function prRow(p){
   </tr>${planRow(p, 8)}${cmtRow(p, 8)}`;
 }
 function txRow(t){
-  const party = t.party ? `<span class="name">${esc(t.party)}</span>${t.party_source ? ` <span class="sm muted">(${esc(t.party_source)})</span>` : ""}` : `<span class="muted">${t.deal === "Sale" ? "Buyer" : "Tenant"} not named in public records</span>`;
+  const party = t.party ? `<span class="name">${esc(t.party)}</span>${t.party_zh ? ` <span class="sm muted" lang="zh-Hant">${esc(t.party_zh)}</span>` : ""}${t.party_source ? ` <span class="sm muted">(${esc(t.party_source)})</span>` : ""}` : `<span class="muted">${t.deal === "Sale" ? "Buyer" : "Tenant"} not named in public records</span>`;
   return `<tr class="${eff(t)}">
     <td data-label="Priority">${prioCell(t)}</td>
     <td data-label="Date">${esc(fmtD(t.date))}</td>
-    <td class="main">${party}<div class="sub2">${esc(t.premises)}${t.building_zh ? ` <span class="muted">${esc(t.building_zh)}</span>` : ""}</div>${planBtn(t)}</td>
+    <td class="main">${party}${t.line_zh ? `<div class="sm muted" lang="zh-Hant">Original: ${esc(t.line_zh)}</div>` : ""}<div class="sub2">${esc(t.premises)}${t.building_zh ? ` <span class="muted">${esc(t.building_zh)}</span>` : ""}</div>${planBtn(t)}</td>
     <td data-label="Deal"><div class="name">${t.deal === "Sale" ? "Bought" : "Leased"} ${esc(t.price_txt)}</div><div class="sm muted">${esc([t.area_txt, t.psf].filter(Boolean).join(" · "))}</div></td>
     <td data-label="District & usage">${esc(t.district || t.area)}<div class="sm muted">${esc(t.usage)}</div></td>
     <td data-label="Owner & status">${ownerCell(t)}</td>
@@ -715,10 +716,10 @@ const TRACK_HEAD = ["PIC","Status","Latest comment","Comment by / date","No. of 
 function sheetRows(t){
   if (t === "ev") return [["Priority","Score","Start","End","Event","Organiser","Organiser phone","Organiser email","Venue","Area","Sectors","Access","Why go","Who to meet","Pitch","Action plan",...TRACK_HEAD,"Source"],
     ...current.ev.map(e => [LNAME[eff(e)],e.score,e.start,e.end,e.name,e.organiser,e.contact_phone,e.contact_email,e.venue,e.area,e.sectors.join("; "),e.access,e.lead_types.join("; "),e.who,e.pitch,e.actions.map((a,i) => `${i+1}. ${a}`).join("\n"),...trackCols(e),e.sources[0].url])];
-  if (t === "pr") return [["Priority","Score","Reported","Company","Headline","Move","Building","Area","Grade","Size","Sectors","Landlord","Verification","Who to meet","Pitch","Action plan",...TRACK_HEAD,"Source"],
-    ...current.pr.map(p => [LNAME[eff(p)],p.score,p.date,p.company,p.headline,p.types.join("; "),p.building,p.area,p.grade,[p.size_txt,p.floors_txt].filter(Boolean).join(" "),p.sectors.join("; "),(p.landlords||[]).join("; "),p.verification,p.who,p.pitch,p.actions.map((a,i) => `${i+1}. ${a}`).join("\n"),...trackCols(p),p.sources[0].url])];
-  return [["Region","Priority","Score","Date","Buyer / tenant","Named by","Premises","Building (Chinese)","Deal","Price / rent","Area","@ per sq ft","District","Usage","Record type","Verification","Action plan",...TRACK_HEAD,"Source"],
-    ...current.tx.map(x => [x.group,LNAME[eff(x)],x.score,x.date,x.party || "Not named in public records",x.party_source || "",x.premises,x.building_zh,x.deal,x.price_txt,x.area_txt,x.psf,x.district,x.usage,x.record_source,x.verification,x.actions.map((a,i) => `${i+1}. ${a}`).join("\n"),...trackCols(x),x.sources[0].url])];
+  if (t === "pr") return [["Priority","Score","Reported","Company","Headline","Original headline (Chinese)","Move","Building","Area","Grade","Size","Sectors","Landlord","Verification","Who to meet","Pitch","Action plan",...TRACK_HEAD,"Source"],
+    ...current.pr.map(p => [LNAME[eff(p)],p.score,p.date,p.company,p.headline,p.headline_zh || "",p.types.join("; "),p.building,p.area,p.grade,[p.size_txt,p.floors_txt].filter(Boolean).join(" "),p.sectors.join("; "),(p.landlords||[]).join("; "),p.verification,p.who,p.pitch,p.actions.map((a,i) => `${i+1}. ${a}`).join("\n"),...trackCols(p),p.sources[0].url])];
+  return [["Region","Priority","Score","Date","Buyer / tenant","Buyer / tenant (Chinese)","Named by","Premises","Building (Chinese)","Deal","Price / rent","Area","@ per sq ft","District","Usage","Record type","Verification","Action plan",...TRACK_HEAD,"Source"],
+    ...current.tx.map(x => [x.group,LNAME[eff(x)],x.score,x.date,x.party || "Not named in public records",x.party_zh || "",x.party_source || "",x.premises,x.building_zh,x.deal,x.price_txt,x.area_txt,x.psf,x.district,x.usage,x.record_source,x.verification,x.actions.map((a,i) => `${i+1}. ${a}`).join("\n"),...trackCols(x),x.sources[0].url])];
 }
 function pipelineRows(){
   const kind = k => k === "event" ? "Event" : k === "transaction" ? "Transaction" : "Office move-in";

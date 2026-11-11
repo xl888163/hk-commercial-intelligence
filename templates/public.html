@@ -151,6 +151,15 @@ details.plan[open] summary{margin-bottom:6px}
 .log li{padding:8px 0;border-bottom:1px solid var(--line);font-size:13px;display:flex;gap:10px;flex-wrap:wrap}
 .log time{font:500 12px var(--font-mono);color:var(--muted);min-width:130px}
 .copy{border:none;background:none;color:var(--accent);cursor:pointer;font-size:12px;padding:0 4px}
+.notice.ok{background:var(--ok-soft);color:var(--ok)}
+.cmtlast{font-size:12px;margin-top:6px;padding:6px 8px;border-left:3px solid var(--accent);background:var(--surface-2);border-radius:4px}
+.cmtlast .by{color:var(--muted);font-size:11px;margin-top:2px}
+.cmtbtn{border:none;background:none;color:var(--accent);font-size:12px;font-weight:600;padding:0;margin-top:6px;cursor:pointer}
+.cmtlist{list-style:none;margin:0 0 10px;padding:0;max-width:90ch}
+.cmtlist li{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);margin-bottom:6px;font-size:13px;white-space:pre-wrap}
+.cmtlist .by{display:block;color:var(--muted);font-size:11px;margin-bottom:2px;white-space:normal}
+textarea.cm{width:100%;max-width:90ch;min-height:70px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:8px 10px;font:inherit}
+.cmtform{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
 footer{padding-block:28px;color:var(--muted);font-size:12px}
 
 /* fit to the window: rows become stacked cards when columns would be cramped */
@@ -205,6 +214,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
     <div class="frow" id="frow">
       <input id="fq" class="search" type="search" placeholder="Search company, building, event…" aria-label="Search">
       <button id="reset" class="btn" type="button">Reset filters</button>
+      <button class="btn xls" type="button" data-xls="all">Export all to Excel</button>
     </div>
   </div>
 
@@ -223,7 +233,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
   </div>
 
   <section class="panel" id="p-ev">
-    <div class="bar"><span>Official listings (venues, InvestHK, chambers). Only events with a Securitas sales angle are shown. Open "Action plan" for the steps.</span><button class="btn csv" type="button" data-csv="ev">Export CSV</button></div>
+    <div class="bar"><span>Official listings (venues, InvestHK, chambers). Only events with a Securitas sales angle are shown. Open "Action plan" for the steps.</span><button class="btn xls" type="button" data-xls="ev">Export to Excel</button></div>
     <div class="tw"><table class="rt fx" id="tEv"><colgroup><col style="width:7%"><col style="width:7%"><col style="width:21%"><col style="width:13%"><col style="width:28%"><col style="width:13%"><col style="width:11%"></colgroup><thead><tr>
       <th data-k="score">Priority</th><th data-k="start">Date</th><th data-k="name">Event &amp; venue</th><th data-k="sector">Sector &amp; access</th>
       <th class="ns">Why go</th><th class="ns">Owner &amp; status</th><th class="ns">Source</th>
@@ -231,7 +241,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
   </section>
 
   <section class="panel" id="p-pr" hidden>
-    <div class="bar"><span id="prNote"></span><button class="btn csv" type="button" data-csv="pr">Export CSV</button></div>
+    <div class="bar"><span id="prNote"></span><button class="btn xls" type="button" data-xls="pr">Export to Excel</button></div>
     <div class="tw"><table class="rt fx" id="tPr"><colgroup><col style="width:7%"><col style="width:7%"><col style="width:27%"><col style="width:12%"><col style="width:14%"><col style="width:11%"><col style="width:12%"><col style="width:10%"></colgroup><thead><tr>
       <th data-k="score">Priority</th><th data-k="date">Reported</th><th data-k="company">Company &amp; headline</th><th data-k="type">Move &amp; size</th>
       <th data-k="building">Building / area</th><th data-k="sector">Sector</th><th class="ns">Owner &amp; status</th><th data-k="verification">Sources</th>
@@ -239,7 +249,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
   </section>
 
   <section class="panel" id="p-tx" hidden>
-    <div class="bar"><span id="txNote"></span><button class="btn csv" type="button" data-csv="tx">Export CSV</button></div>
+    <div class="bar"><span id="txNote"></span><button class="btn xls" type="button" data-xls="tx">Export to Excel</button></div>
     <div class="tw"><table class="rt fx" id="tTx"><colgroup><col style="width:7%"><col style="width:7%"><col style="width:31%"><col style="width:15%"><col style="width:13%"><col style="width:13%"><col style="width:14%"></colgroup><thead><tr>
       <th data-k="score">Priority</th><th data-k="date">Date</th><th data-k="line">Party &amp; premises</th><th data-k="price">Deal</th>
       <th data-k="district">District &amp; usage</th><th class="ns">Owner &amp; status</th><th class="ns">Source</th>
@@ -249,7 +259,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
   <section class="panel" id="p-pl" hidden>
     <div class="bar"><span>Every item someone has prioritised, assigned or updated, including items that have aged out of the live feed. Uses the PIC and Status filters above.</span></div>
     <div class="tw"><table class="rt" id="tPl"><thead><tr>
-      <th class="ns">PIC</th><th class="ns">Status</th><th class="ns">Priority</th><th class="ns">Item</th><th class="ns">Type</th><th class="ns">Last update</th><th class="ns">In current feed</th>
+      <th class="ns">PIC</th><th class="ns">Status</th><th class="ns">Priority</th><th class="ns">Item</th><th class="ns">Type</th><th class="ns">Latest comment</th><th class="ns">Last update</th><th class="ns">In current feed</th>
     </tr></thead><tbody></tbody></table></div>
     <h2>Change history <small>latest 300 changes</small></h2>
     <div class="method"><ul class="log" id="log"></ul></div>
@@ -286,7 +296,11 @@ const BUILD = "/*__BUILD__*/";
   }).catch(() => {});
 })();
 const PICS = ["Magnum","Hin","Alan","Joyce","Ken","Peter","Jonathan"];
-const STATUSES = ["Not started","Researching","Contacted","Meeting set","Proposal sent","Won","Lost","Not pursuing"];
+const STATUS_SALES = ["Not started","Researching","Contacting","First meeting","Site survey","Quoted","Negotiating","Won","Lost","Not pursuing"];
+const STATUS_EVENT = ["Not started","Registered","Attending","Attended","Following up","Not attending"];
+const STATUSES = [...new Set([...STATUS_SALES, ...STATUS_EVENT])];
+const ACTIVE = ["Contacting","First meeting","Site survey","Quoted","Negotiating","Following up","Contacted","Meeting set","Proposal sent"];
+const statusList = r => r.kind === "event" ? STATUS_EVENT : STATUS_SALES;
 const LEVELS = ["HIGH","MEDIUM","LOW"], LNAME = { HIGH:"High", MEDIUM:"Medium", LOW:"Low" };
 const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
@@ -306,7 +320,8 @@ TX.forEach(t => t.months = [t.month]);
 const itemTitle = r => r.kind === "event" ? r.name : r.kind === "property" ? `${r.company}: ${r.headline}` : r.line;
 
 // ---------- shared tracker state (Google Sheet via Apps Script) ----------
-let db = null, canWrite = false, tracker = {}, log = [];
+let db = null, canWrite = false, tracker = {}, log = [], comments = {}, team = {}, pendingRes = null;
+const drafts = {};
 const trk = id => tracker[id] || {};
 const eff = r => trk(r.id).priority || r.level;
 const who = n => n || "A teammate";
@@ -317,7 +332,13 @@ async function api(body){
   if (!r.ok) throw { code:"unavailable" };
   return r.json();
 }
-function apply(res){ tracker = res.tracker || {}; log = res.log || []; renderAll(); }
+function apply(res){
+  if (document.activeElement && document.activeElement.matches && document.activeElement.matches("textarea.cm")) { pendingRes = res; return; }
+  tracker = res.tracker || {}; log = res.log || []; comments = res.comments || comments; team = res.team || team; renderAll();
+}
+document.addEventListener("focusout", e => { if (e.target.matches && e.target.matches("textarea.cm") && pendingRes){ const r = pendingRes; pendingRes = null; setTimeout(() => apply(r), 0); } });
+document.addEventListener("input", e => { if (e.target.matches && e.target.matches("textarea.cm")) drafts[e.target.dataset.id] = e.target.value; });
+function toast(msg, ok){ const n = $("#dbNotice"); n.textContent = msg; n.classList.toggle("ok", !!ok); n.hidden = false; if (ok) setTimeout(() => { if (n.textContent === msg) n.hidden = true; }, 8000); }
 async function load(){
   if (!CONFIG.sheets_url || !teamPass) return;
   try {
@@ -326,7 +347,7 @@ async function load(){
     db = true; canWrite = true; $("#dbNotice").hidden = true; loginUi(); apply(res);
   } catch(e){ dbNotice("Could not reach the team sheet. Check your connection; the page will retry."); }
 }
-function setPass(p){ teamPass = p; store.set("hkci.teamPass", p); if (!p){ db = null; canWrite = false; tracker = {}; log = []; renderAll(); } loginUi(); }
+function setPass(p){ teamPass = p; store.set("hkci.teamPass", p); if (!p){ db = null; canWrite = false; tracker = {}; log = []; comments = {}; renderAll(); } loginUi(); }
 function loginUi(){
   const on = !!(db && teamPass);
   $("#loginState").innerHTML = on ? `<span class="ok">Unlocked</span>${me ? ` as <b>${esc(me)}</b>` : ""}. Changes are saved to the team sheet.` : "Team members: enter the passcode to see and update priority, PIC and status.";
@@ -344,7 +365,7 @@ async function initDb(){
   setInterval(() => { if (teamPass && !document.hidden) load(); }, 60000);
   document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
 }
-function dbNotice(msg){ const n = $("#dbNotice"); n.textContent = msg; n.hidden = false; }
+function dbNotice(msg){ const n = $("#dbNotice"); n.textContent = msg; n.classList.remove("ok"); n.hidden = false; }
 
 const saving = new Set();
 async function setField(id, field, value){
@@ -360,9 +381,17 @@ async function setField(id, field, value){
       title: item ? itemTitle(item) : (prev.title || ""),
       kind: item ? item.kind : (prev.kind || ""), url: item ? item.sources[0].url : (prev.url || ""),
       itemDate: item ? (item.start || item.date) : (prev.itemDate || ""),
-      systemLevel: item ? item.level : "", features: item && item.features ? item.features.join("|") : "" });
-    if (res.ok) apply(res);
+      systemLevel: item ? item.level : "", features: item && item.features ? item.features.join("|") : "",
+      notify: item && item.kind === "event" && field === "pic" ? { when: range(item), venue: item.venue, access: item.access, organiser: item.organiser, actions: item.actions } : undefined });
+    if (res.ok){
+      apply(res);
+      const em = res.email;
+      if (em && em.sent) toast(`Assignment email sent to ${em.to}.`, true);
+      else if (em && em.reason === "no_email") dbNotice(`${em.to} has no email address in the sheet's Team tab, so no assignment email was sent.`);
+      else if (em) dbNotice(`The assignment email to ${em.to} could not be sent. In Apps Script, run testEmail once to allow email.`);
+    }
     else if (res.error === "bad_passcode"){ setPass(""); dbNotice("The passcode has changed. Enter the new one to keep editing."); }
+    else if (res.error === "bad_value" && field === "status"){ dbNotice("This status can't be saved yet: the team sheet's Apps Script needs the latest update (see setup notes)."); load(); }
     else if (res.error === "bad_field" && field === "priority"){ dbNotice("Priority can't be saved yet: the team sheet's Apps Script needs the latest update (see setup notes)."); load(); }
     else { dbNotice("The change was not saved (" + res.error + ")."); load(); }
   } catch(e){ dbNotice("The change was not saved. Check your connection and try again."); load(); }
@@ -467,7 +496,7 @@ function picCell(r){
 function statusCell(r){
   const t = trk(r.id), dis = (!db || !canWrite) ? "disabled" : "";
   return `<select class="sel ${t.status ? "set" : ""}" id="st-${r.id}" data-id="${r.id}" data-f="status" aria-label="Status" ${dis}>
-      ${t.status ? "" : `<option value="">Set status</option>`}${STATUSES.map(s => `<option value="${s}" ${t.status === s ? "selected" : ""}>${s}</option>`).join("")}</select>
+      ${t.status ? "" : `<option value="">Set status</option>`}${[...statusList(r), ...(t.status && !statusList(r).includes(t.status) ? [t.status] : [])].map(s => `<option value="${s}" ${t.status === s ? "selected" : ""}>${s}</option>`).join("")}</select>
     ${t.updatedAt ? `<div class="stamp">${esc(fmtTs(t.updatedAt))}<br>by ${esc(who(t.updatedBy))}</div>` : ""}`;
 }
 const openPlans = new Set();
@@ -487,7 +516,38 @@ function planRow(r, cols){
       <h4>Why this priority</h4><ul class="why">${r.reasons.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
     </div></div></td></tr>`;
 }
-const ownerCell = r => `<div class="owner">${picCell(r)}${statusCell(r)}</div>`;
+const openCmts = new Set();
+function lastComment(r){
+  const c = (comments[r.id] || [])[0];
+  return c ? `<div class="cmtlast">${esc(c.text.length > 140 ? c.text.slice(0, 140) + "…" : c.text)}<div class="by">${esc(who(c.by))} · ${esc(fmtTs(c.at))}</div></div>` : "";
+}
+const cmtBtn = r => db ? `<button type="button" class="cmtbtn" data-cmt="${r.id}">${openCmts.has(r.id) ? "▾ " : "▸ "}Comments (${(comments[r.id] || []).length})</button>` : "";
+function cmtRow(r, cols){
+  if (!openCmts.has(r.id) || !db) return "";
+  const list = comments[r.id] || [];
+  return `<tr class="planrow"><td colspan="${cols}"><div class="plangrid" style="grid-template-columns:minmax(0,1fr)">
+    <div><h4>Comments · ${esc(itemTitle(r))}</h4>
+      ${list.length ? `<ul class="cmtlist">${list.map(c => `<li><span class="by">${esc(who(c.by))} · ${esc(fmtTs(c.at))}</span>${esc(c.text)}</li>`).join("")}</ul>` : `<p class="muted sm">No comments yet.</p>`}
+      <div class="cmtform"><textarea class="cm" id="cm-${r.id}" data-id="${r.id}" placeholder="Add an update, e.g. called facilities manager, site visit booked for Tuesday…" ${canWrite ? "" : "disabled"}>${esc(drafts[r.id] || "")}</textarea>
+      <button class="btn" type="button" data-cmtsave="${r.id}" ${canWrite ? "" : "disabled"}>Save comment</button>
+      <span class="sm muted">Saved with today's date and your name${me ? ` (${esc(me)})` : ""}.</span></div>
+    </div></div></td></tr>`;
+}
+async function addComment(id){
+  const text = (drafts[id] || "").trim();
+  if (!text) return;
+  if (!me){ dbNotice("Choose your name next to the passcode box first, so the team can see who wrote each comment."); return; }
+  const item = BYID[id], btn = document.querySelector(`[data-cmtsave="${id}"]`);
+  if (btn){ btn.disabled = true; btn.textContent = "Saving…"; }
+  try {
+    const res = await api({ action:"comment", id, text, by: me, title: item ? itemTitle(item) : "", kind: item ? item.kind : "" });
+    if (res.ok){ drafts[id] = ""; if (document.activeElement) document.activeElement.blur(); pendingRes = null; apply(res); toast("Comment saved.", true); }
+    else if (res.error === "bad_action") dbNotice("Comments can't be saved yet: the team sheet's Apps Script needs the latest update (see setup notes).");
+    else dbNotice("The comment was not saved (" + res.error + ").");
+  } catch(e){ dbNotice("The comment was not saved. Check your connection and try again."); }
+  finally { if (btn){ btn.disabled = false; btn.textContent = "Save comment"; } }
+}
+const ownerCell = r => `<div class="owner">${picCell(r)}${statusCell(r)}${lastComment(r)}${cmtBtn(r)}</div>`;
 const srcCell = r => `${r.sources.slice(0,4).map(s => `<div><a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title || "")}">${esc(s.name)}</a></div>`).join("")}${r.sources.length > 4 ? `<div class="muted">+${r.sources.length - 4} more</div>` : ""}<div class="ver ${/Official|Corroborated|Register/.test(r.verification) ? "ok" : "warn"}">${esc(r.verification)}</div>`;
 
 function evRow(e){
@@ -503,7 +563,7 @@ function evRow(e){
     <td data-label="Why go" class="sm wide"><div class="tags">${e.lead_types.map(l => `<span class="tag">${esc(l)}</span>`).join("")}</div><div style="margin-top:2px">${esc(e.pitch)}</div></td>
     <td data-label="Owner & status">${ownerCell(e)}</td>
     <td data-label="Source" class="sm">${srcCell(e)}</td>
-  </tr>${planRow(e, 7)}`;
+  </tr>${planRow(e, 7)}${cmtRow(e, 7)}`;
 }
 function prRow(p){
   const size = [p.size_txt, p.floors_txt].filter(Boolean).join(" · ");
@@ -516,7 +576,7 @@ function prRow(p){
     <td data-label="Sector" class="tags">${p.sectors.slice(0,2).map(s => `<span class="tag">${esc(s)}</span>`).join("")}</td>
     <td data-label="Owner & status">${ownerCell(p)}</td>
     <td data-label="Sources" class="sm">${srcCell(p)}</td>
-  </tr>${planRow(p, 8)}`;
+  </tr>${planRow(p, 8)}${cmtRow(p, 8)}`;
 }
 function txRow(t){
   const party = t.party ? `<span class="name">${esc(t.party)}</span>${t.party_source ? ` <span class="sm muted">(${esc(t.party_source)})</span>` : ""}` : `<span class="muted">${t.deal === "Sale" ? "Buyer" : "Tenant"} not named in public records</span>`;
@@ -528,7 +588,7 @@ function txRow(t){
     <td data-label="District & usage">${esc(t.district || t.area)}<div class="sm muted">${esc(t.usage)}</div></td>
     <td data-label="Owner & status">${ownerCell(t)}</td>
     <td data-label="Source" class="sm">${srcCell(t)}</td>
-  </tr>${planRow(t, 7)}`;
+  </tr>${planRow(t, 7)}${cmtRow(t, 7)}`;
 }
 function card(r){
   const t = trk(r.id);
@@ -566,17 +626,17 @@ function renderTables(){
   $("#cards").innerHTML = shown.map(card).join("") || `<div class="empty">No high-priority leads match these filters.</div>`;
   const mb = $("#moreCards"); mb.hidden = hi.length <= 12; mb.textContent = cardsAll ? "Show fewer" : `Show all ${hi.length}`;
   const assigned = ALL.filter(r => trk(r.id).pic).length;
-  const active = Object.values(tracker).filter(t => ["Contacted","Meeting set","Proposal sent"].includes(t.status)).length;
+  const active = Object.values(tracker).filter(t => ACTIVE.includes(t.status)).length;
   const won = Object.values(tracker).filter(t => t.status === "Won").length;
   $("#kpis").innerHTML = [
     [ev.length, "Events in view"], [pr.length, "Office move-ins in view"], [tx.length, "Transactions in view"],
     [hi.length, "High-priority leads", "hi"], [`${assigned}/${ALL.length}`, "Live items with a PIC"],
-    [active, "In progress (contacted to proposal)"], [won, "Won", "ok"],
+    [active, "In progress (contacting to negotiating)"], [won, "Won", "ok"],
   ].map(([v,l,c]) => `<div class="kpi ${c || ""}"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
 }
 function renderPipeline(){
   const rows = Object.entries(tracker).map(([id,t]) => Object.assign({id}, t))
-    .filter(t => (t.pic || t.status || t.priority))
+    .filter(t => (t.pic || t.status || t.priority || (comments[t.id] || []).length))
     .filter(t => (!sel.pic.size || sel.pic.has(t.pic || "__none")) && (!sel.status.size || sel.status.has(t.status || "__none")))
     .sort((a,b) => (a.pic || "~").localeCompare(b.pic || "~") || String(b.updatedAt).localeCompare(String(a.updatedAt)));
   $("#plN").textContent = `(${rows.length})`;
@@ -586,11 +646,14 @@ function renderPipeline(){
       <td data-label="Priority">${t.priority ? esc(LNAME[t.priority] || t.priority) : (BYID[t.id] ? `<span class="muted">${LNAME[BYID[t.id].level]} (system)</span>` : "—")}</td>
       <td class="main">${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>` : esc(t.title)}${t.itemDate ? `<div class="sm muted">${esc(fmtD(t.itemDate))}</div>` : ""}</td>
       <td data-label="Type">${kind(t.kind)}</td>
+      <td data-label="Latest comment" class="sm">${(comments[t.id] || [])[0] ? `${esc(comments[t.id][0].text.slice(0, 160))}<div class="muted">${esc(who(comments[t.id][0].by))} · ${esc(fmtTs(comments[t.id][0].at))}</div>` : `<span class="muted">—</span>`}</td>
       <td data-label="Last update" class="sm">${esc(fmtTs(t.updatedAt))}<br><span class="muted">by ${esc(who(t.updatedBy))}</span></td>
       <td data-label="In current feed" class="sm">${BYID[t.id] ? "Yes" : `<span class="muted">Aged out</span>`}</td></tr>`).join("")
-    || `<tr><td colspan="7" class="muted">${db ? "Nothing assigned yet. Set a priority or PIC on any item to start the pipeline." : "Enter the team passcode above to see the pipeline."}</td></tr>`;
+    || `<tr><td colspan="8" class="muted">${db ? "Nothing assigned yet. Set a priority or PIC on any item to start the pipeline." : "Enter the team passcode above to see the pipeline."}</td></tr>`;
   const fname = f => f === "pic" ? "PIC" : f === "priority" ? "priority" : "status";
-  $("#log").innerHTML = log.map(l => `<li><time>${esc(fmtTs(l.at))}</time><span><b>${esc(who(l.by))}</b> set ${fname(l.field)} to <b>${esc(LNAME[l.to] || l.to || "none")}</b>${l.from ? ` (was ${esc(LNAME[l.from] || l.from)})` : ""} on <span class="muted">${esc(l.title)}</span></span></li>`).join("")
+  $("#log").innerHTML = log.map(l => l.field === "comment"
+    ? `<li><time>${esc(fmtTs(l.at))}</time><span><b>${esc(who(l.by))}</b> commented "${esc(l.to)}" on <span class="muted">${esc(l.title)}</span></span></li>`
+    : `<li><time>${esc(fmtTs(l.at))}</time><span><b>${esc(who(l.by))}</b> set ${fname(l.field)} to <b>${esc(LNAME[l.to] || l.to || "none")}</b>${l.from ? ` (was ${esc(LNAME[l.from] || l.from)})` : ""} on <span class="muted">${esc(l.title)}</span></span></li>`).join("")
     || `<li class="muted">No changes recorded yet.</li>`;
 }
 function renderAll(){ renderTables(); renderPipeline(); }
@@ -604,6 +667,10 @@ document.addEventListener("change", e => {
 document.addEventListener("click", e => {
   const pb = e.target.closest ? e.target.closest("[data-plan]") : null;
   if (pb){ const id = pb.dataset.plan; openPlans.has(id) ? openPlans.delete(id) : openPlans.add(id); renderTables(); return; }
+  const cb = e.target.closest ? e.target.closest("[data-cmt]") : null;
+  if (cb){ const id = cb.dataset.cmt; openCmts.has(id) ? openCmts.delete(id) : openCmts.add(id); renderTables(); const ta = document.getElementById("cm-" + id); if (ta && openCmts.has(id)) ta.focus(); return; }
+  const cs = e.target.closest ? e.target.closest("[data-cmtsave]") : null;
+  if (cs){ addComment(cs.dataset.cmtsave); return; }
   const c = e.target.closest ? e.target.closest("[data-copy]") : null; if (!c) return;
   navigator.clipboard.writeText(c.dataset.copy).then(() => { c.textContent = "Copied"; }, () => { c.textContent = "Select and copy"; });
 });
@@ -631,20 +698,58 @@ document.querySelectorAll(".tab").forEach(b => b.onclick = () => showTab(b.datas
       : `<p class="muted">Learning status: ${esc(L.status || "not configured")}.</p>`);
 })();
 
-document.querySelectorAll(".csv").forEach(b => b.onclick = () => {
-  const t = b.dataset.csv, T = r => trk(r.id);
-  let rows;
-  if (t === "ev") rows = [["Priority","Score","Start","End","Event","Organiser","Organiser phone","Organiser email","Venue","Area","Sectors","Access","Why go","Who to meet","Pitch","Action plan","PIC","Status","Source"],
-       ...current.ev.map(e => [eff(e),e.score,e.start,e.end,e.name,e.organiser,e.contact_phone,e.contact_email,e.venue,e.area,e.sectors.join("; "),e.access,e.lead_types.join("; "),e.who,e.pitch,e.actions.join(" | "),T(e).pic||"",T(e).status||"",e.sources[0].url])];
-  else if (t === "pr") rows = [["Priority","Score","Reported","Company","Headline","Move","Building","Area","Grade","Size","Sectors","Landlord","Verification","Who to meet","Pitch","Action plan","PIC","Status","Source"],
-       ...current.pr.map(p => [eff(p),p.score,p.date,p.company,p.headline,p.types.join("; "),p.building,p.area,p.grade,[p.size_txt,p.floors_txt].filter(Boolean).join(" "),p.sectors.join("; "),(p.landlords||[]).join("; "),p.verification,p.who,p.pitch,p.actions.join(" | "),T(p).pic||"",T(p).status||"",p.sources[0].url])];
-  else rows = [["Region","Priority","Score","Date","Party","Premises","Building (Chinese)","Deal","Price / rent","Area","@ per sq ft","District","Usage","Record type","Verification","Action plan","PIC","Status","Source"],
-       ...current.tx.map(x => [x.group,eff(x),x.score,x.date,x.party,x.premises,x.building_zh,x.deal,x.price_txt,x.area_txt,x.psf,x.district,x.usage,x.record_source,x.verification,x.actions.join(" | "),T(x).pic||"",T(x).status||"",x.sources[0].url])];
-  const csv = "﻿" + rows.map(r => r.map(v => `"${String(v == null ? "" : v).replace(/"/g,'""')}"`).join(",")).join("\n");
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([csv], { type:"text/csv" }));
-  a.download = `hk-${({ev:"events",pr:"office-move-ins",tx:"transactions"})[t]}-${DATA.generated.slice(0,10)}.csv`;
-  document.body.appendChild(a); a.click(); a.remove();
+function loadXLSX(){
+  if (window.XLSX) return Promise.resolve(window.XLSX);
+  return new Promise((ok, fail) => {
+    const sc = document.createElement("script");
+    sc.src = "https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js";
+    sc.onload = () => ok(window.XLSX); sc.onerror = () => fail(new Error("Excel library could not load"));
+    document.head.appendChild(sc);
+  });
+}
+function trackCols(r){
+  const t = trk(r.id), c = (comments[r.id] || [])[0];
+  return [t.pic || "", t.status || "", c ? c.text : "", c ? `${who(c.by)}, ${fmtTs(c.at)}` : "", (comments[r.id] || []).length];
+}
+const TRACK_HEAD = ["PIC","Status","Latest comment","Comment by / date","No. of comments"];
+function sheetRows(t){
+  if (t === "ev") return [["Priority","Score","Start","End","Event","Organiser","Organiser phone","Organiser email","Venue","Area","Sectors","Access","Why go","Who to meet","Pitch","Action plan",...TRACK_HEAD,"Source"],
+    ...current.ev.map(e => [LNAME[eff(e)],e.score,e.start,e.end,e.name,e.organiser,e.contact_phone,e.contact_email,e.venue,e.area,e.sectors.join("; "),e.access,e.lead_types.join("; "),e.who,e.pitch,e.actions.map((a,i) => `${i+1}. ${a}`).join("\n"),...trackCols(e),e.sources[0].url])];
+  if (t === "pr") return [["Priority","Score","Reported","Company","Headline","Move","Building","Area","Grade","Size","Sectors","Landlord","Verification","Who to meet","Pitch","Action plan",...TRACK_HEAD,"Source"],
+    ...current.pr.map(p => [LNAME[eff(p)],p.score,p.date,p.company,p.headline,p.types.join("; "),p.building,p.area,p.grade,[p.size_txt,p.floors_txt].filter(Boolean).join(" "),p.sectors.join("; "),(p.landlords||[]).join("; "),p.verification,p.who,p.pitch,p.actions.map((a,i) => `${i+1}. ${a}`).join("\n"),...trackCols(p),p.sources[0].url])];
+  return [["Region","Priority","Score","Date","Buyer / tenant","Named by","Premises","Building (Chinese)","Deal","Price / rent","Area","@ per sq ft","District","Usage","Record type","Verification","Action plan",...TRACK_HEAD,"Source"],
+    ...current.tx.map(x => [x.group,LNAME[eff(x)],x.score,x.date,x.party || "Not named in public records",x.party_source || "",x.premises,x.building_zh,x.deal,x.price_txt,x.area_txt,x.psf,x.district,x.usage,x.record_source,x.verification,x.actions.map((a,i) => `${i+1}. ${a}`).join("\n"),...trackCols(x),x.sources[0].url])];
+}
+function pipelineRows(){
+  const kind = k => k === "event" ? "Event" : k === "transaction" ? "Transaction" : "Office move-in";
+  const rows = Object.entries(tracker).map(([id,t]) => Object.assign({id}, t)).filter(t => t.pic || t.status || t.priority || (comments[t.id] || []).length);
+  return [["PIC","Status","Priority (team)","Item","Type","Item date","Latest comment","Comment by / date","Last update","Updated by","Link"],
+    ...rows.map(t => { const c = (comments[t.id] || [])[0];
+      return [t.pic, t.status, LNAME[t.priority] || "", t.title, kind(t.kind), t.itemDate, c ? c.text : "", c ? `${who(c.by)}, ${fmtTs(c.at)}` : "", fmtTs(t.updatedAt), t.updatedBy, t.url]; })];
+}
+function commentRows(){
+  const out = [["Date","By","Item","Type","Comment"]];
+  Object.entries(comments).forEach(([id, list]) => list.forEach(c => out.push([fmtTs(c.at), c.by, BYID[id] ? itemTitle(BYID[id]) : ((tracker[id] || {}).title || id), BYID[id] ? BYID[id].kind : "", c.text])));
+  return out;
+}
+function addSheet(X, wb, name, rows){
+  const ws = X.utils.aoa_to_sheet(rows);
+  ws["!cols"] = rows[0].map((h, i) => ({ wch: Math.min(60, Math.max(10, ...rows.slice(0, 200).map(r => String(r[i] == null ? "" : r[i]).split("\n")[0].length))) }));
+  ws["!freeze"] = { xSplit: 0, ySplit: 1 };
+  X.utils.book_append_sheet(wb, ws, name);
+}
+document.querySelectorAll(".xls").forEach(b => b.onclick = async () => {
+  const t = b.dataset.xls, label = b.textContent;
+  b.disabled = true; b.textContent = "Preparing…";
+  try {
+    const X = await loadXLSX(), wb = X.utils.book_new();
+    const names = { ev:"Industry events", pr:"Office move-ins", tx:"Transactions" };
+    (t === "all" ? ["ev","pr","tx"] : [t]).forEach(k => addSheet(X, wb, names[k], sheetRows(k)));
+    if (t === "all" && db){ addSheet(X, wb, "Pipeline", pipelineRows()); addSheet(X, wb, "Comments", commentRows()); }
+    const name = t === "all" ? "all" : ({ev:"events",pr:"office-move-ins",tx:"transactions"})[t];
+    X.writeFile(wb, `hk-commercial-intelligence-${name}-${new Date().toISOString().slice(0,10)}.xlsx`);
+  } catch(e){ dbNotice("The Excel file could not be created. Check your connection and try again."); }
+  finally { b.disabled = false; b.textContent = label; }
 });
 
 buildFilters();

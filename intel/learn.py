@@ -28,7 +28,9 @@ def fetch_overrides(url, passcode):
     sample = next(iter(tracker.values()), {})
     print(f"Sheet check: {len(tracker)} tracked items; script returns priority field: {'priority' in sample}; "
           f"items with a saved priority: {sum(1 for t in tracker.values() if t.get('priority'))}; "
-          f"with system level + features: {sum(1 for t in tracker.values() if t.get('systemLevel') and t.get('features'))}")
+          f"with system level + features: {sum(1 for t in tracker.values() if t.get('systemLevel') and t.get('features'))}; "
+          f"comments feature: {'comments' in res}; team members with an email: "
+          f"{sum(1 for v in (res.get('team') or {}).values() if v)} of {len(res.get('team') or {})}")
     rows = []
     for t in tracker.values():
         if t.get("priority") in LEVELS and t.get("systemLevel") in LEVELS and t.get("features"):

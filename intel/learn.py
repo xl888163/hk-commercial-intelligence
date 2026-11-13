@@ -30,7 +30,9 @@ def fetch_overrides(url, passcode):
           f"items with a saved priority: {sum(1 for t in tracker.values() if t.get('priority'))}; "
           f"with system level + features: {sum(1 for t in tracker.values() if t.get('systemLevel') and t.get('features'))}; "
           f"comments feature: {'comments' in res}; team members with an email: "
-          f"{sum(1 for v in (res.get('team') or {}).values() if v)} of {len(res.get('team') or {})}")
+          f"{sum(1 for v in (res.get('team') or {}).values() if v)} of {len(res.get('team') or {})}; "
+          f"items with several PICs: {sum(1 for t in tracker.values() if ',' in (t.get('pic') or ''))}; "
+          f"office move-ins with a PIC: {sum(1 for t in tracker.values() if t.get('kind') == 'property' and t.get('pic'))}")
     rows = []
     for t in tracker.values():
         if t.get("priority") in LEVELS and t.get("systemLevel") in LEVELS and t.get("features"):

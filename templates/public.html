@@ -152,6 +152,20 @@ details.plan[open] summary{margin-bottom:6px}
 .log time{font:500 12px var(--font-mono);color:var(--muted);min-width:130px}
 .copy{border:none;background:none;color:var(--accent);cursor:pointer;font-size:12px;padding:0 4px}
 .notice.ok{background:var(--ok-soft);color:var(--ok)}
+.modal-bg{position:fixed;inset:0;z-index:100;background:rgba(10,15,25,.55);display:flex;align-items:center;justify-content:center;padding:16px}
+.modal{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:12px;max-width:520px;width:100%;padding:20px 22px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.modal h3{margin:0 0 8px;font:700 19px var(--font-display)}
+.modal p{margin:0 0 10px;font-size:14px}
+.modal .warn{color:var(--warn);font-size:13px}
+.modal .acts{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;margin-top:14px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--surface);font-weight:600}
+.btn.primary:hover{color:var(--surface);opacity:.9}
+.picms{position:relative}
+.picbtn{text-align:left;cursor:pointer}
+.picpop{position:absolute;top:36px;left:0;z-index:40;min-width:180px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 30px rgba(10,20,40,.18);padding:6px}
+.picpop label{display:flex;gap:8px;align-items:center;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:13px}
+.picpop label:hover{background:var(--surface-2)}
+.picpop .acts{display:flex;justify-content:space-between;gap:6px;padding:6px 4px 2px;border-top:1px solid var(--line);margin-top:4px}
 .cmtlast{font-size:12px;margin-top:6px;padding:6px 8px;border-left:3px solid var(--accent);background:var(--surface-2);border-radius:4px}
 .cmtlast .by{color:var(--muted);font-size:11px;margin-top:2px}
 .cmtbtn{border:none;background:none;color:var(--accent);font-size:12px;font-weight:600;padding:0;margin-top:6px;cursor:pointer}
@@ -201,6 +215,7 @@ footer{padding-block:28px;color:var(--muted);font-size:12px}
     <div class="meta" id="meta"></div>
   </header>
   <div id="dbNotice" class="notice" hidden></div>
+  <div id="modal" class="modal-bg" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><h3 id="modalTitle"></h3><div id="modalBody"></div><div class="acts" id="modalActs"></div></div></div>
   <form class="login" id="login" autocomplete="off">
     <span id="loginState">Team members: enter the passcode to see and update priority, PIC and status.</span>
     <input id="passIn" type="password" placeholder="Team passcode" aria-label="Team passcode">
@@ -369,7 +384,50 @@ async function initDb(){
 function dbNotice(msg){ const n = $("#dbNotice"); n.textContent = msg; n.classList.remove("ok"); n.hidden = false; }
 
 const saving = new Set();
-async function setField(id, field, value){
+const pics = v => String(v || "").split(/\s*,\s*/).filter(Boolean);
+function ask(title, bodyHtml, buttons){
+  return new Promise(done => {
+    const m = $("#modal");
+    $("#modalTitle").textContent = title; $("#modalBody").innerHTML = bodyHtml;
+    $("#modalActs").innerHTML = buttons.map((b, i) => `<button type="button" class="btn ${b.primary ? "primary" : ""}" data-choice="${i}">${esc(b.label)}</button>`).join("");
+    m.hidden = false;
+    const finish = v => { m.hidden = true; document.removeEventListener("keydown", onKey); done(v); };
+    const onKey = e => { if (e.key === "Escape") finish("cancel"); };
+    document.addEventListener("keydown", onKey);
+    $("#modalActs").querySelectorAll("[data-choice]").forEach(b => b.onclick = () => finish(buttons[+b.dataset.choice].value));
+    m.onclick = e => { if (e.target === m) finish("cancel"); };
+    const first = $("#modalActs").querySelector(".primary"); if (first) first.focus();
+  });
+}
+function ymd(d){ return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
+function o365Link(e){
+  const [y, m, d] = e.end.split("-").map(Number), after = new Date(y, m - 1, d + 1);
+  const body = [`${e.name}`, `${range(e)} · ${e.venue || e.area}`, "", "Action plan:", ...e.actions.map((a, i) => `${i + 1}. ${a}`), "", `Listing: ${e.sources[0].url}`, `Dashboard: ${location.origin + location.pathname}`].join("\n");
+  return "https://outlook.office.com/calendar/0/deeplink/compose?" + new URLSearchParams({
+    path: "/calendar/action/compose", rru: "addevent", subject: e.name, startdt: e.start, enddt: ymd(after),
+    allday: "true", location: e.venue || "", body }).toString();
+}
+function notifyFor(item){
+  if (!item) return undefined;
+  if (item.kind === "event") return { when: range(item), venue: item.venue, access: item.access, organiser: item.organiser, actions: item.actions, calendar_url: o365Link(item) };
+  if (item.kind === "property") return { company: item.company, headline: item.headline, move: item.types.join(", "),
+    place: [item.building, item.area].filter(Boolean).join(", "), size: [item.size_txt, item.floors_txt].filter(Boolean).join(" · "), actions: item.actions };
+  return undefined;
+}
+async function assignPic(id, value){
+  const item = BYID[id];
+  if (!value || !item || !["event","property"].includes(item.kind)){ setField(id, "pic", value); return; }
+  const names = pics(value), noMail = names.filter(n => team[n] === false);
+  const who = names.length > 1 ? names.slice(0, -1).join(", ") + " and " + names[names.length - 1] : names[0];
+  const choice = await ask("Send assignment email?",
+    `<p>Assign <b>${esc(who)}</b> to <b>${esc(itemTitle(item))}</b>.</p>
+     <p>Send ${names.length > 1 ? "them an" : "an"} email with the details and action plan${item.kind === "event" ? ", plus an <b>Add to my Office 365 calendar</b> link" : ""}?</p>
+     ${noMail.length ? `<p class="warn">${esc(noMail.join(", "))} ${noMail.length > 1 ? "have" : "has"} no email address in the Team tab and won't receive it.</p>` : ""}`,
+    [{ label:"Cancel", value:"cancel" }, { label:"Save without email", value:"save" }, { label:"Send email", value:"send", primary:true }]);
+  if (choice === "cancel"){ renderTables(); return; }
+  setField(id, "pic", value, { send_email: choice === "send" });
+}
+async function setField(id, field, value, opts){
   if (!db || !canWrite) return;
   if (!me){ dbNotice("Choose your name next to the passcode box first, so the team can see who made each change."); renderAll(); return; }
   const item = BYID[id], prev = trk(id);
@@ -383,13 +441,17 @@ async function setField(id, field, value){
       kind: item ? item.kind : (prev.kind || ""), url: item ? item.sources[0].url : (prev.url || ""),
       itemDate: item ? (item.start || item.date) : (prev.itemDate || ""),
       systemLevel: item ? item.level : "", features: item && item.features ? item.features.join("|") : "",
-      notify: item && item.kind === "event" && field === "pic" ? { when: range(item), venue: item.venue, access: item.access, organiser: item.organiser, actions: item.actions } : undefined });
+      send_email: !!(opts && opts.send_email), notify: field === "pic" && opts && opts.send_email ? notifyFor(item) : undefined });
     if (res.ok){
       apply(res);
       const em = res.email;
-      if (em && em.sent) toast(`Assignment email sent to ${em.to}.`, true);
-      else if (em && em.reason === "no_email") dbNotice(`${em.to} has no email address in the sheet's Team tab, so no assignment email was sent.`);
-      else if (em) dbNotice(`The assignment email to ${em.to} could not be sent. In Apps Script, run testEmail once to allow email.`);
+      if (em){
+        const sent = em.sent || [], missing = em.missing || [], failed = em.failed || [];
+        if (failed.length) dbNotice(`The email to ${failed.join(", ")} could not be sent. In Apps Script, run testEmail once to allow email.`);
+        else if (sent.length && missing.length) dbNotice(`Email sent to ${sent.join(", ")}. ${missing.join(", ")} ${missing.length > 1 ? "have" : "has"} no email address in the Team tab.`);
+        else if (sent.length) toast(`Assignment email sent to ${sent.join(", ")}.`, true);
+        else if (missing.length) dbNotice(`No email sent: ${missing.join(", ")} ${missing.length > 1 ? "have" : "has"} no email address in the Team tab.`);
+      } else if (opts && opts.send_email) dbNotice("Saved, but no email was sent: the team sheet's Apps Script needs the latest update (see setup notes).");
     }
     else if (res.error === "bad_passcode"){ setPass(""); dbNotice("The passcode has changed. Enter the new one to keep editing."); }
     else if (res.error === "bad_value" && field === "status"){ dbNotice("This status can't be saved yet: the team sheet's Apps Script needs the latest update (see setup notes)."); load(); }
@@ -441,7 +503,11 @@ function syncFilter(key){
   btn.classList.toggle("on", s.size > 0);
   store.set("hkci3." + key, JSON.stringify([...s]));
 }
-function closePops(){ document.querySelectorAll(".ms-pop").forEach(p => p.hidden = true); document.querySelectorAll(".ms-btn").forEach(b => b.setAttribute("aria-expanded","false")); }
+function closePops(e){
+  if (e && e.target && e.target.closest && (e.target.closest(".picpop") || e.target.closest("[data-picpop]") || e.target.closest("#modal"))) return;
+  document.querySelectorAll(".ms-pop").forEach(p => p.hidden = true); document.querySelectorAll(".ms-btn").forEach(b => b.setAttribute("aria-expanded","false"));
+  if (openPicPop){ delete picDraft[openPicPop]; openPicPop = null; renderTables(); }
+}
 document.addEventListener("click", closePops);
 document.addEventListener("keydown", e => { if (e.key === "Escape") closePops(); });
 
@@ -453,7 +519,7 @@ function pass(r){
   if (!has("area", s => s.has(r.area))) return false;
   if (!has("level", s => s.has(eff(r)))) return false;
   if (r.kind === "event" && !has("access", s => s.has(r.access))) return false;
-  if (!has("pic", s => s.has(t.pic || "__none"))) return false;
+  if (!has("pic", s => (pics(t.pic).length ? pics(t.pic) : ["__none"]).some(p => s.has(p)))) return false;
   if (!has("status", s => s.has(t.status || "__none"))) return false;
   const q = $("#fq").value.trim().toLowerCase();
   if (q){
@@ -487,8 +553,17 @@ function prioCell(r){
       ${t.priority ? `<option value="__clear">Reset to system (${LNAME[r.level]})</option>` : ""}</select>
     <div class="stamp"><span class="score">score ${r.score}</span>${r.is_new ? ` <span class="badge new">NEW</span>` : ""}${t.priority && t.priority !== r.level ? `<br>Team set · system: ${LNAME[r.level]}` : ""}</div>`;
 }
+let openPicPop = null;
+const picDraft = {};
 function picCell(r){
   const t = trk(r.id), dis = (!db || !canWrite) ? "disabled" : "";
+  if (r.kind === "event"){
+    const cur = pics(t.pic), draft = picDraft[r.id] || new Set(cur);
+    return `${cur.length ? `<div class="pic-name">${esc(cur.join(", "))}</div>` : ""}
+      <div class="picms"><button type="button" class="sel picbtn ${cur.length ? "set" : ""}" data-picpop="${r.id}" aria-haspopup="true" aria-expanded="${openPicPop === r.id}" ${dis}>${cur.length ? "Change PICs ▾" : "Assign PICs ▾"}</button>
+      ${openPicPop === r.id ? `<div class="picpop" data-picid="${r.id}">${PICS.map(p => `<label><input type="checkbox" class="picchk" data-id="${r.id}" value="${p}" ${draft.has(p) ? "checked" : ""}> ${p}</label>`).join("")}
+        <div class="acts"><button type="button" class="btn" data-picclear="${r.id}" style="height:30px">Clear</button><button type="button" class="btn primary" data-picapply="${r.id}" style="height:30px">Apply</button></div></div>` : ""}</div>`;
+  }
   return `${t.pic ? `<div class="pic-name">${esc(t.pic)}</div>` : ""}
     <select class="sel ${t.pic ? "set" : ""}" id="pic-${r.id}" data-id="${r.id}" data-f="pic" aria-label="Person in charge" ${dis}>
       <option value="">${t.pic ? "Change…" : "Assign PIC"}</option>${PICS.map(p => `<option value="${p}">${p}</option>`).join("")}
@@ -506,7 +581,7 @@ function planRow(r, cols){
   if (!openPlans.has(r.id)) return "";
   const contacts = r.kind === "event" && (r.contact_phone || r.contact_email)
     ? `<div class="kv"><b>Organiser contact (from HKCEC listing):</b> ${esc(r.organiser)}${r.contact_phone ? ` · <span>${esc(r.contact_phone)}</span>` : ""}${r.contact_email ? ` · <span>${esc(r.contact_email)}</span> <button class="copy" type="button" data-copy="${esc(r.contact_email)}">Copy</button>` : ""}</div>` : "";
-  const links = [...(r.links || []), ...(r.organiser_url ? [{label:"Organiser website", url:r.organiser_url}] : [])];
+  const links = [...(r.kind === "event" ? [{label:"Add to my Office 365 calendar", url:o365Link(r)}] : []), ...(r.links || []), ...(r.organiser_url ? [{label:"Organiser website", url:r.organiser_url}] : [])];
   return `<tr class="planrow"><td colspan="${cols}"><div class="plangrid">
     <div><h4>Next steps</h4><ol>${r.actions.map(a => `<li>${esc(a)}</li>`).join("")}</ol></div>
     <div>
@@ -638,7 +713,7 @@ function renderTables(){
 function renderPipeline(){
   const rows = Object.entries(tracker).map(([id,t]) => Object.assign({id}, t))
     .filter(t => (t.pic || t.status || t.priority || (comments[t.id] || []).length))
-    .filter(t => (!sel.pic.size || sel.pic.has(t.pic || "__none")) && (!sel.status.size || sel.status.has(t.status || "__none")))
+    .filter(t => (!sel.pic.size || (pics(t.pic).length ? pics(t.pic) : ["__none"]).some(p => sel.pic.has(p))) && (!sel.status.size || sel.status.has(t.status || "__none")))
     .sort((a,b) => (a.pic || "~").localeCompare(b.pic || "~") || String(b.updatedAt).localeCompare(String(a.updatedAt)));
   $("#plN").textContent = `(${rows.length})`;
   const kind = k => k === "event" ? "Event" : k === "transaction" ? "Transaction" : "Office move-in";
@@ -660,12 +735,28 @@ function renderPipeline(){
 function renderAll(){ renderTables(); renderPipeline(); }
 
 document.addEventListener("change", e => {
+  if (e.target.matches && e.target.matches(".picchk")){
+    const id = e.target.dataset.id, d = picDraft[id] || new Set(pics(trk(id).pic));
+    e.target.checked ? d.add(e.target.value) : d.delete(e.target.value); picDraft[id] = d; return;
+  }
   const s = e.target.closest ? e.target.closest("select.sel") : null; if (!s) return;
   let v = s.value; if (!v) return;
   if (v === "__clear") v = "";
-  setField(s.dataset.id, s.dataset.f, v);
+  if (s.dataset.f === "pic") assignPic(s.dataset.id, v);
+  else setField(s.dataset.id, s.dataset.f, v);
 });
 document.addEventListener("click", e => {
+  const pp = e.target.closest ? e.target.closest("[data-picpop]") : null;
+  if (pp){ const id = pp.dataset.picpop; if (openPicPop === id){ openPicPop = null; delete picDraft[id]; } else { openPicPop = id; picDraft[id] = new Set(pics(trk(id).pic)); } renderTables(); return; }
+  const pc = e.target.closest ? e.target.closest("[data-picclear]") : null;
+  if (pc){ picDraft[pc.dataset.picclear] = new Set(); renderTables(); return; }
+  const pa = e.target.closest ? e.target.closest("[data-picapply]") : null;
+  if (pa){
+    const id = pa.dataset.picapply, value = PICS.filter(p => (picDraft[id] || new Set()).has(p)).join(", ");
+    openPicPop = null; delete picDraft[id]; renderTables();
+    if (value !== (trk(id).pic || "")) assignPic(id, value);
+    return;
+  }
   const pb = e.target.closest ? e.target.closest("[data-plan]") : null;
   if (pb){ const id = pb.dataset.plan; openPlans.has(id) ? openPlans.delete(id) : openPlans.add(id); renderTables(); return; }
   const cb = e.target.closest ? e.target.closest("[data-cmt]") : null;

@@ -13,7 +13,7 @@ const PASSCODE = 'CHANGE-ME';   // <-- set your team passcode here
 
 const PICS = ['Magnum', 'Hin', 'Alan', 'Joyce', 'Ken', 'Peter', 'Jonathan'];
 const LEVELS = ['HIGH', 'MEDIUM', 'LOW'];
-const NOTIFY_KINDS = ['event'];          // send an email when someone is assigned to these item types
+const NOTIFY_KINDS = ['event', 'property'];   // item types that can send an assignment email (the page asks first)
 const DASHBOARD_URL = 'https://xl888163.github.io/hk-commercial-intelligence/';
 // New columns are only ever added at the end, so existing sheets keep working.
 const TRACKER_HEAD = ['id', 'pic', 'status', 'title', 'kind', 'url', 'itemDate', 'createdAt', 'updatedAt', 'updatedBy', 'priority', 'systemLevel', 'features'];
@@ -45,7 +45,7 @@ function doPost(e) {
     const field = req.field, value = String(req.value || '');
     if (['pic', 'status', 'priority'].indexOf(field) < 0) return out_({ ok: false, error: 'bad_field' });
     if (value && field === 'priority' && LEVELS.indexOf(value) < 0) return out_({ ok: false, error: 'bad_value' });
-    if (value && field === 'pic' && PICS.indexOf(value) < 0) return out_({ ok: false, error: 'bad_value' });
+    if (value && field === 'pic' && value.split(/\s*,\s*/).some(function (p) { return PICS.indexOf(p) < 0; })) return out_({ ok: false, error: 'bad_value' });
     if (value && field === 'status' && !/^[A-Za-z][A-Za-z /&\-]{1,39}$/.test(value)) return out_({ ok: false, error: 'bad_value' });
 
     let prev = {}, rec = {};
@@ -76,8 +76,8 @@ function doPost(e) {
       lock.releaseLock();
     }
     let email = null;
-    if (field === 'pic' && value && value !== prev.pic && NOTIFY_KINDS.indexOf(rec.kind) >= 0) {
-      email = notify_(value, rec, req.notify || {}, req.by);
+    if (field === 'pic' && value && req.send_email === true && NOTIFY_KINDS.indexOf(rec.kind) >= 0) {
+      email = notify_(value.split(/\s*,\s*/), rec, req.notify || {}, req.by);
     }
     return state_({ email: email });
   }
@@ -85,28 +85,41 @@ function doPost(e) {
 }
 
 // ---------- email on assignment ----------
-function notify_(pic, rec, n, by) {
-  const to = teamEmail_(pic);
-  if (!to) return { sent: false, to: pic, reason: 'no_email' };
+function notify_(pics, rec, n, by) {
+  const to = [], missing = [];
+  pics.forEach(function (p) { const e = teamEmail_(p); if (e) to.push(e); else missing.push(p); });
+  const named = pics.filter(function (p) { return missing.indexOf(p) < 0; });
+  if (!to.length) return { sent: [], missing: missing };
   const esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
-  const steps = (n.actions || []).slice(0, 8).map(function (a) { return '<li>' + esc(a) + '</li>'; }).join('');
+  const safeUrl = function (u) { return /^https:\/\//.test(String(u || '')) ? esc(u) : ''; };
+  const row = function (k, v) { return v ? '<tr><td style="padding:4px 12px 4px 0;color:#555"><b>' + k + '</b></td><td style="padding:4px 0">' + esc(v) + '</td></tr>' : ''; };
+  const button = function (href, label, color) {
+    return href ? '<a href="' + href + '" style="display:inline-block;margin:4px 8px 4px 0;padding:10px 16px;background:' + color +
+      ';color:#fff;text-decoration:none;border-radius:6px;font-weight:bold">' + label + '</a>' : '';
+  };
+  const steps = (n.actions || []).slice(0, 8).map(function (a) { return '<li style="margin-bottom:4px">' + esc(a) + '</li>'; }).join('');
+  const isEvent = rec.kind === 'event';
+  const heading = isEvent ? 'assigned you to an industry event' : 'assigned you to an office move-in lead';
+  const facts = isEvent
+    ? row('Event', rec.title) + row('Date', n.when) + row('Venue', n.venue) + row('Access', n.access) + row('Organiser', n.organiser) + row('PICs', pics.join(', '))
+    : row('Company', n.company) + row('Move', n.move) + row('Building / area', n.place) + row('Size', n.size) + row('Headline', n.headline) + row('PIC', pics.join(', '));
   const html =
-    '<p>Hi ' + esc(pic) + ',</p>' +
-    '<p>' + esc(by || 'A teammate') + ' assigned you to an industry event on HK Commercial Intelligence.</p>' +
-    '<table cellpadding="4" style="border-collapse:collapse;font-family:Arial,sans-serif;font-size:14px">' +
-    '<tr><td><b>Event</b></td><td>' + esc(rec.title) + '</td></tr>' +
-    '<tr><td><b>Date</b></td><td>' + esc(n.when) + '</td></tr>' +
-    '<tr><td><b>Venue</b></td><td>' + esc(n.venue) + '</td></tr>' +
-    '<tr><td><b>Access</b></td><td>' + esc(n.access) + '</td></tr>' +
-    (n.organiser ? '<tr><td><b>Organiser</b></td><td>' + esc(n.organiser) + '</td></tr>' : '') +
-    '</table>' +
-    (steps ? '<p><b>Action plan</b></p><ol>' + steps + '</ol>' : '') +
-    '<p><a href="' + esc(rec.url) + '">Event listing</a> &middot; <a href="' + DASHBOARD_URL + '">Open the dashboard</a></p>';
+    '<div style="font-family:Arial,sans-serif;font-size:14px;color:#222;max-width:640px">' +
+    '<p>Hi ' + esc(named.join(', ')) + ',</p>' +
+    '<p>' + esc(by || 'A teammate') + ' ' + heading + ' on HK Commercial Intelligence.</p>' +
+    '<table style="border-collapse:collapse">' + facts + '</table>' +
+    (steps ? '<p style="margin-top:16px"><b>Action plan</b></p><ol>' + steps + '</ol>' : '') +
+    '<p style="margin-top:16px">' +
+    button(isEvent ? safeUrl(n.calendar_url) : '', 'Add to my Office 365 calendar', '#0f6cbd') +
+    button(safeUrl(rec.url), isEvent ? 'Event listing' : 'Read the source', '#444') +
+    button(DASHBOARD_URL, 'Open the dashboard', '#444') + '</p>' +
+    '<p style="color:#777;font-size:12px">Update the status and add comments on the dashboard so the team can follow progress.</p></div>';
+  const subject = 'Assigned: ' + (isEvent ? rec.title + (n.when ? ' (' + n.when + ')' : '') : (n.company ? n.company + ' - office move-in' : rec.title));
   try {
-    MailApp.sendEmail({ to: to, subject: 'Assigned: ' + rec.title + (n.when ? ' (' + n.when + ')' : ''), htmlBody: html, name: 'HK Commercial Intelligence' });
-    return { sent: true, to: pic };
+    MailApp.sendEmail({ to: to.join(','), subject: subject.slice(0, 240), htmlBody: html, name: 'HK Commercial Intelligence' });
+    return { sent: named, missing: missing };
   } catch (err) {
-    return { sent: false, to: pic, reason: 'send_failed' };
+    return { sent: [], missing: missing, failed: named };
   }
 }
 

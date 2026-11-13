@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T08:41:33+08:00",
+ "generated": "2026-11-13T08:44:53+08:00",
  "property_days": 90,
  "events": [
   {
@@ -3445,7 +3445,7 @@
     "venue:major"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e069f02ff167",
@@ -3797,80 +3797,6 @@
  ],
  "property": [
   {
-   "id": "4ada50528f40",
-   "kind": "property",
-   "headline": "IMC Trading Expands Hong Kong Office Space to 20,000 Square Feet, Strengthening Regional Operations",
-   "date": "2026-11-12",
-   "first_reported": "2026-11-12",
-   "month": "2026-11",
-   "company": "IMC Trading",
-   "types": [
-    "Expansion"
-   ],
-   "type": "Expansion",
-   "building": "",
-   "landlords": [],
-   "area": "Hong Kong (district not stated)",
-   "grade": "Not stated",
-   "sectors": [
-    "Facility Management & Real Estate"
-   ],
-   "sector": "Facility Management & Real Estate",
-   "size": 20000,
-   "size_txt": "20,000 Square Feet",
-   "floors": null,
-   "floors_txt": "",
-   "lang": "en",
-   "who": "Landlords' asset & property managers, building management offices, FM companies",
-   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
-   "actions": [
-    "Find IMC Trading's workplace / facilities / office-admin lead in Hong Kong (links below).",
-    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
-    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
-    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
-    "Update Status here after each contact so the team can see progress."
-   ],
-   "links": [
-    {
-     "label": "LinkedIn: facilities / workplace lead",
-     "url": "https://www.linkedin.com/search/results/people/?keywords=IMC%20Trading%20Hong%20Kong%20facilities"
-    },
-    {
-     "label": "Search: Hong Kong office address",
-     "url": "https://www.google.com/search?q=IMC%20Trading%20Hong%20Kong%20office%20address"
-    }
-   ],
-   "sources": [
-    {
-     "name": "巴士的報",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZm1MaWpvc0w1bENmT2lVeXI1YXdielFFZ0hDd1lQLXo1a1RUMk9xLUJ6Vl9vWGQ1T1pxNkFUd1I1RG5ITm80dlA0bDN1dV9udy13NHdtcWh0Nl8xVDJuMEtPeUNiYTdXd3phdnFRa2MyZ01VLXA2UUxGVkxLcjJQWU16ZktJejZOY0ptcXhYdlBQZmk4WHhmSGhza2hiM3dLdHFpczZoaEFBVmo3WlpQWnJUdV9QQXN5YS1ObUhQZ2Fqc2wwMktDcUdkODJJWnd2aFlzaXRFX0lBSU5RTFBnVE0tVQ?oc=5",
-     "title": "IMC Trading Expands Hong Kong Office Space to 20,000 Square Feet, Strengthening Regional Operations",
-     "date": "2026-11-12"
-    }
-   ],
-   "verification": "Single outlet: open source to confirm",
-   "score": 5,
-   "level": "MEDIUM",
-   "thresholds": [
-    8,
-    5
-   ],
-   "reasons": [
-    "Expansion: extra floors to secure (+2)",
-    "Mid-size space (20,000 sq ft) (+2)",
-    "Team feedback on similar items: +0.5 level on average across 5 re-ratings (+1)"
-   ],
-   "features": [
-    "area:Hong Kong (district not stated)",
-    "grade:Not stated",
-    "kind:property",
-    "move:Expansion",
-    "sector:Facility Management & Real Estate"
-   ],
-   "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
-  },
-  {
    "id": "dddf20c58b93",
    "kind": "property",
    "headline": "US asset manager Federated Hermes opens office in Hong Kong",
@@ -3950,6 +3876,80 @@
     "sector:Luxury & HNW Goods"
    ],
    "first_seen": "2026-11-06T07:08:37+08:00",
+   "is_new": false
+  },
+  {
+   "id": "4ada50528f40",
+   "kind": "property",
+   "headline": "IMC Trading Expands Hong Kong Office Space to 20,000 Square Feet, Strengthening Regional Operations",
+   "date": "2026-11-12",
+   "first_reported": "2026-11-12",
+   "month": "2026-11",
+   "company": "IMC Trading",
+   "types": [
+    "Expansion"
+   ],
+   "type": "Expansion",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Facility Management & Real Estate"
+   ],
+   "sector": "Facility Management & Real Estate",
+   "size": 20000,
+   "size_txt": "20,000 Square Feet",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Landlords' asset & property managers, building management offices, FM companies",
+   "pitch": "Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios",
+   "actions": [
+    "Find IMC Trading's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
+    "Pitch: Building guarding & concierge, mobile patrol, CCTV / alarm upgrades linked to SOC remote viewing, MySecuritas reporting for multi-site portfolios.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=IMC%20Trading%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=IMC%20Trading%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "巴士的報",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZm1MaWpvc0w1bENmT2lVeXI1YXdielFFZ0hDd1lQLXo1a1RUMk9xLUJ6Vl9vWGQ1T1pxNkFUd1I1RG5ITm80dlA0bDN1dV9udy13NHdtcWh0Nl8xVDJuMEtPeUNiYTdXd3phdnFRa2MyZ01VLXA2UUxGVkxLcjJQWU16ZktJejZOY0ptcXhYdlBQZmk4WHhmSGhza2hiM3dLdHFpczZoaEFBVmo3WlpQWnJUdV9QQXN5YS1ObUhQZ2Fqc2wwMktDcUdkODJJWnd2aFlzaXRFX0lBSU5RTFBnVE0tVQ?oc=5",
+     "title": "IMC Trading Expands Hong Kong Office Space to 20,000 Square Feet, Strengthening Regional Operations",
+     "date": "2026-11-12"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 5,
+   "level": "MEDIUM",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Expansion: extra floors to secure (+2)",
+    "Mid-size space (20,000 sq ft) (+2)",
+    "Team feedback on similar items: +0.5 level on average across 5 re-ratings (+1)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:Expansion",
+    "sector:Facility Management & Real Estate"
+   ],
+   "first_seen": "2026-11-13T08:41:33+08:00",
    "is_new": false
   },
   {
@@ -5223,7 +5223,7 @@
   {
    "id": "9388bc824002",
    "kind": "property",
-   "headline": "Futu's Global Headquarters Moves into Pacific Place, Planning to Hire 2,000 More People in Hong Kong Over the Next 5 Years",
+   "headline": "Futu's Global Headquarters Moves into Pacific Place, Planning to Hire 2,000 More People in Hong Kong Over the Next Five Years",
    "date": "2026-09-21",
    "first_reported": "2026-09-21",
    "month": "2026-09",
@@ -5267,15 +5267,15 @@
    ],
    "sources": [
     {
-     "name": "on.cc東網",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFNJOEl5cVpXRHJfV1hpY1c4NmxndTNRNFZuRERndGRjSS1OanBPaUpxS05GNm81TF80QTVELTd6dTF5d0s2UnJ3WjBEN2RPRjNJZFdVTGxucVVmLVJzdEwtS0h3SXpidjdSSDFFcWY3NjRVQzRzbzVDdkdVVGpEUllxZEN4RU9CdV82RkNaQQ?oc=5",
-     "title": "Futu's Global Headquarters Moves into Pacific Place, Planning to Hire 2,000 More People in Hong Kong Over the Next 5 Years",
-     "date": "2026-09-21"
-    },
-    {
      "name": "香港01",
      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxOcmx1Yllnbi0wZ3NIU20tcUd5MldIRnBxbFZqMXNCNlRJbnU5eDdidU9odnVqYTlaYnlUdk1JTDVaRVM0eVk4UUVNSHdteS10RFJzb2h5cXpVOWlJdjZLWWJSUjdTTERkQXc1U0tkbXlZdldPekVidmRrUy1nN2dSMTRlaDd6bEJ5aWl3ckxIbWd6dGkxbjJETkpFWjR3bTl3WER0QmM1ZlhnN0Q2Y2ViWkMyUG1OajZ6XzZ3VHZDZW1XNFpRby16MDFOS0trRExZc3dmNmdVRWxNbU1DNkhCSGZCUmdhd3lDdWlqMktsVFVQZFh1NU16NGVMX1pMZWJjRkpwNU9KdGVjSFNMclRVbkNXenRZOFR4QWVjVDVMc2ZwbUdWcVktODU5X0hVMG1fSEJ5ZmJnczlReXRTaGt6Si1ZLVJadjNJbzlBTnhYc2F6SUhXUWNpcDl6ZFdtc0dQLXp3Y2paZDN3VDhpSXNNTW5GZmZuMnl5R25Ob2czU0JIX2wxOWpVMzI4aVZKRmNU?oc=5",
      "title": "Futu's Global Headquarters Moves into Pacific Place, Planning to Hire 2,000 More People in Hong Kong Over the Next Five Years",
+     "date": "2026-09-21"
+    },
+    {
+     "name": "on.cc東網",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVFNJOEl5cVpXRHJfV1hpY1c4NmxndTNRNFZuRERndGRjSS1OanBPaUpxS05GNm81TF80QTVELTd6dTF5d0s2UnJ3WjBEN2RPRjNJZFdVTGxucVVmLVJzdEwtS0h3SXpidjdSSDFFcWY3NjRVQzRzbzVDdkdVVGpEUllxZEN4RU9CdV82RkNaQQ?oc=5",
+     "title": "Futu's Global Headquarters Moves into Pacific Place, Planning to Hire 2,000 More People in Hong Kong Over the Next 5 Years",
      "date": "2026-09-21"
     },
     {
@@ -5314,7 +5314,7 @@
     "move:Relocation",
     "sector:Finance & Professional Services"
    ],
-   "headline_zh": "富途環球總部進駐太古廣場 擬未來5年在港增聘2千人",
+   "headline_zh": "富途環球總部進駐太古廣場 計劃未來五年在港增聘2000人",
    "first_seen": "2026-10-12T01:08:09+08:00",
    "is_new": false
   },
@@ -5638,15 +5638,15 @@
      "date": "2026-09-09"
     },
     {
-     "name": "on.cc東網",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd1RsMUlDRnhlV0pmRDhhTlZwb05vbzFqbzJlTzFEaUJ5NmNqVF9yWEJGRDFVYjZHRDNmRjAzdmFBdUJjNURzNmxxVzE5ejJBYzh3ZUhmM2VQa2JLNjNpWjhBTWFqNFdNUjJIYjlMd0JiNUsxcTNxeTdBN3AzcHJ6c05EVnZMeDhlblhzN0ExQQ?oc=5",
-     "title": "ZA Bank Leases Lee Gardens Eight as New Headquarters, Expected to Open Next Year",
-     "date": "2026-09-09"
-    },
-    {
      "name": "香港01",
      "url": "https://news.google.com/rss/articles/CBMiogNBVV95cUxNRklKZjJZNF9HOUF3S2FhOXhfY1huRkYtTi16eWd6M3dtb2RsSnpja1RYS0xjVk9ONFdFc3ZLaGFmMTM0VUQycFZhWTNfekJLbmtkQU90M1FwRkZSN3NoTV8yLTBxTmN6cURCRVQ5Ulh2MjlFa0l0UkZYTzBqS19HSzlxZUZwR0ZvUkJXaVpEVzBmRnljNmNzWGxhWExjWG1JZDlGVFluaFhsVXdacDBjWldSUHAyVnhFNmZlaTM4MElOY2VxbmctTHgtVXN1NmVLN1VrT2RwRGs4X0hTMVg2YXhMVEhBcGFZRWs1LW56eGZ5SGZ6S2ZxdW4tWVNabDE1SmpyaHBIZXptSFQxOHoxVUxocVRBYUlGaDlFMzZlX0l5Nzc4V2VNRXpKMmFzMGZuLVVyTzJ5ellTZEdkSG9USDI5SllkakxjLTYxWkg4M1p0SnRPd184WDNGNDU0NWN3aXJlZ2VTT09ndzNLQ2xMNjBsYjVQMzFXb0FYcGxlTTI5SDZRMmxDbldQRkdfRkhrc2NKVjBXQmpGQ0JYN2JBcVBn?oc=5",
      "title": "ZA Bank's New Headquarters to Be Located in Lee Gardens Phase 8, Leasing Four Floors as a Major Tenant, with Plans to Expand Its Workforce Next Year",
+     "date": "2026-09-09"
+    },
+    {
+     "name": "on.cc東網",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd1RsMUlDRnhlV0pmRDhhTlZwb05vbzFqbzJlTzFEaUJ5NmNqVF9yWEJGRDFVYjZHRDNmRjAzdmFBdUJjNURzNmxxVzE5ejJBYzh3ZUhmM2VQa2JLNjNpWjhBTWFqNFdNUjJIYjlMd0JiNUsxcTNxeTdBN3AzcHJ6c05EVnZMeDhlblhzN0ExQQ?oc=5",
+     "title": "ZA Bank Leases Lee Gardens Eight as New Headquarters, Expected to Open Next Year",
      "date": "2026-09-09"
     },
     {
@@ -6541,7 +6541,7 @@
    ],
    "line_zh": "JD Property - JD Property Expands Aussie Footprint with $48M Buy of Brisbane Warehouse Site",
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "1fa584da812b",
@@ -6790,7 +6790,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2c9e80d09247",
@@ -6871,7 +6871,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d5ad304cee3a",
@@ -7114,7 +7114,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "b9054a6c682b",
@@ -7193,7 +7193,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "198075042158",
@@ -8269,7 +8269,7 @@
     "usage:Industrial"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "fd2e4f9d584c",
@@ -8430,7 +8430,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "967d640d7319",
@@ -8929,7 +8929,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "6697fd142c80",
@@ -9012,7 +9012,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "97283df6d959",
@@ -9494,7 +9494,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "8583fd7bfdb6",
@@ -11708,7 +11708,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "5796d7e13ebc",
@@ -12281,7 +12281,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "55fb44348bc1",
@@ -12364,7 +12364,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f65e7e90cba4",
@@ -12614,7 +12614,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "e839e49259f3",
@@ -14175,7 +14175,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "781cc6e9f1ad",
@@ -15619,7 +15619,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d0d8002c9d1f",
@@ -17083,7 +17083,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "9cfbeae202a6",
@@ -17821,7 +17821,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "d09952872a99",
@@ -19307,7 +19307,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "2dc9f54fba8e",
@@ -20625,7 +20625,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "0d38c1770fed",
@@ -20707,7 +20707,7 @@
     "usage:Office"
    ],
    "first_seen": "2026-11-13T08:41:33+08:00",
-   "is_new": true
+   "is_new": false
   },
   {
    "id": "f0a1a92c0126",
@@ -23514,13 +23514,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" leases floors tower",
    "ok": true,
-   "count": 25
+   "count": 24
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office \"moves to\" Central OR \"Island East\" OR \"Kowloon East\" OR \"West Kowloon\" OR Admiralty OR \"Quarry Bay\"",
    "ok": true,
-   "count": 31
+   "count": 30
   },
   {
    "group": "Property",
@@ -23538,7 +23538,7 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 30
+   "count": 29
   },
   {
    "group": "Property",
@@ -23748,7 +23748,7 @@
    "group": "Property",
    "name": "News search (中文): hk01.com",
    "ok": true,
-   "count": 89
+   "count": 90
   },
   {
    "group": "Property",
@@ -23772,7 +23772,7 @@
    "group": "Property",
    "name": "News search (中文): i-cable.com",
    "ok": true,
-   "count": 16
+   "count": 15
   },
   {
    "group": "Property",
@@ -23784,7 +23784,7 @@
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 54
+   "count": 55
   },
   {
    "group": "Property",
@@ -23802,7 +23802,7 @@
    "group": "Property",
    "name": "News search (中文): stheadline.com",
    "ok": true,
-   "count": 67
+   "count": 68
   },
   {
    "group": "Property",
@@ -23820,7 +23820,7 @@
    "group": "Property",
    "name": "News search (中文): wenweipo.com",
    "ok": true,
-   "count": 83
+   "count": 84
   },
   {
    "group": "Property",

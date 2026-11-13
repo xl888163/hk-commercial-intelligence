@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T08:44:53+08:00",
+ "generated": "2026-11-13T10:43:23+08:00",
  "property_days": 90,
  "events": [
   {
@@ -4286,6 +4286,81 @@
    ],
    "headline_zh": "西九地標｜新地IGC傳獲華為承租兩層樓面共7萬方呎 料月租280萬元",
    "first_seen": "2026-11-05T07:07:10+08:00",
+   "is_new": false
+  },
+  {
+   "id": "c9b361120a09",
+   "kind": "property",
+   "headline": "ClearVue Opens Hong Kong Office to Expand Regional Solar Building Solutions",
+   "date": "2026-11-03",
+   "first_reported": "2026-11-03",
+   "month": "2026-11",
+   "company": "ClearVue",
+   "types": [
+    "Expansion",
+    "New office"
+   ],
+   "type": "Expansion",
+   "building": "",
+   "landlords": [],
+   "area": "Hong Kong (district not stated)",
+   "grade": "Not stated",
+   "sectors": [
+    "Energy & Environment"
+   ],
+   "sector": "Energy & Environment",
+   "size": null,
+   "size_txt": "",
+   "floors": null,
+   "floors_txt": "",
+   "lang": "en",
+   "who": "Utility, plant and green-facility managers",
+   "pitch": "Remote-site perimeter protection, mobile patrol, remote viewing",
+   "actions": [
+    "Find ClearVue's workplace / facilities / office-admin lead in Hong Kong (links below).",
+    "Call the building management office at their new Hong Kong office for the fit-out timeline and contractor.",
+    "Expansion: offer to extend and unify their CCTV and access control across the new floors.",
+    "Pitch: Remote-site perimeter protection, mobile patrol, remote viewing.",
+    "Update Status here after each contact so the team can see progress."
+   ],
+   "links": [
+    {
+     "label": "LinkedIn: facilities / workplace lead",
+     "url": "https://www.linkedin.com/search/results/people/?keywords=ClearVue%20Hong%20Kong%20facilities"
+    },
+    {
+     "label": "Search: Hong Kong office address",
+     "url": "https://www.google.com/search?q=ClearVue%20Hong%20Kong%20office%20address"
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Globe and Mail",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZFVhT2hOTkpIYThZcWo1YXdYYk0zZTlJa3hwVU9zQVU2TmVKZTNCNGZRdmVpQVVlcld6NGJjRkxhVnZvSnlVc2lrVXM2azRCWTA3c0xMZDNqajFGQW96YmVZdGcwM3A2NmVzLXRpdzU5a1RqOXA3UWpCdmJ0VWxIenFhQ3RVTENOTF9kNUVKMnpsWW81MksxMzBIVm5fT01qZEZrTS1sTWhjT3Zhak5sMmRTQVpKQVVDQUhQdVQwLU9aNWNBM3Mtck9keU4yR3EtZHJCVi1OSlhvYkloVVl1MG1ydW14MzJWQWZMcl9nS3NxQ0U?oc=5",
+     "title": "ClearVue Opens Hong Kong Office to Expand Regional Solar Building Solutions",
+     "date": "2026-11-03"
+    }
+   ],
+   "verification": "Single outlet: open source to confirm",
+   "score": 4,
+   "level": "LOW",
+   "thresholds": [
+    8,
+    5
+   ],
+   "reasons": [
+    "Expansion: extra floors to secure (+2)",
+    "Team feedback on similar items: +0.5 level on average across 3 re-ratings (+2)"
+   ],
+   "features": [
+    "area:Hong Kong (district not stated)",
+    "grade:Not stated",
+    "kind:property",
+    "move:Expansion",
+    "move:New office",
+    "sector:Energy & Environment"
+   ],
+   "first_seen": "2026-11-06T07:08:37+08:00",
    "is_new": false
   },
   {
@@ -23454,7 +23529,7 @@
    "group": "Events",
    "name": "BritCham HK events",
    "ok": true,
-   "count": 58
+   "count": 57
   },
   {
    "group": "Events",
@@ -23538,13 +23613,13 @@
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" office relocation",
    "ok": true,
-   "count": 29
+   "count": 28
   },
   {
    "group": "Property",
    "name": "News search (EN): \"Hong Kong\" relocates headquarters tower",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "group": "Property",
@@ -23562,7 +23637,7 @@
    "group": "Property",
    "name": "News search (EN): \"opens Hong Kong office\"",
    "ok": true,
-   "count": 10
+   "count": 11
   },
   {
    "group": "Property",
@@ -23616,7 +23691,7 @@
    "group": "Property",
    "name": "News search (EN): globenewswire.com",
    "ok": true,
-   "count": 60
+   "count": 59
   },
   {
    "group": "Property",
@@ -23646,7 +23721,7 @@
    "group": "Property",
    "name": "News search (EN): mingtiandi.com",
    "ok": true,
-   "count": 83
+   "count": 82
   },
   {
    "group": "Property",
@@ -23664,7 +23739,7 @@
    "group": "Property",
    "name": "News search (EN): prnewswire.com",
    "ok": true,
-   "count": 76
+   "count": 71
   },
   {
    "group": "Property",
@@ -23724,7 +23799,7 @@
    "group": "Property",
    "name": "News search (中文): am730.com.hk",
    "ok": true,
-   "count": 56
+   "count": 57
   },
   {
    "group": "Property",
@@ -23748,31 +23823,31 @@
    "group": "Property",
    "name": "News search (中文): hk01.com",
    "ok": true,
-   "count": 90
+   "count": 93
   },
   {
    "group": "Property",
    "name": "News search (中文): hkcd.com",
    "ok": true,
-   "count": 18
+   "count": 19
   },
   {
    "group": "Property",
    "name": "News search (中文): hkej.com",
    "ok": true,
-   "count": 42
+   "count": 41
   },
   {
    "group": "Property",
    "name": "News search (中文): hket.com",
    "ok": true,
-   "count": 75
+   "count": 80
   },
   {
    "group": "Property",
    "name": "News search (中文): i-cable.com",
    "ok": true,
-   "count": 15
+   "count": 14
   },
   {
    "group": "Property",
@@ -23784,19 +23859,19 @@
    "group": "Property",
    "name": "News search (中文): now.com",
    "ok": true,
-   "count": 55
+   "count": 54
   },
   {
    "group": "Property",
    "name": "News search (中文): on.cc",
    "ok": true,
-   "count": 58
+   "count": 60
   },
   {
    "group": "Property",
    "name": "News search (中文): orangenews.hk",
    "ok": true,
-   "count": 69
+   "count": 68
   },
   {
    "group": "Property",
@@ -23820,7 +23895,7 @@
    "group": "Property",
    "name": "News search (中文): wenweipo.com",
    "ok": true,
-   "count": 84
+   "count": 81
   },
   {
    "group": "Property",
@@ -23838,7 +23913,7 @@
    "group": "Property",
    "name": "News search (中文): 寫字樓 億 購入 OR 沽 OR 接貨",
    "ok": true,
-   "count": 31
+   "count": 32
   },
   {
    "group": "Property",
@@ -23850,25 +23925,25 @@
    "group": "Property",
    "name": "News search (中文): 承租 寫字樓 樓面 總部",
    "ok": true,
-   "count": 33
+   "count": 34
   },
   {
    "group": "Property",
    "name": "News search (中文): 租客為 寫字樓 OR 商廈",
    "ok": true,
-   "count": 20
+   "count": 21
   },
   {
    "group": "Property",
    "name": "News search (中文): 租用 甲廈 平方呎",
    "ok": true,
-   "count": 9
+   "count": 10
   },
   {
    "group": "Property",
    "name": "News search (中文): 萬購 全層 自用",
    "ok": true,
-   "count": 20
+   "count": 21
   },
   {
    "group": "Property",
@@ -23880,7 +23955,7 @@
    "group": "Property",
    "name": "News search (中文): 購入 寫字樓 全層",
    "ok": true,
-   "count": 14
+   "count": 15
   },
   {
    "group": "Property",
@@ -23898,7 +23973,7 @@
    "group": "Property",
    "name": "News search (中文): 香港 寫字樓 搬遷",
    "ok": true,
-   "count": 13
+   "count": 14
   },
   {
    "group": "Property",
